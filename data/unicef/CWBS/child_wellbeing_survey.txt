@@ -1,0 +1,4 @@
+Attached is the file containing 78 tables of Child-wellbeing survey. Few points to note before you use it.
+1. You will find differences in table serial numbers from  7.1 onwards in the final report. It is because, we have merged tables of chapter 8 with 7 and then changed tables of 9 to 8;
+2. Data values in the tables with less than 50 and 25 unweighted cases are in parenthesis or marked * in the final report but not in the excel tables;
+3. There are data rows deleted due to very low response, mainly for some religious groups.

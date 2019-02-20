@@ -1,0 +1,46 @@
+In this compressed WINZIP folder you will find the MICS3 datasets for the selected 
+country. 
+
+Four SPSS data files were produced, corresponding to the four main units of analysis: 
+Households -  hh.sav 
+Household members - hl.sav
+Women in reproductive age (15-49 years of age) – wm.sav
+Mothers or primary caretakers of children under the age of five. – ch.sav
+
+The characteristics of the data such as year of the survey, sample sizes, weights, 
+dictionary of variables, variable labels, codes and information on recoded or imputed 
+variables can be found within the survey archive which is available on 
+http://www.childinfo.org/mics3_surveys.html. The survey archive also contains the 
+questionnaires and information on the sampling and implementation of the survey.  
+
+Notes on the Bangladesh datasets: 
+
+1.	In the Bangladesh MICS 2006 the standard MICS recommended salt test kit was 
+not used. An iodine testing solution was used to test household salt for iodine and 
+potassium iodate content using an iodine testing solution. The iodine testing 
+solution is a quantitative test and cannot detect whether the salt is adequately 
+iodized or not. 
+
+Access Conditions: 
+
+Survey datasets are distributed at no cost for legitimate research, with the condition that 
+we receive a description of any research project that will be using the data prior to 
+authorizing their distribution. Copies of all reports and publications based on the 
+requested data must be sent to the Bangladesh Bureau of Statistics and UNICEF.
+
+Bangladesh Bureau of Statistics:
+Mr. Md. Shamsul Alam
+Project Director
+Monitoring the Situation of Children and Women 
+Bangladesh Bureau of Statistics
+Planning Division
+Ministry of Planning
+Parishankhyan Bhaban
+E-27/A, Agargoan
+Sher-e-Bangla Nagar
+Dhaka, 1207
+Bangladesh
+Email: salamstat@yahoo.com
+ 
+UNICEF Bangladesh:
+dhaka@unicef.org

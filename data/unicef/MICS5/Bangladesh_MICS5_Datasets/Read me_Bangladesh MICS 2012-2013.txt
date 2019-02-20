@@ -1,0 +1,34 @@
+In this compressed WINZIP (Bangladesh MICS 2012-13 datasets) folder you will find the MICS5 datasets for Bangladesh.
+
+Four SPSS data files were produced, corresponding to the units of analysis: 
+Households - hh.sav 
+Household members - hl.sav
+Women in reproductive age (15-49 years of age) – wm.sav
+Mothers or primary caretakers of children under the age of five – ch.sav
+
+The characteristics of the data such as sample size, weights, variable labels and information on recoded or imputed variables can be found within 
+the survey archive which will be made available shortly on http://mics.unicef.org/surveys  
+The survey archive will also contain the questionnaires and information on the sampling and implementation of the survey.  
+
+Access Conditions:
+
+Survey datasets are distributed at no cost for legitimate research, with the condition that we receive a description of the objectives of 
+any research project that will be using the data prior to authorizing their distribution. 
+
+Copies of all reports and publications based on the requested data must be sent to the following:
+
+1) 
+Name	:	Dr. Dipankar Roy
+Affiliation	:	Bangladesh Bureau of Statistics
+Address	:	Project Director, Monitoring the Situation of Children and Women Project, Bangladesh Bureau of Statistics, Parishankhyan Bhaban (8th floor), E-27/A, Agargaon, Sher-E-Bangla Nagar, Dhaka – 1207
+Email	:	dr.droy69@gmail.com
+
+
+2)
+Name	:	Abdur Rashid Howlader
+Affiliation	:	Bangladesh Bureau of Statistics 
+Address	:	Data Processing Coordinator, MICS 2012-2013 of Monitoring the Situation of Children and Women, and Programmer, Bangladesh Bureau of Statistics, Parishankhyan Bhaban (8th floor)
+E-27/A, Agargaon, Sher-E-Bangla Nagar, Dhaka – 1207
+Email	:	arhowlader@yahoo.com
+
+
