@@ -1,0 +1,356 @@
+year,data_element,geo_level,var_name,is_empty
+Upazila,03EPIDistrictStock,2009,No Variables,True
+Upazila,05EPIDistrictSupply,2009,No Variables,True
+Upazila,10KMC,2009,Received KMC and 2nd followed up,False
+Upazila,10KMC,2009,Received KMC and 1st followed up,False
+Upazila,10KMC,2009,Received KMC and 3rd followed up,False
+Upazila,10KMC,2009,Received KMC and referred/discontinued,False
+Upazila,10KMC,2009,Discharged after KMC as per protocol,False
+Upazila,10KMC,2009,Babies born in facility received KMC,False
+Upazila,10KMC,2009,Babies died during KMC,False
+Upazila,10KMC,2009,Babies received KMC,False
+Upazila,10KMC,2009,Discharged after KMC on request,False
+Upazila,10KMC,2009,Received KMC and 4th followed up,False
+Upazila,10KMC,2009,MBFFI|Number of LBW given KMC,False
+Upazila,09AdolescentHealth,2009,# of Adolescents received Counselling for RTI/STI (Marital status),False
+Upazila,09AdolescentHealth,2009,# of Adolescents received Iron & Folic acid (Marital status),False
+Upazila,09AdolescentHealth,2009,# of Adolescents measured as an under-weight,False
+Upazila,09AdolescentHealth,2009,# of Adolescents received Iron & Folic acid,False
+Upazila,09AdolescentHealth,2009,# of Adolescents received treatment for RTI/STI (Marital status),False
+Upazila,09AdolescentHealth,2009,# of Adolescents received Counselling for RTI/STI,False
+Upazila,09AdolescentHealth,2009,# of Adolescents who knows about legal age of marriage,False
+Upazila,09AdolescentHealth,2009,# of Adolescent girls using sanitary napkin,False
+Upazila,09AdolescentHealth,2009,# of adolescents received services from facility,False
+Upazila,09AdolescentHealth,2009,# of Adolescents received Counselling for the changes during puberty / Adolescents period,False
+Upazila,09AdolescentHealth,2009,# of Adolescent referred from Educational Institute,False
+Upazila,09AdolescentHealth,2009,# of sexually active adolescents using contraceptive methods,False
+Upazila,09AdolescentHealth,2009,# of adolescents received services from facility (Marital status),False
+Upazila,09AdolescentHealth,2009,# of Adolescents received treatment for RTI/STI,False
+Upazila,09AdolescentHealth,2009,# of Adolescents measured as an under-weight (Marital status),False
+Upazila,09AdolescentHealth,2009,# of Adolescent girls using sanitary napkin (Marital status),False
+Upazila,09AdolescentHealth,2009,# of Adolescent referred from Adolescent clubs & others,False
+Upazila,01EPIReport(Routinevaccination),2009,Penta 1 given (12-23m),False
+Upazila,01EPIReport(Routinevaccination),2009,Penta 1 given (0-11m),False
+Upazila,01EPIReport(Routinevaccination),2009,EPI Session Held,False
+Upazila,01EPIReport(Routinevaccination),2009,PCV3 given 0-11m,False
+Upazila,01EPIReport(Routinevaccination),2009,TT2 dose pregnant women,False
+Upazila,01EPIReport(Routinevaccination),2009,EPI FWA,False
+Upazila,01EPIReport(Routinevaccination),2009,EPI Women Given Vitamin A Dose,False
+Upazila,01EPIReport(Routinevaccination),2009,MR given 15-18m,False
+Upazila,01EPIReport(Routinevaccination),2009,PCV1 given 0-11m,False
+Upazila,01EPIReport(Routinevaccination),2009,TT4 dose pregnant women,False
+Upazila,01EPIReport(Routinevaccination),2009,Penta 3 given 0-11m,False
+Upazila,01EPIReport(Routinevaccination),2009,OPV 2 given (0-11m),False
+Upazila,01EPIReport(Routinevaccination),2009,OPV 1 given (12-23m),False
+Upazila,01EPIReport(Routinevaccination),2009,EPI HA,False
+Upazila,01EPIReport(Routinevaccination),2009,fIPV1 given (0-11m),False
+Upazila,01EPIReport(Routinevaccination),2009,OPV 3 given (0-11m),False
+Upazila,01EPIReport(Routinevaccination),2009,TT3 dose (15-49y women),False
+Upazila,01EPIReport(Routinevaccination),2009,OPV 3 given (12-23m),False
+Upazila,01EPIReport(Routinevaccination),2009,TT4 dose (15-49y women),False
+Upazila,01EPIReport(Routinevaccination),2009,TT1 dose pregnant women,False
+Upazila,01EPIReport(Routinevaccination),2009,TT5 dose pregnant women,False
+Upazila,01EPIReport(Routinevaccination),2009,fIPV2 given (0-11m),False
+Upazila,01EPIReport(Routinevaccination),2009,Penta 2 given (0-11m),False
+Upazila,01EPIReport(Routinevaccination),2009,EPI Birth Registration done,False
+Upazila,01EPIReport(Routinevaccination),2009,TT2 dose (15-49y women),False
+Upazila,01EPIReport(Routinevaccination),2009,Penta 3 given 12-23m,False
+Upazila,01EPIReport(Routinevaccination),2009,OPV 1 given (0-11),False
+Upazila,01EPIReport(Routinevaccination),2009,BCG given (0-11m),False
+Upazila,01EPIReport(Routinevaccination),2009,TT5 dose (15-49y women),False
+Upazila,01EPIReport(Routinevaccination),2009,OPV 0 given (0-11m),False
+Upazila,01EPIReport(Routinevaccination),2009,MR given 0-11m,False
+Upazila,01EPIReport(Routinevaccination),2009,Penta 2 given (12-23m),False
+Upazila,01EPIReport(Routinevaccination),2009,OPV 4 given (12-23m),False
+Upazila,01EPIReport(Routinevaccination),2009,TT1 dose (15-49y women),False
+Upazila,01EPIReport(Routinevaccination),2009,Fully Immunized Child,False
+Upazila,01EPIReport(Routinevaccination),2009,EPI U1 Death,False
+Upazila,01EPIReport(Routinevaccination),2009,EPI Infant Monthly Target,False
+Upazila,01EPIReport(Routinevaccination),2009,EPI Gavi_Vol,False
+Upazila,01EPIReport(Routinevaccination),2009,EPI Session Planned,False
+Upazila,01EPIReport(Routinevaccination),2009,OPV 2 given (12-23m),False
+Upazila,01EPIReport(Routinevaccination),2009,TT3 dose pregnant women,False
+Upazila,01EPIReport(Routinevaccination),2009,PCV2 given 0-11m,False
+Upazila,01EPIReport(Routinevaccination),2009,PCV3 given 12-23m,False
+Upazila,01EPIReport(Routinevaccination),2009,PCV1 given 12-23m,False
+Upazila,01EPIReport(Routinevaccination),2009,PCV2 given 12-23m,False
+Upazila,04EPIDistrictRequisition,2009,No Variables,True
+Upazila,08IMCI,2009,IMCI counselling,False
+Upazila,08IMCI,2009,IMCI Underweight (0 - 5 years),False
+Upazila,08IMCI,2009,IMCI Stunting (0 - 5 years),False
+Upazila,08IMCI,2009,IMCI Pneumonia,False
+Upazila,08IMCI,2009,IMCI Breast Feed within 1 hour of birth,False
+Upazila,08IMCI,2009,IMCI Pus draining from Umbilicus,False
+Upazila,08IMCI,2009,IMCI Anemia (0 - 5 years),False
+Upazila,08IMCI,2009,IMCI Exclusive breast feeding,False
+Upazila,08IMCI,2009,IMCI Complementary Feeding (6-23 months),False
+Upazila,08IMCI,2009,IMCI Diarrhea,False
+Upazila,08IMCI,2009,IMCI Wasting (0 - 5 years),False
+Upazila,08IMCI,2009,IMCI Cough & Cold no Pneumonia,False
+Upazila,08IMCI,2009,IMCI Very Severe Disease,False
+Upazila,08IMCI,2009,IMCI Child Injury,False
+Upazila,08IMCI,2009,IMCI Low Birth Weight,False
+Upazila,08IMCI,2009,IMCI Severe Acute Malnutrition,False
+Upazila,08IMCI,2009,IMCI Moderate Acute Malnutrition,False
+Upazila,08IMCI,2009,IMCI Fever-malaria Unlikely,False
+Upazila,08IMCI,2009,IMCI Fever-no malaria,False
+Upazila,08IMCI,2009,IMCI Male,False
+Upazila,08IMCI,2009,IMCI Measles,False
+Upazila,08IMCI,2009,IMCI Ear problem,False
+Upazila,08IMCI,2009,IMCI Female,False
+Upazila,08IMCI,2009,IMCI Other Disease,False
+Upazila,08IMCI,2009,IMCI Drowning,False
+Upazila,08IMCI,2009,IMCI Fever-malaria,False
+Upazila,08IMCI,2009,IMCI Referral1,False
+Upazila,08IMCI,2009,IMCI Protein & energy malnutrition (PEM),False
+Upazila,08IMCI,2009,IMCI Facilitator Training Information,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|Number of  full term  babies born in facility,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|# sick newborns(inborn) referred,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|Number of newborns dried immediately after birth,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|ANC service provided as per EMEN standards,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|# premature newborns(inborn )  referred out,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|# sick newborns (inborn ) managed in NSU/SCANU,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|# pregnant women received 10 units of oxytocin within 1 min of all deliveries,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|No. of ongoing PDCA,False
+Upazila,11EMEN(MBFFI),2009,"MBFFI|# of pregnant women had minimal investigations (blood group and rh typing, urine sugar/ urine albumin, Hb, USG) during ANC",False
+Upazila,11EMEN(MBFFI),2009,MBFFI|# of newborns for whom additional support for BF is provided(inborn),False
+Upazila,11EMEN(MBFFI),2009,MBFFI|# delivered newborns for which weight was measured,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|# postpartum newborns  received 2nd PNC,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|Facility LBWs amongst delivered,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|Number of neonatal deaths (inborns),False
+Upazila,11EMEN(MBFFI),2009,MBFFI|# postpartum mothers received counseling including BF  afetr delivery/before discharge,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|# newborns received 3rd PNC,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|# pregnant women who are poor and received financial support/free services,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|# pregnant women counseled for newborn care including   breastfeeding,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|# postpartum newborns received 1st PNC,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|# postpartum mothers received 2nd PNC,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|# of  full term newborns died in SCANU/NSU (outborn),False
+Upazila,11EMEN(MBFFI),2009,MBFFI|Facility Deliveries by EMEN standards amongst all deliveries,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|# women in labour whose partograph was done,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|# postpartum mothers received 4th  PNC,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|# newborns received 4th PNC,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|Number of sick newborns (inborn and outborn)managed in NSU/SCANU,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|No. of women given birth between 24-34 completed gestational week,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|# Pregnant women received folic acid in 1st trimester,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|Facility Deliveries done following  EMEN standards,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|Antibiotics for newborn sepsis (inborn),False
+Upazila,11EMEN(MBFFI),2009,MBFFI|Number of pregnant women with preeclampsia/eclampsia managed according to guideline,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|# of late(8-28 days) newborns deaths out of full term babies  (inborn),False
+Upazila,11EMEN(MBFFI),2009,MBFFI|# of pregnant  women with  ruptured membrane given antibiotics,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|Antibiotics for newborn sepsis (inborn and outborn),False
+Upazila,11EMEN(MBFFI),2009,MBFFI|No. of  Quality Improvement committee meeting,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|Number of facility maternal deaths audited,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|Number of pregnant women with APH managed as per guideline,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|# pregnant women with prolongd labour managed as per guideline,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|# postpartum mothers received 3rd PNC,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|Number of facility neonatal deaths audited,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|Total inborn newborn sepsis cases in facility (inborn and outborn),False
+Upazila,11EMEN(MBFFI),2009,MBFFI|# pregnant women received TT during ANC,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|# postpartum mothers received 1st PNC,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|# of WIT meetings took place(total) in a facility,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|Number of  pre term  babies born in facility,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|Number of pregnant women with delivery or obstructed complication refered out,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|# of deaths preterm newborns(inborn),False
+Upazila,11EMEN(MBFFI),2009,MBFFI|# newborns whose cord clamped between 1-3 min after birth,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|No. of neonatal sepsis cases managed with antibiotics,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|No. of  Quality Improvement committee meeting with proper resolution,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|# pregnant women for whom appropriate action was taken for any abnormality detected by partograph,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|# of early(0-7 days) newborns deaths of full term babies delivered in facility,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|Total newborn sepsis cases in facility (inborn ),False
+Upazila,11EMEN(MBFFI),2009,MBFFI|# of newborns for whom additional support for BF is provided(outborn),False
+Upazila,11EMEN(MBFFI),2009,MBFFI|# of preterm newborns died in facility in SCANU/NSU (outborn),False
+Upazila,11EMEN(MBFFI),2009,MBFFI|Number of LBW given KMC,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|# pregnant women with  puerperal sepsis with triple  antibiotics,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|Total newborn sepsis cases in facility,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|# pregnant women with labour pain rapidly assessed within 30 min of arrival,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|No. of  MNH work Improvement committee meeting with proper resolution,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|Number of   delivered newborns in facility given  ENC,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|No. of  MNH work Improvement committee meeting,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|Number of facility perinatal deaths audited,False
+Upazila,11EMEN(MBFFI),2009,MBFFI|# of early (0-7 days)newborns deaths of preterm babies delivered in facility,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Syringe (0.05 ml) previous stock,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_MR vial previous stock,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Safety Box_used,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Child register_damaged,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_MR vial_used,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Safety Box previous stock,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Women Report Book_damaged,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Moni_Flag_previous_stock,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_TT Card_used,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Child Card_used,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_PCV vial_damaged,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_BCG vial_damaged,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Women register_receive,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Syringe (3 ml)_damaged,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Syringe (3 ml) previous stock,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Tally Book (Women)_used,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_MR Diluent_damaged,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_TT Card_received,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_OPV vial_receive,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Syringe (3 ml)_used,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Child Card_receive,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_PCV vial_receive,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Moni Flag_receive,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_IPV vial previous stock,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_TT Card_damaged,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Tally Book (child)_damaged,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Child register previous stock,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_TT vial_receive,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_IPV vial_supplied1,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Syringe (5 ml)_damaged,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_BCG vial_receive,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Syringe (0.5 ml)_used,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Syringe (0.1 ml)_receive,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Pentavalent vial_damaged,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_IPV vial_receive,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Syringe (3 ml)_receive,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Syringe (0.5 ml)_receive,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_BCG vial_used,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_PCV vial previous stock,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Syringe (0.05 ml)_receive,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Women register_used,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_BCG vial previous stock,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_BCG Diluent_used,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Pentavalent vial_used,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_PCV need,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Women register_damaged,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Syringe (0.05 ml)_damaged,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_TT vial_used,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Pentavalent vial previous stock,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Child register_used,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Child Report Book_used,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Women Report Book_receive,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_TT vial_damaged,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Syringe (0.1 ml)_used,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_MR Diluent_used,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Safety Box_damaged,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_BCG Diluent previous stock,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_TT vial previous stock,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Tally Book (child) previous stock,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_MR Diluent previous stock,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Tally Book (Women)_receive,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Syringe (5 ml)_receive,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Tally Book (child)_used,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_TT Card previous stock,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Women Report Book_used,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Syringe (0.5 ml) previous stock,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_OPV vial previous stock,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Tally Book (child)_receive,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Syringe (0.5 ml)_damaged,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_BCG vial_lot number1,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Women register previous stock,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_BCG Diluent_damaged,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Women Report Book previous stock,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Tally Book (Women) previous stock,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Pentavalent vial_receive,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Child Card previous stock,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_PCV vial_used,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Safety Box_receive,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_PCV vial_supplied1,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_MR Diluent_receive,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Child Report Book_receive,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Child Report Bookprevious stock,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Tally Book (Women)_damaged,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Syringe (5 ml)_used,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Child register_receive,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_BCG Diluent_receive,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Moni Flag_damaged,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_OPV vial_damaged,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Syringe (0.05 ml)_used,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Child Card_damaged,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Moni Flag_used,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_IPV vial_used,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Syringe (0.1 ml) previous stock,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Syringe (5 ml) previous stock,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_MR vial_damaged,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Child Report Book_damaged,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_MR vial_receive,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_OPV vial_used,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Measles Diluent_damaged,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Measles vial previous stock,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Measles Diluent previous stock,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Measles vial_used,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Measles vial_receive,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Measles vial_damaged,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Vitamin A Capsule previous stock,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Vitamin A Capsule_damaged,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Measles Diluent_used,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Vitamin A Capsule_receive,False
+Upazila,02EPIUpazilaStock,2009,upazilla_epi_Vitamin A Capsule_used,False
+Upazila,06EPIUpazilaSupply,2009,upazilla_epi_Syringe (0.05 ml) supplied1,False
+Upazila,06EPIUpazilaSupply,2009,upazilla_epi_BCG diluent_supplied1,False
+Upazila,06EPIUpazilaSupply,2009,upazilla_epi_BCG vial_supplied1,False
+Upazila,06EPIUpazilaSupply,2009,upazilla_epi_Pentavalent vial_supplied1,False
+Upazila,06EPIUpazilaSupply,2009,upazilla_epi_Syringe (3 ml) supplied1,False
+Upazila,06EPIUpazilaSupply,2009,upazilla_epi_Syringe (0.1 ml) supplied1,False
+Upazila,06EPIUpazilaSupply,2009,upazilla_epi_OPV vial_supplied1,False
+Upazila,06EPIUpazilaSupply,2009,upazilla_epi_MR vial_supplied1,False
+Upazila,06EPIUpazilaSupply,2009,upazilla_epi_TT vial_supplied1,False
+Upazila,06EPIUpazilaSupply,2009,upazilla_epi_Syringe (0.5 ml) supplied1,False
+Upazila,06EPIUpazilaSupply,2009,upazilla_epi_MR diluent_supplied1,False
+Upazila,06EPIUpazilaSupply,2009,upazilla_epi_PCV vial_supplied1,False
+Upazila,06EPIUpazilaSupply,2009,upazilla_epi_IPV vial_supplied1,False
+Upazila,06EPIUpazilaSupply,2009,upazilla_epi_Syringe (5 ml) supplied1,False
+Upazila,07EmONC,2009,No. of patients Referred In,False
+Upazila,07EmONC,2009,No. of cases with non-specific Abortion (Complication7),False
+Upazila,07EmONC,2009,No. of pregnant mother admitted for delivery or obstructed complication in facility,False
+Upazila,07EmONC,2009,No. of cases with Antepartum Hemorrhage (Complication2),False
+Upazila,07EmONC,2009,No. of cases of full term pregnancy with Hand or Cord Prolapse (Complication4),False
+Upazila,07EmONC,2009,No. of Forceps/ Vacuum/ Breech delivery,False
+Upazila,07EmONC,2009,Other obstetric complications (Complication 14),False
+Upazila,07EmONC,2009,No. of cases with Ectopic Pregnancy (Complication8),False
+Upazila,07EmONC,2009,No. of newborn received PNC 1 services at facility,False
+Upazila,07EmONC,2009,No. of newborn initiated breastfeeding within 1 hour after birth,False
+Upazila,07EmONC,2009,No. of cases with Hydatiform Mole (Complication12),False
+Upazila,07EmONC,2009,No of newborn received skin to skin care immediate after birth,False
+Upazila,07EmONC,2009,No. of women given birth between 24-34 completed gestational,False
+Upazila,07EmONC,2009,No. of  newborn received 7.1 Chlorhexidine in the umbilical cord,False
+Upazila,07EmONC,2009,No. of cases with Prolonged/ Obstructed Labor (Complication1),False
+Upazila,07EmONC,2009,No. of newborn not breathe or cry spontaneously at birth,False
+Upazila,07EmONC,2009,No.  of mother received  ANC 1,False
+Upazila,07EmONC,2009,No. of newborn delivered in the facility referred out,False
+Upazila,07EmONC,2009,No. of mother received PNC 2 services at facility,False
+Upazila,07EmONC,2009,No. of Still Births,False
+Upazila,07EmONC,2009,No.  of mother received  ANC 3,False
+Upazila,07EmONC,2009,No.  of mother received  ANC 2,False
+Upazila,07EmONC,2009,No. of cases with Ruptured Uterus (Complication5),False
+Upazila,07EmONC,2009,No. of mother received PNC 1 services at facility,False
+Upazila,07EmONC,2009,No. of Live Births (LB),False
+Upazila,07EmONC,2009,No. of Safe Blood Transfusions,False
+Upazila,07EmONC,2009,No. of Normal Deliveries,False
+Upazila,07EmONC,2009,No. of newborn resuscitated with bag-mask ventilation (after stimulation) after drying,False
+Upazila,07EmONC,2009,No.  of  postpartum  FP  method  was  used,False
+Upazila,07EmONC,2009,No. of normal deliveries with AMTSL at facility level,False
+Upazila,07EmONC,2009,No. of total Neonatal Deaths,False
+Upazila,07EmONC,2009,Number of  3◦ /4◦ perineal tear repair surgery,False
+Upazila,07EmONC,2009,Number of  3◦ /4◦ perineal tear  (with fecal incontinence) who were discharged closed and dry,False
+Upazila,07EmONC,2009,No. of cases with Puerperal Sepsis (Complication9),False
+Upazila,07EmONC,2009,No. of cases with Post-Partum Hemorrhage (Complication11),False
+Upazila,07EmONC,2009,No. of cases with Leaking Membrane (Complication13),False
+Upazila,07EmONC,2009,No. of newborn received PNC 2 services at facility,False
+Upazila,07EmONC,2009,Total No. of pregnant mothers with obstetric complication,False
+Upazila,07EmONC,2009,No. of Maternal Deaths(MD),False
+Upazila,07EmONC,2009,No. of cases with Septic Abortion (Complication6),False
+Upazila,07EmONC,2009,No. of postpartum mother/ pregnant women referred out,False
+Upazila,07EmONC,2009,No. of Cesarean Section,False
+Upazila,07EmONC,2009,Total No. of low birth weight babies ( less than 2500 ),False
+Upazila,07EmONC,2009,No. of newborn received delayed bath (after 3 days),False
+Upazila,07EmONC,2009,No. of cases with Pre-Eclampsia/ Eclampsia (Complication3),False
+Upazila,07EmONC,2009,No. of newborn resuscitated with stimulation only (without bag-mask ventilation) after drying,False
+Upazila,07EmONC,2009,No.  of mother received  ANC 4,False
+Upazila,07EmONC,2009,No. of cases with retained Placenta (Complication10),False
+Upazila,07EmONC,2009,No. of genital fistula patients discharged with fistula not closed (Indoor),False
+Upazila,07EmONC,2009,No. of babies born with less than 2000 gm of weight,False
+Upazila,07EmONC,2009,No. of genital fistula patients discharged closed and dry (Indoor),False
+Upazila,07EmONC,2009,No. of  neonatal  death reviewed,False
+Upazila,07EmONC,2009,No. of genital fistula repair Surgeries (OT),False
+Upazila,07EmONC,2009,No. of patients Referred Out,False
+Upazila,07EmONC,2009,Number of  3◦ /4◦ perineal tear  (with fecal incontinence) who were discharged not closed,False
+Upazila,07EmONC,2009,No. of Destructive Operation,False
+Upazila,07EmONC,2009,No. of women received Post Natal Care (PNC),False
+Upazila,07EmONC,2009,No. of genital fistula patients discharged with a closed fistula but with remaining incontinence (Indoor),False
+Upazila,07EmONC,2009,no. of normal deliveries with Misoprostol,False
+Upazila,07EmONC,2009,No. of pregnant women received Misoprostol tablets,False
+Upazila,07EmONC,2009,No. of cases with other Pregnancy/ Delivery related Complications,False
+Upazila,07EmONC,2009,No. of Vaginal Deliveries with Breech or Face Presentation,False
+Upazila,07EmONC,2009,No. of other pregnancy related Surgeries,False
