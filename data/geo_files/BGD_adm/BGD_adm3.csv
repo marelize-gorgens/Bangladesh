@@ -1,0 +1,464 @@
+"OBJECTID","ID_0","ISO","NAME_0","ID_1","NAME_1","ID_2","NAME_2","ID_3","NAME_3","TYPE_3","ENGTYPE_3","NL_NAME_3","VARNAME_3"
+1,20,"BGD","Bangladesh",1,"Barisal",1,"Barisal",1,"Agailjhara","Upazila|Thana|Po","Sub-district",NA,NA
+2,20,"BGD","Bangladesh",1,"Barisal",1,"Barisal",2,"Babuganj","Upazila|Thana|Po","Sub-district",NA,NA
+3,20,"BGD","Bangladesh",1,"Barisal",1,"Barisal",3,"Bakerganj","Upazila|Thana|Po","Sub-district",NA,NA
+4,20,"BGD","Bangladesh",1,"Barisal",1,"Barisal",4,"Banaripara","Upazila|Thana|Po","Sub-district",NA,NA
+5,20,"BGD","Bangladesh",1,"Barisal",1,"Barisal",5,"Barisal S.","Upazila|Thana|Po","Sub-district",NA,NA
+6,20,"BGD","Bangladesh",1,"Barisal",1,"Barisal",6,"Gaurnadi","Upazila|Thana|Po","Sub-district",NA,NA
+7,20,"BGD","Bangladesh",1,"Barisal",1,"Barisal",7,"Hizla","Upazila|Thana|Po","Sub-district",NA,NA
+8,20,"BGD","Bangladesh",1,"Barisal",1,"Barisal",8,"Mehendiganj","Upazila|Thana|Po","Sub-district",NA,NA
+9,20,"BGD","Bangladesh",1,"Barisal",1,"Barisal",9,"Muladi","Upazila|Thana|Po","Sub-district",NA,NA
+10,20,"BGD","Bangladesh",1,"Barisal",1,"Barisal",10,"Wazirpur","Upazila|Thana|Po","Sub-district",NA,NA
+11,20,"BGD","Bangladesh",1,"Barisal",2,"Bhola",11,"Bhola S.","Upazila|Thana|Po","Sub-district",NA,NA
+12,20,"BGD","Bangladesh",1,"Barisal",2,"Bhola",12,"Burhanuddin","Upazila|Thana|Po","Sub-district",NA,NA
+13,20,"BGD","Bangladesh",1,"Barisal",2,"Bhola",13,"Charfasson","Upazila|Thana|Po","Sub-district",NA,NA
+14,20,"BGD","Bangladesh",1,"Barisal",2,"Bhola",14,"Daulatkhan","Upazila|Thana|Po","Sub-district",NA,NA
+15,20,"BGD","Bangladesh",1,"Barisal",2,"Bhola",15,"Lalmohan","Upazila|Thana|Po","Sub-district",NA,NA
+16,20,"BGD","Bangladesh",1,"Barisal",2,"Bhola",16,"Manpura","Upazila|Thana|Po","Sub-district",NA,NA
+17,20,"BGD","Bangladesh",1,"Barisal",2,"Bhola",17,"Tazumuddin","Upazila|Thana|Po","Sub-district",NA,NA
+18,20,"BGD","Bangladesh",1,"Barisal",3,"Borgona",18,"Amtali","Upazila|Thana|Po","Sub-district",NA,NA
+19,20,"BGD","Bangladesh",1,"Barisal",3,"Borgona",19,"Bamna","Upazila|Thana|Po","Sub-district",NA,NA
+20,20,"BGD","Bangladesh",1,"Barisal",3,"Borgona",20,"Barguna S.","Upazila|Thana|Po","Sub-district",NA,NA
+21,20,"BGD","Bangladesh",1,"Barisal",3,"Borgona",21,"Betagi","Upazila|Thana|Po","Sub-district",NA,NA
+22,20,"BGD","Bangladesh",1,"Barisal",3,"Borgona",22,"Patharghata","Upazila|Thana|Po","Sub-district",NA,NA
+23,20,"BGD","Bangladesh",1,"Barisal",4,"Jhalakati",23,"Jhalakati S.","Upazila|Thana|Po","Sub-district",NA,NA
+24,20,"BGD","Bangladesh",1,"Barisal",4,"Jhalakati",24,"Kathalia","Upazila|Thana|Po","Sub-district",NA,NA
+25,20,"BGD","Bangladesh",1,"Barisal",4,"Jhalakati",25,"Nalchity","Upazila|Thana|Po","Sub-district",NA,NA
+26,20,"BGD","Bangladesh",1,"Barisal",4,"Jhalakati",26,"Rajapur","Upazila|Thana|Po","Sub-district",NA,NA
+27,20,"BGD","Bangladesh",1,"Barisal",5,"Patuakhali",27,"Bauphal","Upazila|Thana|Po","Sub-district",NA,NA
+28,20,"BGD","Bangladesh",1,"Barisal",5,"Patuakhali",28,"Dashina","Upazila|Thana|Po","Sub-district",NA,NA
+29,20,"BGD","Bangladesh",1,"Barisal",5,"Patuakhali",29,"Galachipa","Upazila|Thana|Po","Sub-district",NA,NA
+30,20,"BGD","Bangladesh",1,"Barisal",5,"Patuakhali",30,"Kalapara","Upazila|Thana|Po","Sub-district",NA,NA
+31,20,"BGD","Bangladesh",1,"Barisal",5,"Patuakhali",31,"Mirzaganj","Upazila|Thana|Po","Sub-district",NA,NA
+32,20,"BGD","Bangladesh",1,"Barisal",5,"Patuakhali",32,"Patuakhali S.","Upazila|Thana|Po","Sub-district",NA,NA
+33,20,"BGD","Bangladesh",1,"Barisal",6,"Pirojpur",33,"Bhandaria","Upazila|Thana|Po","Sub-district",NA,NA
+34,20,"BGD","Bangladesh",1,"Barisal",6,"Pirojpur",34,"Kawkhali","Upazila|Thana|Po","Sub-district",NA,"Pirojpur"
+35,20,"BGD","Bangladesh",1,"Barisal",6,"Pirojpur",35,"Mathbaria","Upazila|Thana|Po","Sub-district",NA,NA
+36,20,"BGD","Bangladesh",1,"Barisal",6,"Pirojpur",36,"Nazirpur","Upazila|Thana|Po","Sub-district",NA,NA
+37,20,"BGD","Bangladesh",1,"Barisal",6,"Pirojpur",37,"Nesarabad","Upazila|Thana|Po","Sub-district",NA,"South Kati"
+38,20,"BGD","Bangladesh",1,"Barisal",6,"Pirojpur",38,"Pirojpur S.","Upazila|Thana|Po","Sub-district",NA,NA
+39,20,"BGD","Bangladesh",2,"Chittagong",7,"Bandarbon",39,"Alikadam","Upazila|Thana|Po","Sub-district",NA,NA
+40,20,"BGD","Bangladesh",2,"Chittagong",7,"Bandarbon",40,"Bandarban S.","Upazila|Thana|Po","Sub-district",NA,NA
+41,20,"BGD","Bangladesh",2,"Chittagong",7,"Bandarbon",41,"Lama","Upazila|Thana|Po","Sub-district",NA,NA
+42,20,"BGD","Bangladesh",2,"Chittagong",7,"Bandarbon",42,"Naikhongchhari","Upazila|Thana|Po","Sub-district",NA,NA
+43,20,"BGD","Bangladesh",2,"Chittagong",7,"Bandarbon",43,"Rowangghhari","Upazila|Thana|Po","Sub-district",NA,NA
+44,20,"BGD","Bangladesh",2,"Chittagong",7,"Bandarbon",44,"Ruma","Upazila|Thana|Po","Sub-district",NA,NA
+45,20,"BGD","Bangladesh",2,"Chittagong",7,"Bandarbon",45,"Thanchi","Upazila|Thana|Po","Sub-district",NA,NA
+46,20,"BGD","Bangladesh",2,"Chittagong",8,"Brahmanbaria",46,"Akhaura","Upazila|Thana|Po","Sub-district",NA,NA
+47,20,"BGD","Bangladesh",2,"Chittagong",8,"Brahmanbaria",47,"Bancharampur","Upazila|Thana|Po","Sub-district",NA,NA
+48,20,"BGD","Bangladesh",2,"Chittagong",8,"Brahmanbaria",48,"Brahmanbaria S.","Upazila|Thana|Po","Sub-district",NA,NA
+49,20,"BGD","Bangladesh",2,"Chittagong",8,"Brahmanbaria",49,"Kasba","Upazila|Thana|Po","Sub-district",NA,NA
+50,20,"BGD","Bangladesh",2,"Chittagong",8,"Brahmanbaria",50,"Nabinagar","Upazila|Thana|Po","Sub-district",NA,NA
+51,20,"BGD","Bangladesh",2,"Chittagong",8,"Brahmanbaria",51,"Nasirnagar","Upazila|Thana|Po","Sub-district",NA,NA
+52,20,"BGD","Bangladesh",2,"Chittagong",8,"Brahmanbaria",52,"Sarail","Upazila|Thana|Po","Sub-district",NA,NA
+53,20,"BGD","Bangladesh",2,"Chittagong",9,"Chandpur",53,"Chandpur S.","Upazila|Thana|Po","Sub-district",NA,NA
+54,20,"BGD","Bangladesh",2,"Chittagong",9,"Chandpur",54,"Faridganj","Upazila|Thana|Po","Sub-district",NA,NA
+55,20,"BGD","Bangladesh",2,"Chittagong",9,"Chandpur",55,"Haimchar","Upazila|Thana|Po","Sub-district",NA,NA
+56,20,"BGD","Bangladesh",2,"Chittagong",9,"Chandpur",56,"Haziganj","Upazila|Thana|Po","Sub-district",NA,NA
+57,20,"BGD","Bangladesh",2,"Chittagong",9,"Chandpur",57,"Kachua","Upazila|Thana|Po","Sub-district",NA,"Chandpur"
+58,20,"BGD","Bangladesh",2,"Chittagong",9,"Chandpur",58,"Matlab","Upazila|Thana|Po","Sub-district",NA,NA
+59,20,"BGD","Bangladesh",2,"Chittagong",9,"Chandpur",59,"Shahrasti","Upazila|Thana|Po","Sub-district",NA,NA
+60,20,"BGD","Bangladesh",2,"Chittagong",10,"Chittagong",60,"Anwara","Upazila|Thana|Po","Sub-district",NA,NA
+61,20,"BGD","Bangladesh",2,"Chittagong",10,"Chittagong",61,"Banshkhali","Upazila|Thana|Po","Sub-district",NA,NA
+62,20,"BGD","Bangladesh",2,"Chittagong",10,"Chittagong",62,"Boalkhali","Upazila|Thana|Po","Sub-district",NA,NA
+63,20,"BGD","Bangladesh",2,"Chittagong",10,"Chittagong",63,"Chandanaish","Upazila|Thana|Po","Sub-district",NA,NA
+64,20,"BGD","Bangladesh",2,"Chittagong",10,"Chittagong",64,"Fatikchhari","Upazila|Thana|Po","Sub-district",NA,NA
+65,20,"BGD","Bangladesh",2,"Chittagong",10,"Chittagong",65,"Hathazari","Upazila|Thana|Po","Sub-district",NA,NA
+66,20,"BGD","Bangladesh",2,"Chittagong",10,"Chittagong",66,"Kotwali","Upazila|Thana|Po","Sub-district",NA,"Chittagong"
+67,20,"BGD","Bangladesh",2,"Chittagong",10,"Chittagong",67,"Lohagara","Upazila|Thana|Po","Sub-district",NA,"Chittagong"
+68,20,"BGD","Bangladesh",2,"Chittagong",10,"Chittagong",68,"Mirsharai","Upazila|Thana|Po","Sub-district",NA,NA
+69,20,"BGD","Bangladesh",2,"Chittagong",10,"Chittagong",69,"Patiya","Upazila|Thana|Po","Sub-district",NA,NA
+70,20,"BGD","Bangladesh",2,"Chittagong",10,"Chittagong",70,"Rangunia","Upazila|Thana|Po","Sub-district",NA,NA
+71,20,"BGD","Bangladesh",2,"Chittagong",10,"Chittagong",71,"Raozan","Upazila|Thana|Po","Sub-district",NA,NA
+72,20,"BGD","Bangladesh",2,"Chittagong",10,"Chittagong",72,"Sandwip","Upazila|Thana|Po","Sub-district",NA,NA
+73,20,"BGD","Bangladesh",2,"Chittagong",10,"Chittagong",73,"Satkania","Upazila|Thana|Po","Sub-district",NA,NA
+74,20,"BGD","Bangladesh",2,"Chittagong",10,"Chittagong",74,"Sitakunda","Upazila|Thana|Po","Sub-district",NA,NA
+75,20,"BGD","Bangladesh",2,"Chittagong",11,"Comilla",75,"Barura","Upazila|Thana|Po","Sub-district",NA,NA
+76,20,"BGD","Bangladesh",2,"Chittagong",11,"Comilla",76,"Brahmanpara","Upazila|Thana|Po","Sub-district",NA,NA
+77,20,"BGD","Bangladesh",2,"Chittagong",11,"Comilla",77,"Burichang","Upazila|Thana|Po","Sub-district",NA,NA
+78,20,"BGD","Bangladesh",2,"Chittagong",11,"Comilla",78,"Chandhina","Upazila|Thana|Po","Sub-district",NA,NA
+79,20,"BGD","Bangladesh",2,"Chittagong",11,"Comilla",79,"Chauddagram","Upazila|Thana|Po","Sub-district",NA,NA
+80,20,"BGD","Bangladesh",2,"Chittagong",11,"Comilla",80,"Comilla S.","Upazila|Thana|Po","Sub-district",NA,NA
+81,20,"BGD","Bangladesh",2,"Chittagong",11,"Comilla",81,"Daudkandi","Upazila|Thana|Po","Sub-district",NA,NA
+82,20,"BGD","Bangladesh",2,"Chittagong",11,"Comilla",82,"Debidwar","Upazila|Thana|Po","Sub-district",NA,NA
+83,20,"BGD","Bangladesh",2,"Chittagong",11,"Comilla",83,"Homna","Upazila|Thana|Po","Sub-district",NA,NA
+84,20,"BGD","Bangladesh",2,"Chittagong",11,"Comilla",84,"Laksam","Upazila|Thana|Po","Sub-district",NA,NA
+85,20,"BGD","Bangladesh",2,"Chittagong",11,"Comilla",85,"Muradnagar","Upazila|Thana|Po","Sub-district",NA,NA
+86,20,"BGD","Bangladesh",2,"Chittagong",11,"Comilla",86,"Nangalkot","Upazila|Thana|Po","Sub-district",NA,NA
+87,20,"BGD","Bangladesh",2,"Chittagong",12,"Cox's Bazar",87,"Chakaria","Upazila|Thana|Po","Sub-district",NA,NA
+88,20,"BGD","Bangladesh",2,"Chittagong",12,"Cox's Bazar",88,"Cox Bazar S","Upazila|Thana|Po","Sub-district",NA,NA
+89,20,"BGD","Bangladesh",2,"Chittagong",12,"Cox's Bazar",89,"Kutubdia","Upazila|Thana|Po","Sub-district",NA,NA
+90,20,"BGD","Bangladesh",2,"Chittagong",12,"Cox's Bazar",90,"Maheshkhali","Upazila|Thana|Po","Sub-district",NA,NA
+91,20,"BGD","Bangladesh",2,"Chittagong",12,"Cox's Bazar",91,"Ramu","Upazila|Thana|Po","Sub-district",NA,NA
+92,20,"BGD","Bangladesh",2,"Chittagong",12,"Cox's Bazar",92,"Teknaf","Upazila|Thana|Po","Sub-district",NA,NA
+93,20,"BGD","Bangladesh",2,"Chittagong",12,"Cox's Bazar",93,"Ukhia","Upazila|Thana|Po","Sub-district",NA,NA
+94,20,"BGD","Bangladesh",2,"Chittagong",13,"Feni",94,"Chhagalnaiya","Upazila|Thana|Po","Sub-district",NA,NA
+95,20,"BGD","Bangladesh",2,"Chittagong",13,"Feni",95,"Daganbhuiyan","Upazila|Thana|Po","Sub-district",NA,NA
+96,20,"BGD","Bangladesh",2,"Chittagong",13,"Feni",96,"Feni S.","Upazila|Thana|Po","Sub-district",NA,NA
+97,20,"BGD","Bangladesh",2,"Chittagong",13,"Feni",97,"Parshuram","Upazila|Thana|Po","Sub-district",NA,NA
+98,20,"BGD","Bangladesh",2,"Chittagong",13,"Feni",98,"Sonagazi","Upazila|Thana|Po","Sub-district",NA,NA
+99,20,"BGD","Bangladesh",2,"Chittagong",14,"Khagrachari",99,"Dighinala","Upazila|Thana|Po","Sub-district",NA,NA
+100,20,"BGD","Bangladesh",2,"Chittagong",14,"Khagrachari",100,"Khagrachhari","Upazila|Thana|Po","Sub-district",NA,NA
+101,20,"BGD","Bangladesh",2,"Chittagong",14,"Khagrachari",101,"Lakshmichhari","Upazila|Thana|Po","Sub-district",NA,NA
+102,20,"BGD","Bangladesh",2,"Chittagong",14,"Khagrachari",102,"Mahalchhari","Upazila|Thana|Po","Sub-district",NA,NA
+103,20,"BGD","Bangladesh",2,"Chittagong",14,"Khagrachari",103,"Manikchhari","Upazila|Thana|Po","Sub-district",NA,NA
+104,20,"BGD","Bangladesh",2,"Chittagong",14,"Khagrachari",104,"Matiranga","Upazila|Thana|Po","Sub-district",NA,NA
+105,20,"BGD","Bangladesh",2,"Chittagong",14,"Khagrachari",105,"Panchhari","Upazila|Thana|Po","Sub-district",NA,NA
+106,20,"BGD","Bangladesh",2,"Chittagong",14,"Khagrachari",106,"Ramgarh","Upazila|Thana|Po","Sub-district",NA,NA
+107,20,"BGD","Bangladesh",2,"Chittagong",15,"Lakshmipur",107,"Lakshmipur S.","Upazila|Thana|Po","Sub-district",NA,NA
+108,20,"BGD","Bangladesh",2,"Chittagong",15,"Lakshmipur",108,"Raipur","Upazila|Thana|Po","Sub-district",NA,"Lakshmipur"
+109,20,"BGD","Bangladesh",2,"Chittagong",15,"Lakshmipur",109,"Ramganj","Upazila|Thana|Po","Sub-district",NA,NA
+110,20,"BGD","Bangladesh",2,"Chittagong",15,"Lakshmipur",110,"Ramgati","Upazila|Thana|Po","Sub-district",NA,NA
+111,20,"BGD","Bangladesh",2,"Chittagong",16,"Noakhali",111,"Begumganj","Upazila|Thana|Po","Sub-district",NA,NA
+112,20,"BGD","Bangladesh",2,"Chittagong",16,"Noakhali",112,"Chatkhil","Upazila|Thana|Po","Sub-district",NA,NA
+113,20,"BGD","Bangladesh",2,"Chittagong",16,"Noakhali",113,"Companiganj","Upazila|Thana|Po","Sub-district",NA,"Noakhali"
+114,20,"BGD","Bangladesh",2,"Chittagong",16,"Noakhali",114,"Hatiya","Upazila|Thana|Po","Sub-district",NA,NA
+115,20,"BGD","Bangladesh",2,"Chittagong",16,"Noakhali",115,"Noakhali S.","Upazila|Thana|Po","Sub-district",NA,NA
+116,20,"BGD","Bangladesh",2,"Chittagong",16,"Noakhali",116,"Senbagh","Upazila|Thana|Po","Sub-district",NA,NA
+117,20,"BGD","Bangladesh",2,"Chittagong",17,"Parbattya Chattagram",117,"Bagaichhari","Upazila|Thana|Po","Sub-district",NA,NA
+118,20,"BGD","Bangladesh",2,"Chittagong",17,"Parbattya Chattagram",118,"Barkal","Upazila|Thana|Po","Sub-district",NA,NA
+119,20,"BGD","Bangladesh",2,"Chittagong",17,"Parbattya Chattagram",119,"Belaichhari","Upazila|Thana|Po","Sub-district",NA,NA
+120,20,"BGD","Bangladesh",2,"Chittagong",17,"Parbattya Chattagram",120,"Juraichhari","Upazila|Thana|Po","Sub-district",NA,NA
+121,20,"BGD","Bangladesh",2,"Chittagong",17,"Parbattya Chattagram",121,"Kaptai","Upazila|Thana|Po","Sub-district",NA,NA
+122,20,"BGD","Bangladesh",2,"Chittagong",17,"Parbattya Chattagram",122,"Kawkhali","Upazila|Thana|Po","Sub-district",NA,"Rangamati"
+123,20,"BGD","Bangladesh",2,"Chittagong",17,"Parbattya Chattagram",123,"Langadu","Upazila|Thana|Po","Sub-district",NA,NA
+124,20,"BGD","Bangladesh",2,"Chittagong",17,"Parbattya Chattagram",124,"Nannerchar","Upazila|Thana|Po","Sub-district",NA,NA
+125,20,"BGD","Bangladesh",2,"Chittagong",17,"Parbattya Chattagram",125,"Rajasthali","Upazila|Thana|Po","Sub-district",NA,NA
+126,20,"BGD","Bangladesh",2,"Chittagong",17,"Parbattya Chattagram",126,"Rangamati S.","Upazila|Thana|Po","Sub-district",NA,NA
+127,20,"BGD","Bangladesh",3,"Dhaka",18,"Dhaka",127,"Dhamrai","Upazila|Thana|Po","Sub-district",NA,NA
+128,20,"BGD","Bangladesh",3,"Dhaka",18,"Dhaka",128,"Dohar","Upazila|Thana|Po","Sub-district",NA,NA
+129,20,"BGD","Bangladesh",3,"Dhaka",18,"Dhaka",129,"Keraniganj","Upazila|Thana|Po","Sub-district",NA,NA
+130,20,"BGD","Bangladesh",3,"Dhaka",18,"Dhaka",130,"Nawabganj","Upazila|Thana|Po","Sub-district",NA,"Dhaka"
+131,20,"BGD","Bangladesh",3,"Dhaka",18,"Dhaka",131,"Savar","Upazila|Thana|Po","Sub-district",NA,NA
+132,20,"BGD","Bangladesh",3,"Dhaka",18,"Dhaka",132,"Tejgaon","Upazila|Thana|Po","Sub-district",NA,NA
+133,20,"BGD","Bangladesh",3,"Dhaka",19,"Faridpur",133,"Alfadanga","Upazila|Thana|Po","Sub-district",NA,NA
+134,20,"BGD","Bangladesh",3,"Dhaka",19,"Faridpur",134,"Bhanga","Upazila|Thana|Po","Sub-district",NA,NA
+135,20,"BGD","Bangladesh",3,"Dhaka",19,"Faridpur",135,"Boalmari","Upazila|Thana|Po","Sub-district",NA,NA
+136,20,"BGD","Bangladesh",3,"Dhaka",19,"Faridpur",136,"Char Bhadrasan","Upazila|Thana|Po","Sub-district",NA,NA
+137,20,"BGD","Bangladesh",3,"Dhaka",19,"Faridpur",137,"Faridpur S.","Upazila|Thana|Po","Sub-district",NA,NA
+138,20,"BGD","Bangladesh",3,"Dhaka",19,"Faridpur",138,"Madhukhali","Upazila|Thana|Po","Sub-district",NA,NA
+139,20,"BGD","Bangladesh",3,"Dhaka",19,"Faridpur",139,"Nagarkanda","Upazila|Thana|Po","Sub-district",NA,NA
+140,20,"BGD","Bangladesh",3,"Dhaka",19,"Faridpur",140,"Sadarpur","Upazila|Thana|Po","Sub-district",NA,NA
+141,20,"BGD","Bangladesh",3,"Dhaka",20,"Gazipur",141,"Gazipur S.","Upazila|Thana|Po","Sub-district",NA,NA
+142,20,"BGD","Bangladesh",3,"Dhaka",20,"Gazipur",142,"Kaliakair","Upazila|Thana|Po","Sub-district",NA,NA
+143,20,"BGD","Bangladesh",3,"Dhaka",20,"Gazipur",143,"Kaliganj","Upazila|Thana|Po","Sub-district",NA,"Gazipur"
+144,20,"BGD","Bangladesh",3,"Dhaka",20,"Gazipur",144,"Kapasia","Upazila|Thana|Po","Sub-district",NA,NA
+145,20,"BGD","Bangladesh",3,"Dhaka",20,"Gazipur",145,"Sreepur","Upazila|Thana|Po","Sub-district",NA,"Gazipur"
+146,20,"BGD","Bangladesh",3,"Dhaka",21,"Gopalgonj",146,"Gopalganj S.","Upazila|Thana|Po","Sub-district",NA,NA
+147,20,"BGD","Bangladesh",3,"Dhaka",21,"Gopalgonj",147,"Kashiani","Upazila|Thana|Po","Sub-district",NA,NA
+148,20,"BGD","Bangladesh",3,"Dhaka",21,"Gopalgonj",148,"Kotalipara","Upazila|Thana|Po","Sub-district",NA,NA
+149,20,"BGD","Bangladesh",3,"Dhaka",21,"Gopalgonj",149,"Muksudpur","Upazila|Thana|Po","Sub-district",NA,NA
+150,20,"BGD","Bangladesh",3,"Dhaka",21,"Gopalgonj",150,"Tungipara","Upazila|Thana|Po","Sub-district",NA,NA
+151,20,"BGD","Bangladesh",3,"Dhaka",22,"Jamalpur",151,"Baksiganj","Upazila|Thana|Po","Sub-district",NA,NA
+152,20,"BGD","Bangladesh",3,"Dhaka",22,"Jamalpur",152,"Dewanganj","Upazila|Thana|Po","Sub-district",NA,NA
+153,20,"BGD","Bangladesh",3,"Dhaka",22,"Jamalpur",153,"Islampur","Upazila|Thana|Po","Sub-district",NA,NA
+154,20,"BGD","Bangladesh",3,"Dhaka",22,"Jamalpur",154,"Jamalpur S.","Upazila|Thana|Po","Sub-district",NA,NA
+155,20,"BGD","Bangladesh",3,"Dhaka",22,"Jamalpur",155,"Madarganj","Upazila|Thana|Po","Sub-district",NA,NA
+156,20,"BGD","Bangladesh",3,"Dhaka",22,"Jamalpur",156,"Melandaha","Upazila|Thana|Po","Sub-district",NA,NA
+157,20,"BGD","Bangladesh",3,"Dhaka",22,"Jamalpur",157,"Sarishabari","Upazila|Thana|Po","Sub-district",NA,NA
+158,20,"BGD","Bangladesh",3,"Dhaka",23,"Kishoreganj",158,"Astagram","Upazila|Thana|Po","Sub-district",NA,NA
+159,20,"BGD","Bangladesh",3,"Dhaka",23,"Kishoreganj",159,"Bajitpur","Upazila|Thana|Po","Sub-district",NA,NA
+160,20,"BGD","Bangladesh",3,"Dhaka",23,"Kishoreganj",160,"Bhairab","Upazila|Thana|Po","Sub-district",NA,NA
+161,20,"BGD","Bangladesh",3,"Dhaka",23,"Kishoreganj",161,"Hossainpur","Upazila|Thana|Po","Sub-district",NA,NA
+162,20,"BGD","Bangladesh",3,"Dhaka",23,"Kishoreganj",162,"Itna","Upazila|Thana|Po","Sub-district",NA,NA
+163,20,"BGD","Bangladesh",3,"Dhaka",23,"Kishoreganj",163,"Karimganj","Upazila|Thana|Po","Sub-district",NA,NA
+164,20,"BGD","Bangladesh",3,"Dhaka",23,"Kishoreganj",164,"Katiadi","Upazila|Thana|Po","Sub-district",NA,NA
+165,20,"BGD","Bangladesh",3,"Dhaka",23,"Kishoreganj",165,"Kishoreganj S.","Upazila|Thana|Po","Sub-district",NA,NA
+166,20,"BGD","Bangladesh",3,"Dhaka",23,"Kishoreganj",166,"Kuliarchar","Upazila|Thana|Po","Sub-district",NA,NA
+167,20,"BGD","Bangladesh",3,"Dhaka",23,"Kishoreganj",167,"Mithamain","Upazila|Thana|Po","Sub-district",NA,NA
+168,20,"BGD","Bangladesh",3,"Dhaka",23,"Kishoreganj",168,"Nikli","Upazila|Thana|Po","Sub-district",NA,NA
+169,20,"BGD","Bangladesh",3,"Dhaka",23,"Kishoreganj",169,"Pakundia","Upazila|Thana|Po","Sub-district",NA,NA
+170,20,"BGD","Bangladesh",3,"Dhaka",23,"Kishoreganj",170,"Tarail","Upazila|Thana|Po","Sub-district",NA,NA
+171,20,"BGD","Bangladesh",3,"Dhaka",24,"Madaripur",171,"Kalkini","Upazila|Thana|Po","Sub-district",NA,NA
+172,20,"BGD","Bangladesh",3,"Dhaka",24,"Madaripur",172,"Madaripur S.","Upazila|Thana|Po","Sub-district",NA,NA
+173,20,"BGD","Bangladesh",3,"Dhaka",24,"Madaripur",173,"Rajoir","Upazila|Thana|Po","Sub-district",NA,NA
+174,20,"BGD","Bangladesh",3,"Dhaka",24,"Madaripur",174,"Shibchar","Upazila|Thana|Po","Sub-district",NA,NA
+175,20,"BGD","Bangladesh",3,"Dhaka",25,"Manikgonj",175,"Daulatpur","Upazila|Thana|Po","Sub-district",NA,"Manikganj"
+176,20,"BGD","Bangladesh",3,"Dhaka",25,"Manikgonj",176,"Ghior","Upazila|Thana|Po","Sub-district",NA,NA
+177,20,"BGD","Bangladesh",3,"Dhaka",25,"Manikgonj",177,"Harirampur","Upazila|Thana|Po","Sub-district",NA,NA
+178,20,"BGD","Bangladesh",3,"Dhaka",25,"Manikgonj",178,"Manikganj S.","Upazila|Thana|Po","Sub-district",NA,NA
+179,20,"BGD","Bangladesh",3,"Dhaka",25,"Manikgonj",179,"Saturia","Upazila|Thana|Po","Sub-district",NA,NA
+180,20,"BGD","Bangladesh",3,"Dhaka",25,"Manikgonj",180,"Shivalaya","Upazila|Thana|Po","Sub-district",NA,NA
+181,20,"BGD","Bangladesh",3,"Dhaka",25,"Manikgonj",181,"Singair","Upazila|Thana|Po","Sub-district",NA,NA
+182,20,"BGD","Bangladesh",3,"Dhaka",26,"Munshigonj",182,"Gazaria","Upazila|Thana|Po","Sub-district",NA,NA
+183,20,"BGD","Bangladesh",3,"Dhaka",26,"Munshigonj",183,"Lohajang","Upazila|Thana|Po","Sub-district",NA,NA
+184,20,"BGD","Bangladesh",3,"Dhaka",26,"Munshigonj",184,"Munshiganj S.","Upazila|Thana|Po","Sub-district",NA,NA
+185,20,"BGD","Bangladesh",3,"Dhaka",26,"Munshigonj",185,"Sirajdikhan","Upazila|Thana|Po","Sub-district",NA,NA
+186,20,"BGD","Bangladesh",3,"Dhaka",26,"Munshigonj",186,"Sreenagar","Upazila|Thana|Po","Sub-district",NA,NA
+187,20,"BGD","Bangladesh",3,"Dhaka",26,"Munshigonj",187,"Tongibari","Upazila|Thana|Po","Sub-district",NA,NA
+188,20,"BGD","Bangladesh",3,"Dhaka",27,"Naray Angonj",188,"Araihazar","Upazila|Thana|Po","Sub-district",NA,NA
+189,20,"BGD","Bangladesh",3,"Dhaka",27,"Naray Angonj",189,"Bandar","Upazila|Thana|Po","Sub-district",NA,NA
+190,20,"BGD","Bangladesh",3,"Dhaka",27,"Naray Angonj",190,"Narayanganj S.","Upazila|Thana|Po","Sub-district",NA,NA
+191,20,"BGD","Bangladesh",3,"Dhaka",27,"Naray Angonj",191,"Rupganj","Upazila|Thana|Po","Sub-district",NA,NA
+192,20,"BGD","Bangladesh",3,"Dhaka",27,"Naray Angonj",192,"Sonargaon","Upazila|Thana|Po","Sub-district",NA,NA
+193,20,"BGD","Bangladesh",3,"Dhaka",28,"Narshingdi",193,"Belabo","Upazila|Thana|Po","Sub-district",NA,NA
+194,20,"BGD","Bangladesh",3,"Dhaka",28,"Narshingdi",194,"Manohardi","Upazila|Thana|Po","Sub-district",NA,NA
+195,20,"BGD","Bangladesh",3,"Dhaka",28,"Narshingdi",195,"Narsingdi S.","Upazila|Thana|Po","Sub-district",NA,NA
+196,20,"BGD","Bangladesh",3,"Dhaka",28,"Narshingdi",196,"Palash","Upazila|Thana|Po","Sub-district",NA,NA
+197,20,"BGD","Bangladesh",3,"Dhaka",28,"Narshingdi",197,"Raipur","Upazila|Thana|Po","Sub-district",NA,"Narsingdi"
+198,20,"BGD","Bangladesh",3,"Dhaka",28,"Narshingdi",198,"Shibpur","Upazila|Thana|Po","Sub-district",NA,NA
+199,20,"BGD","Bangladesh",3,"Dhaka",29,"Nasirabad",199,"Bhaluka","Upazila|Thana|Po","Sub-district",NA,NA
+200,20,"BGD","Bangladesh",3,"Dhaka",29,"Nasirabad",200,"Dhobaura","Upazila|Thana|Po","Sub-district",NA,NA
+201,20,"BGD","Bangladesh",3,"Dhaka",29,"Nasirabad",201,"Gaffargaon","Upazila|Thana|Po","Sub-district",NA,NA
+202,20,"BGD","Bangladesh",3,"Dhaka",29,"Nasirabad",202,"Gauripur","Upazila|Thana|Po","Sub-district",NA,NA
+203,20,"BGD","Bangladesh",3,"Dhaka",29,"Nasirabad",203,"Haluaghat","Upazila|Thana|Po","Sub-district",NA,NA
+204,20,"BGD","Bangladesh",3,"Dhaka",29,"Nasirabad",204,"Ishwarganj","Upazila|Thana|Po","Sub-district",NA,NA
+205,20,"BGD","Bangladesh",3,"Dhaka",29,"Nasirabad",205,"Muktagachha","Upazila|Thana|Po","Sub-district",NA,NA
+206,20,"BGD","Bangladesh",3,"Dhaka",29,"Nasirabad",206,"Mymensingh S.","Upazila|Thana|Po","Sub-district",NA,NA
+207,20,"BGD","Bangladesh",3,"Dhaka",29,"Nasirabad",207,"Nandail","Upazila|Thana|Po","Sub-district",NA,NA
+208,20,"BGD","Bangladesh",3,"Dhaka",29,"Nasirabad",208,"Phulbari","Upazila|Thana|Po","Sub-district",NA,"Mymensingh"
+209,20,"BGD","Bangladesh",3,"Dhaka",29,"Nasirabad",209,"Phulpur","Upazila|Thana|Po","Sub-district",NA,NA
+210,20,"BGD","Bangladesh",3,"Dhaka",29,"Nasirabad",210,"Trishal","Upazila|Thana|Po","Sub-district",NA,NA
+211,20,"BGD","Bangladesh",3,"Dhaka",30,"Netrakona",211,"Atpara","Upazila|Thana|Po","Sub-district",NA,NA
+212,20,"BGD","Bangladesh",3,"Dhaka",30,"Netrakona",212,"Barhatta","Upazila|Thana|Po","Sub-district",NA,NA
+213,20,"BGD","Bangladesh",3,"Dhaka",30,"Netrakona",213,"Durgapur","Upazila|Thana|Po","Sub-district",NA,"Netrokona"
+214,20,"BGD","Bangladesh",3,"Dhaka",30,"Netrakona",214,"Kalmakanda","Upazila|Thana|Po","Sub-district",NA,NA
+215,20,"BGD","Bangladesh",3,"Dhaka",30,"Netrakona",215,"Kendua","Upazila|Thana|Po","Sub-district",NA,NA
+216,20,"BGD","Bangladesh",3,"Dhaka",30,"Netrakona",216,"Khaliajuri","Upazila|Thana|Po","Sub-district",NA,NA
+217,20,"BGD","Bangladesh",3,"Dhaka",30,"Netrakona",217,"Madan","Upazila|Thana|Po","Sub-district",NA,NA
+218,20,"BGD","Bangladesh",3,"Dhaka",30,"Netrakona",218,"Mohanganj","Upazila|Thana|Po","Sub-district",NA,NA
+219,20,"BGD","Bangladesh",3,"Dhaka",30,"Netrakona",219,"Netrokona S.","Upazila|Thana|Po","Sub-district",NA,NA
+220,20,"BGD","Bangladesh",3,"Dhaka",30,"Netrakona",220,"Purbadhala","Upazila|Thana|Po","Sub-district",NA,NA
+221,20,"BGD","Bangladesh",3,"Dhaka",31,"Rajbari",221,"Baliakandi","Upazila|Thana|Po","Sub-district",NA,NA
+222,20,"BGD","Bangladesh",3,"Dhaka",31,"Rajbari",222,"Goalandaghat","Upazila|Thana|Po","Sub-district",NA,NA
+223,20,"BGD","Bangladesh",3,"Dhaka",31,"Rajbari",223,"Pangsha","Upazila|Thana|Po","Sub-district",NA,NA
+224,20,"BGD","Bangladesh",3,"Dhaka",31,"Rajbari",224,"Rajbari S.","Upazila|Thana|Po","Sub-district",NA,NA
+225,20,"BGD","Bangladesh",3,"Dhaka",32,"Shariatpur",225,"Bhedarganj","Upazila|Thana|Po","Sub-district",NA,NA
+226,20,"BGD","Bangladesh",3,"Dhaka",32,"Shariatpur",226,"Damudya","Upazila|Thana|Po","Sub-district",NA,NA
+227,20,"BGD","Bangladesh",3,"Dhaka",32,"Shariatpur",227,"Gosairhat","Upazila|Thana|Po","Sub-district",NA,NA
+228,20,"BGD","Bangladesh",3,"Dhaka",32,"Shariatpur",228,"Shariatpur S.","Upazila|Thana|Po","Sub-district",NA,NA
+229,20,"BGD","Bangladesh",3,"Dhaka",32,"Shariatpur",229,"Zanjira","Upazila|Thana|Po","Sub-district",NA,NA
+230,20,"BGD","Bangladesh",3,"Dhaka",33,"Sherpur",230,"Jhenaigati","Upazila|Thana|Po","Sub-district",NA,NA
+231,20,"BGD","Bangladesh",3,"Dhaka",33,"Sherpur",231,"Nakla","Upazila|Thana|Po","Sub-district",NA,NA
+232,20,"BGD","Bangladesh",3,"Dhaka",33,"Sherpur",232,"Nalitabari","Upazila|Thana|Po","Sub-district",NA,NA
+233,20,"BGD","Bangladesh",3,"Dhaka",33,"Sherpur",233,"Sherpur S.","Upazila|Thana|Po","Sub-district",NA,NA
+234,20,"BGD","Bangladesh",3,"Dhaka",33,"Sherpur",234,"Sreebardi","Upazila|Thana|Po","Sub-district",NA,NA
+235,20,"BGD","Bangladesh",3,"Dhaka",34,"Tangail",235,"Basail","Upazila|Thana|Po","Sub-district",NA,NA
+236,20,"BGD","Bangladesh",3,"Dhaka",34,"Tangail",236,"Bhuapur","Upazila|Thana|Po","Sub-district",NA,NA
+237,20,"BGD","Bangladesh",3,"Dhaka",34,"Tangail",237,"Delduar","Upazila|Thana|Po","Sub-district",NA,NA
+238,20,"BGD","Bangladesh",3,"Dhaka",34,"Tangail",238,"Ghatail","Upazila|Thana|Po","Sub-district",NA,NA
+239,20,"BGD","Bangladesh",3,"Dhaka",34,"Tangail",239,"Gopalpur","Upazila|Thana|Po","Sub-district",NA,NA
+240,20,"BGD","Bangladesh",3,"Dhaka",34,"Tangail",240,"Kalihati","Upazila|Thana|Po","Sub-district",NA,NA
+241,20,"BGD","Bangladesh",3,"Dhaka",34,"Tangail",241,"Madhupur","Upazila|Thana|Po","Sub-district",NA,NA
+242,20,"BGD","Bangladesh",3,"Dhaka",34,"Tangail",242,"Mirzapur","Upazila|Thana|Po","Sub-district",NA,NA
+243,20,"BGD","Bangladesh",3,"Dhaka",34,"Tangail",243,"Nagarpur","Upazila|Thana|Po","Sub-district",NA,NA
+244,20,"BGD","Bangladesh",3,"Dhaka",34,"Tangail",244,"Sakhipur","Upazila|Thana|Po","Sub-district",NA,NA
+245,20,"BGD","Bangladesh",3,"Dhaka",34,"Tangail",245,"Tangail S.","Upazila|Thana|Po","Sub-district",NA,NA
+246,20,"BGD","Bangladesh",4,"Khulna",35,"Bagerhat",246,"Bagerhat S.","Upazila|Thana|Po","Sub-district",NA,NA
+247,20,"BGD","Bangladesh",4,"Khulna",35,"Bagerhat",247,"Chitalmari","Upazila|Thana|Po","Sub-district",NA,NA
+248,20,"BGD","Bangladesh",4,"Khulna",35,"Bagerhat",248,"Fakirhat","Upazila|Thana|Po","Sub-district",NA,NA
+249,20,"BGD","Bangladesh",4,"Khulna",35,"Bagerhat",249,"Kachua","Upazila|Thana|Po","Sub-district",NA,"Bagerhat"
+250,20,"BGD","Bangladesh",4,"Khulna",35,"Bagerhat",250,"Mollahat","Upazila|Thana|Po","Sub-district",NA,NA
+251,20,"BGD","Bangladesh",4,"Khulna",35,"Bagerhat",251,"Mongla","Upazila|Thana|Po","Sub-district",NA,NA
+252,20,"BGD","Bangladesh",4,"Khulna",35,"Bagerhat",252,"Morrelganj","Upazila|Thana|Po","Sub-district",NA,NA
+253,20,"BGD","Bangladesh",4,"Khulna",35,"Bagerhat",253,"Rampal","Upazila|Thana|Po","Sub-district",NA,NA
+254,20,"BGD","Bangladesh",4,"Khulna",36,"Choua Danga",254,"Alamdanga","Upazila|Thana|Po","Sub-district",NA,NA
+255,20,"BGD","Bangladesh",4,"Khulna",36,"Choua Danga",255,"Chuadanga S.","Upazila|Thana|Po","Sub-district",NA,NA
+256,20,"BGD","Bangladesh",4,"Khulna",36,"Choua Danga",256,"Damurhula","Upazila|Thana|Po","Sub-district",NA,NA
+257,20,"BGD","Bangladesh",4,"Khulna",36,"Choua Danga",257,"Jibannagar","Upazila|Thana|Po","Sub-district",NA,NA
+258,20,"BGD","Bangladesh",4,"Khulna",37,"Jessore",258,"Abhaynagar","Upazila|Thana|Po","Sub-district",NA,NA
+259,20,"BGD","Bangladesh",4,"Khulna",37,"Jessore",259,"Bagherpara","Upazila|Thana|Po","Sub-district",NA,NA
+260,20,"BGD","Bangladesh",4,"Khulna",37,"Jessore",260,"Chaugachha","Upazila|Thana|Po","Sub-district",NA,NA
+261,20,"BGD","Bangladesh",4,"Khulna",37,"Jessore",261,"Jessore S.","Upazila|Thana|Po","Sub-district",NA,NA
+262,20,"BGD","Bangladesh",4,"Khulna",37,"Jessore",262,"Jhikargachha","Upazila|Thana|Po","Sub-district",NA,NA
+263,20,"BGD","Bangladesh",4,"Khulna",37,"Jessore",263,"Keshabpur","Upazila|Thana|Po","Sub-district",NA,NA
+264,20,"BGD","Bangladesh",4,"Khulna",37,"Jessore",264,"Manirampur","Upazila|Thana|Po","Sub-district",NA,NA
+265,20,"BGD","Bangladesh",4,"Khulna",37,"Jessore",265,"Sharsha","Upazila|Thana|Po","Sub-district",NA,NA
+266,20,"BGD","Bangladesh",4,"Khulna",38,"Jhenaidah",266,"Harinakunda","Upazila|Thana|Po","Sub-district",NA,NA
+267,20,"BGD","Bangladesh",4,"Khulna",38,"Jhenaidah",267,"Jhenaidaha S.","Upazila|Thana|Po","Sub-district",NA,NA
+268,20,"BGD","Bangladesh",4,"Khulna",38,"Jhenaidah",268,"Kaliganj","Upazila|Thana|Po","Sub-district",NA,"Jhenaidaha"
+269,20,"BGD","Bangladesh",4,"Khulna",38,"Jhenaidah",269,"Kotchandpur","Upazila|Thana|Po","Sub-district",NA,NA
+270,20,"BGD","Bangladesh",4,"Khulna",38,"Jhenaidah",270,"Maheshpur","Upazila|Thana|Po","Sub-district",NA,NA
+271,20,"BGD","Bangladesh",4,"Khulna",38,"Jhenaidah",271,"Shailkupa","Upazila|Thana|Po","Sub-district",NA,NA
+272,20,"BGD","Bangladesh",4,"Khulna",39,"Khulna",272,"Batiaghata","Upazila|Thana|Po","Sub-district",NA,NA
+273,20,"BGD","Bangladesh",4,"Khulna",39,"Khulna",273,"Dacope","Upazila|Thana|Po","Sub-district",NA,NA
+274,20,"BGD","Bangladesh",4,"Khulna",39,"Khulna",274,"Dighalia","Upazila|Thana|Po","Sub-district",NA,NA
+275,20,"BGD","Bangladesh",4,"Khulna",39,"Khulna",275,"Dumuria","Upazila|Thana|Po","Sub-district",NA,NA
+276,20,"BGD","Bangladesh",4,"Khulna",39,"Khulna",276,"Kotwali","Upazila|Thana|Po","Sub-district",NA,"Khulna"
+277,20,"BGD","Bangladesh",4,"Khulna",39,"Khulna",277,"Koyra","Upazila|Thana|Po","Sub-district",NA,NA
+278,20,"BGD","Bangladesh",4,"Khulna",39,"Khulna",278,"Paikgachha","Upazila|Thana|Po","Sub-district",NA,NA
+279,20,"BGD","Bangladesh",4,"Khulna",39,"Khulna",279,"Phultala","Upazila|Thana|Po","Sub-district",NA,NA
+280,20,"BGD","Bangladesh",4,"Khulna",39,"Khulna",280,"Rupsa","Upazila|Thana|Po","Sub-district",NA,NA
+281,20,"BGD","Bangladesh",4,"Khulna",39,"Khulna",281,"Terokhada","Upazila|Thana|Po","Sub-district",NA,NA
+282,20,"BGD","Bangladesh",4,"Khulna",40,"Kustia",282,"Bheramara","Upazila|Thana|Po","Sub-district",NA,NA
+283,20,"BGD","Bangladesh",4,"Khulna",40,"Kustia",283,"Daulatpur","Upazila|Thana|Po","Sub-district",NA,"Kushtia"
+284,20,"BGD","Bangladesh",4,"Khulna",40,"Kustia",284,"Khoksa","Upazila|Thana|Po","Sub-district",NA,NA
+285,20,"BGD","Bangladesh",4,"Khulna",40,"Kustia",285,"Kumarkhali","Upazila|Thana|Po","Sub-district",NA,NA
+286,20,"BGD","Bangladesh",4,"Khulna",40,"Kustia",286,"Kushtia S.","Upazila|Thana|Po","Sub-district",NA,NA
+287,20,"BGD","Bangladesh",4,"Khulna",40,"Kustia",287,"Mirpur","Upazila|Thana|Po","Sub-district",NA,"Kushtia"
+288,20,"BGD","Bangladesh",4,"Khulna",41,"Magura",288,"Magura S.","Upazila|Thana|Po","Sub-district",NA,NA
+289,20,"BGD","Bangladesh",4,"Khulna",41,"Magura",289,"Mohammadpur","Upazila|Thana|Po","Sub-district",NA,"Magura"
+290,20,"BGD","Bangladesh",4,"Khulna",41,"Magura",290,"Shalikha","Upazila|Thana|Po","Sub-district",NA,NA
+291,20,"BGD","Bangladesh",4,"Khulna",41,"Magura",291,"Sreepur","Upazila|Thana|Po","Sub-district",NA,"Magura"
+292,20,"BGD","Bangladesh",4,"Khulna",42,"Meherpur",292,"Gangni","Upazila|Thana|Po","Sub-district",NA,NA
+293,20,"BGD","Bangladesh",4,"Khulna",42,"Meherpur",293,"Meherpur S.","Upazila|Thana|Po","Sub-district",NA,NA
+294,20,"BGD","Bangladesh",4,"Khulna",43,"Narail",294,"Kalia","Upazila|Thana|Po","Sub-district",NA,NA
+295,20,"BGD","Bangladesh",4,"Khulna",43,"Narail",295,"Lohagara","Upazila|Thana|Po","Sub-district",NA,"Narail"
+296,20,"BGD","Bangladesh",4,"Khulna",43,"Narail",296,"Narail S.","Upazila|Thana|Po","Sub-district",NA,NA
+297,20,"BGD","Bangladesh",4,"Khulna",44,"Pirojpur",297,"Mathbaria","Upazila|Thana|Po","Sub-district",NA,NA
+298,20,"BGD","Bangladesh",4,"Khulna",45,"Shatkhira",298,"Assasuni","Upazila|Thana|Po","Sub-district",NA,NA
+299,20,"BGD","Bangladesh",4,"Khulna",45,"Shatkhira",299,"Debhata","Upazila|Thana|Po","Sub-district",NA,NA
+300,20,"BGD","Bangladesh",4,"Khulna",45,"Shatkhira",300,"Kalaroa","Upazila|Thana|Po","Sub-district",NA,NA
+301,20,"BGD","Bangladesh",4,"Khulna",45,"Shatkhira",301,"Kaliganj","Upazila|Thana|Po","Sub-district",NA,"Satkhira"
+302,20,"BGD","Bangladesh",4,"Khulna",45,"Shatkhira",302,"Satkhira S.","Upazila|Thana|Po","Sub-district",NA,NA
+303,20,"BGD","Bangladesh",4,"Khulna",45,"Shatkhira",303,"Shyamnagar","Upazila|Thana|Po","Sub-district",NA,NA
+304,20,"BGD","Bangladesh",4,"Khulna",45,"Shatkhira",304,"Tala","Upazila|Thana|Po","Sub-district",NA,NA
+305,20,"BGD","Bangladesh",5,"Rajshahi",46,"Bogra",305,"Adamdighi","Upazila|Thana|Po","Sub-district",NA,NA
+306,20,"BGD","Bangladesh",5,"Rajshahi",46,"Bogra",306,"Bogra S.","Upazila|Thana|Po","Sub-district",NA,NA
+307,20,"BGD","Bangladesh",5,"Rajshahi",46,"Bogra",307,"Dhunat","Upazila|Thana|Po","Sub-district",NA,NA
+308,20,"BGD","Bangladesh",5,"Rajshahi",46,"Bogra",308,"Dupchanchia","Upazila|Thana|Po","Sub-district",NA,NA
+309,20,"BGD","Bangladesh",5,"Rajshahi",46,"Bogra",309,"Gabtali","Upazila|Thana|Po","Sub-district",NA,NA
+310,20,"BGD","Bangladesh",5,"Rajshahi",46,"Bogra",310,"Kahaloo","Upazila|Thana|Po","Sub-district",NA,NA
+311,20,"BGD","Bangladesh",5,"Rajshahi",46,"Bogra",311,"Nandigram","Upazila|Thana|Po","Sub-district",NA,NA
+312,20,"BGD","Bangladesh",5,"Rajshahi",46,"Bogra",312,"Sariakandi","Upazila|Thana|Po","Sub-district",NA,NA
+313,20,"BGD","Bangladesh",5,"Rajshahi",46,"Bogra",313,"Sherpur","Upazila|Thana|Po","Sub-district",NA,NA
+314,20,"BGD","Bangladesh",5,"Rajshahi",46,"Bogra",314,"Shibganj","Upazila|Thana|Po","Sub-district",NA,"Bogra"
+315,20,"BGD","Bangladesh",5,"Rajshahi",46,"Bogra",315,"Sonatala","Upazila|Thana|Po","Sub-district",NA,NA
+316,20,"BGD","Bangladesh",5,"Rajshahi",47,"Jaipurhat",316,"Akkelpur","Upazila|Thana|Po","Sub-district",NA,NA
+317,20,"BGD","Bangladesh",5,"Rajshahi",47,"Jaipurhat",317,"Joypurhat S.","Upazila|Thana|Po","Sub-district",NA,NA
+318,20,"BGD","Bangladesh",5,"Rajshahi",47,"Jaipurhat",318,"Kalai","Upazila|Thana|Po","Sub-district",NA,NA
+319,20,"BGD","Bangladesh",5,"Rajshahi",47,"Jaipurhat",319,"Khetlal","Upazila|Thana|Po","Sub-district",NA,NA
+320,20,"BGD","Bangladesh",5,"Rajshahi",47,"Jaipurhat",320,"Panchbibi","Upazila|Thana|Po","Sub-district",NA,NA
+321,20,"BGD","Bangladesh",5,"Rajshahi",48,"Naogaon",321,"Atrai","Upazila|Thana|Po","Sub-district",NA,NA
+322,20,"BGD","Bangladesh",5,"Rajshahi",48,"Naogaon",322,"Badalgachhi","Upazila|Thana|Po","Sub-district",NA,NA
+323,20,"BGD","Bangladesh",5,"Rajshahi",48,"Naogaon",323,"Dhamoirhat","Upazila|Thana|Po","Sub-district",NA,NA
+324,20,"BGD","Bangladesh",5,"Rajshahi",48,"Naogaon",324,"Mahadevpur","Upazila|Thana|Po","Sub-district",NA,NA
+325,20,"BGD","Bangladesh",5,"Rajshahi",48,"Naogaon",325,"Manda","Upazila|Thana|Po","Sub-district",NA,NA
+326,20,"BGD","Bangladesh",5,"Rajshahi",48,"Naogaon",326,"Naogaon S.","Upazila|Thana|Po","Sub-district",NA,NA
+327,20,"BGD","Bangladesh",5,"Rajshahi",48,"Naogaon",327,"Niamatpur","Upazila|Thana|Po","Sub-district",NA,NA
+328,20,"BGD","Bangladesh",5,"Rajshahi",48,"Naogaon",328,"Patnitala","Upazila|Thana|Po","Sub-district",NA,NA
+329,20,"BGD","Bangladesh",5,"Rajshahi",48,"Naogaon",329,"Porsha","Upazila|Thana|Po","Sub-district",NA,NA
+330,20,"BGD","Bangladesh",5,"Rajshahi",48,"Naogaon",330,"Raninagar","Upazila|Thana|Po","Sub-district",NA,NA
+331,20,"BGD","Bangladesh",5,"Rajshahi",48,"Naogaon",331,"Sapahar","Upazila|Thana|Po","Sub-district",NA,NA
+332,20,"BGD","Bangladesh",5,"Rajshahi",49,"Natore",332,"Bagatipara","Upazila|Thana|Po","Sub-district",NA,NA
+333,20,"BGD","Bangladesh",5,"Rajshahi",49,"Natore",333,"Baraigram","Upazila|Thana|Po","Sub-district",NA,NA
+334,20,"BGD","Bangladesh",5,"Rajshahi",49,"Natore",334,"Gurudaspur","Upazila|Thana|Po","Sub-district",NA,NA
+335,20,"BGD","Bangladesh",5,"Rajshahi",49,"Natore",335,"Lalpur","Upazila|Thana|Po","Sub-district",NA,NA
+336,20,"BGD","Bangladesh",5,"Rajshahi",49,"Natore",336,"Natore S.","Upazila|Thana|Po","Sub-district",NA,NA
+337,20,"BGD","Bangladesh",5,"Rajshahi",49,"Natore",337,"Singra","Upazila|Thana|Po","Sub-district",NA,NA
+338,20,"BGD","Bangladesh",5,"Rajshahi",50,"Nawabganj",338,"Bholahat","Upazila|Thana|Po","Sub-district",NA,NA
+339,20,"BGD","Bangladesh",5,"Rajshahi",50,"Nawabganj",339,"Gomastapur","Upazila|Thana|Po","Sub-district",NA,NA
+340,20,"BGD","Bangladesh",5,"Rajshahi",50,"Nawabganj",340,"Nachole","Upazila|Thana|Po","Sub-district",NA,NA
+341,20,"BGD","Bangladesh",5,"Rajshahi",50,"Nawabganj",341,"Nawabganj S.","Upazila|Thana|Po","Sub-district",NA,"Nawabganj"
+342,20,"BGD","Bangladesh",5,"Rajshahi",50,"Nawabganj",342,"Shibganj","Upazila|Thana|Po","Sub-district",NA,"Nawabganj"
+343,20,"BGD","Bangladesh",5,"Rajshahi",51,"Pabna",343,"Atgharia","Upazila|Thana|Po","Sub-district",NA,NA
+344,20,"BGD","Bangladesh",5,"Rajshahi",51,"Pabna",344,"Bera","Upazila|Thana|Po","Sub-district",NA,NA
+345,20,"BGD","Bangladesh",5,"Rajshahi",51,"Pabna",345,"Bhangura","Upazila|Thana|Po","Sub-district",NA,NA
+346,20,"BGD","Bangladesh",5,"Rajshahi",51,"Pabna",346,"Chatmohar","Upazila|Thana|Po","Sub-district",NA,NA
+347,20,"BGD","Bangladesh",5,"Rajshahi",51,"Pabna",347,"Faridpur","Upazila|Thana|Po","Sub-district",NA,NA
+348,20,"BGD","Bangladesh",5,"Rajshahi",51,"Pabna",348,"Ishwardi","Upazila|Thana|Po","Sub-district",NA,NA
+349,20,"BGD","Bangladesh",5,"Rajshahi",51,"Pabna",349,"Pabna S.","Upazila|Thana|Po","Sub-district",NA,NA
+350,20,"BGD","Bangladesh",5,"Rajshahi",51,"Pabna",350,"Santhia","Upazila|Thana|Po","Sub-district",NA,NA
+351,20,"BGD","Bangladesh",5,"Rajshahi",51,"Pabna",351,"Sujanagar","Upazila|Thana|Po","Sub-district",NA,NA
+352,20,"BGD","Bangladesh",5,"Rajshahi",52,"Rajshahi",352,"Bagha","Upazila|Thana|Po","Sub-district",NA,NA
+353,20,"BGD","Bangladesh",5,"Rajshahi",52,"Rajshahi",353,"Bagmara","Upazila|Thana|Po","Sub-district",NA,NA
+354,20,"BGD","Bangladesh",5,"Rajshahi",52,"Rajshahi",354,"Boalia","Upazila|Thana|Po","Sub-district",NA,NA
+355,20,"BGD","Bangladesh",5,"Rajshahi",52,"Rajshahi",355,"Charghat","Upazila|Thana|Po","Sub-district",NA,NA
+356,20,"BGD","Bangladesh",5,"Rajshahi",52,"Rajshahi",356,"Durgapur","Upazila|Thana|Po","Sub-district",NA,"Rajshahi"
+357,20,"BGD","Bangladesh",5,"Rajshahi",52,"Rajshahi",357,"Godagari","Upazila|Thana|Po","Sub-district",NA,NA
+358,20,"BGD","Bangladesh",5,"Rajshahi",52,"Rajshahi",358,"Mohanpur","Upazila|Thana|Po","Sub-district",NA,NA
+359,20,"BGD","Bangladesh",5,"Rajshahi",52,"Rajshahi",359,"Paba","Upazila|Thana|Po","Sub-district",NA,NA
+360,20,"BGD","Bangladesh",5,"Rajshahi",52,"Rajshahi",360,"Puthia","Upazila|Thana|Po","Sub-district",NA,NA
+361,20,"BGD","Bangladesh",5,"Rajshahi",52,"Rajshahi",361,"Tanore","Upazila|Thana|Po","Sub-district",NA,NA
+362,20,"BGD","Bangladesh",5,"Rajshahi",53,"Sirajgonj",362,"Belkuchi","Upazila|Thana|Po","Sub-district",NA,NA
+363,20,"BGD","Bangladesh",5,"Rajshahi",53,"Sirajgonj",363,"Chauhali","Upazila|Thana|Po","Sub-district",NA,NA
+364,20,"BGD","Bangladesh",5,"Rajshahi",53,"Sirajgonj",364,"Kamarkhanda","Upazila|Thana|Po","Sub-district",NA,NA
+365,20,"BGD","Bangladesh",5,"Rajshahi",53,"Sirajgonj",365,"Kazipur","Upazila|Thana|Po","Sub-district",NA,NA
+366,20,"BGD","Bangladesh",5,"Rajshahi",53,"Sirajgonj",366,"Raiganj","Upazila|Thana|Po","Sub-district",NA,NA
+367,20,"BGD","Bangladesh",5,"Rajshahi",53,"Sirajgonj",367,"Shahjadpur","Upazila|Thana|Po","Sub-district",NA,NA
+368,20,"BGD","Bangladesh",5,"Rajshahi",53,"Sirajgonj",368,"Sirajganj S.","Upazila|Thana|Po","Sub-district",NA,NA
+369,20,"BGD","Bangladesh",5,"Rajshahi",53,"Sirajgonj",369,"Tarash","Upazila|Thana|Po","Sub-district",NA,NA
+370,20,"BGD","Bangladesh",5,"Rajshahi",53,"Sirajgonj",370,"Ullahpara","Upazila|Thana|Po","Sub-district",NA,NA
+371,20,"BGD","Bangladesh",6,"Rangpur",54,"Dinajpur",371,"Biral","Upazila|Thana|Po","Sub-district",NA,NA
+372,20,"BGD","Bangladesh",6,"Rangpur",54,"Dinajpur",372,"Birampur","Upazila|Thana|Po","Sub-district",NA,NA
+373,20,"BGD","Bangladesh",6,"Rangpur",54,"Dinajpur",373,"Birganj","Upazila|Thana|Po","Sub-district",NA,NA
+374,20,"BGD","Bangladesh",6,"Rangpur",54,"Dinajpur",374,"Bochaganj","Upazila|Thana|Po","Sub-district",NA,NA
+375,20,"BGD","Bangladesh",6,"Rangpur",54,"Dinajpur",375,"Chirirbandar","Upazila|Thana|Po","Sub-district",NA,NA
+376,20,"BGD","Bangladesh",6,"Rangpur",54,"Dinajpur",376,"Dinajpur S.","Upazila|Thana|Po","Sub-district",NA,NA
+377,20,"BGD","Bangladesh",6,"Rangpur",54,"Dinajpur",377,"Ghoraghat","Upazila|Thana|Po","Sub-district",NA,NA
+378,20,"BGD","Bangladesh",6,"Rangpur",54,"Dinajpur",378,"Hakimpur","Upazila|Thana|Po","Sub-district",NA,NA
+379,20,"BGD","Bangladesh",6,"Rangpur",54,"Dinajpur",379,"Kaharole","Upazila|Thana|Po","Sub-district",NA,NA
+380,20,"BGD","Bangladesh",6,"Rangpur",54,"Dinajpur",380,"Khansama","Upazila|Thana|Po","Sub-district",NA,NA
+381,20,"BGD","Bangladesh",6,"Rangpur",54,"Dinajpur",381,"Nawabganj","Upazila|Thana|Po","Sub-district",NA,"Dinajpur"
+382,20,"BGD","Bangladesh",6,"Rangpur",54,"Dinajpur",382,"Parbatipur","Upazila|Thana|Po","Sub-district",NA,NA
+383,20,"BGD","Bangladesh",6,"Rangpur",54,"Dinajpur",383,"Phulbari","Upazila|Thana|Po","Sub-district",NA,"Dinajpur"
+384,20,"BGD","Bangladesh",6,"Rangpur",55,"Gaibanda",384,"Gaibandha S.","Upazila|Thana|Po","Sub-district",NA,NA
+385,20,"BGD","Bangladesh",6,"Rangpur",55,"Gaibanda",385,"Gobindaganj","Upazila|Thana|Po","Sub-district",NA,NA
+386,20,"BGD","Bangladesh",6,"Rangpur",55,"Gaibanda",386,"Palashbari","Upazila|Thana|Po","Sub-district",NA,NA
+387,20,"BGD","Bangladesh",6,"Rangpur",55,"Gaibanda",387,"Phulchhari","Upazila|Thana|Po","Sub-district",NA,NA
+388,20,"BGD","Bangladesh",6,"Rangpur",55,"Gaibanda",388,"Sadullapur","Upazila|Thana|Po","Sub-district",NA,NA
+389,20,"BGD","Bangladesh",6,"Rangpur",55,"Gaibanda",389,"Sughatta","Upazila|Thana|Po","Sub-district",NA,NA
+390,20,"BGD","Bangladesh",6,"Rangpur",55,"Gaibanda",390,"Sundarganj","Upazila|Thana|Po","Sub-district",NA,NA
+391,20,"BGD","Bangladesh",6,"Rangpur",56,"Kurigram",391,"Bhurungamari","Upazila|Thana|Po","Sub-district",NA,NA
+392,20,"BGD","Bangladesh",6,"Rangpur",56,"Kurigram",392,"Charrajibpur","Upazila|Thana|Po","Sub-district",NA,NA
+393,20,"BGD","Bangladesh",6,"Rangpur",56,"Kurigram",393,"Chilmari","Upazila|Thana|Po","Sub-district",NA,NA
+394,20,"BGD","Bangladesh",6,"Rangpur",56,"Kurigram",394,"Kurigram S.","Upazila|Thana|Po","Sub-district",NA,NA
+395,20,"BGD","Bangladesh",6,"Rangpur",56,"Kurigram",395,"Nageshwari","Upazila|Thana|Po","Sub-district",NA,NA
+396,20,"BGD","Bangladesh",6,"Rangpur",56,"Kurigram",396,"Phulbari","Upazila|Thana|Po","Sub-district",NA,"Kurigram"
+397,20,"BGD","Bangladesh",6,"Rangpur",56,"Kurigram",397,"Rajarhat","Upazila|Thana|Po","Sub-district",NA,NA
+398,20,"BGD","Bangladesh",6,"Rangpur",56,"Kurigram",398,"Raomari","Upazila|Thana|Po","Sub-district",NA,NA
+399,20,"BGD","Bangladesh",6,"Rangpur",56,"Kurigram",399,"Ulipur","Upazila|Thana|Po","Sub-district",NA,NA
+400,20,"BGD","Bangladesh",6,"Rangpur",57,"Lalmonirhat",400,"Aditmari","Upazila|Thana|Po","Sub-district",NA,NA
+401,20,"BGD","Bangladesh",6,"Rangpur",57,"Lalmonirhat",401,"Hatibandha","Upazila|Thana|Po","Sub-district",NA,NA
+402,20,"BGD","Bangladesh",6,"Rangpur",57,"Lalmonirhat",402,"Kaliganj","Upazila|Thana|Po","Sub-district",NA,"Lalmonirhat"
+403,20,"BGD","Bangladesh",6,"Rangpur",57,"Lalmonirhat",403,"Lalhonirhat S.","Upazila|Thana|Po","Sub-district",NA,NA
+404,20,"BGD","Bangladesh",6,"Rangpur",57,"Lalmonirhat",404,"Patgram","Upazila|Thana|Po","Sub-district",NA,NA
+405,20,"BGD","Bangladesh",6,"Rangpur",58,"Nilphamari",405,"Dimla","Upazila|Thana|Po","Sub-district",NA,NA
+406,20,"BGD","Bangladesh",6,"Rangpur",58,"Nilphamari",406,"Domar","Upazila|Thana|Po","Sub-district",NA,NA
+407,20,"BGD","Bangladesh",6,"Rangpur",58,"Nilphamari",407,"Jaldhaka","Upazila|Thana|Po","Sub-district",NA,NA
+408,20,"BGD","Bangladesh",6,"Rangpur",58,"Nilphamari",408,"Kishoreganj","Upazila|Thana|Po","Sub-district",NA,NA
+409,20,"BGD","Bangladesh",6,"Rangpur",58,"Nilphamari",409,"Nilphahari S.","Upazila|Thana|Po","Sub-district",NA,NA
+410,20,"BGD","Bangladesh",6,"Rangpur",58,"Nilphamari",410,"Saidpur","Upazila|Thana|Po","Sub-district",NA,NA
+411,20,"BGD","Bangladesh",6,"Rangpur",59,"Panchagarh",411,"Atwari","Upazila|Thana|Po","Sub-district",NA,NA
+412,20,"BGD","Bangladesh",6,"Rangpur",59,"Panchagarh",412,"Boda","Upazila|Thana|Po","Sub-district",NA,NA
+413,20,"BGD","Bangladesh",6,"Rangpur",59,"Panchagarh",413,"Debiganj","Upazila|Thana|Po","Sub-district",NA,NA
+414,20,"BGD","Bangladesh",6,"Rangpur",59,"Panchagarh",414,"Panchagarh S.","Upazila|Thana|Po","Sub-district",NA,NA
+415,20,"BGD","Bangladesh",6,"Rangpur",59,"Panchagarh",415,"Tentulia","Upazila|Thana|Po","Sub-district",NA,NA
+416,20,"BGD","Bangladesh",6,"Rangpur",60,"Rongpur",416,"Badarganj","Upazila|Thana|Po","Sub-district",NA,NA
+417,20,"BGD","Bangladesh",6,"Rangpur",60,"Rongpur",417,"Gangachhara","Upazila|Thana|Po","Sub-district",NA,NA
+418,20,"BGD","Bangladesh",6,"Rangpur",60,"Rongpur",418,"Kaunia","Upazila|Thana|Po","Sub-district",NA,NA
+419,20,"BGD","Bangladesh",6,"Rangpur",60,"Rongpur",419,"Mithapukur","Upazila|Thana|Po","Sub-district",NA,NA
+420,20,"BGD","Bangladesh",6,"Rangpur",60,"Rongpur",420,"Pirgachha","Upazila|Thana|Po","Sub-district",NA,NA
+421,20,"BGD","Bangladesh",6,"Rangpur",60,"Rongpur",421,"Pirganj","Upazila|Thana|Po","Sub-district",NA,"Rangpur"
+422,20,"BGD","Bangladesh",6,"Rangpur",60,"Rongpur",422,"Rangpur S.","Upazila|Thana|Po","Sub-district",NA,NA
+423,20,"BGD","Bangladesh",6,"Rangpur",60,"Rongpur",423,"Taraganj","Upazila|Thana|Po","Sub-district",NA,NA
+424,20,"BGD","Bangladesh",6,"Rangpur",61,"Thakurgaon",424,"Baliadangi","Upazila|Thana|Po","Sub-district",NA,NA
+425,20,"BGD","Bangladesh",6,"Rangpur",61,"Thakurgaon",425,"Haripur","Upazila|Thana|Po","Sub-district",NA,NA
+426,20,"BGD","Bangladesh",6,"Rangpur",61,"Thakurgaon",426,"Pirganj","Upazila|Thana|Po","Sub-district",NA,"Thakurgaon"
+427,20,"BGD","Bangladesh",6,"Rangpur",61,"Thakurgaon",427,"Ranisankail","Upazila|Thana|Po","Sub-district",NA,NA
+428,20,"BGD","Bangladesh",6,"Rangpur",61,"Thakurgaon",428,"Thakurgaon S.","Upazila|Thana|Po","Sub-district",NA,NA
+429,20,"BGD","Bangladesh",7,"Sylhet",62,"Hobiganj",429,"Ajmiriganj","Upazila|Thana|Po","Sub-district",NA,NA
+430,20,"BGD","Bangladesh",7,"Sylhet",62,"Hobiganj",430,"Bahubal","Upazila|Thana|Po","Sub-district",NA,NA
+431,20,"BGD","Bangladesh",7,"Sylhet",62,"Hobiganj",431,"Baniachong","Upazila|Thana|Po","Sub-district",NA,NA
+432,20,"BGD","Bangladesh",7,"Sylhet",62,"Hobiganj",432,"Chunarughat","Upazila|Thana|Po","Sub-district",NA,NA
+433,20,"BGD","Bangladesh",7,"Sylhet",62,"Hobiganj",433,"Habiganj S.","Upazila|Thana|Po","Sub-district",NA,NA
+434,20,"BGD","Bangladesh",7,"Sylhet",62,"Hobiganj",434,"Lakhai","Upazila|Thana|Po","Sub-district",NA,NA
+435,20,"BGD","Bangladesh",7,"Sylhet",62,"Hobiganj",435,"Madhabpur","Upazila|Thana|Po","Sub-district",NA,NA
+436,20,"BGD","Bangladesh",7,"Sylhet",62,"Hobiganj",436,"Nabiganj","Upazila|Thana|Po","Sub-district",NA,NA
+437,20,"BGD","Bangladesh",7,"Sylhet",63,"Moulvibazar",437,"Barlekha","Upazila|Thana|Po","Sub-district",NA,NA
+438,20,"BGD","Bangladesh",7,"Sylhet",63,"Moulvibazar",438,"Kamalganj","Upazila|Thana|Po","Sub-district",NA,NA
+439,20,"BGD","Bangladesh",7,"Sylhet",63,"Moulvibazar",439,"Kulaura","Upazila|Thana|Po","Sub-district",NA,NA
+440,20,"BGD","Bangladesh",7,"Sylhet",63,"Moulvibazar",440,"Maulvibazar S.","Upazila|Thana|Po","Sub-district",NA,NA
+441,20,"BGD","Bangladesh",7,"Sylhet",63,"Moulvibazar",441,"Rajnagar","Upazila|Thana|Po","Sub-district",NA,NA
+442,20,"BGD","Bangladesh",7,"Sylhet",63,"Moulvibazar",442,"Sreemangal","Upazila|Thana|Po","Sub-district",NA,NA
+443,20,"BGD","Bangladesh",7,"Sylhet",64,"Sun Amgonj",443,"Bishwamvarpur","Upazila|Thana|Po","Sub-district",NA,NA
+444,20,"BGD","Bangladesh",7,"Sylhet",64,"Sun Amgonj",444,"Chhatak","Upazila|Thana|Po","Sub-district",NA,NA
+445,20,"BGD","Bangladesh",7,"Sylhet",64,"Sun Amgonj",445,"Derai","Upazila|Thana|Po","Sub-district",NA,NA
+446,20,"BGD","Bangladesh",7,"Sylhet",64,"Sun Amgonj",446,"Dharampasha","Upazila|Thana|Po","Sub-district",NA,NA
+447,20,"BGD","Bangladesh",7,"Sylhet",64,"Sun Amgonj",447,"Dowarabazar","Upazila|Thana|Po","Sub-district",NA,NA
+448,20,"BGD","Bangladesh",7,"Sylhet",64,"Sun Amgonj",448,"Jagannathpur","Upazila|Thana|Po","Sub-district",NA,NA
+449,20,"BGD","Bangladesh",7,"Sylhet",64,"Sun Amgonj",449,"Jamalganj","Upazila|Thana|Po","Sub-district",NA,NA
+450,20,"BGD","Bangladesh",7,"Sylhet",64,"Sun Amgonj",450,"Sullah","Upazila|Thana|Po","Sub-district",NA,NA
+451,20,"BGD","Bangladesh",7,"Sylhet",64,"Sun Amgonj",451,"Sunamganj S.","Upazila|Thana|Po","Sub-district",NA,NA
+452,20,"BGD","Bangladesh",7,"Sylhet",64,"Sun Amgonj",452,"Tahirpur","Upazila|Thana|Po","Sub-district",NA,NA
+453,20,"BGD","Bangladesh",7,"Sylhet",65,"Sylhet",453,"Balaganj","Upazila|Thana|Po","Sub-district",NA,NA
+454,20,"BGD","Bangladesh",7,"Sylhet",65,"Sylhet",454,"Beanibazar","Upazila|Thana|Po","Sub-district",NA,NA
+455,20,"BGD","Bangladesh",7,"Sylhet",65,"Sylhet",455,"Bishwanath","Upazila|Thana|Po","Sub-district",NA,NA
+456,20,"BGD","Bangladesh",7,"Sylhet",65,"Sylhet",456,"Companiganj","Upazila|Thana|Po","Sub-district",NA,"Sylhet"
+457,20,"BGD","Bangladesh",7,"Sylhet",65,"Sylhet",457,"Fenchuganj","Upazila|Thana|Po","Sub-district",NA,NA
+458,20,"BGD","Bangladesh",7,"Sylhet",65,"Sylhet",458,"Golabganj","Upazila|Thana|Po","Sub-district",NA,NA
+459,20,"BGD","Bangladesh",7,"Sylhet",65,"Sylhet",459,"Gowainghat","Upazila|Thana|Po","Sub-district",NA,NA
+460,20,"BGD","Bangladesh",7,"Sylhet",65,"Sylhet",460,"Jaintiapur","Upazila|Thana|Po","Sub-district",NA,NA
+461,20,"BGD","Bangladesh",7,"Sylhet",65,"Sylhet",461,"Kanaighat","Upazila|Thana|Po","Sub-district",NA,NA
+462,20,"BGD","Bangladesh",7,"Sylhet",65,"Sylhet",462,"Sylhet S.","Upazila|Thana|Po","Sub-district",NA,NA
+463,20,"BGD","Bangladesh",7,"Sylhet",65,"Sylhet",463,"Zakiganj","Upazila|Thana|Po","Sub-district",NA,NA

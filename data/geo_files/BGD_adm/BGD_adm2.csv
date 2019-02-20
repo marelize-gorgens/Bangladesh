@@ -1,0 +1,66 @@
+"OBJECTID","ID_0","ISO","NAME_0","ID_1","NAME_1","ID_2","NAME_2","TYPE_2","ENGTYPE_2","NL_NAME_2","VARNAME_2"
+1,20,"BGD","Bangladesh",1,"Barisal",1,"Barisal","Zila","District",NA,NA
+2,20,"BGD","Bangladesh",1,"Barisal",2,"Bhola","Zila","District",NA,NA
+3,20,"BGD","Bangladesh",1,"Barisal",3,"Borgona","Zila","District",NA,"Barguna|Borgona"
+4,20,"BGD","Bangladesh",1,"Barisal",4,"Jhalakati","Zila","District",NA,"Jhalakati|Jhalakhati|Jhalkathi"
+5,20,"BGD","Bangladesh",1,"Barisal",5,"Patuakhali","Zila","District",NA,NA
+6,20,"BGD","Bangladesh",1,"Barisal",6,"Pirojpur","Zila","District",NA,NA
+7,20,"BGD","Bangladesh",2,"Chittagong",7,"Bandarbon","Zila","District",NA,"Bandarban|Bandarbon"
+8,20,"BGD","Bangladesh",2,"Chittagong",8,"Brahmanbaria","Zila","District",NA,NA
+9,20,"BGD","Bangladesh",2,"Chittagong",9,"Chandpur","Zila","District",NA,NA
+10,20,"BGD","Bangladesh",2,"Chittagong",10,"Chittagong","Zila","District",NA,"Chittagong|Chitagongue"
+11,20,"BGD","Bangladesh",2,"Chittagong",11,"Comilla","Zila","District",NA,NA
+12,20,"BGD","Bangladesh",2,"Chittagong",12,"Cox's Bazar","Zila","District",NA,NA
+13,20,"BGD","Bangladesh",2,"Chittagong",13,"Feni","Zila","District",NA,NA
+14,20,"BGD","Bangladesh",2,"Chittagong",14,"Khagrachari","Zila","District",NA,"Khagrachari|Khagrachhari|Ramgarh"
+15,20,"BGD","Bangladesh",2,"Chittagong",15,"Lakshmipur","Zila","District",NA,"Lakshmipur|Laksmipur|Laxmipur"
+16,20,"BGD","Bangladesh",2,"Chittagong",16,"Noakhali","Zila","District",NA,NA
+17,20,"BGD","Bangladesh",2,"Chittagong",17,"Parbattya Chattagram","Zila","District",NA,"Parbattya Chattagram|Chittagong Hill Tracts|Rangamati"
+18,20,"BGD","Bangladesh",3,"Dhaka",18,"Dhaka","Zila","District",NA,NA
+19,20,"BGD","Bangladesh",3,"Dhaka",19,"Faridpur","Zila","District",NA,NA
+20,20,"BGD","Bangladesh",3,"Dhaka",20,"Gazipur","Zila","District",NA,NA
+21,20,"BGD","Bangladesh",3,"Dhaka",21,"Gopalgonj","Zila","District",NA,"Gopalganj|Gopalgonj"
+22,20,"BGD","Bangladesh",3,"Dhaka",22,"Jamalpur","Zila","District",NA,NA
+23,20,"BGD","Bangladesh",3,"Dhaka",23,"Kishoreganj","Zila","District",NA,"Kishoreganj|Kishoreganj|Kishorgonj"
+24,20,"BGD","Bangladesh",3,"Dhaka",24,"Madaripur","Zila","District",NA,NA
+25,20,"BGD","Bangladesh",3,"Dhaka",25,"Manikgonj","Zila","District",NA,"Manikganj|Manikgonj"
+26,20,"BGD","Bangladesh",3,"Dhaka",26,"Munshigonj","Zila","District",NA,"Munshiganj|Munshigonj"
+27,20,"BGD","Bangladesh",3,"Dhaka",27,"Naray Angonj","Zila","District",NA,"Narayanganj|Naray Angonj"
+28,20,"BGD","Bangladesh",3,"Dhaka",28,"Narshingdi","Zila","District",NA,"Narsingdi|Narshingdi"
+29,20,"BGD","Bangladesh",3,"Dhaka",29,"Nasirabad","Zila","District",NA,"Mymensingh|Nasirabad"
+30,20,"BGD","Bangladesh",3,"Dhaka",30,"Netrakona","Zila","District",NA,"Netrakona|Netrokona"
+31,20,"BGD","Bangladesh",3,"Dhaka",31,"Rajbari","Zila","District",NA,NA
+32,20,"BGD","Bangladesh",3,"Dhaka",32,"Shariatpur","Zila","District",NA,"Shariatpur|Sariatpur|Shariyatpur"
+33,20,"BGD","Bangladesh",3,"Dhaka",33,"Sherpur","Zila","District",NA,NA
+34,20,"BGD","Bangladesh",3,"Dhaka",34,"Tangail","Zila","District",NA,NA
+35,20,"BGD","Bangladesh",4,"Khulna",35,"Bagerhat","Zila","District",NA,NA
+36,20,"BGD","Bangladesh",4,"Khulna",36,"Choua Danga","Zila","District",NA,"Chuadanga|Choua Danga"
+37,20,"BGD","Bangladesh",4,"Khulna",37,"Jessore","Zila","District",NA,NA
+38,20,"BGD","Bangladesh",4,"Khulna",38,"Jhenaidah","Zila","District",NA,"Jhenaidah|Jhinaidah|Jhinaidha"
+39,20,"BGD","Bangladesh",4,"Khulna",39,"Khulna","Zila","District",NA,NA
+40,20,"BGD","Bangladesh",4,"Khulna",40,"Kustia","Zila","District",NA,"Kushtia|Kustia"
+41,20,"BGD","Bangladesh",4,"Khulna",41,"Magura","Zila","District",NA,NA
+42,20,"BGD","Bangladesh",4,"Khulna",42,"Meherpur","Zila","District",NA,NA
+43,20,"BGD","Bangladesh",4,"Khulna",43,"Narail","Zila","District",NA,NA
+44,20,"BGD","Bangladesh",4,"Khulna",44,"Pirojpur","Zila","District",NA,NA
+45,20,"BGD","Bangladesh",4,"Khulna",45,"Shatkhira","Zila","District",NA,"Satkhira|Shatkhira"
+46,20,"BGD","Bangladesh",5,"Rajshahi",46,"Bogra","Zila","District",NA,NA
+47,20,"BGD","Bangladesh",5,"Rajshahi",47,"Jaipurhat","Zila","District",NA,"Jaipurhat|Joypurhat"
+48,20,"BGD","Bangladesh",5,"Rajshahi",48,"Naogaon","Zila","District",NA,NA
+49,20,"BGD","Bangladesh",5,"Rajshahi",49,"Natore","Zila","District",NA,"Natore|Nador|Nator"
+50,20,"BGD","Bangladesh",5,"Rajshahi",50,"Nawabganj","Zila","District",NA,"Nawabganj|Chapai Nababgonj|Chapai Nawabganj|Chapai Nowab Ganj"
+51,20,"BGD","Bangladesh",5,"Rajshahi",51,"Pabna","Zila","District",NA,NA
+52,20,"BGD","Bangladesh",5,"Rajshahi",52,"Rajshahi","Zila","District",NA,NA
+53,20,"BGD","Bangladesh",5,"Rajshahi",53,"Sirajgonj","Zila","District",NA,"Sirajganj|Sirajgonj"
+54,20,"BGD","Bangladesh",6,"Rangpur",54,"Dinajpur","Zila","District",NA,NA
+55,20,"BGD","Bangladesh",6,"Rangpur",55,"Gaibanda","Zila","District",NA,"Gaibandha|Gaibanda"
+56,20,"BGD","Bangladesh",6,"Rangpur",56,"Kurigram","Zila","District",NA,NA
+57,20,"BGD","Bangladesh",6,"Rangpur",57,"Lalmonirhat","Zila","District",NA,NA
+58,20,"BGD","Bangladesh",6,"Rangpur",58,"Nilphamari","Zila","District",NA,NA
+59,20,"BGD","Bangladesh",6,"Rangpur",59,"Panchagarh","Zila","District",NA,"Panchagarh|Panchagar|Panchagor"
+60,20,"BGD","Bangladesh",6,"Rangpur",60,"Rongpur","Zila","District",NA,"Rangpur|Rongpur"
+61,20,"BGD","Bangladesh",6,"Rangpur",61,"Thakurgaon","Zila","District",NA,NA
+62,20,"BGD","Bangladesh",7,"Sylhet",62,"Hobiganj","Zila","District",NA,"Habiganj|Hobiganj|Hobigonj"
+63,20,"BGD","Bangladesh",7,"Sylhet",63,"Moulvibazar","Zila","District",NA,"Moulvibazar|Maulvi Bazar|Moulabi Bazar|Moulavi Bazar|Moulovibazar"
+64,20,"BGD","Bangladesh",7,"Sylhet",64,"Sun Amgonj","Zila","District",NA,"Sunamganj|Sun Amgonj"
+65,20,"BGD","Bangladesh",7,"Sylhet",65,"Sylhet","Zila","District",NA,NA
