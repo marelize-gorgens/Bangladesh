@@ -2,7 +2,7 @@
 
 ## Introduction
 
-- For any changes in the repository please refer to instructions laid out here and if not available here please email at mgorgens@worldbank.org or edin.hamzic@symphony.is. 
+- For any changes in the repository please refer to instructions laid out here and if not available here please email at Marelize Gorgens (World Bank) or Edin Hamzic ([Symphony](www.symphony.is)). 
 - The README.md/.ipynb document lays out the structure of repository and set of instructions about naming nomenclature and how to keep the repository.
 - The README.md/.ipynb contains the following sections:
     - Repository structure
