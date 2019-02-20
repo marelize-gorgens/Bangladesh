@@ -1,0 +1,746 @@
+                 INDIVIDUAL RECODE DOCUMENTATION
+
+BANGLADESH DHSIII       Version 1 Doc 01                      BD3
+
+Name of Survey          Demographic and Health Survey
+
+Executing Agency        National Institute of Population Research and
+                        Training (NIPORT) Mitra & Associates
+
+Year of Fieldwork       1993-1994
+
+Universe                Ever married women 10-49
+
+Coverage                National, 100%
+
+Size                    9900 women
+                        9681 households
+                        3874 husbands
+                        3284 couples
+
+Weights                 Weighted by [sample domain]
+
+Contents                DHSIII  Model 2
+
+Language                Bengali
+
+Anthropometry           None
+
+Calendar                April 1988 - March 1994
+
+Supplementary Data      Household
+Files                   Husband
+                        Service Availability
+
+Recode Structure        DHSIII
+
+Record size             Individual Flat File: 4133
+                        Individual Hierarchical and Rectangular File: 158 max
+                        Household Flat File: 1027
+                        Household Hierarchical and Rectangular File: 126
+                        Male Flat File: 529
+                        Male Hierarchical and Rectangular File: 140 maximum
+                        Couple Flat File: 2205
+                        Couple Hierarchical and Rectangular File: 149 maximum
+
+Records per case in     Individual:58
+Rectangular             Household:59
+File                    Male:10
+                        Copule: 45
+
+Maximum entries in
+household schedule:     28
+
+
+Sections and Variables Unused
+
+HOUSEHOLD:
+
+RECH0     HV030     HV031     HV032*1
+
+RECH1     HV111-HV115
+RECH2     HV209     HV211     HV212     HV221     HV222
+
+INDIVIDUAL:
+
+REC01     V030      V031      V032
+REC11     V103      V111      V122      V124      V125
+          V131      V144      V153      V154
+REC21     B14       B15
+REC22     V217      V236      V237
+REC32     V314      V328      V366B     V369B     V376A
+          V384C     V384E     V397      V398      V399
+REC41     M2C       M2E       M2H       M2I       M2J
+          M2L       M2M       M3C       M3E       M3I
+          M3J       M3L       M11       M17       M18
+          M19       M19A      M30       M31       M32
+          M33       M37E      M37G      M37H      M37I
+          M37J      M37K      M37M      M37N      M37O
+          M37Q      M37R      M37S      M38       M39
+          M40A-O
+REC42     V401      V411      V411A     V413A-D   V414A
+          V414B     V414C     V414E     V414F     V414G
+          V415      V419      V420      V421      V436
+          V437- V451Z
+REC43     H0        H11C      H12C      H12D      H12G
+          H12H      H12I      H12M-R    M12U      H12V
+          H12W      H15A      H15E      H15F      H15G
+          H15H      H18       H22       H32C      H32D
+          H32G      H32H      H32I      H32M-R    H32U-W
+
+REC51     V532
+REC71     V730
+REC75     All variables (section not used)
+REC83     All variables (section not used)
+REC84     All variables (section not used)
+REC85     All variables (section not used)
+
+
+INDIVIDUAL MALE:
+
+MREC01    MV030     MV031     MV032
+MREC11    MV103     MV111     MV131
+MREC22    MV213     MV225
+MREC32    MV366A    MV366B    MV367     MV384E
+MREC51    MV525     MV531     MV534     MV535
+MREC61    MV630A-L  MV630X
+MREC71    MV719     MV731     MV732     MV733
+          MV736     MV740
+MREC75    All variables (section not used)
+MREC85    All variables (section not used)
+
+
+Sections Added
+
+RECH3     Household country-specific
+
+SHDISTR   District of residence
+SH20      Time to get to water source
+SH20A     Time to wait to get water:mins
+SH25      Toilet facility : children
+SH26A     Almirah
+SH26B     Table/chair/bench
+SH26C     Watch/clock
+SH26D     Cot/bed
+SH26I     Agricultural land
+SH31      Urban slum
+
+
+RECH4     Household schedule country-specific
+SH14      Works for money
+SH17      Husbands line number
+
+REC91     Country specific - single variables
+
+SDFORMAT  Date format of questionnaire
+SDIV      Division
+SDISTR    District of residence
+S114A     Grameen Bank
+S114B     BRAC
+S114C     BRDP
+S114D     Mothers club
+S114E     Other
+S119      Time to get to water (mins)
+S119A     Time to wait to get water:mins
+S123      Toilet facility : children
+S124A     Almirah
+S124B     Table/chair/bench
+S124C     Watch/clock
+S124D     Cot/bed
+S124I     Agricultural land
+S229M     Month pregnancy ended
+S229Y     Year pregnancy ended
+S233A     Ever had unwanted pregnancy
+S233B     Pregancy aborted/menst.reg'ltn
+S233C     Pregnancy ended by MR/D&C
+S233DM    When pregnancy ended : Month
+S233DY    When pregnancy ended :Year
+
+REC9A     Country specific - Contraceptive Practice
+
+S309      First contraceptive method
+S310      Source of first method
+S316      Currently using second method
+S317      Second method currently used
+S318B     Pill usage
+S318C     Why not taken pills in order
+S318EA    No pill pack: Ran out
+S318EB    No pill pack: Cost too much
+S318EC    No pill pack: Husband away
+S318ED    No pill pack: Has menstrual period
+S318EE    No pill pack: None at her source
+S318EF    No pill pack: FWA didn't supply
+S318EG    No pill pack: Other reason
+S318F     Days since last took a pill
+S318HA    No curr.pill use:husband away
+S318HB    No current pill use: forgot
+S318HC    No current pill use: health reason
+S318HD    No current pill use: cost too much
+S318HE    No current pill use: daily use not required
+S318HF    No current pill use: ran out
+S318HG    No current pill use: FWA not resup
+S318HH    No current pill use: menstruating
+S318HIN   No current pill use: other reason
+S318I     Delays use between pill package
+S318K     Action after forgetting pill
+S319      Months since last injection
+S320S     Condom package seen
+S320      Brand of condoms used
+S320A     Reason can't show condom pack
+S320C     Use condom every time have sex
+S322C     Which days of cycle not safe
+S320D     Times used condoms last month
+S322D     Method used most recently
+S323B     Paid for use of contraceptive source
+S325      Who obtained pills/condoms
+S325A     Got pills,condom at Health Facility, doctor, or shop
+S325B     Informed of side effects/problems
+S325C     Informed of other methods
+S325E     Informed of side effects by FWA(ever)
+S325G     Informed of other methods by FWA(ever)
+S325H     Got method she wanted
+S325I     Method wanted at health.facility
+S325J     Who had most influence. at 1st use
+S326      Reason for current method
+S327      Problems with current method
+S328PA    Problems with current method: weight gain
+S328PB    Problems with current method: weight loss
+S328PC    Problems with current method: excess bleeding
+
+REC9A     Country specific - Contraceptive Practice (continued)
+
+S328PD    Problems with current method: hypertension
+S328PE    Problems with current method: headache
+S328PF    Problems with current method: nausea
+S328PG    Problems with current method: no menstruation
+S328PH    Problems with current method: weak/tired
+S328PI    Problems with current method: dizziness
+S328PJ    Problems with current method: other
+S328PK    Problems with current method: does not know
+S328A     Advice when 1st had problems
+S328B     Who gave advice when 1st had problems
+S328C     Any other problems using method
+S328DA    Other problems: husband disapproves
+S328DB    Other problems: Other relative disapproves
+S328DC    Other problems: religion disapproves
+S328DD    Other problems: access/availability
+S328DE    Other problems: cost too much
+S328DF    Other problems: inconvenient use
+S328DG    Other problems: sterilized, wants children
+S328DH    Other problems: Other
+S328DI    Other problems: does not know
+S347A     Satellite clinic last 3 months
+S347B     Visited satellite clinic
+S347CA    Satellite Clinic provides Family Planning Methods.
+S347CB    Satellite Clinic provides Immunization
+S347CC    Satellite Clinic provides Child growth monitor.
+S347CD    Satellite Clinic provides Other facility
+S347CE    Satellite Clinic :  Does not know
+S348C     Read about FP on Billboard
+S349A     Information on radio acceptable: pill
+S349B     Information on radio acceptable: condoms
+S349C     Information on radio acceptable: IUD
+S349D     Information on radio acceptable: injections
+S349E     Information on radio acceptable: sterilization
+S352      Number of visits by Family Planning Worker in last 6 mnths
+S353      Months since last visit by Family Planning Worker
+S354      Received supplies from Family Planning Worker
+S355      Supplies received from Family Planning Worker
+S356      How many cycles/condoms received
+S357MA    Methods discussed with  Family Planning Worker: Pills
+S357MB    Methods discussed with  Family Planning Worker: IUD
+S357MC    Methods discussed with  Family Planning Worker: Injection
+S357MD    Methods discussed with  Family Planning Worker: Condom
+S357ME    Methods discussed with  Family Planning Worker: Female Ster.
+S357MF    Methods discussed with  Family Planning Worker: Male Ster.
+S357MG    Methods discussed with  Family Planning Worker: Never discussed
+S357A     Referred to clinic by Family Planning Worker
+S357B     Why Family Planning Worker referred to clinic
+S358      Most women known by respondent use FP
+
+REC9A     Country specific - Contraceptive Practice (continued)
+
+S359      Has recommended FP to someone
+S361      Spoke with person at Health Facility about FP
+
+
+REC9B     Country specific - Breastfeeding
+
+S439      Received advice on duration of breastfeeding
+S440      Deciding duration Breastfeeding:who helped most
+S441      Number of months advised for Breastfeeding
+S442A     Anyone give Family Planning advice after birth
+S442B     Who gave specific advice on Family Planning
+S442C     Asked how planned to feed baby
+S442DA    Methods discussed: Pill
+S442DB    Methods discussed: IUD
+S442DC    Methods discussed: Injections
+S442DD    Methods discussed: Condom
+S442DE    Methods discussed: Female Ster
+S442DF    Methods discussed: Male Ster.
+S442DG    Methods discussed: Calendar
+S442DH    Methods discussed: Withdrawal.
+S442DI    Methods discussed: Prol.BrFeed
+S442DJ    Methods discussed: Other
+S442DK    Methods discussed: None
+S442EM1   1st recommended method
+S442FM1   Rec.interval before use mthd 1
+S442EM2   2nd recommended method
+S442FM2   Rec.interval before use mthd 2
+S442H     Dec to use Family Planning :who helped most
+S442IA    Influence to use Family Planning: Resumed sex
+S442IB    Influence to use Family Planning: Resumed period
+S442IC    Influence to use Family Planning: Breastfeeding
+S442ID    Influence to use Family Planning: Desire to have children
+S442IE    Influence to use Family Planning: Radio/TV messages
+S442IF    Influence to use Family Planning: Other
+S442IG    Influence to use Family Planning: Nothing else
+S442J     Helped most to decide which method
+S442KA    Other Influence on method choice : Effectiveness of method
+S442KB    Other Influence on method choice : Previous experience
+S442KC    Other Influence on method choice : Safeness of method
+S442KD    Other Influence on method choice : Comfort/discomfort.
+S442KE    Other Influence on method choice : Radio/TV message
+S442KF    Other Influence on method choice : Other
+S442L     Family Planning methods not good while breastfeeding
+S442MA    Bad for Breastfeeding Woman : Pill
+S442MB    Bad for Breastfeeding Woman : IUD
+S442MC    Bad for Breastfeeding Woman : Injections
+S442MD    Bad for Breastfeeding Woman : Condom
+S442ME    Bad for Breastfeeding Woman : Female sterilization
+
+REC9B     Country specific - Breastfeeding (continued)
+
+S442MF    Bad for Breastfeeding Woman: Male Sterilization
+S442MG    Bad for Breastfeeding Woman: Safe period
+S442MH    Bad for Breastfeeding Woman: Withdrawal
+S442MI    Bad for Breastfeeding Woman: Other
+S442N     Effect of Breastfeeding/amenorrhea against pregnancy
+S442O     How long protected by breastfeeding
+
+MREC91    Male Country specific single variables
+
+MSDISTR   District of residence
+MSFORMAT  Type of date format used
+MSADJUST  Month of interview adjusted by 1
+MSINTY    Year of interview (unadjusted)
+MSINTM    Month of interview (unadjusted)
+MS304     Knows source of contraceptive method
+MS309     First method used
+MS311     Living children at first use
+MS316     Currently using second method
+MS317     Second method currently used
+MS320S    Condom package seen
+MS320     Brand of condoms shown
+MS320A    Reason can't show condom pack
+MS320C    Reason can't show condom pack
+MS320E    Times used condoms last month
+MS320D    Use condom every time have sex
+MS321M    Month of sterilization (imputed)
+MS321Y    Year of sterilization (imputed)
+MS321C    Date of sterilization (CMC)
+MS321F    Completeness of information
+MS321XA   Years since sterilization
+MS321XB   Age at sterilization
+MS321XC   Marital duration at sterilization
+MS321XD   Wife's sterilization:date format
+MS321XE   Wife's sterilization : month
+MS321XF   Wife's sterilization: year
+MS322B    Sterilization regret
+MS322C    Method used most recently
+MS323     Source of current method
+MS323B    Paid for use of contraceptive source
+MS325     Who obtained pills/condoms
+MS325     Got pills,condom at Health Facility, doctor, shop
+MS325B    Was informed of side effects/problems with method at
+Health Facility
+MS325C    Was informed of other methods at Health Facility
+MS325H    Got method he wanted
+MS325I    Method wanted at Health Facility.
+MS325J    Who had most influence at first use of method
+MS326     Reason for current method
+MS328HI   Knows source for current method
+
+MREC91    Male Country specific single variables (continued)
+
+MS347A    Satellite clinic last 3 months
+MS347B    Visited satellite clinic
+MS347CA   Satellite Clinic provides Family Planning Methods.
+MS347CB   Satellite Clinic provides Immunization
+MS347CC   Satellite Clinic provides child growth monitor.
+MS347CD   Satellite Clinic provides other facility
+MS347CE   Satellite Clinic: Does not know
+MS348C    Read about Family Planning on Billboard
+MS349A    Information on radio acceptable: pill
+MS349B    Information on radio acceptable: condoms
+MS349C    Information on radio acceptable: injections
+MS349D    Information on radio acceptable: IUD's
+MS349E    Information on radio acceptable: sterilization
+MS350     Visit by Family Planning Worker in last 6 mnths
+MS352     No. visits by Family Planning Worker last 6 mnths
+MS353     Months since last visit by Family Planning Worker
+MS354     Received supplies from Family Planning Worker
+MS355     Supplies received from Family Planning Worker
+MS356     How many cycles/condoms rec'vd
+MS357A    Methods discussed with Family Planning Worker: Pills
+MS357B    Methods discussed with Family Planning Worker: IUD
+MS357C    Methods discussed with Family Planning Worker: Injection
+MS357D    Methods discussed with Family Planning Worker: Condom
+MS357E    Methods discussed with Family Planning Worker: Female Sterilization
+MS357F    Methods discussed with Family Planning Worker: Male Sterilization
+MS357G    Methods discussed with Family Planning Worker: Never discussed
+MS358     Most men known by respondent use Family Planning
+MS359     Has recommended Family Planning to someone
+MS360     Visited Health Facility last 6m
+MS361     Spoke with psn at HF about Family Planning
+MS408A    Children under 10
+MS408B    Presence of wife
+MS408C    Other males
+MS408D    Other females
+MS508     Source of preferred method
+MS512     Discussed children
+MS514     Wife allowed to go out alone
+
+Notes on Recode File
+
+
+Women Data File
+
+1.  In Bangladesh, the Bengali calendar is commonly used for dating purposes.
+The calendar has a different year and month system to the English calendar.  The
+length of the Bengali year corresponds roughly to that of a year in the English
+system, each having 12 months.  Each Bengali month begins about mid-way through
+the corresponding English month, and the new year in the Bengali system begins
+in mid- April.  The correspondence between the two systems can be seen by
+referring to the calendar section of the questionnaire, in the Bangladesh main
+country report.
+
+The BDHS questionnaire was designed so that responses could be recorded using
+either the Bengali or English calendar system, although there was a requirement
+that the same system had to be used throughout an individual questionnaire.  To
+allow both types of date to be recorded, a four-digit field was used to record
+years, and an extra question was included for all date questions to indicate the
+type of calendar system being used.
+
+During imputation and the creation of the recoded data file, all dates were
+converted into English calendar dates, with the exception of the two
+country-specific variables, S229 and S233D.  The type of calendar used in the
+questionnaire is recorded in variable SDFORMAT.  Therefore, when working with
+the recoded data set, there is no need for the analyst to convert between
+calendar systems.
+
+In cases where the Bengali calendar system was being used in an interview, and
+the interview was carried out in the first half of the English calendar month,
+one month was subtracted from the date of interview, as expressed in the English
+calendar, for the purposes of date checking and imputation.  This was done to
+allow the calendar to begin in the correct Bengali month for the date of
+interview, and to enable consistency to be maintained between the calendar dates
+and the dates given in the body of the questionnaire.
+
+Note that the standard variables for date of interview for both female and male
+recode files (V006,V007,V008, MV006,MV007,MV008) are based on the adjusted value
+for the date of interview, in those cases where the adjustment was made.  Ages
+and imputed dates were also based on the adjusted date.  Country specific
+variables SINTM and SINTY are used to record the original month of interview
+(MSINTM and MSINTY for husbands).  The variable SADJUST/MSADJUST records whether
+or not the adjustment was made.  The unadjusted CMC date of interview can be
+calculated as follows :
+
+          <women unadjusted cmc date of interview>     = V008 - SADJUST
+          <husbands unadjusted cmc date of interview> =  MV008 - MSADJUST
+
+2.  HV105, Age of household members.  Code þ97' includes those aged 96 years or
+older.
+
+3.  HV116, Marital status of household members.  Respondents were only asked if
+they had ever been married or not.
+
+4.  HV204, V115.  Time to get to water source and return.  In Bangladesh, the
+respondents were asked two separate questions; the length of time taken to get
+to the water source, and the length of time taken waiting to obtain water.  The
+total time taken to get to the source, obtain water, and return was calculated
+by doubling the time taken to get to the source, and adding the waiting time,
+ie.
+
+total access time = (time to source * 2) + waiting time.
+
+If either time to source, or waiting time, is missing, the total access time is
+set to missing.
+
+Note that the time to source is based on the source of non- drinking water,
+rather that of drinking water as is standard in most DHS countries.
+
+5.  HV205, V116.  Type of toilet facility.  For Bangladesh, separate questions
+were asked about the toilet facilities used by adults, and toilet facilities
+used by children.  The recode variables are based on type of facilities used by
+adults.  The type of toilet facility used by children is recorded in country
+specific variables SH25 (household, RECH3) and SQ123 (individual, REC91).  Note
+that where no children use the toilet facility, SH25 and SQ123 are coded as þ0 :
+No childrenþ.
+
+6.  V013.  Age in 5-year groups.  Since the sample is ever- married women aged
+between 10-49, this variable contains an extra category for respondents aged
+10-14 years.
+
+7.  B9.  Person child lives with.  In Bangladesh, this question was asked for
+all living children, irrespective of age.  In the standard DHS questionnaire, it
+is only asked for children less than 15 years of age.
+
+8.  V379.  Source known for any method.  The category þFamily Welfare Assistantþ
+(FWA) cannot be classified as either public or private, since FWAþs work for
+both government and non-government organizations.  Because of the difficulty of
+getting respondents to correctly identify whether their FWA was government or
+NGO employed, no attempt was made in the survey to distinguish between the two.
+Consequently, FWAþs are coded as a separate, non-standard category þ41' in V379,
+and as code þ7 :  otherþ in V380.
+
+9.  V393.  Visited by a Family planning worker in the last 12 months.  This
+variable has an extra, non-standard category þ8 :  Donþt knowþ.
+
+10.  V366A.  Acceptability of radio messages on Family Planning.  In the
+questionnaire, respondents were asked whether they approved of messages
+separately by type of method.  A respondent is considered to approve of messages
+about family planning in general, if she approves of messages about any one
+method, even if she disapproves of messages about another method.
+
+11.  V375A, V376.  Main reason for not using a contraceptive method.  In
+Bangladesh, women who were not married at the time of interview were not asked
+questions about the reason why they were not using a method, or why they did not
+intend to use a method in the future.  For this reason, these variables are
+coded þ11 - not marriedþ for women who were not currently married at the time of
+interview.
+
+For both variables, there is an extra category þ35 :  Fatalisticþ.
+
+12.  V416.  Heard of Oral Rehydration.  Respondents were only asked if they had
+used ORS, not if they had heard of ORS.  Therefore, code þ2 :  heard of ORSþ is
+not used in V416.
+
+13.  V501, V502.  Marital Status.  Since the Bangladesh survey was based on an
+ever-married sample, there are no codes þ0' (never married) for V501 and V502.
+In the questionnaire, the consensual union category was not used, so the only
+possible responses were:-
+
+- currently married
+- widowed
+- divorced
+
+14.  V603, V616 Preferred waiting time until next birth, and preferred time for
+future birth .  Since the survey was based on an ever-married sample, the
+category 'after marriage' was not used.
+
+15.  V704/Q705.  Husbandþs occupation.  The country specific occupation
+categories did not include clerical or sales categories.
+
+16.  Respondentþs work status.  All work status variables for the respondent are
+based on currently working women only.  This differs from the standard base for
+these variables, which includes information about both currently working women,
+and women who had been working in the 12 months prior to the interview.  The
+variables affected are :-
+
+V716      Respondent's occupation
+V717      Respondent's occupation (recoded to standard categories)
+V723      Child minder
+V732      Employment all year/seasonal
+V740      Type of land where the respondent works
+
+17.       V716/Q709 Respondentþs occupation
+
+These codes were recoded to make them compatible with the codes used for the
+husbands/men's occupation as follows
+
+Female codes                  Male codes
+Agriculture              ->   Agricultural worker (no female farmers/landowners)
+Business                 ->   Small business (no female 'big businessmen')
+Poultry raising, etc     ->   Small business (not agriculture)
+
+The original occupation codes for women are preserved in country specific
+variable S709.
+
+18.  V723.  Person responsible for childminding.  The base for this variable is
+women who had a live birth after April 1988.  The standard base is women who had
+live births in the 5 years preceding the date of interview.
+
+19.  M37A-T.  Types of food given to child in the last 24 hours.  In DHSIII
+questionnaires, this information is normally obtained for all children born in
+the last 3/5 years.  However, for Bangladesh, these questions were only asked
+for the youngest living child (ie the last surviving birth).
+
+20.  V229, V230, V231, V232.  Date of most recent termination of pregnancy.  In
+Bangladesh, dates for termination could be reported in two places in the
+questionnaire :
+
+1. Date of last termination, not induced      (Q229)
+2. Date of last induced abortion.             (Q233D)
+
+In cases where the respondent gave an answer to both questions, it is necessary
+to determine which of the two dates was the most recent, in order to obtain the
+most recent date of termination for use with V229-V232.  The following rules
+were used to calculate V229-V232.  If there was only one response given out of
+Q229 and Q223D, that response was used to create V229-V232.
+
+If two responses were given , the most recent one was used if both responses
+contained completely specified dates, with month and year both given.  Otherwise
+if one date was not completely specified, but the other date was, the complete
+date was used.  If neither date was completely specified, the following order of
+preference was used :-
+
+   a) DK (98)
+   b) Inconsistent (97)
+   c) MISSING (99)
+
+The date obtained using the above process was then compared with the most recent
+date of termination in the calendar.  Where there is an inconsistency, the
+calendar date is used in the following circumstances :
+
+1.  If the date obtained from the questionnaire was not completely specified (ie
+month or year was missing)
+
+2.  If there was a termination or induced abortion in the calendar for which a
+complete date does not exist, and the date in the calendar is different to the
+date obtained from the questionnaire, and the calendar date is more recent.
+
+Both original dates for termination have been kept as country specific variables
+S229 and S233D.
+
+21.  V739.  Person who decides how to spend household money.  In the
+questionnaire, only 3 categories were used:  þrespondentþ, þsomeone elseþ, and
+þjointlyþ.  These were coded to the standard categories as follows :-
+
+respondent     ->   respondent
+someone else   ->   someone else (but includes partner)
+jointly        ->   jointly with someone else (including partner).
+
+22.  Q319B.  Reason why no recent injection.  This question was included in the
+questionnaire, but was dropped from the standard recode data file since only 15
+respondents were asked the question, and of those only three gave valid
+responses.  The unweighted frequency distribution for this question was :
+
+Health reasons                 2
+Other                          1
+Missing                       12
+NA                          9625
+
+Husband  Data File
+
+1.  MV006, MV007, MV008.  Date of interview.  See note 1.  for the womenþs data.
+
+2.  MV013.  Age in 5 year groups.  All husbands over the age of 15 were
+interviewed, and there was no upper age limit.  All respondents aged 60 years or
+over are grouped in the same category þ10 - 60+þ.
+
+3.  All respondents were asked their current occupation, without first being
+asked whether they were currently working.  Those who responded that they were
+unemployed or retired were coded as not currently working for the standard
+recode variables MV714, MV716 and MV717.
+
+Inconsistencies in the Data File : Women
+
+1.  In the household file, there are 63 cases where the variable indicating that
+the sources of drinking and washing water are the same, is inconsistent with the
+responses given for each source.  There are 91 corresponding cases in the
+womanþs file.  The variables concerned are:-
+
+Household           Woman
+HV201               V113           Source of drinking water
+HV202               V114           Source of non-drinking water
+HV203               V142           Same source of water.
+
+2.  There are 23 cases where the duration of amenorrhea exceeds the interval
+between two births, or the interval between the last birth and a pregnancy or
+the date of interview.
+
+3.  There are 45 cases where the duration of amenorrhea together with the
+reported time since last period, exceeds the interval between the date of
+interview and the last birth.  4.  There are 21 cases where ever-use of male
+sterilization is reported, but the method is not being currently used.
+
+5.  There are 17 cases where the duration of abstinence exceeds the interval
+between two births.
+
+6.  There are 14 cases where the duration of breast-feeding exceeds the interval
+between two births.
+
+7.  There are 143 cases where the duration of breast- feeding of a specific
+child exceeds the age of that child at its death.
+
+8.  There are 38 cases where the time given for the start of interview is
+inconsistent with the time given for the end of the interview.
+
+9.  There are 28 cases where the age at death of a child in variable B6 was
+reported in days, where the number of days exceeds 31.  In these cases, the
+imputed age at death given in months in variable B7 is set to 1 month.
+
+10.  There are 9 cases where the woman is sterilized, but later gives birth.
+These cases are assumed to be cases of sterilization failure.
+
+11.  There are five cases where the date of sterilization in the calendar does
+not match the duration of use of sterilization stated in V337.
+
+12.  There are two cases of women who stated that they have never had a period,
+but have given birth.
+
+13.  There are three cases of women who stated that their last period was before
+their last birth, but who have not reported any births.
+
+14.  There are five cases of women who reported being married before the
+beginning of the calendar, but who are not recorded as being married in the
+calendar.
+
+15.  There are 4 cases where the first line of the household schedule is not
+that of the head of the household.
+
+Inconsistencies in the Data File : Husbands
+
+1.  There are 35 cases where men were recorded as having been married before the
+age of 12.
+
+2.  There are 16 cases where the respondents reported ever use of female
+sterilization, but were not currently using that method.
+
+3.  There are 10 cases where the times of start and end of interview are
+inconsistent.  Coding Additions
+
+V375A, V376
+         35: Fatalistic
+
+Occupation Codes
+
+11 .      Land Owner
+12 .      Farmer
+13 .      Agricultural Worker
+14.       Fisherman
+
+21.  Rickshaw Driver, Brick Breaking, Road Building, Construction Worker,
+Boatmen 22.  Domestic Servant 23.  Non-agricultural Worker, Factory Worker, Blue
+Collar Service
+
+31.  Carpenter, Mason, Bus/taxi Driver, Construction Supervisor, Seamstress,
+Tailor, Policeman, Armed Services, Dai, Community Health Worker, Family Welfare
+Assistant, Similar Services
+
+41.  Doctor, Lawyer, Dentist, Accountant, Teacher, Nurse, Family Welfare
+Volunteers
+51.  Business owner (large scale)
+52.  Small business, trader
+96.  Others
+98.  Donþt know
+
+Recoding to standard occupation categories.
+
+V704,     V716, MV716              V705, V717, MV717
+
+
+ 41,51          --->                    1
+    52          --->                    3
+ 11,12          --->                    4
+    13          --->                    5
+    22          --->                    6
+ 14,31          --->                    8
+ 21,23          --->                    9
+ 96,98          --->                   98
+
+
+
+Last Updated October 2, 1996 by KDP
+

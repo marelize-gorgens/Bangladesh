@@ -1,0 +1,6 @@
+infix dictionary using "C:\COUNTRIES\WEALTHIDX\BDWI31FL.DAT" {
+1 lines
+    str      whhid       1:   1-12  
+    double   wlthindf    1:  13-23  
+    long     wlthind5    1:  24-28  
+}
