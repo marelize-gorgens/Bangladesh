@@ -1,0 +1,812 @@
+﻿[Dictionary]
+Version=CSPro 6.0
+Label=Bangladesh Census 2011
+Name=CENSUS2011_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=Yes
+DecimalChar=Yes
+
+[Level]
+Label=Short Form Questionnaire
+Name=SHORTFORM_QUEST
+
+[IdItems]
+
+[Item]
+Label=Division
+Name=DIVISION
+Start=2
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=Division
+Name=DIVISION_VS1
+Value=20;Chittagong
+Value=30;Dhaka
+Value=40;Khulna
+Value=50;Rajshahi
+Value=10;Barisal
+Value=55;Rongpur
+Value=60;Sylhet
+
+[Item]
+Label=Zila
+Name=ZILA
+Start=4
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=Upazila/Thana
+Name=UPAZILA
+Start=6
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=Union/Ward
+Name=UNION
+Start=8
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=Mauza/Mahalla
+Name=MAUZA
+Start=10
+Len=3
+ZeroFill=Yes
+
+[Item]
+Label=Village
+Name=VILLAGE
+Start=13
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=Enumeration Area
+Name=EA
+Start=15
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=RMO Code
+Name=RMO
+Start=17
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=RMO Code
+Name=RMO_VS1
+Value=1;Rural
+Value=2;Pourashava
+Value=3;Upazila Headquarter
+Value=5;Cantonment Board
+Value=9;City Corporation
+
+[ValueSet]
+Label=Urban/Rural
+Name=URB_RUR
+Value=1;Rural
+Value=2:9;Urban
+
+[Item]
+Label=Household Number
+Name=HHNO
+Start=18
+Len=4
+ZeroFill=Yes
+
+[Item]
+Label=Serial Number
+Name=SERIAL
+Start=22
+Len=12
+
+[ValueSet]
+Label=Serial Number
+Name=SERIAL_VS1
+Value=0:609999999999;book
+
+[Record]
+Label=Population Record
+Name=POP_REC
+RecordTypeValue='1'
+MaxRecords=9999
+RecordLen=51
+
+[Item]
+Label=P13. Member Serial Number
+Name=P13
+Start=34
+Len=4
+ZeroFill=Yes
+
+[Item]
+Label=P14. Age
+Name=P14
+Start=38
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=P14. Age (5-year)
+Name=P14_VS1
+Value=0:4;0 - 4
+Value=5:9;5 - 9
+Value=10:14;10 - 14
+Value=15:19;15 - 19
+Value=20:24;20 - 24
+Value=25:29;25 - 29
+Value=30:34;30 - 34
+Value=35:39;35 - 39
+Value=40:44;40 - 44
+Value=45:49;45 - 49
+Value=50:54;50 - 54
+Value=55:59;55 - 59
+Value=60:64;60 - 64
+Value=65:69;65 - 69
+Value=70:74;70 - 74
+Value=75:79;75 - 79
+Value=80:84;80 - 84
+Value=85:89;85 - 89
+Value=90:94;90 - 94
+Value=95:99;95 - 99
+
+[ValueSet]
+Label=P14. Age (1-year)21+
+Name=P14_VS2
+Value=0;0
+Value=1;1
+Value=2;2
+Value=3;3
+Value=4;4
+Value=5;5
+Value=6;6
+Value=7;7
+Value=8;8
+Value=9;9
+Value=10;10
+Value=11;11
+Value=12;12
+Value=13;13
+Value=14;14
+Value=15;15
+Value=16;16
+Value=17;17
+Value=18;18
+Value=19;19
+Value=20;20
+Value=21:99;21+
+
+[ValueSet]
+Label=P14. Age (Field of Education)
+Name=P14_VS4
+Value=0;0
+Value=1;1
+Value=2;2
+Value=3;3
+Value=4;4
+Value=5;5
+Value=6;6
+Value=7;7
+Value=8;8
+Value=9;9
+Value=10;10
+Value=11;11
+Value=12;12
+Value=13;13
+Value=14;14
+Value=15;15
+Value=16;16
+Value=17;17
+Value=18;18
+Value=19;19
+Value=20;20
+Value=21;21
+Value=22;22
+Value=23;23
+Value=24;24
+Value=25;25
+Value=26;26
+Value=27;27
+Value=28;28
+Value=29;29
+Value=30;30
+Value=31;31
+Value=32;32
+Value=33;33
+Value=34;34
+Value=35;35
+Value=36;36
+Value=37;37
+Value=38;38
+Value=39;39
+Value=40;40
+Value=41;41
+Value=42;42
+Value=43;43
+Value=44;44
+Value=45;45
+Value=46;46
+Value=47;47
+Value=48;48
+Value=49;49
+Value=50:54;50 - 54
+Value=55:59;55 - 59
+Value=60:64;60 - 64
+Value=65:69;65 - 69
+Value=70:74;70 - 74
+Value=75:79;75 - 79
+Value=80:84;80 - 84
+Value=85:89;85 - 89
+Value=90:94;90 - 94
+Value=95:99;95 - 99
+
+[ValueSet]
+Label=age single year
+Name=P14_VSA
+Value=0;0
+Value=1;1
+Value=2;2
+Value=3;3
+Value=4;4
+Value=5;5
+Value=6;6
+Value=7;7
+Value=8;8
+Value=9;9
+Value=10;10
+Value=11;11
+Value=12;12
+Value=13;13
+Value=14;14
+Value=15;15
+Value=16;16
+Value=17;17
+Value=18;18
+Value=19;19
+Value=20;20
+Value=21;21
+Value=22;22
+Value=23;23
+Value=24;24
+Value=25;25
+Value=26;26
+Value=27;27
+Value=28;28
+Value=29;29
+Value=30;30
+Value=31;31
+Value=32;32
+Value=33;33
+Value=34;34
+Value=35;35
+Value=36;36
+Value=37;37
+Value=38;38
+Value=39;39
+Value=40;40
+Value=41;41
+Value=42;42
+Value=43;43
+Value=44;44
+Value=45;45
+Value=46;46
+Value=47;47
+Value=48;48
+Value=49;49
+Value=50;50
+Value=51;51
+Value=52;52
+Value=53;53
+Value=54;54
+Value=55;55
+Value=56;56
+Value=57;57
+Value=58;58
+Value=59;59
+Value=60;60
+Value=61;61
+Value=62;62
+Value=63;63
+Value=64;64
+Value=65;65
+Value=66;66
+Value=67;67
+Value=68;68
+Value=69;69
+Value=70;70
+Value=71;71
+Value=72;72
+Value=73;73
+Value=74;74
+Value=75;75
+Value=76;76
+Value=77;77
+Value=78;78
+Value=79;79
+Value=80;80
+Value=81;81
+Value=82;82
+Value=83;83
+Value=84;84
+Value=85;85
+Value=86;86
+Value=87;87
+Value=88;88
+Value=89;89
+Value=90;90
+Value=91;91
+Value=92;92
+Value=93;93
+Value=94;94
+Value=95;95
+Value=96;96
+Value=97;97
+Value=98;98
+Value=99;99
+
+[ValueSet]
+Label=Age-group
+Name=P14_VS5
+Value=0:4;0 - 4
+Value=5:9;5 - 9
+Value=10:14;10 - 14
+Value=15:19;15 - 19
+Value=20:24;20 - 24
+Value=25:29;25 - 29
+Value=30:34;30 - 34
+Value=35:39;35 - 39
+Value=40:44;40 - 44
+Value=45:49;45 - 49
+Value=50:54;50 - 54
+Value=55:59;55 - 59
+Value=60:64;60 - 64
+Value=65:69;65 - 69
+Value=70:74;70 - 74
+Value=75:79;75 - 79
+Value=80:99;80 +
+
+[ValueSet]
+Label=Meritalstatus
+Name=P14_VS6
+Value=10:14;10 - 14
+Value=15:19;15 - 19
+Value=20:24;20 - 24
+Value=25:29;25 - 29
+Value=30:34;30 - 34
+Value=35:39;35 - 39
+Value=40:44;40 - 44
+Value=45:49;45 - 49
+Value=50:54;50 - 54
+Value=55:59;55 - 59
+Value=60:64;60 - 64
+Value=65:69;65 - 69
+Value=70:74;70 - 74
+Value=75:79;75 - 79
+Value=80:99;80 +
+
+[Item]
+Label=P15. Relationship
+Name=P15
+Start=40
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=P15. Relationship
+Name=P15_VS1
+Value=1;Head
+Value=2;Spouse
+Value=3;Child
+Value=4;Other Relative
+Value=5;Non-Relative
+
+[Item]
+Label=P16. Sex
+Name=P16
+Start=41
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=P16. Sex
+Name=P16_VS1
+Value=1;Male
+Value=2;Female
+
+[Item]
+Label=P17. Marital Status
+Name=P17
+Start=42
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=P17. Marital Status
+Name=P17_VS1
+Value=1;Unmarried
+Value=2;Married
+Value=3;Widowed
+Value=4;Divorced/Separated
+
+[Item]
+Label=P18. Religion
+Name=P18
+Start=43
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=P18. Religion
+Name=P18_VS1
+Value=1;Muslim
+Value=2;Hindu
+Value=3;Christian
+Value=4;Buddhist
+Value=5;Other
+
+[Item]
+Label=P19. Disability
+Name=P19
+Start=44
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=P19. Disability
+Name=P19_VS1
+Value=0;None
+Value=1;Speech
+Value=2;Vision
+Value=3;Hearing
+Value=4;Physical
+Value=5;Mental
+Value=6;Autistic
+
+[ValueSet]
+Label=onlydisabled
+Name=P19_VS2
+Value=1;Speech
+Value=2;Vision
+Value=3;Hearing
+Value=4;Physical
+Value=5;Mental
+Value=6;Autistic
+
+[Item]
+Label=P20. Student
+Name=P20
+Start=45
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=P20. Student
+Name=P20_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=P21. Educational Attainment
+Name=P21
+Start=46
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=P21. Educational Attainment
+Name=P21_VS1
+Value=0;No class passed
+Value=1;Class 1
+Value=2;Class 2
+Value=3;Class 3
+Value=4;Class 4
+Value=5;Class 5
+Value=6;Class 6
+Value=7;Class 7
+Value=8;Class 8
+Value=9;Class 9
+Value=10;Class SSC
+Value=12;Class HSC
+Value=15;Graduation (General)
+Value=16;Graduation (Hons)
+Value=18;Masters and Higher
+
+[ValueSet]
+Label=Litreicy
+Name=P21_VS2
+Value=0:5;Primary  not passed
+Value=6:18;Primary passed
+
+[ValueSet]
+Label=Classpast
+Name=P21_VS3
+Value=0;No class passed
+Value=1:5;Class 1-V
+Value=6:8;Class VI-VIII
+Value=9:10;Class IX-X
+Value=12;HSC
+Value=15;Graduation (General)
+Value=16;Graduation (Hons)
+Value=18;Masters and Higher
+
+[Item]
+Label=P22. Field of Education
+Name=P22
+Start=48
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=P22. Field of Education
+Name=P22_VS1
+Value=1;General
+Value=2;Vocational/Technical
+Value=3;Religious
+Value=4;Not Applicable
+
+[Item]
+Label=P23. Literacy
+Name=P23
+Start=49
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=P23. Literacy
+Name=P23_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=P24. Activity Status
+Name=P24
+Start=50
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=P24. Activity Status
+Name=P24_VS1
+Value=1;Employed
+Value=2;Looking For Job
+Value=3;Household Work
+Value=4;Does Not Work
+
+[Item]
+Label=P25. Employment Field
+Name=P25
+Start=51
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=P25. Employment Field
+Name=P25_VS1
+Value=1;Agriculture
+Value=2;Industry
+Value=3;Service
+
+[Record]
+Label=Housing Record
+Name=HH_REC
+RecordTypeValue='2'
+RecordLen=49
+
+[Item]
+Label=Household Size
+Name=HHSIZE
+Start=34
+Len=4
+ZeroFill=Yes
+
+[ValueSet]
+Label=Household Size
+Name=HHSIZE_VS1
+Value=1:29;Size 1-29
+Value=30:9999;size 30+
+
+[ValueSet]
+Label=Person
+Name=HHSIZE_VS2
+Value=1;1
+Value=2;2
+Value=3;3
+Value=4;4
+Value=5;5
+Value=6;6
+Value=7;7
+Value=8:999;8+
+
+[Item]
+Label=H3. Floating
+Name=H3
+Start=38
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=H3. Floating
+Name=H3_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=H4. Type of Household
+Name=H4
+Start=39
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=H4. Type of Household
+Name=H4_VS1
+Value=1;General
+Value=2;Institutional
+Value=3;Others
+
+[Item]
+Label=H5. Number of House
+Name=H5
+Start=40
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=H5. Number of House
+Name=H5_VS1
+Value=0;0
+Value=1;1
+Value=2;2
+Value=3;3
+Value=4;4
+Value=5;5
+Value=6;6
+Value=7;7
+Value=8;8
+Value=9;9
+
+[Item]
+Label=H6. Type of House
+Name=H6
+Start=41
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=H6. Type of House
+Name=H6_VS1
+Value=1;Pucka
+Value=2;Semi-pucka
+Value=3;Kutcha
+Value=4;Jhupri
+
+[Item]
+Label=H7. Tenancy of House
+Name=H7
+Start=42
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=H7. Tenancy of House
+Name=H7_VS1
+Value=1;Own
+Value=2;Rented
+Value=3;Rent-free
+
+[Item]
+Label=H8. Source of Drinking Water
+Name=H8
+Start=43
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=H8. Source of Drinking Water
+Name=H8_VS1
+Value=1;Tap
+Value=2;Tube-well
+Value=3;Other
+
+[Item]
+Label=H9. Toilet Facilities
+Name=H9
+Start=44
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=H9. Toilet Facilities
+Name=H9_VS1
+Value=1;Sanitary (with Water Seal)
+Value=2;Sanitary (no Water Seal)
+Value=3;Non-Sanitary
+Value=4;None
+
+[Item]
+Label=H10. Electricity Connection
+Name=H10
+Start=45
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=H10. Electricity Connection
+Name=H10_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=H11a. Ethnic Population
+Name=H11A
+Start=46
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=H11a. Ethnic Population
+Name=H11A_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=H11b. Ethnic Population Code
+Name=H11B
+Start=47
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=H11b. Ethnic Population Code
+Name=H11B_VS1
+Value=1;Chakma
+Value=2;Marma
+Value=3;Tripura
+Value=4;Mro
+Value=5;Tanchaynga
+Value=6;Bawm
+Value=7;Pankhua
+Value=8;Chak
+Value=9;Khyang
+Value=10;Khumi
+Value=11;Lusai
+Value=12;Coach
+Value=13;Shaotal
+Value=14;Dalu
+Value=15;Uchai
+Value=16;Rakhain
+Value=17;Monipuri
+Value=18;Garu
+Value=19;Hajong
+Value=20;Khasia
+Value=21;Mong
+Value=22;Orao
+Value=23;Barmon
+Value=24;Pahari
+Value=25;Malpahari
+Value=26;Monda
+Value=27;Cool
+Value=28;Other
+
+[Item]
+Label=Urban/Rural
+Name=URBRUR
+Start=49
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=Urban/Rural
+Name=URBRUR_VS1
+Value=1;Rural
+Value=2;Urban
+Value=3;Other Urban
