@@ -339,3 +339,4 @@ vignettes/*.pdf
 ./data/dgfp/data/importance12_districts/.DS_Store
 ./data/dgfp/data/importance11_districts/.DS_Store
 ./data/dgfp/data/importance11_subdistricts/.DS_Store
+.Rproj.user
