@@ -1,0 +1,908 @@
+DistrictCode,DistrictName,DivisionCode,DivisionName,FuzzRatio,FuzzRatioDivision,Geo,InputDivision,MeanFuzzRation,UpazillaCode,UpazillaName
+77.0,Panchagarh ,55.0,Rangpur,89.0,100.0,Boda,Rangpur,94.5,25.0,Boda 
+77.0,Panchagarh ,55.0,Rangpur,69.0,100.0,Panchgarh,Rangpur,84.5,73.0,Panchagarh Sadar 
+77.0,Panchagarh ,55.0,Rangpur,88.0,100.0,Tetulia,Rangpur,94.0,90.0,Tentulia 
+77.0,Panchagarh ,55.0,Rangpur,86.0,100.0,Atowari,Rangpur,93.0,4.0,Atwari 
+77.0,Panchagarh ,55.0,Rangpur,94.0,100.0,Debiganj,Rangpur,97.0,34.0,Debiganj 
+44.0,Jhenaidah ,40.0,Khulna,87.0,100.0,Harinakunda,Khulna,93.5,14.0,Harinakundu 
+44.0,Jhenaidah ,40.0,Khulna,84.0,100.0,Moheshpur,Khulna,92.0,71.0,Maheshpur 
+44.0,Jhenaidah ,40.0,Khulna,77.0,100.0,Jhenaidaha,Khulna,88.5,19.0,Jhenaidah Sadar 
+44.0,Jhenaidah ,40.0,Khulna,96.0,100.0,Kotchandpur,Khulna,98.0,42.0,Kotchandpur 
+87.0,Satkhira ,40.0,Khulna,94.0,100.0,Kaliganj,Khulna,97.0,47.0,Kaliganj 
+44.0,Jhenaidah ,40.0,Khulna,89.0,100.0,Sailkupa,Khulna,94.5,80.0,Shailkupa 
+36.0,Habiganj ,60.0,Sylhet,86.0,100.0,Azmiriganj,Sylhet,93.0,2.0,Ajmiriganj 
+36.0,Habiganj ,60.0,Sylhet,93.0,100.0,Bahubal,Sylhet,96.5,5.0,Bahubal 
+36.0,Habiganj ,60.0,Sylhet,95.0,100.0,Madhabpur,Sylhet,97.5,71.0,Madhabpur 
+36.0,Habiganj ,60.0,Sylhet,92.0,100.0,Lakhai,Sylhet,96.0,68.0,Lakhai 
+36.0,Habiganj ,60.0,Sylhet,82.0,100.0,Habiganj,Sylhet,91.0,77.0,Nabiganj 
+36.0,Habiganj ,60.0,Sylhet,91.0,100.0,Baniachhong,Sylhet,95.5,11.0,Baniachong 
+36.0,Habiganj ,60.0,Sylhet,96.0,100.0,Chunarughat,Sylhet,98.0,26.0,Chunarughat 
+36.0,Habiganj ,60.0,Sylhet,94.0,100.0,Nabiganj,Sylhet,97.0,77.0,Nabiganj 
+42.0,Jhalokati ,10.0,Barisal,89.0,100.0,Kathalia,Barisal,94.5,43.0,Kanthalia 
+42.0,Jhalokati ,10.0,Barisal,64.0,100.0,Jhalakati,Barisal,82.0,40.0,Jhalokati Sadar 
+42.0,Jhalokati ,10.0,Barisal,93.0,100.0,Rajapur,Barisal,96.5,84.0,Rajapur 
+42.0,Jhalokati ,10.0,Barisal,78.0,100.0,Nalchhiti,Barisal,89.0,73.0,Nalchity 
+1.0,Bagerhat ,40.0,Khulna,70.0,100.0,Bagerhat,Khulna,85.0,8.0,Bagerhat Sadar 
+1.0,Bagerhat ,40.0,Khulna,94.0,100.0,Fakirhat,Khulna,97.0,34.0,Fakirhat 
+1.0,Bagerhat ,40.0,Khulna,95.0,100.0,Sarankhola,Khulna,97.5,77.0,Sarankhola 
+1.0,Bagerhat ,40.0,Khulna,86.0,100.0,Morralganj,Khulna,93.0,60.0,Morrelganj 
+1.0,Bagerhat ,40.0,Khulna,92.0,100.0,Kachua,Khulna,96.0,38.0,Kachua 
+1.0,Bagerhat ,40.0,Khulna,94.0,100.0,Mollahat,Khulna,97.0,56.0,Mollahat 
+1.0,Bagerhat ,40.0,Khulna,92.0,100.0,Rampal,Khulna,96.0,73.0,Rampal 
+1.0,Bagerhat ,40.0,Khulna,95.0,100.0,Chitalmari,Khulna,97.5,14.0,Chitalmari 
+1.0,Bagerhat ,40.0,Khulna,92.0,100.0,Mongla,Khulna,96.0,58.0,Mongla 
+61.0,Mymensingh ,30.0,Dhaka,74.0,13.0,Mymensingh,Mymensingh,43.5,52.0,Mymensingh Sadar 
+61.0,Mymensingh ,30.0,Dhaka,86.0,13.0,Trisal,Mymensingh,49.5,94.0,Trishal 
+27.0,Dinajpur ,55.0,Rangpur,88.0,24.0,Fulbaria,Mymensingh,56.0,38.0,Fulbari 
+61.0,Mymensingh ,30.0,Dhaka,93.0,13.0,Bhaluka,Mymensingh,53.0,13.0,Bhaluka 
+61.0,Mymensingh ,30.0,Dhaka,91.0,13.0,Muktagacha,Mymensingh,52.0,65.0,Muktagachha 
+61.0,Mymensingh ,30.0,Dhaka,90.0,13.0,Gafargaon,Mymensingh,51.5,22.0,Gaffargaon 
+61.0,Mymensingh ,30.0,Dhaka,93.0,13.0,Phulpur,Mymensingh,53.0,81.0,Phulpur 
+61.0,Mymensingh ,30.0,Dhaka,82.0,13.0,Gouripur,Mymensingh,47.5,23.0,Gauripur 
+61.0,Mymensingh ,30.0,Dhaka,95.0,13.0,Ishwarganj,Mymensingh,54.0,31.0,Ishwarganj 
+61.0,Mymensingh ,30.0,Dhaka,93.0,13.0,Nandail,Mymensingh,53.0,72.0,Nandail 
+61.0,Mymensingh ,30.0,Dhaka,95.0,13.0,Haluaghat,Mymensingh,54.0,24.0,Haluaghat 
+61.0,Mymensingh ,30.0,Dhaka,82.0,13.0,Dhubaura,Mymensingh,47.5,16.0,Dhobaura 
+79.0,Pirojpur ,10.0,Barisal,95.0,100.0,Mathbaria,Barisal,97.5,58.0,Mathbaria 
+79.0,Pirojpur ,10.0,Barisal,94.0,100.0,Nazirpur,Barisal,97.0,76.0,Nazirpur 
+79.0,Pirojpur ,10.0,Barisal,95.0,100.0,Bhandaria,Barisal,97.5,14.0,Bhandaria 
+79.0,Pirojpur ,10.0,Barisal,70.0,100.0,Pirojpur,Barisal,85.0,80.0,Pirojpur Sadar 
+79.0,Pirojpur ,10.0,Barisal,95.0,100.0,Nesarabad,Barisal,97.5,87.0,Nesarabad 
+79.0,Pirojpur ,10.0,Barisal,94.0,100.0,Kawkhali,Barisal,97.0,47.0,Kawkhali 
+9.0,Bhola ,10.0,Barisal,48.0,100.0,Indurkani,Barisal,74.0,21.0,Burhanuddin 
+27.0,Dinajpur ,55.0,Rangpur,95.0,100.0,Bochaganj,Rangpur,97.5,21.0,Bochaganj 
+27.0,Dinajpur ,55.0,Rangpur,94.0,100.0,Kaharole,Rangpur,97.0,56.0,Kaharole 
+27.0,Dinajpur ,55.0,Rangpur,93.0,100.0,Fulbari,Rangpur,96.5,38.0,Fulbari 
+27.0,Dinajpur ,55.0,Rangpur,89.0,100.0,Khanshama,Rangpur,94.5,60.0,Khansama 
+27.0,Dinajpur ,55.0,Rangpur,70.0,100.0,Dinajpur,Rangpur,85.0,64.0,Dinajpur Sadar 
+27.0,Dinajpur ,55.0,Rangpur,94.0,100.0,Hakimpur,Rangpur,97.0,47.0,Hakimpur 
+27.0,Dinajpur ,55.0,Rangpur,93.0,100.0,Birganj,Rangpur,96.5,12.0,Birganj 
+27.0,Dinajpur ,55.0,Rangpur,95.0,100.0,Ghoraghat,Rangpur,97.5,43.0,Ghoraghat 
+27.0,Dinajpur ,55.0,Rangpur,73.0,100.0,Birol,Rangpur,86.5,17.0,Biral 
+49.0,Kurigram ,55.0,Rangpur,67.0,100.0,Chirir,Rangpur,83.5,9.0,Chilmari 
+27.0,Dinajpur ,55.0,Rangpur,95.0,100.0,Parbatipur,Rangpur,97.5,77.0,Parbatipur 
+27.0,Dinajpur ,55.0,Rangpur,95.0,100.0,Nawabganj,Rangpur,97.5,69.0,Nawabganj 
+27.0,Dinajpur ,55.0,Rangpur,94.0,100.0,Birampur,Rangpur,97.0,10.0,Birampur 
+26.0,Dhaka ,30.0,Dhaka,93.0,100.0,Dhamrai,Dhaka,96.5,14.0,Dhamrai 
+93.0,Tangail ,30.0,Dhaka,80.0,100.0,Mirpur,Dhaka,90.0,66.0,Mirzapur 
+26.0,Dhaka ,30.0,Dhaka,95.0,100.0,Keraniganj,Dhaka,97.5,38.0,Keraniganj 
+26.0,Dhaka ,30.0,Dhaka,91.0,100.0,Savar,Dhaka,95.5,72.0,Savar 
+26.0,Dhaka ,30.0,Dhaka,95.0,100.0,Nawabganj,Dhaka,97.5,62.0,Nawabganj 
+26.0,Dhaka ,30.0,Dhaka,67.0,100.0,Tejgaon,Dhaka,83.5,90.0,Tejgaon Thana 
+26.0,Dhaka ,30.0,Dhaka,91.0,100.0,Dohar,Dhaka,95.5,18.0,Dohar 
+22.0,Cox's Bazar ,20.0,Chittagong,94.0,100.0,Kutubdia,Chittagong,97.0,45.0,Kutubdia 
+22.0,Cox's Bazar ,20.0,Chittagong,87.0,100.0,Moheshkhali,Chittagong,93.5,49.0,Maheshkhali 
+22.0,Cox's Bazar ,20.0,Chittagong,36.0,100.0,Coxs,Chittagong,68.0,24.0,Cox's Bazar Sadar 
+22.0,Cox's Bazar ,20.0,Chittagong,89.0,100.0,Ramu,Chittagong,94.5,66.0,Ramu 
+22.0,Cox's Bazar ,20.0,Chittagong,82.0,100.0,Chakaria,Chittagong,91.0,16.0,Chakoria 
+22.0,Cox's Bazar ,20.0,Chittagong,83.0,100.0,Ukhiya,Chittagong,91.5,94.0,Ukhia 
+22.0,Cox's Bazar ,20.0,Chittagong,92.0,100.0,Teknaf,Chittagong,96.0,90.0,Teknaf 
+22.0,Cox's Bazar ,20.0,Chittagong,91.0,100.0,Pekua,Chittagong,95.5,56.0,Pekua 
+61.0,Mymensingh ,30.0,Dhaka,71.0,100.0,Faridpur,Dhaka,85.5,23.0,Gauripur 
+29.0,Faridpur ,30.0,Dhaka,94.0,100.0,Boalmari,Dhaka,97.0,18.0,Boalmari 
+29.0,Faridpur ,30.0,Dhaka,92.0,100.0,Bhanga,Dhaka,96.0,10.0,Bhanga 
+26.0,Dhaka ,30.0,Dhaka,60.0,100.0,Char,Dhaka,80.0,18.0,Dohar 
+29.0,Faridpur ,30.0,Dhaka,95.0,100.0,Nagarkanda,Dhaka,97.5,62.0,Nagarkanda 
+29.0,Faridpur ,30.0,Dhaka,94.0,100.0,Sadarpur,Dhaka,97.0,84.0,Sadarpur 
+29.0,Faridpur ,30.0,Dhaka,80.0,100.0,Alphadanga,Dhaka,90.0,3.0,Alfadanga 
+29.0,Faridpur ,30.0,Dhaka,86.0,100.0,Modhukhali,Dhaka,93.0,56.0,Madhukhali 
+10.0,Bogra ,50.0,Rajshahi,95.0,100.0,Sariakandi,Rajshahi,97.5,81.0,Sariakandi 
+10.0,Bogra ,50.0,Rajshahi,93.0,100.0,Sherpur,Rajshahi,96.5,88.0,Sherpur 
+70.0,Chapai Nawabganj ,50.0,Rajshahi,94.0,100.0,Shibganj,Rajshahi,97.0,88.0,Shibganj 
+10.0,Bogra ,50.0,Rajshahi,77.0,100.0,Dhunot,Rajshahi,88.5,27.0,Dhunat 
+10.0,Bogra ,50.0,Rajshahi,92.0,100.0,Dupchanchia,Rajshahi,96.0,33.0,Dhupchanchia 
+10.0,Bogra ,50.0,Rajshahi,95.0,100.0,Nandigram,Rajshahi,97.5,67.0,Nandigram 
+10.0,Bogra ,50.0,Rajshahi,95.0,100.0,Adamdighi,Rajshahi,97.5,6.0,Adamdighi 
+76.0,Pabna ,50.0,Rajshahi,60.0,100.0,Bogra,Rajshahi,80.0,16.0,Bera 
+10.0,Bogra ,50.0,Rajshahi,93.0,100.0,Kahaloo,Rajshahi,96.5,54.0,Kahaloo 
+10.0,Bogra ,50.0,Rajshahi,93.0,100.0,Gabtali,Rajshahi,96.5,40.0,Gabtali 
+10.0,Bogra ,50.0,Rajshahi,94.0,100.0,Sonatola,Rajshahi,97.0,95.0,Sonatola 
+10.0,Bogra ,50.0,Rajshahi,96.0,100.0,Shajahanpur,Rajshahi,98.0,85.0,Shajahanpur 
+49.0,Kurigram ,55.0,Rangpur,96.0,100.0,Bhurungamari,Rangpur,98.0,6.0,Bhurungamari 
+49.0,Kurigram ,55.0,Rangpur,80.0,100.0,Roumari,Rangpur,90.0,79.0,Raumari 
+49.0,Kurigram ,55.0,Rangpur,70.0,100.0,Kurigram,Rangpur,85.0,52.0,Kurigram Sadar 
+49.0,Kurigram ,55.0,Rangpur,92.0,100.0,Ulipur,Rangpur,96.0,94.0,Ulipur 
+49.0,Kurigram ,55.0,Rangpur,90.0,100.0,Nageswari,Rangpur,95.0,61.0,Nageshwari 
+49.0,Kurigram ,55.0,Rangpur,94.0,100.0,Chilmari,Rangpur,97.0,9.0,Chilmari 
+27.0,Dinajpur ,55.0,Rangpur,93.0,100.0,Fulbari,Rangpur,96.5,38.0,Fulbari 
+49.0,Kurigram ,55.0,Rangpur,62.0,100.0,Char,Rangpur,81.0,9.0,Chilmari 
+49.0,Kurigram ,55.0,Rangpur,94.0,100.0,Rajarhat,Rangpur,97.0,77.0,Rajarhat 
+87.0,Satkhira ,40.0,Khulna,89.0,100.0,Tala,Khulna,94.5,90.0,Tala 
+87.0,Satkhira ,40.0,Khulna,70.0,100.0,Satkhira,Khulna,85.0,82.0,Satkhira Sadar 
+87.0,Satkhira ,40.0,Khulna,80.0,100.0,Kolaroa,Khulna,90.0,43.0,Kalaroa 
+87.0,Satkhira ,40.0,Khulna,93.0,100.0,Debhata,Khulna,96.5,25.0,Debhata 
+87.0,Satkhira ,40.0,Khulna,95.0,100.0,Shyamnagar,Khulna,97.5,86.0,Shyamnagar 
+87.0,Satkhira ,40.0,Khulna,94.0,100.0,Kaliganj,Khulna,97.0,47.0,Kaliganj 
+87.0,Satkhira ,40.0,Khulna,88.0,100.0,Asasuni,Khulna,94.0,4.0,Assasuni 
+4.0,Barguna ,10.0,Barisal,96.0,100.0,Patharghata,Barisal,98.0,85.0,Patharghata 
+4.0,Barguna ,10.0,Barisal,80.0,100.0,Bmna,Barisal,90.0,19.0,Bamna 
+4.0,Barguna ,10.0,Barisal,92.0,100.0,Amtali,Barisal,96.0,9.0,Amtali 
+4.0,Barguna ,10.0,Barisal,92.0,100.0,Betagi,Barisal,96.0,47.0,Betagi 
+4.0,Barguna ,10.0,Barisal,67.0,100.0,Barguna,Barisal,83.5,28.0,Barguna Sadar 
+18.0,Chuadanga ,40.0,Khulna,72.0,100.0,Chuadanga,Khulna,86.0,23.0,Chuadanga Sadar 
+18.0,Chuadanga ,40.0,Khulna,59.0,100.0,Jiban,Khulna,79.5,55.0,Jiban Nagar 
+18.0,Chuadanga ,40.0,Khulna,95.0,100.0,Damurhuda,Khulna,97.5,31.0,Damurhuda 
+18.0,Chuadanga ,40.0,Khulna,95.0,100.0,Alamdanga,Khulna,97.5,7.0,Alamdanga 
+46.0,Khagrachhari ,20.0,Chittagong,95.0,100.0,Dighinala,Chittagong,97.5,43.0,Dighinala 
+46.0,Khagrachhari ,20.0,Chittagong,77.0,100.0,Khagrachhari,Chittagong,88.5,49.0,Khagrachhari Sadar 
+46.0,Khagrachhari ,20.0,Chittagong,96.0,100.0,Mahalchhari,Chittagong,98.0,65.0,Mahalchhari 
+46.0,Khagrachhari ,20.0,Chittagong,95.0,100.0,Panchhari,Chittagong,97.5,77.0,Panchhari 
+46.0,Khagrachhari ,20.0,Chittagong,93.0,100.0,Ramgarh,Chittagong,96.5,80.0,Ramgarh 
+46.0,Khagrachhari ,20.0,Chittagong,96.0,100.0,Manikchhari,Chittagong,98.0,67.0,Manikchhari 
+46.0,Khagrachhari ,20.0,Chittagong,95.0,100.0,Matiranga,Chittagong,97.5,70.0,Matiranga 
+46.0,Khagrachhari ,20.0,Chittagong,96.0,100.0,Lakshmichhari,Chittagong,98.0,61.0,Lakshmichhari 
+65.0,Narail ,40.0,Khulna,91.0,100.0,Kalia,Khulna,95.5,28.0,Kalia 
+65.0,Narail ,40.0,Khulna,94.0,100.0,Lohagara,Khulna,97.0,52.0,Lohagara 
+65.0,Narail ,40.0,Khulna,63.0,100.0,Narail,Khulna,81.5,76.0,Narail Sadar 
+78.0,Patuakhali ,10.0,Barisal,74.0,100.0,Patuakhali,Barisal,87.0,95.0,Patuakhali Sadar 
+78.0,Patuakhali ,10.0,Barisal,78.0,100.0,Kalapara,Barisal,89.0,66.0,Kala Para 
+78.0,Patuakhali ,10.0,Barisal,95.0,100.0,Mirzaganj,Barisal,97.5,76.0,Mirzaganj 
+78.0,Patuakhali ,10.0,Barisal,84.0,100.0,Golachipa,Barisal,92.0,57.0,Galachipa 
+78.0,Patuakhali ,10.0,Barisal,93.0,100.0,Bauphal,Barisal,96.5,38.0,Bauphal 
+78.0,Patuakhali ,10.0,Barisal,94.0,100.0,Dashmina,Barisal,97.0,52.0,Dashmina 
+78.0,Patuakhali ,10.0,Barisal,91.0,100.0,Dumki,Barisal,95.5,55.0,Dumki 
+48.0,Kishoreganj ,30.0,Dhaka,93.0,100.0,Katiadi,Dhaka,96.5,45.0,Katiadi 
+48.0,Kishoreganj ,30.0,Dhaka,80.0,100.0,Bhariab,Dhaka,90.0,11.0,Bhairab 
+48.0,Kishoreganj ,30.0,Dhaka,95.0,100.0,Austagram,Dhaka,97.5,2.0,Austagram 
+48.0,Kishoreganj ,30.0,Dhaka,76.0,100.0,Kishoreganj,Dhaka,88.0,49.0,Kishoreganj Sadar 
+48.0,Kishoreganj ,30.0,Dhaka,95.0,100.0,Hossainpur,Dhaka,97.5,27.0,Hossainpur 
+48.0,Kishoreganj ,30.0,Dhaka,91.0,100.0,Nikli,Dhaka,95.5,76.0,Nikli 
+48.0,Kishoreganj ,30.0,Dhaka,82.0,100.0,Bazitpur,Dhaka,91.0,6.0,Bajitpur 
+48.0,Kishoreganj ,30.0,Dhaka,94.0,100.0,Pakundia,Dhaka,97.0,79.0,Pakundia 
+48.0,Kishoreganj ,30.0,Dhaka,89.0,100.0,Itna,Dhaka,94.5,33.0,Itna 
+48.0,Kishoreganj ,30.0,Dhaka,82.0,100.0,Kuliarchar,Dhaka,91.0,54.0,Kuliar Char 
+48.0,Kishoreganj ,30.0,Dhaka,92.0,100.0,Tarail,Dhaka,96.0,92.0,Tarail 
+48.0,Kishoreganj ,30.0,Dhaka,95.0,100.0,Karimganj,Dhaka,97.5,42.0,Karimganj 
+48.0,Kishoreganj ,30.0,Dhaka,84.0,100.0,Mithamoin,Dhaka,92.0,59.0,Mithamain 
+88.0,Sirajganj ,50.0,Rajshahi,93.0,100.0,Kazipur,Rajshahi,96.5,50.0,Kazipur 
+88.0,Sirajganj ,50.0,Rajshahi,80.0,100.0,Rayganj,Rajshahi,90.0,61.0,Royganj 
+88.0,Sirajganj ,50.0,Rajshahi,92.0,100.0,Tarash,Rajshahi,96.0,89.0,Tarash 
+88.0,Sirajganj ,50.0,Rajshahi,72.0,100.0,Sirajganj,Rajshahi,86.0,78.0,Sirajganj Sadar 
+88.0,Sirajganj ,50.0,Rajshahi,91.0,100.0,Kamarkhand,Rajshahi,95.5,44.0,Kamarkhanda 
+88.0,Sirajganj ,50.0,Rajshahi,82.0,100.0,Chouhali,Rajshahi,91.0,27.0,Chauhali 
+88.0,Sirajganj ,50.0,Rajshahi,80.0,100.0,Ullahpara,Rajshahi,90.0,94.0,Ullah Para 
+88.0,Sirajganj ,50.0,Rajshahi,94.0,100.0,Belkuchi,Rajshahi,97.0,11.0,Belkuchi 
+88.0,Sirajganj ,50.0,Rajshahi,80.0,100.0,Shazadpur,Rajshahi,90.0,67.0,Shahjadpur 
+35.0,Gopalganj ,30.0,Dhaka,72.0,100.0,Gopalganj,Dhaka,86.0,32.0,Gopalganj Sadar 
+35.0,Gopalganj ,30.0,Dhaka,95.0,100.0,Muksudpur,Dhaka,97.5,58.0,Muksudpur 
+35.0,Gopalganj ,30.0,Dhaka,95.0,100.0,Tungipara,Dhaka,97.5,91.0,Tungipara 
+35.0,Gopalganj ,30.0,Dhaka,95.0,100.0,Kotalipara,Dhaka,97.5,51.0,Kotalipara 
+35.0,Gopalganj ,30.0,Dhaka,88.0,100.0,Kasiani,Dhaka,94.0,43.0,Kashiani 
+79.0,Pirojpur ,10.0,Barisal,95.0,0.0,Mathbaria,03(1),47.5,58.0,Mathbaria 
+79.0,Pirojpur ,10.0,Barisal,94.0,0.0,Nazirpur,03(1),47.0,76.0,Nazirpur 
+79.0,Pirojpur ,10.0,Barisal,95.0,0.0,Bhandaria,03(1),47.5,14.0,Bhandaria 
+79.0,Pirojpur ,10.0,Barisal,70.0,0.0,Pirojpur,03(1),35.0,80.0,Pirojpur Sadar 
+79.0,Pirojpur ,10.0,Barisal,95.0,0.0,Nesarabad,03(1),47.5,87.0,Nesarabad 
+84.0,Rangamati ,20.0,Chittagong,94.0,0.0,Kawkhali,03(1),47.0,25.0,Kawkhali 
+19.0,Comilla ,20.0,Chittagong,53.0,0.0,Indurkani,03(1),26.5,36.0,Daudkandi 
+68.0,Narsingdi ,30.0,Dhaka,69.0,100.0,Narshingdi,Dhaka,84.5,60.0,Narsingdi Sadar 
+68.0,Narsingdi ,30.0,Dhaka,67.0,100.0,Raipura,Dhaka,83.5,64.0,Roypura 
+68.0,Narsingdi ,30.0,Dhaka,74.0,100.0,Monohordi,Dhaka,87.0,52.0,Manohardi 
+68.0,Narsingdi ,30.0,Dhaka,93.0,100.0,Shibpur,Dhaka,96.5,76.0,Shibpur 
+68.0,Narsingdi ,30.0,Dhaka,92.0,100.0,Palash,Dhaka,96.0,63.0,Palash 
+68.0,Narsingdi ,30.0,Dhaka,86.0,100.0,Belaboo,Dhaka,93.0,7.0,Belabo 
+64.0,Naogaon ,50.0,Rajshahi,67.0,22.0,Jamalpur,Mymensingh,44.5,69.0,Niamatpur 
+39.0,Jamalpur ,30.0,Dhaka,95.0,13.0,Melandaha,Mymensingh,54.0,61.0,Melandaha 
+39.0,Jamalpur ,30.0,Dhaka,95.0,13.0,Dewanganj,Mymensingh,54.0,15.0,Dewanganj 
+39.0,Jamalpur ,30.0,Dhaka,94.0,13.0,Islampur,Mymensingh,53.5,29.0,Islampur 
+39.0,Jamalpur ,30.0,Dhaka,92.0,13.0,Sharishabari,Mymensingh,52.5,85.0,Sarishabari 
+39.0,Jamalpur ,30.0,Dhaka,95.0,13.0,Madarganj,Mymensingh,54.0,58.0,Madarganj 
+39.0,Jamalpur ,30.0,Dhaka,95.0,13.0,Bakshiganj,Mymensingh,54.0,7.0,Bakshiganj 
+13.0,Chandpur ,20.0,Chittagong,89.0,100.0,Sharasti,Chittagong,94.5,95.0,Shahrasti 
+13.0,Chandpur ,20.0,Chittagong,92.0,100.0,Matlab,Chittagong,96.0,76.0,Matlab 
+13.0,Chandpur ,20.0,Chittagong,94.0,100.0,Hajiganj,Chittagong,97.0,49.0,Hajiganj 
+13.0,Chandpur ,20.0,Chittagong,70.0,100.0,Chandpur,Chittagong,85.0,22.0,Chandpur Sadar 
+13.0,Chandpur ,20.0,Chittagong,92.0,100.0,Kachua,Chittagong,96.0,58.0,Kachua 
+13.0,Chandpur ,20.0,Chittagong,95.0,100.0,Faridganj,Chittagong,97.5,45.0,Faridganj 
+13.0,Chandpur ,20.0,Chittagong,59.0,100.0,Hemchar,Chittagong,79.5,47.0,Haim Char 
+13.0,Chandpur ,20.0,Chittagong,77.0,100.0,Motlab,Chittagong,88.5,76.0,Matlab 
+93.0,Tangail ,30.0,Dhaka,94.0,100.0,Mirzapur,Dhaka,97.0,66.0,Mirzapur 
+93.0,Tangail ,30.0,Dhaka,94.0,100.0,Nagarpur,Dhaka,97.0,76.0,Nagarpur 
+93.0,Tangail ,30.0,Dhaka,93.0,100.0,Bhuapur,Dhaka,96.5,19.0,Bhuapur 
+93.0,Tangail ,30.0,Dhaka,93.0,100.0,Ghatail,Dhaka,96.5,28.0,Ghatail 
+93.0,Tangail ,30.0,Dhaka,92.0,100.0,Basail,Dhaka,96.0,9.0,Basail 
+48.0,Kishoreganj ,30.0,Dhaka,71.0,100.0,Tangail,Dhaka,85.5,92.0,Tarail 
+93.0,Tangail ,30.0,Dhaka,94.0,100.0,Kalihati,Dhaka,97.0,47.0,Kalihati 
+93.0,Tangail ,30.0,Dhaka,82.0,100.0,Modhupur,Dhaka,91.0,57.0,Madhupur 
+93.0,Tangail ,30.0,Dhaka,94.0,100.0,Gopalpur,Dhaka,97.0,38.0,Gopalpur 
+93.0,Tangail ,30.0,Dhaka,89.0,100.0,Shakhipur,Dhaka,94.5,85.0,Sakhipur 
+93.0,Tangail ,30.0,Dhaka,93.0,100.0,Delduar,Dhaka,96.5,23.0,Delduar 
+69.0,Natore ,50.0,Rajshahi,95.0,100.0,Baraigram,Rajshahi,97.5,15.0,Baraigram 
+69.0,Natore ,50.0,Rajshahi,63.0,100.0,Natore,Rajshahi,81.5,63.0,Natore Sadar 
+69.0,Natore ,50.0,Rajshahi,95.0,100.0,Bagatipara,Rajshahi,97.5,9.0,Bagatipara 
+69.0,Natore ,50.0,Rajshahi,92.0,100.0,Singra,Rajshahi,96.0,91.0,Singra 
+69.0,Natore ,50.0,Rajshahi,92.0,100.0,Lalpur,Rajshahi,96.0,44.0,Lalpur 
+69.0,Natore ,50.0,Rajshahi,91.0,100.0,Gurudashpur,Rajshahi,95.5,41.0,Gurudaspur 
+76.0,Pabna ,50.0,Rajshahi,82.0,100.0,Atghoria,Rajshahi,91.0,5.0,Atgharia 
+81.0,Rajshahi ,50.0,Rajshahi,80.0,100.0,Pabna,Rajshahi,90.0,72.0,Paba 
+76.0,Pabna ,50.0,Rajshahi,84.0,100.0,Chatmohor,Rajshahi,92.0,22.0,Chatmohar 
+76.0,Pabna ,50.0,Rajshahi,94.0,100.0,Ishwardi,Rajshahi,97.0,39.0,Ishwardi 
+76.0,Pabna ,50.0,Rajshahi,94.0,100.0,Faridpur,Rajshahi,97.0,33.0,Faridpur 
+76.0,Pabna ,50.0,Rajshahi,95.0,100.0,Sujanagar,Rajshahi,97.5,83.0,Sujanagar 
+76.0,Pabna ,50.0,Rajshahi,93.0,100.0,Santhia,Rajshahi,96.5,72.0,Santhia 
+76.0,Pabna ,50.0,Rajshahi,89.0,100.0,Bera,Rajshahi,94.5,16.0,Bera 
+76.0,Pabna ,50.0,Rajshahi,78.0,100.0,Bhangoora,Rajshahi,89.0,19.0,Bhangura 
+47.0,Khulna ,40.0,Khulna,82.0,100.0,Digholia,Khulna,91.0,40.0,Dighalia 
+47.0,Khulna ,40.0,Khulna,93.0,100.0,Dumuria,Khulna,96.5,30.0,Dumuria 
+1.0,Bagerhat ,40.0,Khulna,62.0,100.0,Khulna,Khulna,81.0,38.0,Kachua 
+47.0,Khulna ,40.0,Khulna,92.0,100.0,Dacope,Khulna,96.0,17.0,Dacope 
+47.0,Khulna ,40.0,Khulna,95.0,100.0,Terokhada,Khulna,97.5,94.0,Terokhada 
+47.0,Khulna ,40.0,Khulna,75.0,100.0,Fultala,Khulna,87.5,69.0,Phultala 
+47.0,Khulna ,40.0,Khulna,95.0,100.0,Batiaghata,Khulna,97.5,12.0,Batiaghata 
+47.0,Khulna ,40.0,Khulna,95.0,100.0,Paikgachha,Khulna,97.5,64.0,Paikgachha 
+47.0,Khulna ,40.0,Khulna,83.0,100.0,Rupsha,Khulna,91.5,75.0,Rupsa 
+47.0,Khulna ,40.0,Khulna,91.0,100.0,Koyra,Khulna,95.5,53.0,Koyra 
+84.0,Rangamati ,20.0,Chittagong,88.0,100.0,Langadu,Chittagong,94.0,58.0,Langadu  
+84.0,Rangamati ,20.0,Chittagong,94.0,100.0,Kawkhali,Chittagong,97.0,25.0,Kawkhali 
+84.0,Rangamati ,20.0,Chittagong,72.0,100.0,Rangamati,Chittagong,86.0,87.0,Rangamati Sadar 
+84.0,Rangamati ,20.0,Chittagong,96.0,100.0,Baghaichhari,Chittagong,98.0,7.0,Baghaichhari 
+84.0,Rangamati ,20.0,Chittagong,92.0,100.0,Barkal,Chittagong,96.0,21.0,Barkal 
+84.0,Rangamati ,20.0,Chittagong,91.0,100.0,Naniarchar,Chittagong,95.5,75.0,Naniarchar  
+84.0,Rangamati ,20.0,Chittagong,78.0,100.0,Jurachhari,Chittagong,89.0,47.0,Jurai Chhari 
+84.0,Rangamati ,20.0,Chittagong,86.0,100.0,Kaptai,Chittagong,93.0,36.0,Kaptai  
+84.0,Rangamati ,20.0,Chittagong,91.0,100.0,Rajasthali,Chittagong,95.5,78.0,Rajasthali  
+84.0,Rangamati ,20.0,Chittagong,83.0,100.0,Belaichhari,Chittagong,91.5,29.0,Belai Chhari 
+30.0,Feni ,20.0,Chittagong,95.0,100.0,Parshuram,Chittagong,97.5,51.0,Parshuram 
+30.0,Feni ,20.0,Chittagong,96.0,100.0,Chhagalnaiya,Chittagong,98.0,14.0,Chhagalnaiya 
+30.0,Feni ,20.0,Chittagong,53.0,100.0,Feni,Chittagong,76.5,29.0,Feni Sadar 
+30.0,Feni ,20.0,Chittagong,94.0,100.0,Sonagazi,Chittagong,97.0,94.0,Sonagazi 
+30.0,Feni ,20.0,Chittagong,88.0,100.0,Dagonbhuiyan,Chittagong,94.0,25.0,Daganbhuiyan 
+30.0,Feni ,20.0,Chittagong,93.0,100.0,Fulgazi,Chittagong,96.5,41.0,Fulgazi 
+91.0,Sylhet ,60.0,Sylhet,95.0,100.0,Fenchuganj,Sylhet,97.5,35.0,Fenchuganj 
+91.0,Sylhet ,60.0,Sylhet,95.0,100.0,Gowainghat,Sylhet,97.5,41.0,Gowainghat 
+91.0,Sylhet ,60.0,Sylhet,82.0,100.0,Jakiganj,Sylhet,91.0,94.0,Zakiganj 
+91.0,Sylhet ,60.0,Sylhet,90.0,100.0,Jaintapur,Sylhet,95.0,53.0,Jaintiapur 
+91.0,Sylhet ,60.0,Sylhet,94.0,100.0,Balaganj,Sylhet,97.0,8.0,Balaganj 
+91.0,Sylhet ,60.0,Sylhet,95.0,100.0,Golapganj,Sylhet,97.5,38.0,Golapganj 
+91.0,Sylhet ,60.0,Sylhet,63.0,100.0,Sylhet,Sylhet,81.5,62.0,Sylhet Sadar 
+91.0,Sylhet ,60.0,Sylhet,50.0,100.0,Biani,Sylhet,75.0,20.0,Bishwanath 
+91.0,Sylhet ,60.0,Sylhet,95.0,100.0,Kanaighat,Sylhet,97.5,59.0,Kanaighat 
+91.0,Sylhet ,60.0,Sylhet,90.0,100.0,Biswanath,Sylhet,95.0,20.0,Bishwanath 
+91.0,Sylhet ,60.0,Sylhet,96.0,100.0,Companiganj,Sylhet,98.0,27.0,Companiganj 
+90.0,Sunamganj ,60.0,Sylhet,36.0,100.0,South,Sylhet,68.0,86.0,Sulla 
+51.0,Lakshmipur ,20.0,Chittagong,80.0,100.0,Ramgoti,Chittagong,90.0,73.0,Ramgati 
+51.0,Lakshmipur ,20.0,Chittagong,62.0,100.0,Raipur,Chittagong,81.0,58.0,Roypur 
+51.0,Lakshmipur ,20.0,Chittagong,74.0,100.0,Lakshmipur,Chittagong,87.0,43.0,Lakshmipur Sadar 
+51.0,Lakshmipur ,20.0,Chittagong,93.0,100.0,Ramganj,Chittagong,96.5,65.0,Ramganj 
+51.0,Lakshmipur ,20.0,Chittagong,95.0,100.0,Kamalnagar,Chittagong,97.5,33.0,Kamalnagar 
+64.0,Naogaon ,50.0,Rajshahi,67.0,100.0,Naogaon,Rajshahi,83.5,60.0,Naogaon Sadar 
+64.0,Naogaon ,50.0,Rajshahi,86.0,100.0,Mohadebpur,Rajshahi,93.0,50.0,Mahadebpur 
+64.0,Naogaon ,50.0,Rajshahi,91.0,100.0,Manda,Rajshahi,95.5,47.0,Manda 
+64.0,Naogaon ,50.0,Rajshahi,96.0,100.0,Badalgachhi,Rajshahi,98.0,6.0,Badalgachhi 
+64.0,Naogaon ,50.0,Rajshahi,57.0,100.0,Rani,Rajshahi,78.5,85.0,Raninagar 
+64.0,Naogaon ,50.0,Rajshahi,84.0,100.0,Patnitola,Rajshahi,92.0,75.0,Patnitala 
+64.0,Naogaon ,50.0,Rajshahi,91.0,100.0,Atrai,Rajshahi,95.5,3.0,Atrai 
+64.0,Naogaon ,50.0,Rajshahi,95.0,100.0,Dhamoirhat,Rajshahi,97.5,28.0,Dhamoirhat 
+64.0,Naogaon ,50.0,Rajshahi,95.0,100.0,Niamatpur,Rajshahi,97.5,69.0,Niamatpur 
+64.0,Naogaon ,50.0,Rajshahi,83.0,100.0,Porsa,Rajshahi,91.5,79.0,Porsha 
+64.0,Naogaon ,50.0,Rajshahi,93.0,100.0,Sapahar,Rajshahi,96.5,86.0,Sapahar 
+85.0,Rangpur ,55.0,Rangpur,95.0,100.0,Gangachara,Rangpur,97.5,27.0,Gangachara 
+94.0,Thakurgaon ,55.0,Rangpur,93.0,100.0,Pirganj,Rangpur,96.5,82.0,Pirganj 
+85.0,Rangpur ,55.0,Rangpur,95.0,100.0,Pirgachha,Rangpur,97.5,73.0,Pirgachha 
+85.0,Rangpur ,55.0,Rangpur,95.0,100.0,Badarganj,Rangpur,97.5,3.0,Badarganj 
+85.0,Rangpur ,55.0,Rangpur,95.0,100.0,Mithapukur,Rangpur,97.5,58.0,Mithapukur 
+85.0,Rangpur ,55.0,Rangpur,92.0,100.0,Kaunia,Rangpur,96.0,42.0,Kaunia 
+85.0,Rangpur ,55.0,Rangpur,67.0,100.0,Rangpur,Rangpur,83.5,49.0,Rangpur Sadar 
+85.0,Rangpur ,55.0,Rangpur,94.0,100.0,Taraganj,Rangpur,97.0,92.0,Taraganj 
+49.0,Kurigram ,55.0,Rangpur,96.0,0.0,Bhurungamari,07(1),48.0,6.0,Bhurungamari 
+49.0,Kurigram ,55.0,Rangpur,80.0,0.0,Roumari,07(1),40.0,79.0,Raumari 
+49.0,Kurigram ,55.0,Rangpur,70.0,0.0,Kurigram,07(1),35.0,52.0,Kurigram Sadar 
+49.0,Kurigram ,55.0,Rangpur,92.0,0.0,Ulipur,07(1),46.0,94.0,Ulipur 
+49.0,Kurigram ,55.0,Rangpur,90.0,0.0,Nageswari,07(1),45.0,61.0,Nageshwari 
+49.0,Kurigram ,55.0,Rangpur,94.0,0.0,Chilmari,07(1),47.0,9.0,Chilmari 
+27.0,Dinajpur ,55.0,Rangpur,93.0,0.0,Fulbari,07(1),46.5,38.0,Fulbari 
+49.0,Kurigram ,55.0,Rangpur,62.0,0.0,Char,07(1),31.0,9.0,Chilmari 
+49.0,Kurigram ,55.0,Rangpur,94.0,0.0,Rajarhat,07(1),47.0,77.0,Rajarhat 
+81.0,Rajshahi ,50.0,Rajshahi,94.0,100.0,Durgapur,Rajshahi,97.0,31.0,Durgapur 
+81.0,Rajshahi ,50.0,Rajshahi,67.0,100.0,Poba,Rajshahi,83.5,72.0,Paba 
+81.0,Rajshahi ,50.0,Rajshahi,94.0,100.0,Mohanpur,Rajshahi,97.0,53.0,Mohanpur 
+81.0,Rajshahi ,50.0,Rajshahi,86.0,100.0,Puthiya,Rajshahi,93.0,82.0,Puthia 
+81.0,Rajshahi ,50.0,Rajshahi,88.0,100.0,Bagmara,Rajshahi,94.0,12.0,Baghmara 
+81.0,Rajshahi ,50.0,Rajshahi,94.0,100.0,Charghat,Rajshahi,97.0,25.0,Charghat 
+81.0,Rajshahi ,50.0,Rajshahi,63.0,100.0,Boalia,Rajshahi,81.5,22.0,Boalia Thana 
+81.0,Rajshahi ,50.0,Rajshahi,92.0,100.0,Tanore,Rajshahi,96.0,94.0,Tanore 
+81.0,Rajshahi ,50.0,Rajshahi,94.0,100.0,Godagari,Rajshahi,97.0,34.0,Godagari 
+81.0,Rajshahi ,50.0,Rajshahi,91.0,100.0,Bagha,Rajshahi,95.5,10.0,Bagha 
+58.0,Maulvibazar ,60.0,Sylhet,86.0,100.0,Sreemongal,Sylhet,93.0,83.0,Sreemangal 
+58.0,Maulvibazar ,60.0,Sylhet,94.0,100.0,Barlekha,Sylhet,97.0,14.0,Barlekha 
+90.0,Sunamganj ,60.0,Sylhet,46.0,100.0,Moulavi,Sylhet,73.0,86.0,Sulla 
+58.0,Maulvibazar ,60.0,Sylhet,93.0,100.0,Kulaura,Sylhet,96.5,65.0,Kulaura 
+58.0,Maulvibazar ,60.0,Sylhet,94.0,100.0,Rajnagar,Sylhet,97.0,80.0,Rajnagar 
+58.0,Maulvibazar ,60.0,Sylhet,74.0,100.0,Komolganj,Sylhet,87.0,56.0,Kamalganj 
+58.0,Maulvibazar ,60.0,Sylhet,89.0,100.0,Juri,Sylhet,94.5,35.0,Juri 
+59.0,Munshiganj ,30.0,Dhaka,95.0,100.0,Tongibari,Dhaka,97.5,94.0,Tongibari 
+59.0,Munshiganj ,30.0,Dhaka,93.0,100.0,Gazaria,Dhaka,96.5,24.0,Gazaria 
+59.0,Munshiganj ,30.0,Dhaka,96.0,100.0,Serajdikhan,Dhaka,98.0,74.0,Serajdikhan 
+59.0,Munshiganj ,30.0,Dhaka,74.0,100.0,Munshiganj,Dhaka,87.0,56.0,Munshiganj Sadar 
+59.0,Munshiganj ,30.0,Dhaka,78.0,100.0,Srinagar,Dhaka,89.0,84.0,Sreenagar 
+59.0,Munshiganj ,30.0,Dhaka,82.0,100.0,Lohajong,Dhaka,91.0,44.0,Lohajang 
+54.0,Madaripur ,30.0,Dhaka,92.0,100.0,Rajoir,Dhaka,96.0,80.0,Rajoir 
+54.0,Madaripur ,30.0,Dhaka,93.0,100.0,Kalkini,Dhaka,96.5,40.0,Kalkini 
+54.0,Madaripur ,30.0,Dhaka,78.0,100.0,Shibchar,Dhaka,89.0,87.0,Shib Char 
+29.0,Faridpur ,30.0,Dhaka,78.0,100.0,Madaripur,Dhaka,89.0,84.0,Sadarpur 
+30.0,Feni ,20.0,Chittagong,47.0,100.0,Adarsho,Chittagong,73.5,51.0,Parshuram 
+19.0,Comilla ,20.0,Chittagong,87.0,100.0,Chouddagram,Chittagong,93.5,31.0,Chauddagram 
+19.0,Comilla ,20.0,Chittagong,92.0,100.0,Barura,Chittagong,96.0,9.0,Barura 
+19.0,Comilla ,20.0,Chittagong,86.0,100.0,Laksham,Chittagong,93.0,72.0,Laksam 
+19.0,Comilla ,20.0,Chittagong,84.0,100.0,Burichong,Chittagong,92.0,18.0,Burichang 
+19.0,Comilla ,20.0,Chittagong,96.0,100.0,Brahmanpara,Chittagong,98.0,15.0,Brahmanpara 
+19.0,Comilla ,20.0,Chittagong,91.0,100.0,Homna,Chittagong,95.5,54.0,Homna 
+19.0,Comilla ,20.0,Chittagong,95.0,100.0,Muradnagar,Chittagong,97.5,81.0,Muradnagar 
+19.0,Comilla ,20.0,Chittagong,94.0,100.0,Debidwar,Chittagong,97.0,40.0,Debidwar 
+19.0,Comilla ,20.0,Chittagong,95.0,100.0,Daudkandi,Chittagong,97.5,36.0,Daudkandi 
+19.0,Comilla ,20.0,Chittagong,94.0,100.0,Chandina,Chittagong,97.0,27.0,Chandina 
+19.0,Comilla ,20.0,Chittagong,84.0,100.0,Nangolkot,Chittagong,92.0,87.0,Nangalkot 
+19.0,Comilla ,20.0,Chittagong,92.0,100.0,Meghna,Chittagong,96.0,75.0,Meghna 
+19.0,Comilla ,20.0,Chittagong,83.0,100.0,Titash,Chittagong,91.5,94.0,Titas 
+75.0,Noakhali ,20.0,Chittagong,53.0,100.0,Comilla,Chittagong,76.5,21.0,Companiganj 
+19.0,Comilla ,20.0,Chittagong,78.0,100.0,Monohargonj,Chittagong,89.0,74.0,Manoharganj 
+39.0,Jamalpur ,30.0,Dhaka,70.0,0.0,Jamalpur,08(1),35.0,36.0,Jamalpur Sadar 
+39.0,Jamalpur ,30.0,Dhaka,95.0,0.0,Melandaha,08(1),47.5,61.0,Melandaha 
+39.0,Jamalpur ,30.0,Dhaka,95.0,0.0,Dewanganj,08(1),47.5,15.0,Dewanganj 
+39.0,Jamalpur ,30.0,Dhaka,94.0,0.0,Islampur,08(1),47.0,29.0,Islampur 
+39.0,Jamalpur ,30.0,Dhaka,92.0,0.0,Sharishabari,08(1),46.0,85.0,Sarishabari 
+39.0,Jamalpur ,30.0,Dhaka,95.0,0.0,Madarganj,08(1),47.5,58.0,Madarganj 
+39.0,Jamalpur ,30.0,Dhaka,95.0,0.0,Bakshiganj,08(1),47.5,7.0,Bakshiganj 
+32.0,Gaibandha ,55.0,Rangpur,96.0,100.0,Gobindaganj,Rangpur,98.0,30.0,Gobindaganj 
+32.0,Gaibandha ,55.0,Rangpur,95.0,100.0,Sundarganj,Rangpur,97.5,91.0,Sundarganj 
+32.0,Gaibandha ,55.0,Rangpur,95.0,100.0,Fulchhari,Rangpur,97.5,21.0,Fulchhari 
+32.0,Gaibandha ,55.0,Rangpur,91.0,100.0,Sadullahpur,Rangpur,95.5,82.0,Sadullapur 
+32.0,Gaibandha ,55.0,Rangpur,95.0,100.0,Palashbari,Rangpur,97.5,67.0,Palashbari 
+32.0,Gaibandha ,55.0,Rangpur,88.0,100.0,Shaghata,Rangpur,94.0,88.0,Saghata 
+52.0,Lalmonirhat ,55.0,Rangpur,80.0,100.0,Gaibandha,Rangpur,90.0,33.0,Hatibandha 
+67.0,Narayanganj ,30.0,Dhaka,93.0,100.0,Rupganj,Dhaka,96.5,68.0,Rupganj 
+67.0,Narayanganj ,30.0,Dhaka,95.0,100.0,Sonargaon,Dhaka,97.5,4.0,Sonargaon 
+67.0,Narayanganj ,30.0,Dhaka,76.0,100.0,Narayanganj,Dhaka,88.0,58.0,Narayanganj Sadar 
+67.0,Narayanganj ,30.0,Dhaka,95.0,100.0,Araihazar,Dhaka,97.5,2.0,Araihazar 
+67.0,Narayanganj ,30.0,Dhaka,92.0,100.0,Bandar,Dhaka,96.0,6.0,Bandar 
+29.0,Faridpur ,30.0,Dhaka,92.0,100.0,Saltha,Dhaka,96.0,90.0,Saltha 
+46.0,Khagrachhari ,20.0,Chittagong,95.0,0.0,Dighinala,05(1),47.5,43.0,Dighinala 
+46.0,Khagrachhari ,20.0,Chittagong,77.0,0.0,Khagrachhari,05(1),38.5,49.0,Khagrachhari Sadar 
+46.0,Khagrachhari ,20.0,Chittagong,96.0,0.0,Mahalchhari,05(1),48.0,65.0,Mahalchhari 
+46.0,Khagrachhari ,20.0,Chittagong,95.0,0.0,Panchhari,05(1),47.5,77.0,Panchhari 
+46.0,Khagrachhari ,20.0,Chittagong,93.0,0.0,Ramgarh,05(1),46.5,80.0,Ramgarh 
+46.0,Khagrachhari ,20.0,Chittagong,96.0,0.0,Manikchhari,05(1),48.0,67.0,Manikchhari 
+46.0,Khagrachhari ,20.0,Chittagong,95.0,0.0,Matiranga,05(1),47.5,70.0,Matiranga 
+46.0,Khagrachhari ,20.0,Chittagong,96.0,0.0,Lakshmichhari,05(1),48.0,61.0,Lakshmichhari 
+72.0,Netrakona ,30.0,Dhaka,92.0,13.0,Atpara,Mymensingh,52.5,4.0,Atpara 
+72.0,Netrakona ,30.0,Dhaka,95.0,13.0,Kalmakanda,Mymensingh,54.0,40.0,Kalmakanda 
+72.0,Netrakona ,30.0,Dhaka,73.0,13.0,Modan,Mymensingh,43.0,56.0,Madan 
+72.0,Netrakona ,30.0,Dhaka,95.0,13.0,Purbadhala,Mymensingh,54.0,83.0,Purbadhala 
+72.0,Netrakona ,30.0,Dhaka,92.0,13.0,Kendua,Mymensingh,52.5,47.0,Kendua 
+72.0,Netrakona ,30.0,Dhaka,72.0,13.0,Netrokona,Mymensingh,42.5,74.0,Netrokona Sadar 
+81.0,Rajshahi ,50.0,Rajshahi,94.0,22.0,Durgapur,Mymensingh,58.0,31.0,Durgapur 
+72.0,Netrakona ,30.0,Dhaka,94.0,13.0,Barhatta,Mymensingh,53.5,9.0,Barhatta 
+72.0,Netrakona ,30.0,Dhaka,84.0,13.0,Mohonganj,Mymensingh,48.5,63.0,Mohanganj 
+72.0,Netrakona ,30.0,Dhaka,91.0,13.0,Khaliajhuri,Mymensingh,52.0,38.0,Khaliajuri 
+57.0,Meherpur ,40.0,Khulna,70.0,100.0,Meherpur,Khulna,85.0,87.0,Meherpur Sadar 
+57.0,Meherpur ,40.0,Khulna,83.0,100.0,Gagni,Khulna,91.5,47.0,Gangni 
+57.0,Meherpur ,40.0,Khulna,82.0,100.0,Mujibnagar,Khulna,91.0,60.0,Mujib Nagar 
+54.0,Madaripur ,30.0,Dhaka,92.0,0.0,Rajoir,04(1),46.0,80.0,Rajoir 
+54.0,Madaripur ,30.0,Dhaka,93.0,0.0,Kalkini,04(1),46.5,40.0,Kalkini 
+54.0,Madaripur ,30.0,Dhaka,78.0,0.0,Shibchar,04(1),39.0,87.0,Shib Char 
+29.0,Faridpur ,30.0,Dhaka,78.0,0.0,Madaripur,04(1),39.0,84.0,Sadarpur 
+90.0,Sunamganj ,60.0,Sylhet,83.0,100.0,Dherai,Sylhet,91.5,29.0,Derai 
+90.0,Sunamganj ,60.0,Sylhet,72.0,100.0,Sunamganj,Sylhet,86.0,89.0,Sunamganj Sadar 
+90.0,Sunamganj ,60.0,Sylhet,82.0,100.0,Dharmapasa,Sylhet,91.0,32.0,Dharampasha 
+90.0,Sunamganj ,60.0,Sylhet,91.0,100.0,Sulla,Sylhet,95.5,86.0,Sulla 
+90.0,Sunamganj ,60.0,Sylhet,94.0,100.0,Tahirpur,Sylhet,97.0,92.0,Tahirpur 
+90.0,Sunamganj ,60.0,Sylhet,93.0,100.0,Chhatak,Sylhet,96.5,23.0,Chhatak 
+90.0,Sunamganj ,60.0,Sylhet,80.0,100.0,Jogonnathpur,Sylhet,90.0,47.0,Jagannathpur 
+90.0,Sunamganj ,60.0,Sylhet,95.0,100.0,Jamalganj,Sylhet,97.5,50.0,Jamalganj 
+90.0,Sunamganj ,60.0,Sylhet,89.0,100.0,Bishwamvarpur,Sylhet,94.5,18.0,Bishwambarpur 
+90.0,Sunamganj ,60.0,Sylhet,67.0,100.0,Dowara,Sylhet,83.5,33.0,Dowarabazar 
+91.0,Sylhet ,60.0,Sylhet,56.0,100.0,Sadar,Sylhet,78.0,62.0,Sylhet Sadar 
+55.0,Magura ,40.0,Khulna,71.0,100.0,Sripur,Khulna,85.5,95.0,Sreepur 
+55.0,Magura ,40.0,Khulna,63.0,100.0,Magura,Khulna,81.5,57.0,Magura Sadar 
+55.0,Magura ,40.0,Khulna,94.0,100.0,Shalikha,Khulna,97.0,85.0,Shalikha 
+55.0,Magura ,40.0,Khulna,96.0,100.0,Mohammadpur,Khulna,98.0,66.0,Mohammadpur 
+41.0,Jessore ,40.0,Khulna,92.0,100.0,Jhikarghachha,Khulna,96.0,23.0,Jhikargachha 
+41.0,Jessore ,40.0,Khulna,67.0,100.0,Jessore,Khulna,83.5,47.0,Jessore Sadar 
+41.0,Jessore ,40.0,Khulna,77.0,100.0,Sarsa,Khulna,88.5,90.0,Sharsha 
+41.0,Jessore ,40.0,Khulna,84.0,100.0,Keshobpur,Khulna,92.0,38.0,Keshabpur 
+41.0,Jessore ,40.0,Khulna,95.0,100.0,Bagherpara,Khulna,97.5,9.0,Bagherpara 
+41.0,Jessore ,40.0,Khulna,86.0,100.0,Monirampur,Khulna,93.0,61.0,Manirampur 
+41.0,Jessore ,40.0,Khulna,95.0,100.0,Abhaynagar,Khulna,97.5,4.0,Abhaynagar 
+41.0,Jessore ,40.0,Khulna,76.0,100.0,Chowgachha,Khulna,88.0,11.0,Chaugachha 
+10.0,Bogra ,50.0,Rajshahi,95.0,0.0,Sariakandi,01(1),47.5,81.0,Sariakandi 
+10.0,Bogra ,50.0,Rajshahi,93.0,0.0,Sherpur,01(1),46.5,88.0,Sherpur 
+70.0,Chapai Nawabganj ,50.0,Rajshahi,94.0,0.0,Shibganj,01(1),47.0,88.0,Shibganj 
+10.0,Bogra ,50.0,Rajshahi,77.0,0.0,Dhunot,01(1),38.5,27.0,Dhunat 
+10.0,Bogra ,50.0,Rajshahi,92.0,0.0,Dupchanchia,01(1),46.0,33.0,Dhupchanchia 
+10.0,Bogra ,50.0,Rajshahi,95.0,0.0,Nandigram,01(1),47.5,67.0,Nandigram 
+10.0,Bogra ,50.0,Rajshahi,95.0,0.0,Adamdighi,01(1),47.5,6.0,Adamdighi 
+76.0,Pabna ,50.0,Rajshahi,60.0,0.0,Bogra,01(1),30.0,16.0,Bera 
+10.0,Bogra ,50.0,Rajshahi,93.0,0.0,Kahaloo,01(1),46.5,54.0,Kahaloo 
+10.0,Bogra ,50.0,Rajshahi,93.0,0.0,Gabtali,01(1),46.5,40.0,Gabtali 
+10.0,Bogra ,50.0,Rajshahi,94.0,0.0,Sonatola,01(1),47.0,95.0,Sonatola 
+10.0,Bogra ,50.0,Rajshahi,96.0,0.0,Shajahanpur,01(1),48.0,85.0,Shajahanpur 
+82.0,Rajbari ,30.0,Dhaka,67.0,100.0,Rajbari,Dhaka,83.5,76.0,Rajbari Sadar 
+82.0,Rajbari ,30.0,Dhaka,95.0,100.0,Baliakandi,Dhaka,97.5,7.0,Baliakandi 
+82.0,Rajbari ,30.0,Dhaka,82.0,100.0,Goalunda,Dhaka,91.0,29.0,Goalanda 
+82.0,Rajbari ,30.0,Dhaka,93.0,100.0,Pangsha,Dhaka,96.5,73.0,Pangsha 
+75.0,Noakhali ,20.0,Chittagong,86.0,100.0,Senbag,Chittagong,93.0,80.0,Senbagh 
+75.0,Noakhali ,20.0,Chittagong,95.0,100.0,Begumganj,Chittagong,97.5,7.0,Begumganj 
+75.0,Noakhali ,20.0,Chittagong,96.0,100.0,Companiganj,Chittagong,98.0,21.0,Companiganj 
+19.0,Comilla ,20.0,Chittagong,60.0,100.0,Sudharam,Chittagong,80.0,31.0,Chauddagram 
+75.0,Noakhali ,20.0,Chittagong,92.0,100.0,Hatiya,Chittagong,96.0,36.0,Hatiya 
+75.0,Noakhali ,20.0,Chittagong,94.0,100.0,Chatkhil,Chittagong,97.0,10.0,Chatkhil 
+75.0,Noakhali ,20.0,Chittagong,74.0,100.0,Subarna,Chittagong,87.0,85.0,Subarnachar 
+75.0,Noakhali ,20.0,Chittagong,95.0,100.0,Sonaimuri,Chittagong,97.5,83.0,Sonaimuri 
+38.0,Joypurhat ,50.0,Rajshahi,93.0,100.0,Khetlal,Rajshahi,96.5,61.0,Khetlal 
+38.0,Joypurhat ,50.0,Rajshahi,94.0,100.0,Akkelpur,Rajshahi,97.0,13.0,Akkelpur 
+38.0,Joypurhat ,50.0,Rajshahi,95.0,100.0,Panchbibi,Rajshahi,97.5,74.0,Panchbibi 
+38.0,Joypurhat ,50.0,Rajshahi,72.0,100.0,Joypurhat,Rajshahi,86.0,47.0,Joypurhat Sadar 
+38.0,Joypurhat ,50.0,Rajshahi,91.0,100.0,Kalai,Rajshahi,95.5,58.0,Kalai 
+33.0,Gazipur ,30.0,Dhaka,95.0,100.0,Kaliakair,Dhaka,97.5,32.0,Kaliakair 
+33.0,Gazipur ,30.0,Dhaka,93.0,100.0,Sreepur,Dhaka,96.5,86.0,Sreepur 
+61.0,Mymensingh ,30.0,Dhaka,75.0,100.0,Gazipur,Dhaka,87.5,23.0,Gauripur 
+33.0,Gazipur ,30.0,Dhaka,93.0,100.0,Kapasia,Dhaka,96.5,36.0,Kapasia 
+33.0,Gazipur ,30.0,Dhaka,94.0,100.0,Kaliganj,Dhaka,97.0,34.0,Kaliganj 
+59.0,Munshiganj ,30.0,Dhaka,67.0,100.0,Tongi,Dhaka,83.5,94.0,Tongibari 
+3.0,Bandarban ,20.0,Chittagong,72.0,100.0,Bandarban,Chittagong,86.0,14.0,Bandarban Sadar 
+3.0,Bandarban ,20.0,Chittagong,96.0,100.0,Rowangchhari,Chittagong,98.0,89.0,Rowangchhari 
+3.0,Bandarban ,20.0,Chittagong,89.0,100.0,Ruma,Chittagong,94.5,91.0,Ruma 
+3.0,Bandarban ,20.0,Chittagong,93.0,100.0,Thanchi,Chittagong,96.5,95.0,Thanchi 
+3.0,Bandarban ,20.0,Chittagong,89.0,100.0,Lama,Chittagong,94.5,51.0,Lama 
+3.0,Bandarban ,20.0,Chittagong,94.0,100.0,Alikadam,Chittagong,97.0,4.0,Alikadam 
+3.0,Bandarban ,20.0,Chittagong,97.0,100.0,Naikhongchhari,Chittagong,98.5,73.0,Naikhongchhari 
+94.0,Thakurgaon ,55.0,Rangpur,93.0,100.0,Pirganj,Rangpur,96.5,82.0,Pirganj 
+94.0,Thakurgaon ,55.0,Rangpur,93.0,100.0,Haripur,Rangpur,96.5,51.0,Haripur 
+94.0,Thakurgaon ,55.0,Rangpur,74.0,100.0,Thakurgaon,Rangpur,87.0,94.0,Thakurgaon Sadar 
+94.0,Thakurgaon ,55.0,Rangpur,95.0,100.0,Baliadangi,Rangpur,97.5,8.0,Baliadangi 
+94.0,Thakurgaon ,55.0,Rangpur,96.0,100.0,Ranisankail,Rangpur,98.0,86.0,Ranisankail 
+9.0,Bhola ,10.0,Barisal,59.0,100.0,Bhola,Barisal,79.5,18.0,Bhola Sadar 
+9.0,Bhola ,10.0,Barisal,82.0,100.0,Daulatkhan,Barisal,91.0,29.0,Daulat Khan 
+9.0,Bhola ,10.0,Barisal,86.0,100.0,Tajumuddin,Barisal,93.0,91.0,Tazumuddin 
+9.0,Bhola ,10.0,Barisal,87.0,100.0,Borhanuddin,Barisal,93.5,21.0,Burhanuddin 
+9.0,Bhola ,10.0,Barisal,94.0,100.0,Lalmohan,Barisal,97.0,54.0,Lalmohan 
+9.0,Bhola ,10.0,Barisal,70.0,100.0,Charfashion,Barisal,85.0,25.0,Char Fasson 
+9.0,Bhola ,10.0,Barisal,80.0,100.0,Monpura,Barisal,90.0,65.0,Manpura 
+75.0,Noakhali ,20.0,Chittagong,94.0,100.0,Kabirhat,Chittagong,97.0,47.0,Kabirhat 
+15.0,Chittagong ,20.0,Chittagong,74.0,100.0,Panchlaish,Chittagong,87.0,57.0,Panchlaish Thana 
+15.0,Chittagong ,20.0,Chittagong,94.0,100.0,Rangunia,Chittagong,97.0,70.0,Rangunia 
+15.0,Chittagong ,20.0,Chittagong,71.0,100.0,Doublemooring,Chittagong,85.5,28.0,Double Mooring Thana 
+15.0,Chittagong ,20.0,Chittagong,91.0,100.0,Fatichhari,Chittagong,95.5,33.0,Fatikchhari 
+15.0,Chittagong ,20.0,Chittagong,95.0,100.0,Hathazari,Chittagong,97.5,37.0,Hathazari 
+15.0,Chittagong ,20.0,Chittagong,95.0,100.0,Sitakunda,Chittagong,97.5,86.0,Sitakunda 
+15.0,Chittagong ,20.0,Chittagong,95.0,100.0,Mirsharai,Chittagong,97.5,53.0,Mirsharai 
+15.0,Chittagong ,20.0,Chittagong,77.0,100.0,Rawzan,Chittagong,88.5,74.0,Raozan 
+15.0,Chittagong ,20.0,Chittagong,93.0,100.0,Sandwip,Chittagong,96.5,78.0,Sandwip 
+15.0,Chittagong ,20.0,Chittagong,95.0,100.0,Boalkhali,Chittagong,97.5,12.0,Boalkhali 
+15.0,Chittagong ,20.0,Chittagong,78.0,100.0,Chandlaish,Chittagong,89.0,18.0,Chandanaish  
+15.0,Chittagong ,20.0,Chittagong,95.0,100.0,Banshkhali,Chittagong,97.5,8.0,Banshkhali 
+15.0,Chittagong ,20.0,Chittagong,94.0,100.0,Satkania,Chittagong,97.0,82.0,Satkania 
+15.0,Chittagong ,20.0,Chittagong,86.0,100.0,Anwara,Chittagong,93.0,4.0,Anowara 
+15.0,Chittagong ,20.0,Chittagong,92.0,100.0,Patiya,Chittagong,96.0,61.0,Patiya 
+15.0,Chittagong ,20.0,Chittagong,82.0,100.0,Lohagora,Chittagong,91.0,47.0,Lohagara 
+78.0,Patuakhali ,10.0,Barisal,74.0,0.0,Patuakhali,03(1),37.0,95.0,Patuakhali Sadar 
+78.0,Patuakhali ,10.0,Barisal,78.0,0.0,Kalapara,03(1),39.0,66.0,Kala Para 
+78.0,Patuakhali ,10.0,Barisal,95.0,0.0,Mirzaganj,03(1),47.5,76.0,Mirzaganj 
+78.0,Patuakhali ,10.0,Barisal,84.0,0.0,Golachipa,03(1),42.0,57.0,Galachipa 
+78.0,Patuakhali ,10.0,Barisal,93.0,0.0,Bauphal,03(1),46.5,38.0,Bauphal 
+78.0,Patuakhali ,10.0,Barisal,94.0,0.0,Dashmina,03(1),47.0,52.0,Dashmina 
+78.0,Patuakhali ,10.0,Barisal,91.0,0.0,Dumki,03(1),45.5,55.0,Dumki 
+70.0,Chapai Nawabganj ,50.0,Rajshahi,86.0,100.0,Nachol,Rajshahi,93.0,56.0,Nachole 
+70.0,Chapai Nawabganj ,50.0,Rajshahi,86.0,100.0,Gomostapur,Rajshahi,93.0,37.0,Gomastapur 
+70.0,Chapai Nawabganj ,50.0,Rajshahi,94.0,100.0,Shibganj,Rajshahi,97.0,88.0,Shibganj 
+88.0,Sirajganj ,50.0,Rajshahi,67.0,100.0,Chapai,Rajshahi,83.5,27.0,Chauhali 
+70.0,Chapai Nawabganj ,50.0,Rajshahi,94.0,100.0,Bholahat,Rajshahi,97.0,18.0,Bholahat 
+72.0,Netrakona ,30.0,Dhaka,74.0,100.0,Manikganj,Dhaka,87.0,63.0,Mohanganj 
+56.0,Manikganj ,30.0,Dhaka,93.0,100.0,Saturia,Dhaka,96.5,70.0,Saturia 
+56.0,Manikganj ,30.0,Dhaka,93.0,100.0,Singair,Dhaka,96.5,82.0,Singair 
+56.0,Manikganj ,30.0,Dhaka,95.0,100.0,Daulatpur,Dhaka,97.5,10.0,Daulatpur 
+56.0,Manikganj ,30.0,Dhaka,95.0,100.0,Harirampur,Dhaka,97.5,28.0,Harirampur 
+56.0,Manikganj ,30.0,Dhaka,95.0,100.0,Shibalaya,Dhaka,97.5,78.0,Shibalaya 
+56.0,Manikganj ,30.0,Dhaka,91.0,100.0,Ghior,Dhaka,95.5,22.0,Ghior 
+52.0,Lalmonirhat ,55.0,Rangpur,76.0,100.0,Lalmonirhat,Rangpur,88.0,55.0,Lalmonirhat Sadar 
+52.0,Lalmonirhat ,55.0,Rangpur,95.0,100.0,Hatibandha,Rangpur,97.5,33.0,Hatibandha 
+52.0,Lalmonirhat ,55.0,Rangpur,82.0,100.0,Kaliganj,Rangpur,91.0,39.0,Kaligang 
+52.0,Lalmonirhat ,55.0,Rangpur,93.0,100.0,Patgram,Rangpur,96.5,70.0,Patgram 
+52.0,Lalmonirhat ,55.0,Rangpur,94.0,100.0,Aditmari,Rangpur,97.0,2.0,Aditmari 
+22.0,Cox's Bazar ,20.0,Chittagong,94.0,0.0,Kutubdia,05(1),47.0,45.0,Kutubdia 
+22.0,Cox's Bazar ,20.0,Chittagong,87.0,0.0,Moheshkhali,05(1),43.5,49.0,Maheshkhali 
+64.0,Naogaon ,50.0,Rajshahi,36.0,0.0,Coxs,05(1),18.0,79.0,Porsha 
+22.0,Cox's Bazar ,20.0,Chittagong,89.0,0.0,Ramu,05(1),44.5,66.0,Ramu 
+22.0,Cox's Bazar ,20.0,Chittagong,82.0,0.0,Chakaria,05(1),41.0,16.0,Chakoria 
+22.0,Cox's Bazar ,20.0,Chittagong,83.0,0.0,Ukhiya,05(1),41.5,94.0,Ukhia 
+22.0,Cox's Bazar ,20.0,Chittagong,92.0,0.0,Teknaf,05(1),46.0,90.0,Teknaf 
+22.0,Cox's Bazar ,20.0,Chittagong,91.0,0.0,Pekua,05(1),45.5,56.0,Pekua 
+19.0,Comilla ,20.0,Chittagong,83.0,100.0,Brahmanbaria,Chittagong,91.5,15.0,Brahmanpara 
+12.0,Brahmanbaria ,20.0,Chittagong,95.0,100.0,Nasirnagar,Chittagong,97.5,90.0,Nasirnagar 
+12.0,Brahmanbaria ,20.0,Chittagong,95.0,100.0,Nabinagar,Chittagong,97.5,85.0,Nabinagar 
+12.0,Brahmanbaria ,20.0,Chittagong,83.0,100.0,Kashba,Chittagong,91.5,63.0,Kasba 
+12.0,Brahmanbaria ,20.0,Chittagong,92.0,100.0,Sarail,Chittagong,96.0,94.0,Sarail 
+12.0,Brahmanbaria ,20.0,Chittagong,92.0,100.0,Bancharampur,Chittagong,96.0,4.0,Banchharampur 
+12.0,Brahmanbaria ,20.0,Chittagong,93.0,100.0,Akhaura,Chittagong,96.5,2.0,Akhaura 
+12.0,Brahmanbaria ,20.0,Chittagong,94.0,100.0,Ashuganj,Chittagong,97.0,33.0,Ashuganj 
+12.0,Brahmanbaria ,20.0,Chittagong,62.0,100.0,Bijoy,Chittagong,81.0,7.0,Bijoynagar 
+82.0,Rajbari ,30.0,Dhaka,57.0,100.0,Palong,Dhaka,78.5,73.0,Pangsha 
+86.0,Shariatpur ,30.0,Dhaka,91.0,100.0,Naria,Dhaka,95.5,65.0,Naria 
+86.0,Shariatpur ,30.0,Dhaka,95.0,100.0,Bhedarganj,Dhaka,97.5,14.0,Bhedarganj 
+86.0,Shariatpur ,30.0,Dhaka,75.0,100.0,Damoddya,Dhaka,87.5,25.0,Damudya 
+86.0,Shariatpur ,30.0,Dhaka,90.0,100.0,Goshairhat,Dhaka,95.0,36.0,Gosairhat 
+86.0,Shariatpur ,30.0,Dhaka,80.0,100.0,Janjira,Dhaka,90.0,94.0,Zanjira 
+89.0,Sherpur ,30.0,Dhaka,91.0,13.0,Nakla,Mymensingh,52.0,67.0,Nakla 
+89.0,Sherpur ,30.0,Dhaka,67.0,13.0,Sribordi,Mymensingh,40.0,90.0,Sreebardi 
+10.0,Bogra ,50.0,Rajshahi,93.0,22.0,Sherpur,Mymensingh,57.5,88.0,Sherpur 
+89.0,Sherpur ,30.0,Dhaka,95.0,13.0,Nalitabari,Mymensingh,54.0,70.0,Nalitabari 
+89.0,Sherpur ,30.0,Dhaka,95.0,13.0,Jhenaigati,Mymensingh,54.0,37.0,Jhenaigati 
+50.0,Kushtia ,40.0,Khulna,95.0,100.0,Daulatpur,Khulna,97.5,39.0,Daulatpur 
+50.0,Kushtia ,40.0,Khulna,67.0,100.0,Kushtia,Khulna,83.5,79.0,Kushtia Sadar 
+50.0,Kushtia ,40.0,Khulna,95.0,100.0,Kumarkhali,Khulna,97.5,71.0,Kumarkhali 
+50.0,Kushtia ,40.0,Khulna,95.0,100.0,Bheramara,Khulna,97.5,15.0,Bheramara 
+50.0,Kushtia ,40.0,Khulna,92.0,100.0,Mirpur,Khulna,96.0,94.0,Mirpur 
+50.0,Kushtia ,40.0,Khulna,92.0,100.0,Khoksa,Khulna,96.0,63.0,Khoksa 
+6.0,Barisal ,10.0,Barisal,67.0,100.0,Barisal,Barisal,83.5,51.0,Barisal Sadar 
+79.0,Pirojpur ,10.0,Barisal,75.0,100.0,Uzirpur,Barisal,87.5,76.0,Nazirpur 
+6.0,Barisal ,10.0,Barisal,95.0,100.0,Bakerganj,Barisal,97.5,7.0,Bakerganj 
+6.0,Barisal ,10.0,Barisal,94.0,100.0,Babuganj,Barisal,97.0,3.0,Babuganj 
+6.0,Barisal ,10.0,Barisal,96.0,100.0,Mehendiganj,Barisal,98.0,62.0,Mehendiganj 
+6.0,Barisal ,10.0,Barisal,82.0,100.0,Gournadi,Barisal,91.0,32.0,Gaurnadi 
+6.0,Barisal ,10.0,Barisal,92.0,100.0,Muladi,Barisal,96.0,69.0,Muladi 
+6.0,Barisal ,10.0,Barisal,91.0,100.0,Hizla,Barisal,95.5,36.0,Hizla 
+6.0,Barisal ,10.0,Barisal,95.0,100.0,Agailjhara,Barisal,97.5,2.0,Agailjhara 
+6.0,Barisal ,10.0,Barisal,82.0,100.0,Banaripara,Barisal,91.0,10.0,Banari Para 
+73.0,Nilphamari ,55.0,Rangpur,94.0,100.0,Jaldhaka,Rangpur,97.0,36.0,Jaldhaka 
+73.0,Nilphamari ,55.0,Rangpur,91.0,100.0,Domar,Rangpur,95.5,15.0,Domar 
+73.0,Nilphamari ,55.0,Rangpur,80.0,100.0,Syadpur,Rangpur,90.0,85.0,Saidpur 
+73.0,Nilphamari ,55.0,Rangpur,91.0,100.0,Dimla,Rangpur,95.5,12.0,Dimla 
+73.0,Nilphamari ,55.0,Rangpur,74.0,100.0,Nilphamari,Rangpur,87.0,64.0,Nilphamari Sadar 
+73.0,Nilphamari ,55.0,Rangpur,96.0,100.0,Kishoreganj,Rangpur,98.0,45.0,Kishoreganj 
+75.0,Noakhali ,20.0,Chittagong,86.0,0.0,Senbag,05(1),43.0,80.0,Senbagh 
+75.0,Noakhali ,20.0,Chittagong,95.0,0.0,Begumganj,05(1),47.5,7.0,Begumganj 
+75.0,Noakhali ,20.0,Chittagong,96.0,0.0,Companiganj,05(1),48.0,21.0,Companiganj 
+32.0,Gaibandha ,55.0,Rangpur,63.0,0.0,Sudharam,05(1),31.5,91.0,Sundarganj 
+75.0,Noakhali ,20.0,Chittagong,92.0,0.0,Hatiya,05(1),46.0,36.0,Hatiya 
+75.0,Noakhali ,20.0,Chittagong,94.0,0.0,Chatkhil,05(1),47.0,10.0,Chatkhil 
+75.0,Noakhali ,20.0,Chittagong,74.0,0.0,Subarna,05(1),37.0,85.0,Subarnachar 
+75.0,Noakhali ,20.0,Chittagong,95.0,0.0,Sonaimuri,05(1),47.5,83.0,Sonaimuri 
+75.0,Noakhali ,20.0,Chittagong,94.0,0.0,Kabirhat,05(1),47.0,47.0,Kabirhat 
+91.0,Sylhet ,60.0,Sylhet,95.0,0.0,Fenchuganj,06(1),47.5,35.0,Fenchuganj 
+91.0,Sylhet ,60.0,Sylhet,95.0,0.0,Gowainghat,06(1),47.5,41.0,Gowainghat 
+91.0,Sylhet ,60.0,Sylhet,82.0,0.0,Jakiganj,06(1),41.0,94.0,Zakiganj 
+91.0,Sylhet ,60.0,Sylhet,90.0,0.0,Jaintapur,06(1),45.0,53.0,Jaintiapur 
+91.0,Sylhet ,60.0,Sylhet,94.0,0.0,Balaganj,06(1),47.0,8.0,Balaganj 
+91.0,Sylhet ,60.0,Sylhet,95.0,0.0,Golapganj,06(1),47.5,38.0,Golapganj 
+91.0,Sylhet ,60.0,Sylhet,63.0,0.0,Sylhet,06(1),31.5,62.0,Sylhet Sadar 
+94.0,Thakurgaon ,55.0,Rangpur,62.0,0.0,Biani,06(1),31.0,8.0,Baliadangi 
+91.0,Sylhet ,60.0,Sylhet,95.0,0.0,Kanaighat,06(1),47.5,59.0,Kanaighat 
+91.0,Sylhet ,60.0,Sylhet,90.0,0.0,Biswanath,06(1),45.0,20.0,Bishwanath 
+75.0,Noakhali ,20.0,Chittagong,96.0,0.0,Companiganj,06(1),48.0,21.0,Companiganj 
+29.0,Faridpur ,30.0,Dhaka,50.0,0.0,South,06(1),25.0,90.0,Saltha 
+88.0,Sirajganj ,50.0,Rajshahi,57.0,0.0,Adarsho,05(1),28.5,89.0,Tarash 
+19.0,Comilla ,20.0,Chittagong,87.0,0.0,Chouddagram,05(1),43.5,31.0,Chauddagram 
+19.0,Comilla ,20.0,Chittagong,92.0,0.0,Barura,05(1),46.0,9.0,Barura 
+19.0,Comilla ,20.0,Chittagong,86.0,0.0,Laksham,05(1),43.0,72.0,Laksam 
+19.0,Comilla ,20.0,Chittagong,84.0,0.0,Burichong,05(1),42.0,18.0,Burichang 
+19.0,Comilla ,20.0,Chittagong,96.0,0.0,Brahmanpara,05(1),48.0,15.0,Brahmanpara 
+19.0,Comilla ,20.0,Chittagong,91.0,0.0,Homna,05(1),45.5,54.0,Homna 
+19.0,Comilla ,20.0,Chittagong,95.0,0.0,Muradnagar,05(1),47.5,81.0,Muradnagar 
+19.0,Comilla ,20.0,Chittagong,94.0,0.0,Debidwar,05(1),47.0,40.0,Debidwar 
+19.0,Comilla ,20.0,Chittagong,95.0,0.0,Daudkandi,05(1),47.5,36.0,Daudkandi 
+19.0,Comilla ,20.0,Chittagong,94.0,0.0,Chandina,05(1),47.0,27.0,Chandina 
+19.0,Comilla ,20.0,Chittagong,84.0,0.0,Nangolkot,05(1),42.0,87.0,Nangalkot 
+19.0,Comilla ,20.0,Chittagong,92.0,0.0,Meghna,05(1),46.0,75.0,Meghna 
+19.0,Comilla ,20.0,Chittagong,83.0,0.0,Titash,05(1),41.5,94.0,Titas 
+91.0,Sylhet ,60.0,Sylhet,53.0,0.0,Comilla,05(1),26.5,27.0,Companiganj 
+19.0,Comilla ,20.0,Chittagong,78.0,0.0,Monohargonj,05(1),39.0,74.0,Manoharganj 
+13.0,Chandpur ,20.0,Chittagong,89.0,0.0,Sharasti,05(1),44.5,95.0,Shahrasti 
+13.0,Chandpur ,20.0,Chittagong,92.0,0.0,Matlab,05(1),46.0,76.0,Matlab 
+13.0,Chandpur ,20.0,Chittagong,94.0,0.0,Hajiganj,05(1),47.0,49.0,Hajiganj 
+81.0,Rajshahi ,50.0,Rajshahi,71.0,0.0,Chandpur,05(1),35.5,53.0,Mohanpur 
+1.0,Bagerhat ,40.0,Khulna,92.0,0.0,Kachua,05(1),46.0,38.0,Kachua 
+13.0,Chandpur ,20.0,Chittagong,95.0,0.0,Faridganj,05(1),47.5,45.0,Faridganj 
+13.0,Chandpur ,20.0,Chittagong,59.0,0.0,Hemchar,05(1),29.5,47.0,Haim Char 
+13.0,Chandpur ,20.0,Chittagong,77.0,0.0,Motlab,05(1),38.5,76.0,Matlab 
+72.0,Netrakona ,30.0,Dhaka,74.0,0.0,Manikganj,04(1),37.0,63.0,Mohanganj 
+56.0,Manikganj ,30.0,Dhaka,93.0,0.0,Saturia,04(1),46.5,70.0,Saturia 
+56.0,Manikganj ,30.0,Dhaka,93.0,0.0,Singair,04(1),46.5,82.0,Singair 
+50.0,Kushtia ,40.0,Khulna,95.0,0.0,Daulatpur,04(1),47.5,39.0,Daulatpur 
+56.0,Manikganj ,30.0,Dhaka,95.0,0.0,Harirampur,04(1),47.5,28.0,Harirampur 
+56.0,Manikganj ,30.0,Dhaka,95.0,0.0,Shibalaya,04(1),47.5,78.0,Shibalaya 
+56.0,Manikganj ,30.0,Dhaka,91.0,0.0,Ghior,04(1),45.5,22.0,Ghior 
+81.0,Rajshahi ,50.0,Rajshahi,94.0,0.0,Durgapur,01(1),47.0,31.0,Durgapur 
+81.0,Rajshahi ,50.0,Rajshahi,67.0,0.0,Poba,01(1),33.5,72.0,Paba 
+81.0,Rajshahi ,50.0,Rajshahi,94.0,0.0,Mohanpur,01(1),47.0,53.0,Mohanpur 
+81.0,Rajshahi ,50.0,Rajshahi,86.0,0.0,Puthiya,01(1),43.0,82.0,Puthia 
+81.0,Rajshahi ,50.0,Rajshahi,88.0,0.0,Bagmara,01(1),44.0,12.0,Baghmara 
+81.0,Rajshahi ,50.0,Rajshahi,94.0,0.0,Charghat,01(1),47.0,25.0,Charghat 
+65.0,Narail ,40.0,Khulna,67.0,0.0,Boalia,01(1),33.5,28.0,Kalia 
+81.0,Rajshahi ,50.0,Rajshahi,92.0,0.0,Tanore,01(1),46.0,94.0,Tanore 
+81.0,Rajshahi ,50.0,Rajshahi,94.0,0.0,Godagari,01(1),47.0,34.0,Godagari 
+81.0,Rajshahi ,50.0,Rajshahi,91.0,0.0,Bagha,01(1),45.5,10.0,Bagha 
+10.0,Bogra ,50.0,Rajshahi,75.0,0.0,Meherpur,02(1),37.5,88.0,Sherpur 
+57.0,Meherpur ,40.0,Khulna,83.0,0.0,Gagni,02(1),41.5,47.0,Gangni 
+57.0,Meherpur ,40.0,Khulna,82.0,0.0,Mujibnagar,02(1),41.0,60.0,Mujib Nagar 
+70.0,Chapai Nawabganj ,50.0,Rajshahi,86.0,0.0,Nachol,01(1),43.0,56.0,Nachole 
+70.0,Chapai Nawabganj ,50.0,Rajshahi,86.0,0.0,Gomostapur,01(1),43.0,37.0,Gomastapur 
+70.0,Chapai Nawabganj ,50.0,Rajshahi,94.0,0.0,Shibganj,01(1),47.0,88.0,Shibganj 
+88.0,Sirajganj ,50.0,Rajshahi,67.0,0.0,Chapai,01(1),33.5,27.0,Chauhali 
+70.0,Chapai Nawabganj ,50.0,Rajshahi,94.0,0.0,Bholahat,01(1),47.0,18.0,Bholahat 
+26.0,Dhaka ,30.0,Dhaka,93.0,0.0,Dhamrai,04(1),46.5,14.0,Dhamrai 
+50.0,Kushtia ,40.0,Khulna,92.0,0.0,Mirpur,04(1),46.0,94.0,Mirpur 
+26.0,Dhaka ,30.0,Dhaka,95.0,0.0,Keraniganj,04(1),47.5,38.0,Keraniganj 
+26.0,Dhaka ,30.0,Dhaka,91.0,0.0,Savar,04(1),45.5,72.0,Savar 
+27.0,Dinajpur ,55.0,Rangpur,95.0,0.0,Nawabganj,04(1),47.5,69.0,Nawabganj 
+26.0,Dhaka ,30.0,Dhaka,67.0,0.0,Tejgaon,04(1),33.5,90.0,Tejgaon Thana 
+26.0,Dhaka ,30.0,Dhaka,91.0,0.0,Dohar,04(1),45.5,18.0,Dohar 
+18.0,Chuadanga ,40.0,Khulna,72.0,0.0,Chuadanga,02(1),36.0,23.0,Chuadanga Sadar 
+18.0,Chuadanga ,40.0,Khulna,59.0,0.0,Jiban,02(1),29.5,55.0,Jiban Nagar 
+18.0,Chuadanga ,40.0,Khulna,95.0,0.0,Damurhuda,02(1),47.5,31.0,Damurhuda 
+18.0,Chuadanga ,40.0,Khulna,95.0,0.0,Alamdanga,02(1),47.5,7.0,Alamdanga 
+65.0,Narail ,40.0,Khulna,91.0,0.0,Kalia,02(1),45.5,28.0,Kalia 
+15.0,Chittagong ,20.0,Chittagong,94.0,0.0,Lohagara,02(1),47.0,47.0,Lohagara 
+48.0,Kishoreganj ,30.0,Dhaka,77.0,0.0,Narail,02(1),38.5,92.0,Tarail 
+59.0,Munshiganj ,30.0,Dhaka,95.0,0.0,Tongibari,04(1),47.5,94.0,Tongibari 
+59.0,Munshiganj ,30.0,Dhaka,93.0,0.0,Gazaria,04(1),46.5,24.0,Gazaria 
+59.0,Munshiganj ,30.0,Dhaka,96.0,0.0,Serajdikhan,04(1),48.0,74.0,Serajdikhan 
+59.0,Munshiganj ,30.0,Dhaka,74.0,0.0,Munshiganj,04(1),37.0,56.0,Munshiganj Sadar 
+59.0,Munshiganj ,30.0,Dhaka,78.0,0.0,Srinagar,04(1),39.0,84.0,Sreenagar 
+59.0,Munshiganj ,30.0,Dhaka,82.0,0.0,Lohajong,04(1),41.0,44.0,Lohajang 
+49.0,Kurigram ,55.0,Rangpur,67.0,0.0,Rajbari,04(1),33.5,79.0,Raumari 
+82.0,Rajbari ,30.0,Dhaka,95.0,0.0,Baliakandi,04(1),47.5,7.0,Baliakandi 
+82.0,Rajbari ,30.0,Dhaka,82.0,0.0,Goalunda,04(1),41.0,29.0,Goalanda 
+82.0,Rajbari ,30.0,Dhaka,93.0,0.0,Pangsha,04(1),46.5,73.0,Pangsha 
+41.0,Jessore ,40.0,Khulna,92.0,0.0,Jhikarghachha,02(1),46.0,23.0,Jhikargachha 
+41.0,Jessore ,40.0,Khulna,67.0,0.0,Jessore,02(1),33.5,47.0,Jessore Sadar 
+41.0,Jessore ,40.0,Khulna,77.0,0.0,Sarsa,02(1),38.5,90.0,Sharsha 
+41.0,Jessore ,40.0,Khulna,84.0,0.0,Keshobpur,02(1),42.0,38.0,Keshabpur 
+41.0,Jessore ,40.0,Khulna,95.0,0.0,Bagherpara,02(1),47.5,9.0,Bagherpara 
+41.0,Jessore ,40.0,Khulna,86.0,0.0,Monirampur,02(1),43.0,61.0,Manirampur 
+41.0,Jessore ,40.0,Khulna,95.0,0.0,Abhaynagar,02(1),47.5,4.0,Abhaynagar 
+41.0,Jessore ,40.0,Khulna,76.0,0.0,Chowgachha,02(1),38.0,11.0,Chaugachha 
+93.0,Tangail ,30.0,Dhaka,94.0,0.0,Mirzapur,04(1),47.0,66.0,Mirzapur 
+93.0,Tangail ,30.0,Dhaka,94.0,0.0,Nagarpur,04(1),47.0,76.0,Nagarpur 
+93.0,Tangail ,30.0,Dhaka,93.0,0.0,Bhuapur,04(1),46.5,19.0,Bhuapur 
+93.0,Tangail ,30.0,Dhaka,93.0,0.0,Ghatail,04(1),46.5,28.0,Ghatail 
+93.0,Tangail ,30.0,Dhaka,92.0,0.0,Basail,04(1),46.0,9.0,Basail 
+48.0,Kishoreganj ,30.0,Dhaka,71.0,0.0,Tangail,04(1),35.5,92.0,Tarail 
+93.0,Tangail ,30.0,Dhaka,94.0,0.0,Kalihati,04(1),47.0,47.0,Kalihati 
+93.0,Tangail ,30.0,Dhaka,82.0,0.0,Modhupur,04(1),41.0,57.0,Madhupur 
+93.0,Tangail ,30.0,Dhaka,94.0,0.0,Gopalpur,04(1),47.0,38.0,Gopalpur 
+93.0,Tangail ,30.0,Dhaka,89.0,0.0,Shakhipur,04(1),44.5,85.0,Sakhipur 
+93.0,Tangail ,30.0,Dhaka,93.0,0.0,Delduar,04(1),46.5,23.0,Delduar 
+76.0,Pabna ,50.0,Rajshahi,82.0,0.0,Atghoria,01(1),41.0,5.0,Atgharia 
+81.0,Rajshahi ,50.0,Rajshahi,80.0,0.0,Pabna,01(1),40.0,72.0,Paba 
+76.0,Pabna ,50.0,Rajshahi,84.0,0.0,Chatmohor,01(1),42.0,22.0,Chatmohar 
+76.0,Pabna ,50.0,Rajshahi,94.0,0.0,Ishwardi,01(1),47.0,39.0,Ishwardi 
+76.0,Pabna ,50.0,Rajshahi,94.0,0.0,Faridpur,01(1),47.0,33.0,Faridpur 
+76.0,Pabna ,50.0,Rajshahi,95.0,0.0,Sujanagar,01(1),47.5,83.0,Sujanagar 
+76.0,Pabna ,50.0,Rajshahi,93.0,0.0,Santhia,01(1),46.5,72.0,Santhia 
+76.0,Pabna ,50.0,Rajshahi,89.0,0.0,Bera,01(1),44.5,16.0,Bera 
+76.0,Pabna ,50.0,Rajshahi,78.0,0.0,Bhangoora,01(1),39.0,19.0,Bhangura 
+47.0,Khulna ,40.0,Khulna,82.0,0.0,Digholia,02(1),41.0,40.0,Dighalia 
+47.0,Khulna ,40.0,Khulna,93.0,0.0,Dumuria,02(1),46.5,30.0,Dumuria 
+13.0,Chandpur ,20.0,Chittagong,62.0,0.0,Khulna,02(1),31.0,58.0,Kachua 
+47.0,Khulna ,40.0,Khulna,92.0,0.0,Dacope,02(1),46.0,17.0,Dacope 
+47.0,Khulna ,40.0,Khulna,95.0,0.0,Terokhada,02(1),47.5,94.0,Terokhada 
+47.0,Khulna ,40.0,Khulna,75.0,0.0,Fultala,02(1),37.5,69.0,Phultala 
+47.0,Khulna ,40.0,Khulna,95.0,0.0,Batiaghata,02(1),47.5,12.0,Batiaghata 
+47.0,Khulna ,40.0,Khulna,95.0,0.0,Paikgachha,02(1),47.5,64.0,Paikgachha 
+47.0,Khulna ,40.0,Khulna,83.0,0.0,Rupsha,02(1),41.5,75.0,Rupsa 
+47.0,Khulna ,40.0,Khulna,91.0,0.0,Koyra,02(1),45.5,53.0,Koyra 
+94.0,Thakurgaon ,55.0,Rangpur,71.0,0.0,Sripur,02(1),35.5,51.0,Haripur 
+9.0,Bhola ,10.0,Barisal,71.0,0.0,Magura,02(1),35.5,65.0,Manpura 
+55.0,Magura ,40.0,Khulna,94.0,0.0,Shalikha,02(1),47.0,85.0,Shalikha 
+55.0,Magura ,40.0,Khulna,96.0,0.0,Mohammadpur,02(1),48.0,66.0,Mohammadpur 
+33.0,Gazipur ,30.0,Dhaka,95.0,0.0,Kaliakair,04(1),47.5,32.0,Kaliakair 
+55.0,Magura ,40.0,Khulna,93.0,0.0,Sreepur,04(1),46.5,95.0,Sreepur 
+88.0,Sirajganj ,50.0,Rajshahi,80.0,0.0,Gazipur,04(1),40.0,50.0,Kazipur 
+33.0,Gazipur ,30.0,Dhaka,93.0,0.0,Kapasia,04(1),46.5,36.0,Kapasia 
+87.0,Satkhira ,40.0,Khulna,94.0,0.0,Kaliganj,04(1),47.0,47.0,Kaliganj 
+59.0,Munshiganj ,30.0,Dhaka,67.0,0.0,Tongi,04(1),33.5,94.0,Tongibari 
+48.0,Kishoreganj ,30.0,Dhaka,93.0,0.0,Katiadi,04(1),46.5,45.0,Katiadi 
+48.0,Kishoreganj ,30.0,Dhaka,80.0,0.0,Bhariab,04(1),40.0,11.0,Bhairab 
+48.0,Kishoreganj ,30.0,Dhaka,95.0,0.0,Austagram,04(1),47.5,2.0,Austagram 
+73.0,Nilphamari ,55.0,Rangpur,96.0,0.0,Kishoreganj,04(1),48.0,45.0,Kishoreganj 
+48.0,Kishoreganj ,30.0,Dhaka,95.0,0.0,Hossainpur,04(1),47.5,27.0,Hossainpur 
+48.0,Kishoreganj ,30.0,Dhaka,91.0,0.0,Nikli,04(1),45.5,76.0,Nikli 
+48.0,Kishoreganj ,30.0,Dhaka,82.0,0.0,Bazitpur,04(1),41.0,6.0,Bajitpur 
+48.0,Kishoreganj ,30.0,Dhaka,94.0,0.0,Pakundia,04(1),47.0,79.0,Pakundia 
+48.0,Kishoreganj ,30.0,Dhaka,89.0,0.0,Itna,04(1),44.5,33.0,Itna 
+48.0,Kishoreganj ,30.0,Dhaka,82.0,0.0,Kuliarchar,04(1),41.0,54.0,Kuliar Char 
+48.0,Kishoreganj ,30.0,Dhaka,92.0,0.0,Tarail,04(1),46.0,92.0,Tarail 
+48.0,Kishoreganj ,30.0,Dhaka,95.0,0.0,Karimganj,04(1),47.5,42.0,Karimganj 
+48.0,Kishoreganj ,30.0,Dhaka,84.0,0.0,Mithamoin,04(1),42.0,59.0,Mithamain 
+77.0,Panchagarh ,55.0,Rangpur,89.0,0.0,Boda,07(1),44.5,25.0,Boda 
+46.0,Khagrachhari ,20.0,Chittagong,74.0,0.0,Panchgarh,07(1),37.0,77.0,Panchhari 
+77.0,Panchagarh ,55.0,Rangpur,88.0,0.0,Tetulia,07(1),44.0,90.0,Tentulia 
+77.0,Panchagarh ,55.0,Rangpur,86.0,0.0,Atowari,07(1),43.0,4.0,Atwari 
+77.0,Panchagarh ,55.0,Rangpur,94.0,0.0,Debiganj,07(1),47.0,34.0,Debiganj 
+87.0,Satkhira ,40.0,Khulna,89.0,0.0,Tala,02(1),44.5,90.0,Tala 
+76.0,Pabna ,50.0,Rajshahi,75.0,0.0,Satkhira,02(1),37.5,72.0,Santhia 
+87.0,Satkhira ,40.0,Khulna,80.0,0.0,Kolaroa,02(1),40.0,43.0,Kalaroa 
+87.0,Satkhira ,40.0,Khulna,93.0,0.0,Debhata,02(1),46.5,25.0,Debhata 
+87.0,Satkhira ,40.0,Khulna,95.0,0.0,Shyamnagar,02(1),47.5,86.0,Shyamnagar 
+87.0,Satkhira ,40.0,Khulna,94.0,0.0,Kaliganj,02(1),47.0,47.0,Kaliganj 
+87.0,Satkhira ,40.0,Khulna,88.0,0.0,Asasuni,02(1),44.0,4.0,Assasuni 
+27.0,Dinajpur ,55.0,Rangpur,95.0,0.0,Bochaganj,07(1),47.5,21.0,Bochaganj 
+27.0,Dinajpur ,55.0,Rangpur,94.0,0.0,Kaharole,07(1),47.0,56.0,Kaharole 
+27.0,Dinajpur ,55.0,Rangpur,93.0,0.0,Fulbari,07(1),46.5,38.0,Fulbari 
+27.0,Dinajpur ,55.0,Rangpur,89.0,0.0,Khanshama,07(1),44.5,60.0,Khansama 
+27.0,Dinajpur ,55.0,Rangpur,70.0,0.0,Dinajpur,07(1),35.0,64.0,Dinajpur Sadar 
+27.0,Dinajpur ,55.0,Rangpur,94.0,0.0,Hakimpur,07(1),47.0,47.0,Hakimpur 
+27.0,Dinajpur ,55.0,Rangpur,93.0,0.0,Birganj,07(1),46.5,12.0,Birganj 
+27.0,Dinajpur ,55.0,Rangpur,95.0,0.0,Ghoraghat,07(1),47.5,43.0,Ghoraghat 
+27.0,Dinajpur ,55.0,Rangpur,73.0,0.0,Birol,07(1),36.5,17.0,Biral 
+49.0,Kurigram ,55.0,Rangpur,67.0,0.0,Chirir,07(1),33.5,9.0,Chilmari 
+27.0,Dinajpur ,55.0,Rangpur,95.0,0.0,Parbatipur,07(1),47.5,77.0,Parbatipur 
+27.0,Dinajpur ,55.0,Rangpur,95.0,0.0,Nawabganj,07(1),47.5,69.0,Nawabganj 
+27.0,Dinajpur ,55.0,Rangpur,94.0,0.0,Birampur,07(1),47.0,10.0,Birampur 
+30.0,Feni ,20.0,Chittagong,95.0,0.0,Parshuram,05(1),47.5,51.0,Parshuram 
+30.0,Feni ,20.0,Chittagong,96.0,0.0,Chhagalnaiya,05(1),48.0,14.0,Chhagalnaiya 
+30.0,Feni ,20.0,Chittagong,53.0,0.0,Feni,05(1),26.5,29.0,Feni Sadar 
+30.0,Feni ,20.0,Chittagong,94.0,0.0,Sonagazi,05(1),47.0,94.0,Sonagazi 
+30.0,Feni ,20.0,Chittagong,88.0,0.0,Dagonbhuiyan,05(1),44.0,25.0,Daganbhuiyan 
+30.0,Feni ,20.0,Chittagong,93.0,0.0,Fulgazi,05(1),46.5,41.0,Fulgazi 
+76.0,Pabna ,50.0,Rajshahi,94.0,0.0,Faridpur,04(1),47.0,33.0,Faridpur 
+29.0,Faridpur ,30.0,Dhaka,94.0,0.0,Boalmari,04(1),47.0,18.0,Boalmari 
+29.0,Faridpur ,30.0,Dhaka,92.0,0.0,Bhanga,04(1),46.0,10.0,Bhanga 
+49.0,Kurigram ,55.0,Rangpur,62.0,0.0,Char,04(1),31.0,9.0,Chilmari 
+29.0,Faridpur ,30.0,Dhaka,95.0,0.0,Nagarkanda,04(1),47.5,62.0,Nagarkanda 
+29.0,Faridpur ,30.0,Dhaka,94.0,0.0,Sadarpur,04(1),47.0,84.0,Sadarpur 
+18.0,Chuadanga ,40.0,Khulna,80.0,0.0,Alphadanga,04(1),40.0,7.0,Alamdanga 
+29.0,Faridpur ,30.0,Dhaka,86.0,0.0,Modhukhali,04(1),43.0,56.0,Madhukhali 
+67.0,Narayanganj ,30.0,Dhaka,75.0,0.0,Bandarban,05(1),37.5,6.0,Bandar 
+3.0,Bandarban ,20.0,Chittagong,96.0,0.0,Rowangchhari,05(1),48.0,89.0,Rowangchhari 
+3.0,Bandarban ,20.0,Chittagong,89.0,0.0,Ruma,05(1),44.5,91.0,Ruma 
+3.0,Bandarban ,20.0,Chittagong,93.0,0.0,Thanchi,05(1),46.5,95.0,Thanchi 
+3.0,Bandarban ,20.0,Chittagong,89.0,0.0,Lama,05(1),44.5,51.0,Lama 
+3.0,Bandarban ,20.0,Chittagong,94.0,0.0,Alikadam,05(1),47.0,4.0,Alikadam 
+3.0,Bandarban ,20.0,Chittagong,97.0,0.0,Naikhongchhari,05(1),48.5,73.0,Naikhongchhari 
+64.0,Naogaon ,50.0,Rajshahi,67.0,0.0,Naogaon,01(1),33.5,60.0,Naogaon Sadar 
+64.0,Naogaon ,50.0,Rajshahi,86.0,0.0,Mohadebpur,01(1),43.0,50.0,Mahadebpur 
+64.0,Naogaon ,50.0,Rajshahi,91.0,0.0,Manda,01(1),45.5,47.0,Manda 
+64.0,Naogaon ,50.0,Rajshahi,96.0,0.0,Badalgachhi,01(1),48.0,6.0,Badalgachhi 
+15.0,Chittagong ,20.0,Chittagong,62.0,0.0,Rani,01(1),31.0,70.0,Rangunia 
+64.0,Naogaon ,50.0,Rajshahi,84.0,0.0,Patnitola,01(1),42.0,75.0,Patnitala 
+64.0,Naogaon ,50.0,Rajshahi,91.0,0.0,Atrai,01(1),45.5,3.0,Atrai 
+64.0,Naogaon ,50.0,Rajshahi,95.0,0.0,Dhamoirhat,01(1),47.5,28.0,Dhamoirhat 
+64.0,Naogaon ,50.0,Rajshahi,95.0,0.0,Niamatpur,01(1),47.5,69.0,Niamatpur 
+64.0,Naogaon ,50.0,Rajshahi,83.0,0.0,Porsa,01(1),41.5,79.0,Porsha 
+64.0,Naogaon ,50.0,Rajshahi,93.0,0.0,Sapahar,01(1),46.5,86.0,Sapahar 
+84.0,Rangamati ,20.0,Chittagong,88.0,0.0,Langadu,05(1),44.0,58.0,Langadu  
+84.0,Rangamati ,20.0,Chittagong,94.0,0.0,Kawkhali,05(1),47.0,25.0,Kawkhali 
+84.0,Rangamati ,20.0,Chittagong,72.0,0.0,Rangamati,05(1),36.0,87.0,Rangamati Sadar 
+84.0,Rangamati ,20.0,Chittagong,96.0,0.0,Baghaichhari,05(1),48.0,7.0,Baghaichhari 
+84.0,Rangamati ,20.0,Chittagong,92.0,0.0,Barkal,05(1),46.0,21.0,Barkal 
+84.0,Rangamati ,20.0,Chittagong,91.0,0.0,Naniarchar,05(1),45.5,75.0,Naniarchar  
+84.0,Rangamati ,20.0,Chittagong,78.0,0.0,Jurachhari,05(1),39.0,47.0,Jurai Chhari 
+84.0,Rangamati ,20.0,Chittagong,86.0,0.0,Kaptai,05(1),43.0,36.0,Kaptai  
+84.0,Rangamati ,20.0,Chittagong,91.0,0.0,Rajasthali,05(1),45.5,78.0,Rajasthali  
+84.0,Rangamati ,20.0,Chittagong,83.0,0.0,Belaichhari,05(1),41.5,29.0,Belai Chhari 
+72.0,Netrakona ,30.0,Dhaka,92.0,0.0,Atpara,08(1),46.0,4.0,Atpara 
+72.0,Netrakona ,30.0,Dhaka,95.0,0.0,Kalmakanda,08(1),47.5,40.0,Kalmakanda 
+72.0,Netrakona ,30.0,Dhaka,73.0,0.0,Modan,08(1),36.5,56.0,Madan 
+72.0,Netrakona ,30.0,Dhaka,95.0,0.0,Purbadhala,08(1),47.5,83.0,Purbadhala 
+72.0,Netrakona ,30.0,Dhaka,92.0,0.0,Kendua,08(1),46.0,47.0,Kendua 
+72.0,Netrakona ,30.0,Dhaka,72.0,0.0,Netrokona,08(1),36.0,74.0,Netrokona Sadar 
+81.0,Rajshahi ,50.0,Rajshahi,94.0,0.0,Durgapur,08(1),47.0,31.0,Durgapur 
+72.0,Netrakona ,30.0,Dhaka,94.0,0.0,Barhatta,08(1),47.0,9.0,Barhatta 
+72.0,Netrakona ,30.0,Dhaka,84.0,0.0,Mohonganj,08(1),42.0,63.0,Mohanganj 
+72.0,Netrakona ,30.0,Dhaka,91.0,0.0,Khaliajhuri,08(1),45.5,38.0,Khaliajuri 
+32.0,Gaibandha ,55.0,Rangpur,96.0,0.0,Gobindaganj,07(1),48.0,30.0,Gobindaganj 
+32.0,Gaibandha ,55.0,Rangpur,95.0,0.0,Sundarganj,07(1),47.5,91.0,Sundarganj 
+32.0,Gaibandha ,55.0,Rangpur,95.0,0.0,Fulchhari,07(1),47.5,21.0,Fulchhari 
+32.0,Gaibandha ,55.0,Rangpur,91.0,0.0,Sadullahpur,07(1),45.5,82.0,Sadullapur 
+32.0,Gaibandha ,55.0,Rangpur,95.0,0.0,Palashbari,07(1),47.5,67.0,Palashbari 
+32.0,Gaibandha ,55.0,Rangpur,88.0,0.0,Shaghata,07(1),44.0,88.0,Saghata 
+52.0,Lalmonirhat ,55.0,Rangpur,80.0,0.0,Gaibandha,07(1),40.0,33.0,Hatibandha 
+72.0,Netrakona ,30.0,Dhaka,71.0,0.0,Bagerhat,02(1),35.5,9.0,Barhatta 
+1.0,Bagerhat ,40.0,Khulna,94.0,0.0,Fakirhat,02(1),47.0,34.0,Fakirhat 
+1.0,Bagerhat ,40.0,Khulna,95.0,0.0,Sarankhola,02(1),47.5,77.0,Sarankhola 
+1.0,Bagerhat ,40.0,Khulna,86.0,0.0,Morralganj,02(1),43.0,60.0,Morrelganj 
+1.0,Bagerhat ,40.0,Khulna,92.0,0.0,Kachua,02(1),46.0,38.0,Kachua 
+1.0,Bagerhat ,40.0,Khulna,94.0,0.0,Mollahat,02(1),47.0,56.0,Mollahat 
+1.0,Bagerhat ,40.0,Khulna,92.0,0.0,Rampal,02(1),46.0,73.0,Rampal 
+1.0,Bagerhat ,40.0,Khulna,95.0,0.0,Chitalmari,02(1),47.5,14.0,Chitalmari 
+1.0,Bagerhat ,40.0,Khulna,92.0,0.0,Mongla,02(1),46.0,58.0,Mongla 
+85.0,Rangpur ,55.0,Rangpur,93.0,0.0,Pirganj,07(1),46.5,76.0,Pirganj 
+94.0,Thakurgaon ,55.0,Rangpur,93.0,0.0,Haripur,07(1),46.5,51.0,Haripur 
+94.0,Thakurgaon ,55.0,Rangpur,74.0,0.0,Thakurgaon,07(1),37.0,94.0,Thakurgaon Sadar 
+94.0,Thakurgaon ,55.0,Rangpur,95.0,0.0,Baliadangi,07(1),47.5,8.0,Baliadangi 
+94.0,Thakurgaon ,55.0,Rangpur,96.0,0.0,Ranisankail,07(1),48.0,86.0,Ranisankail 
+68.0,Narsingdi ,30.0,Dhaka,69.0,0.0,Narshingdi,04(1),34.5,60.0,Narsingdi Sadar 
+94.0,Thakurgaon ,55.0,Rangpur,67.0,0.0,Raipura,04(1),33.5,51.0,Haripur 
+68.0,Narsingdi ,30.0,Dhaka,74.0,0.0,Monohordi,04(1),37.0,52.0,Manohardi 
+68.0,Narsingdi ,30.0,Dhaka,93.0,0.0,Shibpur,04(1),46.5,76.0,Shibpur 
+68.0,Narsingdi ,30.0,Dhaka,92.0,0.0,Palash,04(1),46.0,63.0,Palash 
+68.0,Narsingdi ,30.0,Dhaka,86.0,0.0,Belaboo,04(1),43.0,7.0,Belabo 
+42.0,Jhalokati ,10.0,Barisal,89.0,0.0,Kathalia,03(1),44.5,43.0,Kanthalia 
+73.0,Nilphamari ,55.0,Rangpur,67.0,0.0,Jhalakati,03(1),33.5,36.0,Jaldhaka 
+42.0,Jhalokati ,10.0,Barisal,93.0,0.0,Rajapur,03(1),46.5,84.0,Rajapur 
+42.0,Jhalokati ,10.0,Barisal,78.0,0.0,Nalchhiti,03(1),39.0,73.0,Nalchity 
+61.0,Mymensingh ,30.0,Dhaka,74.0,0.0,Mymensingh,08(1),37.0,52.0,Mymensingh Sadar 
+61.0,Mymensingh ,30.0,Dhaka,86.0,0.0,Trisal,08(1),43.0,94.0,Trishal 
+61.0,Mymensingh ,30.0,Dhaka,94.0,0.0,Fulbaria,08(1),47.0,20.0,Fulbaria 
+61.0,Mymensingh ,30.0,Dhaka,93.0,0.0,Bhaluka,08(1),46.5,13.0,Bhaluka 
+61.0,Mymensingh ,30.0,Dhaka,91.0,0.0,Muktagacha,08(1),45.5,65.0,Muktagachha 
+61.0,Mymensingh ,30.0,Dhaka,90.0,0.0,Gafargaon,08(1),45.0,22.0,Gaffargaon 
+61.0,Mymensingh ,30.0,Dhaka,93.0,0.0,Phulpur,08(1),46.5,81.0,Phulpur 
+61.0,Mymensingh ,30.0,Dhaka,82.0,0.0,Gouripur,08(1),41.0,23.0,Gauripur 
+61.0,Mymensingh ,30.0,Dhaka,95.0,0.0,Ishwarganj,08(1),47.5,31.0,Ishwarganj 
+61.0,Mymensingh ,30.0,Dhaka,93.0,0.0,Nandail,08(1),46.5,72.0,Nandail 
+61.0,Mymensingh ,30.0,Dhaka,95.0,0.0,Haluaghat,08(1),47.5,24.0,Haluaghat 
+61.0,Mymensingh ,30.0,Dhaka,82.0,0.0,Dhubaura,08(1),41.0,16.0,Dhobaura 
+58.0,Maulvibazar ,60.0,Sylhet,86.0,0.0,Sreemongal,06(1),43.0,83.0,Sreemangal 
+58.0,Maulvibazar ,60.0,Sylhet,94.0,0.0,Barlekha,06(1),47.0,14.0,Barlekha 
+6.0,Barisal ,10.0,Barisal,71.0,0.0,Moulavi,06(1),35.5,69.0,Muladi 
+58.0,Maulvibazar ,60.0,Sylhet,93.0,0.0,Kulaura,06(1),46.5,65.0,Kulaura 
+58.0,Maulvibazar ,60.0,Sylhet,94.0,0.0,Rajnagar,06(1),47.0,80.0,Rajnagar 
+58.0,Maulvibazar ,60.0,Sylhet,74.0,0.0,Komolganj,06(1),37.0,56.0,Kamalganj 
+58.0,Maulvibazar ,60.0,Sylhet,89.0,0.0,Juri,06(1),44.5,35.0,Juri 
+70.0,Chapai Nawabganj ,50.0,Rajshahi,71.0,0.0,Bhola,03(1),35.5,18.0,Bholahat 
+9.0,Bhola ,10.0,Barisal,82.0,0.0,Daulatkhan,03(1),41.0,29.0,Daulat Khan 
+9.0,Bhola ,10.0,Barisal,86.0,0.0,Tajumuddin,03(1),43.0,91.0,Tazumuddin 
+9.0,Bhola ,10.0,Barisal,87.0,0.0,Borhanuddin,03(1),43.5,21.0,Burhanuddin 
+9.0,Bhola ,10.0,Barisal,94.0,0.0,Lalmohan,03(1),47.0,54.0,Lalmohan 
+9.0,Bhola ,10.0,Barisal,70.0,0.0,Charfashion,03(1),35.0,25.0,Char Fasson 
+9.0,Bhola ,10.0,Barisal,80.0,0.0,Monpura,03(1),40.0,65.0,Manpura 
+15.0,Chittagong ,20.0,Chittagong,74.0,0.0,Panchlaish,05(1),37.0,57.0,Panchlaish Thana 
+15.0,Chittagong ,20.0,Chittagong,94.0,0.0,Rangunia,05(1),47.0,70.0,Rangunia 
+15.0,Chittagong ,20.0,Chittagong,71.0,0.0,Doublemooring,05(1),35.5,28.0,Double Mooring Thana 
+15.0,Chittagong ,20.0,Chittagong,91.0,0.0,Fatichhari,05(1),45.5,33.0,Fatikchhari 
+15.0,Chittagong ,20.0,Chittagong,95.0,0.0,Hathazari,05(1),47.5,37.0,Hathazari 
+15.0,Chittagong ,20.0,Chittagong,95.0,0.0,Sitakunda,05(1),47.5,86.0,Sitakunda 
+15.0,Chittagong ,20.0,Chittagong,95.0,0.0,Mirsharai,05(1),47.5,53.0,Mirsharai 
+15.0,Chittagong ,20.0,Chittagong,77.0,0.0,Rawzan,05(1),38.5,74.0,Raozan 
+15.0,Chittagong ,20.0,Chittagong,93.0,0.0,Sandwip,05(1),46.5,78.0,Sandwip 
+15.0,Chittagong ,20.0,Chittagong,95.0,0.0,Boalkhali,05(1),47.5,12.0,Boalkhali 
+15.0,Chittagong ,20.0,Chittagong,78.0,0.0,Chandlaish,05(1),39.0,18.0,Chandanaish  
+15.0,Chittagong ,20.0,Chittagong,95.0,0.0,Banshkhali,05(1),47.5,8.0,Banshkhali 
+15.0,Chittagong ,20.0,Chittagong,94.0,0.0,Satkania,05(1),47.0,82.0,Satkania 
+15.0,Chittagong ,20.0,Chittagong,86.0,0.0,Anwara,05(1),43.0,4.0,Anowara 
+15.0,Chittagong ,20.0,Chittagong,92.0,0.0,Patiya,05(1),46.0,61.0,Patiya 
+15.0,Chittagong ,20.0,Chittagong,82.0,0.0,Lohagora,05(1),41.0,47.0,Lohagara 
+69.0,Natore ,50.0,Rajshahi,95.0,0.0,Baraigram,01(1),47.5,15.0,Baraigram 
+69.0,Natore ,50.0,Rajshahi,63.0,0.0,Natore,01(1),31.5,63.0,Natore Sadar 
+69.0,Natore ,50.0,Rajshahi,95.0,0.0,Bagatipara,01(1),47.5,9.0,Bagatipara 
+69.0,Natore ,50.0,Rajshahi,92.0,0.0,Singra,01(1),46.0,91.0,Singra 
+69.0,Natore ,50.0,Rajshahi,92.0,0.0,Lalpur,01(1),46.0,44.0,Lalpur 
+69.0,Natore ,50.0,Rajshahi,91.0,0.0,Gurudashpur,01(1),45.5,41.0,Gurudaspur 
+90.0,Sunamganj ,60.0,Sylhet,83.0,0.0,Dherai,06(1),41.5,29.0,Derai 
+32.0,Gaibandha ,55.0,Rangpur,80.0,0.0,Sunamganj,06(1),40.0,91.0,Sundarganj 
+90.0,Sunamganj ,60.0,Sylhet,82.0,0.0,Dharmapasa,06(1),41.0,32.0,Dharampasha 
+90.0,Sunamganj ,60.0,Sylhet,91.0,0.0,Sulla,06(1),45.5,86.0,Sulla 
+90.0,Sunamganj ,60.0,Sylhet,94.0,0.0,Tahirpur,06(1),47.0,92.0,Tahirpur 
+90.0,Sunamganj ,60.0,Sylhet,93.0,0.0,Chhatak,06(1),46.5,23.0,Chhatak 
+90.0,Sunamganj ,60.0,Sylhet,80.0,0.0,Jogonnathpur,06(1),40.0,47.0,Jagannathpur 
+90.0,Sunamganj ,60.0,Sylhet,95.0,0.0,Jamalganj,06(1),47.5,50.0,Jamalganj 
+90.0,Sunamganj ,60.0,Sylhet,89.0,0.0,Bishwamvarpur,06(1),44.5,18.0,Bishwambarpur 
+15.0,Chittagong ,20.0,Chittagong,71.0,0.0,Dowara,06(1),35.5,4.0,Anowara 
+26.0,Dhaka ,30.0,Dhaka,73.0,0.0,Sadar,06(1),36.5,72.0,Savar 
+85.0,Rangpur ,55.0,Rangpur,95.0,0.0,Gangachara,07(1),47.5,27.0,Gangachara 
+85.0,Rangpur ,55.0,Rangpur,93.0,0.0,Pirganj,07(1),46.5,76.0,Pirganj 
+85.0,Rangpur ,55.0,Rangpur,95.0,0.0,Pirgachha,07(1),47.5,73.0,Pirgachha 
+85.0,Rangpur ,55.0,Rangpur,95.0,0.0,Badarganj,07(1),47.5,3.0,Badarganj 
+85.0,Rangpur ,55.0,Rangpur,95.0,0.0,Mithapukur,07(1),47.5,58.0,Mithapukur 
+85.0,Rangpur ,55.0,Rangpur,92.0,0.0,Kaunia,07(1),46.0,42.0,Kaunia 
+85.0,Rangpur ,55.0,Rangpur,67.0,0.0,Rangpur,07(1),33.5,49.0,Rangpur Sadar 
+85.0,Rangpur ,55.0,Rangpur,94.0,0.0,Taraganj,07(1),47.0,92.0,Taraganj 
+88.0,Sirajganj ,50.0,Rajshahi,93.0,0.0,Kazipur,01(1),46.5,50.0,Kazipur 
+88.0,Sirajganj ,50.0,Rajshahi,80.0,0.0,Rayganj,01(1),40.0,61.0,Royganj 
+88.0,Sirajganj ,50.0,Rajshahi,92.0,0.0,Tarash,01(1),46.0,89.0,Tarash 
+78.0,Patuakhali ,10.0,Barisal,74.0,0.0,Sirajganj,01(1),37.0,76.0,Mirzaganj 
+88.0,Sirajganj ,50.0,Rajshahi,91.0,0.0,Kamarkhand,01(1),45.5,44.0,Kamarkhanda 
+88.0,Sirajganj ,50.0,Rajshahi,82.0,0.0,Chouhali,01(1),41.0,27.0,Chauhali 
+88.0,Sirajganj ,50.0,Rajshahi,80.0,0.0,Ullahpara,01(1),40.0,94.0,Ullah Para 
+88.0,Sirajganj ,50.0,Rajshahi,94.0,0.0,Belkuchi,01(1),47.0,11.0,Belkuchi 
+88.0,Sirajganj ,50.0,Rajshahi,80.0,0.0,Shazadpur,01(1),40.0,67.0,Shahjadpur 
+36.0,Habiganj ,60.0,Sylhet,86.0,0.0,Azmiriganj,06(1),43.0,2.0,Ajmiriganj 
+36.0,Habiganj ,60.0,Sylhet,93.0,0.0,Bahubal,06(1),46.5,5.0,Bahubal 
+36.0,Habiganj ,60.0,Sylhet,95.0,0.0,Madhabpur,06(1),47.5,71.0,Madhabpur 
+36.0,Habiganj ,60.0,Sylhet,92.0,0.0,Lakhai,06(1),46.0,68.0,Lakhai 
+36.0,Habiganj ,60.0,Sylhet,82.0,0.0,Habiganj,06(1),41.0,77.0,Nabiganj 
+36.0,Habiganj ,60.0,Sylhet,91.0,0.0,Baniachhong,06(1),45.5,11.0,Baniachong 
+36.0,Habiganj ,60.0,Sylhet,96.0,0.0,Chunarughat,06(1),48.0,26.0,Chunarughat 
+36.0,Habiganj ,60.0,Sylhet,94.0,0.0,Nabiganj,06(1),47.0,77.0,Nabiganj 
+4.0,Barguna ,10.0,Barisal,96.0,0.0,Patharghata,03(1),48.0,85.0,Patharghata 
+4.0,Barguna ,10.0,Barisal,80.0,0.0,Bmna,03(1),40.0,19.0,Bamna 
+4.0,Barguna ,10.0,Barisal,92.0,0.0,Amtali,03(1),46.0,9.0,Amtali 
+4.0,Barguna ,10.0,Barisal,92.0,0.0,Betagi,03(1),46.0,47.0,Betagi 
+19.0,Comilla ,20.0,Chittagong,71.0,0.0,Barguna,03(1),35.5,9.0,Barura 
+91.0,Sylhet ,60.0,Sylhet,74.0,0.0,Gopalganj,04(1),37.0,38.0,Golapganj 
+35.0,Gopalganj ,30.0,Dhaka,95.0,0.0,Muksudpur,04(1),47.5,58.0,Muksudpur 
+35.0,Gopalganj ,30.0,Dhaka,95.0,0.0,Tungipara,04(1),47.5,91.0,Tungipara 
+35.0,Gopalganj ,30.0,Dhaka,95.0,0.0,Kotalipara,04(1),47.5,51.0,Kotalipara 
+35.0,Gopalganj ,30.0,Dhaka,88.0,0.0,Kasiani,04(1),44.0,43.0,Kashiani 
