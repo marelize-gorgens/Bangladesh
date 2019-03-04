@@ -1,0 +1,908 @@
+DistrictCode,DistrictName,DivisionCode,DivisionName,InputDivision,MeanFuzzRation,UpazillaName,Geo,UpazillaCode,FuzzRatio,FuzzRatioDivision,Meta
+41,Jessore,40,Khulna,Khulna,97.5,Abhaynagar,Abhaynagar,4,95,100,MATCH
+41,Jessore,40,Khulna,Khulna,47.5,Abhaynagar,Abhaynagar,4,95,0,MATCH
+10,Bogra,50,Rajshahi,Rajshahi,97.5,Adamdighi,Adamdighi,6,95,100,MATCH
+10,Bogra,50,Rajshahi,Rajshahi,47.5,Adamdighi,Adamdighi,6,95,0,MATCH
+30,Feni,20,Chittagong,Chittagong,73.5,Parshuram,Adarsho,51,47,100,MISS2
+88,Sirajganj,50,Rajshahi,Chittagong,28.5,Tarash,Adarsho,89,57,0,MISS2
+52,Lalmonirhat,55,Rangpur,Rangpur,97,Aditmari,Aditmari,2,94,100,MATCH
+6,Barisal,10,Barisal,Barisal,97.5,Agailjhara,Agailjhara,2,95,100,MATCH
+12,Brahmanbaria,20,Chittagong,Chittagong,96.5,Akhaura,Akhaura,2,93,100,MATCH
+38,Joypurhat,50,Rajshahi,Rajshahi,97,Akkelpur,Akkelpur,13,94,100,MATCH
+18,Chuadanga,40,Khulna,Khulna,97.5,Alamdanga,Alamdanga,7,95,100,MATCH
+18,Chuadanga,40,Khulna,Khulna,47.5,Alamdanga,Alamdanga,7,95,0,MATCH
+3,Bandarban,20,Chittagong,Chittagong,97,Alikadam,Alikadam,4,94,100,MATCH
+3,Bandarban,20,Chittagong,Chittagong,47,Alikadam,Alikadam,4,94,0,MATCH
+29,Faridpur,30,Dhaka,Dhaka,90,Alfadanga,Alphadanga,3,80,100,MATCH
+18,Chuadanga,40,Khulna,Dhaka,40,Alamdanga,Alphadanga,7,80,0,MISSMATCH
+4,Barguna,10,Barisal,Barisal,96,Amtali,Amtali,9,92,100,MATCH
+4,Barguna,10,Barisal,Barisal,46,Amtali,Amtali,9,92,0,MATCH
+15,Chittagong,20,Chittagong,Chittagong,93,Anowara,Anwara,4,86,100,MATCH
+15,Chittagong,20,Chittagong,Chittagong,43,Anowara,Anwara,4,86,0,MATCH
+67,Narayanganj,30,Dhaka,Dhaka,97.5,Araihazar,Araihazar,2,95,100,MATCH
+87,Satkhira,40,Khulna,Khulna,94,Assasuni,Asasuni,4,88,100,MATCH
+87,Satkhira,40,Khulna,Khulna,44,Assasuni,Asasuni,4,88,0,MATCH
+12,Brahmanbaria,20,Chittagong,Chittagong,97,Ashuganj,Ashuganj,33,94,100,MATCH
+76,Pabna,50,Rajshahi,Rajshahi,91,Atgharia,Atghoria,5,82,100,MATCH
+76,Pabna,50,Rajshahi,Rajshahi,41,Atgharia,Atghoria,5,82,0,MATCH
+77,Panchagarh,55,Rangpur,Rangpur,93,Atwari,Atowari,4,86,100,MATCH
+77,Panchagarh,55,Rangpur,Rangpur,43,Atwari,Atowari,4,86,0,MATCH
+72,Netrakona,30,Dhaka,Mymensingh,52.5,Atpara,Atpara,4,92,13,MATCH
+72,Netrakona,30,Dhaka,Mymensingh,46,Atpara,Atpara,4,92,0,MATCH
+64,Naogaon,50,Rajshahi,Rajshahi,95.5,Atrai,Atrai,3,91,100,MATCH
+64,Naogaon,50,Rajshahi,Rajshahi,45.5,Atrai,Atrai,3,91,0,MATCH
+48,Kishoreganj,30,Dhaka,Dhaka,97.5,Austagram,Austagram,2,95,100,MATCH
+48,Kishoreganj,30,Dhaka,Dhaka,47.5,Austagram,Austagram,2,95,0,MATCH
+36,Habiganj,60,Sylhet,Sylhet,93,Ajmiriganj,Azmiriganj,2,86,100,MATCH
+36,Habiganj,60,Sylhet,Sylhet,43,Ajmiriganj,Azmiriganj,2,86,0,MATCH
+6,Barisal,10,Barisal,Barisal,97,Babuganj,Babuganj,3,94,100,MATCH
+64,Naogaon,50,Rajshahi,Rajshahi,98,Badalgachhi,Badalgachhi,6,96,100,MATCH
+64,Naogaon,50,Rajshahi,Rajshahi,48,Badalgachhi,Badalgachhi,6,96,0,MATCH
+85,Rangpur,55,Rangpur,Rangpur,97.5,Badarganj,Badarganj,3,95,100,MATCH
+85,Rangpur,55,Rangpur,Rangpur,47.5,Badarganj,Badarganj,3,95,0,MATCH
+69,Natore,50,Rajshahi,Rajshahi,97.5,Bagatipara,Bagatipara,9,95,100,MATCH
+69,Natore,50,Rajshahi,Rajshahi,47.5,Bagatipara,Bagatipara,9,95,0,MATCH
+1,Bagerhat,40,Khulna,Khulna,85,Bagerhat Sadar,Bagerhat,8,70,100,MATCH
+72,Netrakona,30,Dhaka,Khulna,35.5,Barhatta,Bagerhat,9,71,0,MISSMATCH
+81,Rajshahi,50,Rajshahi,Rajshahi,95.5,Bagha,Bagha,10,91,100,MATCH
+81,Rajshahi,50,Rajshahi,Rajshahi,45.5,Bagha,Bagha,10,91,0,MATCH
+84,Rangamati,20,Chittagong,Chittagong,98,Baghaichhari,Baghaichhari,7,96,100,MATCH
+84,Rangamati,20,Chittagong,Chittagong,48,Baghaichhari,Baghaichhari,7,96,0,MATCH
+41,Jessore,40,Khulna,Khulna,97.5,Bagherpara,Bagherpara,9,95,100,MATCH
+41,Jessore,40,Khulna,Khulna,47.5,Bagherpara,Bagherpara,9,95,0,MATCH
+81,Rajshahi,50,Rajshahi,Rajshahi,94,Baghmara,Bagmara,12,88,100,MATCH
+81,Rajshahi,50,Rajshahi,Rajshahi,44,Baghmara,Bagmara,12,88,0,MATCH
+36,Habiganj,60,Sylhet,Sylhet,96.5,Bahubal,Bahubal,5,93,100,MATCH
+36,Habiganj,60,Sylhet,Sylhet,46.5,Bahubal,Bahubal,5,93,0,MATCH
+6,Barisal,10,Barisal,Barisal,97.5,Bakerganj,Bakerganj,7,95,100,MATCH
+39,Jamalpur,30,Dhaka,Mymensingh,54,Bakshiganj,Bakshiganj,7,95,13,MATCH
+39,Jamalpur,30,Dhaka,Mymensingh,47.5,Bakshiganj,Bakshiganj,7,95,0,MATCH
+91,Sylhet,60,Sylhet,Sylhet,97,Balaganj,Balaganj,8,94,100,MATCH
+91,Sylhet,60,Sylhet,Sylhet,47,Balaganj,Balaganj,8,94,0,MATCH
+94,Thakurgaon,55,Rangpur,Rangpur,97.5,Baliadangi,Baliadangi,8,95,100,MATCH
+94,Thakurgaon,55,Rangpur,Rangpur,47.5,Baliadangi,Baliadangi,8,95,0,MATCH
+82,Rajbari,30,Dhaka,Dhaka,97.5,Baliakandi,Baliakandi,7,95,100,MATCH
+82,Rajbari,30,Dhaka,Dhaka,47.5,Baliakandi,Baliakandi,7,95,0,MATCH
+6,Barisal,10,Barisal,Barisal,91,Banari Para,Banaripara,10,82,100,MATCH
+12,Brahmanbaria,20,Chittagong,Chittagong,96,Banchharampur,Bancharampur,4,92,100,MATCH
+67,Narayanganj,30,Dhaka,Dhaka,96,Bandar,Bandar,6,92,100,MATCH
+3,Bandarban,20,Chittagong,Chittagong,86,Bandarban Sadar,Bandarban,14,72,100,MATCH
+67,Narayanganj,30,Dhaka,Chittagong,37.5,Bandar,Bandarban,6,75,0,MISSMATCH
+36,Habiganj,60,Sylhet,Sylhet,95.5,Baniachong,Baniachhong,11,91,100,MATCH
+36,Habiganj,60,Sylhet,Sylhet,45.5,Baniachong,Baniachhong,11,91,0,MATCH
+15,Chittagong,20,Chittagong,Chittagong,97.5,Banshkhali,Banshkhali,8,95,100,MATCH
+15,Chittagong,20,Chittagong,Chittagong,47.5,Banshkhali,Banshkhali,8,95,0,MATCH
+69,Natore,50,Rajshahi,Rajshahi,97.5,Baraigram,Baraigram,15,95,100,MATCH
+69,Natore,50,Rajshahi,Rajshahi,47.5,Baraigram,Baraigram,15,95,0,MATCH
+4,Barguna,10,Barisal,Barisal,83.5,Barguna Sadar,Barguna,28,67,100,MATCH
+19,Comilla,20,Chittagong,Barisal,35.5,Barura,Barguna,9,71,0,MISSMATCH
+72,Netrakona,30,Dhaka,Mymensingh,53.5,Barhatta,Barhatta,9,94,13,MATCH
+72,Netrakona,30,Dhaka,Mymensingh,47,Barhatta,Barhatta,9,94,0,MATCH
+6,Barisal,10,Barisal,Barisal,83.5,Barisal Sadar,Barisal,51,67,100,MATCH
+84,Rangamati,20,Chittagong,Chittagong,96,Barkal,Barkal,21,92,100,MATCH
+84,Rangamati,20,Chittagong,Chittagong,46,Barkal,Barkal,21,92,0,MATCH
+58,Maulvibazar,60,Sylhet,Sylhet,97,Barlekha,Barlekha,14,94,100,MATCH
+58,Maulvibazar,60,Sylhet,Sylhet,47,Barlekha,Barlekha,14,94,0,MATCH
+19,Comilla,20,Chittagong,Chittagong,96,Barura,Barura,9,92,100,MATCH
+19,Comilla,20,Chittagong,Chittagong,46,Barura,Barura,9,92,0,MATCH
+93,Tangail,30,Dhaka,Dhaka,96,Basail,Basail,9,92,100,MATCH
+93,Tangail,30,Dhaka,Dhaka,46,Basail,Basail,9,92,0,MATCH
+47,Khulna,40,Khulna,Khulna,97.5,Batiaghata,Batiaghata,12,95,100,MATCH
+47,Khulna,40,Khulna,Khulna,47.5,Batiaghata,Batiaghata,12,95,0,MATCH
+78,Patuakhali,10,Barisal,Barisal,96.5,Bauphal,Bauphal,38,93,100,MATCH
+78,Patuakhali,10,Barisal,Barisal,46.5,Bauphal,Bauphal,38,93,0,MATCH
+48,Kishoreganj,30,Dhaka,Dhaka,91,Bajitpur,Bazitpur,6,82,100,MATCH
+48,Kishoreganj,30,Dhaka,Dhaka,41,Bajitpur,Bazitpur,6,82,0,MATCH
+75,Noakhali,20,Chittagong,Chittagong,97.5,Begumganj,Begumganj,7,95,100,MATCH
+75,Noakhali,20,Chittagong,Chittagong,47.5,Begumganj,Begumganj,7,95,0,MATCH
+68,Narsingdi,30,Dhaka,Dhaka,93,Belabo,Belaboo,7,86,100,MATCH
+68,Narsingdi,30,Dhaka,Dhaka,43,Belabo,Belaboo,7,86,0,MATCH
+84,Rangamati,20,Chittagong,Chittagong,91.5,Belai Chhari,Belaichhari,29,83,100,MATCH
+84,Rangamati,20,Chittagong,Chittagong,41.5,Belai Chhari,Belaichhari,29,83,0,MATCH
+88,Sirajganj,50,Rajshahi,Rajshahi,97,Belkuchi,Belkuchi,11,94,100,MATCH
+88,Sirajganj,50,Rajshahi,Rajshahi,47,Belkuchi,Belkuchi,11,94,0,MATCH
+76,Pabna,50,Rajshahi,Rajshahi,94.5,Bera,Bera,16,89,100,MATCH
+76,Pabna,50,Rajshahi,Rajshahi,44.5,Bera,Bera,16,89,0,MATCH
+4,Barguna,10,Barisal,Barisal,96,Betagi,Betagi,47,92,100,MATCH
+4,Barguna,10,Barisal,Barisal,46,Betagi,Betagi,47,92,0,MATCH
+61,Mymensingh,30,Dhaka,Mymensingh,53,Bhaluka,Bhaluka,13,93,13,MATCH
+61,Mymensingh,30,Dhaka,Mymensingh,46.5,Bhaluka,Bhaluka,13,93,0,MATCH
+79,Pirojpur,10,Barisal,Barisal,97.5,Bhandaria,Bhandaria,14,95,100,MATCH
+79,Pirojpur,10,Barisal,Barisal,47.5,Bhandaria,Bhandaria,14,95,0,MATCH
+29,Faridpur,30,Dhaka,Dhaka,96,Bhanga,Bhanga,10,92,100,MATCH
+29,Faridpur,30,Dhaka,Dhaka,46,Bhanga,Bhanga,10,92,0,MATCH
+76,Pabna,50,Rajshahi,Rajshahi,89,Bhangura,Bhangoora,19,78,100,MATCH
+76,Pabna,50,Rajshahi,Rajshahi,39,Bhangura,Bhangoora,19,78,0,MATCH
+48,Kishoreganj,30,Dhaka,Dhaka,90,Bhairab,Bhariab,11,80,100,MATCH
+48,Kishoreganj,30,Dhaka,Dhaka,40,Bhairab,Bhariab,11,80,0,MATCH
+86,Shariatpur,30,Dhaka,Dhaka,97.5,Bhedarganj,Bhedarganj,14,95,100,MATCH
+50,Kushtia,40,Khulna,Khulna,97.5,Bheramara,Bheramara,15,95,100,MATCH
+9,Bhola,10,Barisal,Barisal,79.5,Bhola Sadar,Bhola,18,59,100,MATCH
+70,Chapai Nawabganj,50,Rajshahi,Barisal,35.5,Bholahat,Bhola,18,71,0,MISSMATCH
+70,Chapai Nawabganj,50,Rajshahi,Rajshahi,97,Bholahat,Bholahat,18,94,100,MATCH
+70,Chapai Nawabganj,50,Rajshahi,Rajshahi,47,Bholahat,Bholahat,18,94,0,MATCH
+93,Tangail,30,Dhaka,Dhaka,96.5,Bhuapur,Bhuapur,19,93,100,MATCH
+93,Tangail,30,Dhaka,Dhaka,46.5,Bhuapur,Bhuapur,19,93,0,MATCH
+49,Kurigram,55,Rangpur,Rangpur,98,Bhurungamari,Bhurungamari,6,96,100,MATCH
+49,Kurigram,55,Rangpur,Rangpur,48,Bhurungamari,Bhurungamari,6,96,0,MATCH
+91,Sylhet,60,Sylhet,Sylhet,75,Bishwanath,Biani,20,50,100,MISS2
+94,Thakurgaon,55,Rangpur,Sylhet,31,Baliadangi,Biani,8,62,0,MISS2
+12,Brahmanbaria,20,Chittagong,Chittagong,81,Bijoynagar,Bijoy,7,62,100,MATCH
+27,Dinajpur,55,Rangpur,Rangpur,97,Birampur,Birampur,10,94,100,MATCH
+27,Dinajpur,55,Rangpur,Rangpur,47,Birampur,Birampur,10,94,0,MATCH
+27,Dinajpur,55,Rangpur,Rangpur,96.5,Birganj,Birganj,12,93,100,MATCH
+27,Dinajpur,55,Rangpur,Rangpur,46.5,Birganj,Birganj,12,93,0,MATCH
+27,Dinajpur,55,Rangpur,Rangpur,86.5,Biral,Birol,17,73,100,MATCH
+27,Dinajpur,55,Rangpur,Rangpur,36.5,Biral,Birol,17,73,0,MATCH
+90,Sunamganj,60,Sylhet,Sylhet,94.5,Bishwambarpur,Bishwamvarpur,18,89,100,MATCH
+90,Sunamganj,60,Sylhet,Sylhet,44.5,Bishwambarpur,Bishwamvarpur,18,89,0,MATCH
+91,Sylhet,60,Sylhet,Sylhet,95,Bishwanath,Biswanath,20,90,100,MATCH
+91,Sylhet,60,Sylhet,Sylhet,45,Bishwanath,Biswanath,20,90,0,MATCH
+4,Barguna,10,Barisal,Barisal,90,Bamna,Bmna,19,80,100,MATCH
+4,Barguna,10,Barisal,Barisal,40,Bamna,Bmna,19,80,0,MATCH
+81,Rajshahi,50,Rajshahi,Rajshahi,81.5,Boalia Thana,Boalia,22,63,100,MATCH
+65,Narail,40,Khulna,Rajshahi,33.5,Kalia,Boalia,28,67,0,MISSMATCH
+15,Chittagong,20,Chittagong,Chittagong,97.5,Boalkhali,Boalkhali,12,95,100,MATCH
+15,Chittagong,20,Chittagong,Chittagong,47.5,Boalkhali,Boalkhali,12,95,0,MATCH
+29,Faridpur,30,Dhaka,Dhaka,97,Boalmari,Boalmari,18,94,100,MATCH
+29,Faridpur,30,Dhaka,Dhaka,47,Boalmari,Boalmari,18,94,0,MATCH
+27,Dinajpur,55,Rangpur,Rangpur,97.5,Bochaganj,Bochaganj,21,95,100,MATCH
+27,Dinajpur,55,Rangpur,Rangpur,47.5,Bochaganj,Bochaganj,21,95,0,MATCH
+77,Panchagarh,55,Rangpur,Rangpur,94.5,Boda,Boda,25,89,100,MATCH
+77,Panchagarh,55,Rangpur,Rangpur,44.5,Boda,Boda,25,89,0,MATCH
+76,Pabna,50,Rajshahi,Rajshahi,80,Bera,Bogra,16,60,100,MISS2
+76,Pabna,50,Rajshahi,Rajshahi,30,Bera,Bogra,16,60,0,MISS2
+9,Bhola,10,Barisal,Barisal,93.5,Burhanuddin,Borhanuddin,21,87,100,MATCH
+9,Bhola,10,Barisal,Barisal,43.5,Burhanuddin,Borhanuddin,21,87,0,MATCH
+19,Comilla,20,Chittagong,Chittagong,91.5,Brahmanpara,Brahmanbaria,15,83,100,MISS2
+19,Comilla,20,Chittagong,Chittagong,98,Brahmanpara,Brahmanpara,15,96,100,MATCH
+19,Comilla,20,Chittagong,Chittagong,48,Brahmanpara,Brahmanpara,15,96,0,MATCH
+19,Comilla,20,Chittagong,Chittagong,92,Burichang,Burichong,18,84,100,MATCH
+19,Comilla,20,Chittagong,Chittagong,42,Burichang,Burichong,18,84,0,MATCH
+22,Cox's Bazar,20,Chittagong,Chittagong,91,Chakoria,Chakaria,16,82,100,MATCH
+22,Cox's Bazar,20,Chittagong,Chittagong,41,Chakoria,Chakaria,16,82,0,MATCH
+19,Comilla,20,Chittagong,Chittagong,97,Chandina,Chandina,27,94,100,MATCH
+19,Comilla,20,Chittagong,Chittagong,47,Chandina,Chandina,27,94,0,MATCH
+15,Chittagong,20,Chittagong,Chittagong,89,Chandanaish,Chandlaish,18,78,100,MATCH
+15,Chittagong,20,Chittagong,Chittagong,39,Chandanaish,Chandlaish,18,78,0,MATCH
+13,Chandpur,20,Chittagong,Chittagong,85,Chandpur Sadar,Chandpur,22,70,100,MATCH
+81,Rajshahi,50,Rajshahi,Chittagong,35.5,Mohanpur,Chandpur,53,71,0,MISSMATCH
+88,Sirajganj,50,Rajshahi,Rajshahi,83.5,Chauhali,Chapai,27,67,100,MISS2
+88,Sirajganj,50,Rajshahi,Rajshahi,33.5,Chauhali,Chapai,27,67,0,MISS2
+26,Dhaka,30,Dhaka,Dhaka,80,Dohar,Char,18,60,100,MISS2
+49,Kurigram,55,Rangpur,Rangpur,81,Chilmari,Char,9,62,100,MISSMATCH
+49,Kurigram,55,Rangpur,Rangpur,31,Chilmari,Char,9,62,0,MISSMATCH
+49,Kurigram,55,Rangpur,Dhaka,31,Chilmari,Char,9,62,0,MISSMATCH
+9,Bhola,10,Barisal,Barisal,85,Char Fasson,Charfashion,25,70,100,MATCH
+9,Bhola,10,Barisal,Barisal,35,Char Fasson,Charfashion,25,70,0,MATCH
+81,Rajshahi,50,Rajshahi,Rajshahi,97,Charghat,Charghat,25,94,100,MATCH
+81,Rajshahi,50,Rajshahi,Rajshahi,47,Charghat,Charghat,25,94,0,MATCH
+75,Noakhali,20,Chittagong,Chittagong,97,Chatkhil,Chatkhil,10,94,100,MATCH
+75,Noakhali,20,Chittagong,Chittagong,47,Chatkhil,Chatkhil,10,94,0,MATCH
+76,Pabna,50,Rajshahi,Rajshahi,92,Chatmohar,Chatmohor,22,84,100,MATCH
+76,Pabna,50,Rajshahi,Rajshahi,42,Chatmohar,Chatmohor,22,84,0,MATCH
+30,Feni,20,Chittagong,Chittagong,98,Chhagalnaiya,Chhagalnaiya,14,96,100,MATCH
+30,Feni,20,Chittagong,Chittagong,48,Chhagalnaiya,Chhagalnaiya,14,96,0,MATCH
+90,Sunamganj,60,Sylhet,Sylhet,96.5,Chhatak,Chhatak,23,93,100,MATCH
+90,Sunamganj,60,Sylhet,Sylhet,46.5,Chhatak,Chhatak,23,93,0,MATCH
+49,Kurigram,55,Rangpur,Rangpur,97,Chilmari,Chilmari,9,94,100,MATCH
+49,Kurigram,55,Rangpur,Rangpur,47,Chilmari,Chilmari,9,94,0,MATCH
+49,Kurigram,55,Rangpur,Rangpur,83.5,Chilmari,Chirir,9,67,100,MISS2
+49,Kurigram,55,Rangpur,Rangpur,33.5,Chilmari,Chirir,9,67,0,MISS2
+1,Bagerhat,40,Khulna,Khulna,97.5,Chitalmari,Chitalmari,14,95,100,MATCH
+1,Bagerhat,40,Khulna,Khulna,47.5,Chitalmari,Chitalmari,14,95,0,MATCH
+19,Comilla,20,Chittagong,Chittagong,93.5,Chauddagram,Chouddagram,31,87,100,MATCH
+19,Comilla,20,Chittagong,Chittagong,43.5,Chauddagram,Chouddagram,31,87,0,MATCH
+88,Sirajganj,50,Rajshahi,Rajshahi,91,Chauhali,Chouhali,27,82,100,MATCH
+88,Sirajganj,50,Rajshahi,Rajshahi,41,Chauhali,Chouhali,27,82,0,MATCH
+41,Jessore,40,Khulna,Khulna,88,Chaugachha,Chowgachha,11,76,100,MATCH
+41,Jessore,40,Khulna,Khulna,38,Chaugachha,Chowgachha,11,76,0,MATCH
+18,Chuadanga,40,Khulna,Khulna,86,Chuadanga Sadar,Chuadanga,23,72,100,MATCH
+18,Chuadanga,40,Khulna,Khulna,36,Chuadanga Sadar,Chuadanga,23,72,0,MATCH
+36,Habiganj,60,Sylhet,Sylhet,98,Chunarughat,Chunarughat,26,96,100,MATCH
+36,Habiganj,60,Sylhet,Sylhet,48,Chunarughat,Chunarughat,26,96,0,MATCH
+75,Noakhali,20,Chittagong,Chittagong,76.5,Companiganj,Comilla,21,53,100,MISS2
+91,Sylhet,60,Sylhet,Chittagong,26.5,Companiganj,Comilla,27,53,0,MISS2
+91,Sylhet,60,Sylhet,Sylhet,98,Companiganj,Companiganj,27,96,100,MATCH
+75,Noakhali,20,Chittagong,Chittagong,98,Companiganj,Companiganj,21,96,100,MATCH
+75,Noakhali,20,Chittagong,Chittagong,48,Companiganj,Companiganj,21,96,0,MATCH
+75,Noakhali,20,Chittagong,Sylhet,48,Companiganj,Companiganj,21,96,0,MISSMATCH
+22,Cox's Bazar,20,Chittagong,Chittagong,68,Cox's Bazar Sadar,Coxs,24,36,100,MATCH
+64,Naogaon,50,Rajshahi,Chittagong,18,Porsha,Coxs,79,36,0,MISSMATCH
+47,Khulna,40,Khulna,Khulna,96,Dacope,Dacope,17,92,100,MATCH
+47,Khulna,40,Khulna,Khulna,46,Dacope,Dacope,17,92,0,MATCH
+30,Feni,20,Chittagong,Chittagong,94,Daganbhuiyan,Dagonbhuiyan,25,88,100,MATCH
+30,Feni,20,Chittagong,Chittagong,44,Daganbhuiyan,Dagonbhuiyan,25,88,0,MATCH
+86,Shariatpur,30,Dhaka,Dhaka,87.5,Damudya,Damoddya,25,75,100,MATCH
+18,Chuadanga,40,Khulna,Khulna,97.5,Damurhuda,Damurhuda,31,95,100,MATCH
+18,Chuadanga,40,Khulna,Khulna,47.5,Damurhuda,Damurhuda,31,95,0,MATCH
+78,Patuakhali,10,Barisal,Barisal,97,Dashmina,Dashmina,52,94,100,MATCH
+78,Patuakhali,10,Barisal,Barisal,47,Dashmina,Dashmina,52,94,0,MATCH
+19,Comilla,20,Chittagong,Chittagong,97.5,Daudkandi,Daudkandi,36,95,100,MATCH
+19,Comilla,20,Chittagong,Chittagong,47.5,Daudkandi,Daudkandi,36,95,0,MATCH
+9,Bhola,10,Barisal,Barisal,91,Daulat Khan,Daulatkhan,29,82,100,MATCH
+9,Bhola,10,Barisal,Barisal,41,Daulat Khan,Daulatkhan,29,82,0,MATCH
+56,Manikganj,30,Dhaka,Dhaka,97.5,Daulatpur,Daulatpur,10,95,100,MATCH
+50,Kushtia,40,Khulna,Khulna,97.5,Daulatpur,Daulatpur,39,95,100,MATCH
+50,Kushtia,40,Khulna,Dhaka,47.5,Daulatpur,Daulatpur,39,95,0,MATCH
+87,Satkhira,40,Khulna,Khulna,96.5,Debhata,Debhata,25,93,100,MATCH
+87,Satkhira,40,Khulna,Khulna,46.5,Debhata,Debhata,25,93,0,MATCH
+19,Comilla,20,Chittagong,Chittagong,97,Debidwar,Debidwar,40,94,100,MATCH
+19,Comilla,20,Chittagong,Chittagong,47,Debidwar,Debidwar,40,94,0,MATCH
+77,Panchagarh,55,Rangpur,Rangpur,97,Debiganj,Debiganj,34,94,100,MATCH
+77,Panchagarh,55,Rangpur,Rangpur,47,Debiganj,Debiganj,34,94,0,MATCH
+93,Tangail,30,Dhaka,Dhaka,96.5,Delduar,Delduar,23,93,100,MATCH
+93,Tangail,30,Dhaka,Dhaka,46.5,Delduar,Delduar,23,93,0,MATCH
+39,Jamalpur,30,Dhaka,Mymensingh,54,Dewanganj,Dewanganj,15,95,13,MATCH
+39,Jamalpur,30,Dhaka,Mymensingh,47.5,Dewanganj,Dewanganj,15,95,0,MATCH
+64,Naogaon,50,Rajshahi,Rajshahi,97.5,Dhamoirhat,Dhamoirhat,28,95,100,MATCH
+64,Naogaon,50,Rajshahi,Rajshahi,47.5,Dhamoirhat,Dhamoirhat,28,95,0,MATCH
+26,Dhaka,30,Dhaka,Dhaka,96.5,Dhamrai,Dhamrai,14,93,100,MATCH
+26,Dhaka,30,Dhaka,Dhaka,46.5,Dhamrai,Dhamrai,14,93,0,MATCH
+90,Sunamganj,60,Sylhet,Sylhet,91,Dharampasha,Dharmapasa,32,82,100,MATCH
+90,Sunamganj,60,Sylhet,Sylhet,41,Dharampasha,Dharmapasa,32,82,0,MATCH
+90,Sunamganj,60,Sylhet,Sylhet,91.5,Derai,Dherai,29,83,100,MATCH
+90,Sunamganj,60,Sylhet,Sylhet,41.5,Derai,Dherai,29,83,0,MATCH
+61,Mymensingh,30,Dhaka,Mymensingh,47.5,Dhobaura,Dhubaura,16,82,13,MATCH
+61,Mymensingh,30,Dhaka,Mymensingh,41,Dhobaura,Dhubaura,16,82,0,MATCH
+10,Bogra,50,Rajshahi,Rajshahi,88.5,Dhunat,Dhunot,27,77,100,MATCH
+10,Bogra,50,Rajshahi,Rajshahi,38.5,Dhunat,Dhunot,27,77,0,MATCH
+46,Khagrachhari,20,Chittagong,Chittagong,97.5,Dighinala,Dighinala,43,95,100,MATCH
+46,Khagrachhari,20,Chittagong,Chittagong,47.5,Dighinala,Dighinala,43,95,0,MATCH
+47,Khulna,40,Khulna,Khulna,91,Dighalia,Digholia,40,82,100,MATCH
+47,Khulna,40,Khulna,Khulna,41,Dighalia,Digholia,40,82,0,MATCH
+73,Nilphamari,55,Rangpur,Rangpur,95.5,Dimla,Dimla,12,91,100,MATCH
+27,Dinajpur,55,Rangpur,Rangpur,85,Dinajpur Sadar,Dinajpur,64,70,100,MATCH
+27,Dinajpur,55,Rangpur,Rangpur,35,Dinajpur Sadar,Dinajpur,64,70,0,MATCH
+26,Dhaka,30,Dhaka,Dhaka,95.5,Dohar,Dohar,18,91,100,MATCH
+26,Dhaka,30,Dhaka,Dhaka,45.5,Dohar,Dohar,18,91,0,MATCH
+73,Nilphamari,55,Rangpur,Rangpur,95.5,Domar,Domar,15,91,100,MATCH
+15,Chittagong,20,Chittagong,Chittagong,85.5,Double Mooring Thana,Doublemooring,28,71,100,MATCH
+15,Chittagong,20,Chittagong,Chittagong,35.5,Double Mooring Thana,Doublemooring,28,71,0,MATCH
+90,Sunamganj,60,Sylhet,Sylhet,83.5,Dowarabazar,Dowara,33,67,100,MATCH
+15,Chittagong,20,Chittagong,Sylhet,35.5,Anowara,Dowara,4,71,0,MISSMATCH
+78,Patuakhali,10,Barisal,Barisal,95.5,Dumki,Dumki,55,91,100,MATCH
+78,Patuakhali,10,Barisal,Barisal,45.5,Dumki,Dumki,55,91,0,MATCH
+47,Khulna,40,Khulna,Khulna,96.5,Dumuria,Dumuria,30,93,100,MATCH
+47,Khulna,40,Khulna,Khulna,46.5,Dumuria,Dumuria,30,93,0,MATCH
+10,Bogra,50,Rajshahi,Rajshahi,96,Dhupchanchia,Dupchanchia,33,92,100,MATCH
+10,Bogra,50,Rajshahi,Rajshahi,46,Dhupchanchia,Dupchanchia,33,92,0,MATCH
+81,Rajshahi,50,Rajshahi,Rajshahi,97,Durgapur,Durgapur,31,94,100,MATCH
+81,Rajshahi,50,Rajshahi,Mymensingh,58,Durgapur,Durgapur,31,94,22,MISSMATCH
+81,Rajshahi,50,Rajshahi,Rajshahi,47,Durgapur,Durgapur,31,94,0,MATCH
+81,Rajshahi,50,Rajshahi,Mymensingh,47,Durgapur,Durgapur,31,94,0,MISSMATCH
+1,Bagerhat,40,Khulna,Khulna,97,Fakirhat,Fakirhat,34,94,100,MATCH
+1,Bagerhat,40,Khulna,Khulna,47,Fakirhat,Fakirhat,34,94,0,MATCH
+13,Chandpur,20,Chittagong,Chittagong,97.5,Faridganj,Faridganj,45,95,100,MATCH
+13,Chandpur,20,Chittagong,Chittagong,47.5,Faridganj,Faridganj,45,95,0,MATCH
+61,Mymensingh,30,Dhaka,Dhaka,85.5,Gauripur,Faridpur,23,71,100,MISSMATCH
+76,Pabna,50,Rajshahi,Rajshahi,97,Faridpur,Faridpur,33,94,100,MATCH
+76,Pabna,50,Rajshahi,Rajshahi,47,Faridpur,Faridpur,33,94,0,MATCH
+76,Pabna,50,Rajshahi,Dhaka,47,Faridpur,Faridpur,33,94,0,MISSMATCH
+15,Chittagong,20,Chittagong,Chittagong,95.5,Fatikchhari,Fatichhari,33,91,100,MATCH
+15,Chittagong,20,Chittagong,Chittagong,45.5,Fatikchhari,Fatichhari,33,91,0,MATCH
+91,Sylhet,60,Sylhet,Sylhet,97.5,Fenchuganj,Fenchuganj,35,95,100,MATCH
+91,Sylhet,60,Sylhet,Sylhet,47.5,Fenchuganj,Fenchuganj,35,95,0,MATCH
+30,Feni,20,Chittagong,Chittagong,76.5,Feni Sadar,Feni,29,53,100,MATCH
+30,Feni,20,Chittagong,Chittagong,26.5,Feni Sadar,Feni,29,53,0,MATCH
+27,Dinajpur,55,Rangpur,Rangpur,96.5,Fulbari,Fulbari,38,93,100,MATCH
+27,Dinajpur,55,Rangpur,Rangpur,96.5,Fulbari,Fulbari,38,93,100,MATCH
+27,Dinajpur,55,Rangpur,Rangpur,46.5,Fulbari,Fulbari,38,93,0,MATCH
+27,Dinajpur,55,Rangpur,Rangpur,46.5,Fulbari,Fulbari,38,93,0,MATCH
+27,Dinajpur,55,Rangpur,Mymensingh,56,Fulbari,Fulbaria,38,88,24,MISSMATCH
+61,Mymensingh,30,Dhaka,Mymensingh,47,Fulbaria,Fulbaria,20,94,0,MATCH
+32,Gaibandha,55,Rangpur,Rangpur,97.5,Fulchhari,Fulchhari,21,95,100,MATCH
+32,Gaibandha,55,Rangpur,Rangpur,47.5,Fulchhari,Fulchhari,21,95,0,MATCH
+30,Feni,20,Chittagong,Chittagong,96.5,Fulgazi,Fulgazi,41,93,100,MATCH
+30,Feni,20,Chittagong,Chittagong,46.5,Fulgazi,Fulgazi,41,93,0,MATCH
+47,Khulna,40,Khulna,Khulna,87.5,Phultala,Fultala,69,75,100,MATCH
+47,Khulna,40,Khulna,Khulna,37.5,Phultala,Fultala,69,75,0,MATCH
+10,Bogra,50,Rajshahi,Rajshahi,96.5,Gabtali,Gabtali,40,93,100,MATCH
+10,Bogra,50,Rajshahi,Rajshahi,46.5,Gabtali,Gabtali,40,93,0,MATCH
+61,Mymensingh,30,Dhaka,Mymensingh,51.5,Gaffargaon,Gafargaon,22,90,13,MATCH
+61,Mymensingh,30,Dhaka,Mymensingh,45,Gaffargaon,Gafargaon,22,90,0,MATCH
+57,Meherpur,40,Khulna,Khulna,91.5,Gangni,Gagni,47,83,100,MATCH
+57,Meherpur,40,Khulna,Khulna,41.5,Gangni,Gagni,47,83,0,MATCH
+52,Lalmonirhat,55,Rangpur,Rangpur,90,Hatibandha,Gaibandha,33,80,100,MISSMATCH
+52,Lalmonirhat,55,Rangpur,Rangpur,40,Hatibandha,Gaibandha,33,80,0,MISSMATCH
+85,Rangpur,55,Rangpur,Rangpur,97.5,Gangachara,Gangachara,27,95,100,MATCH
+85,Rangpur,55,Rangpur,Rangpur,47.5,Gangachara,Gangachara,27,95,0,MATCH
+59,Munshiganj,30,Dhaka,Dhaka,96.5,Gazaria,Gazaria,24,93,100,MATCH
+59,Munshiganj,30,Dhaka,Dhaka,46.5,Gazaria,Gazaria,24,93,0,MATCH
+61,Mymensingh,30,Dhaka,Dhaka,87.5,Gauripur,Gazipur,23,75,100,MISS2
+88,Sirajganj,50,Rajshahi,Dhaka,40,Kazipur,Gazipur,50,80,0,MISS2
+93,Tangail,30,Dhaka,Dhaka,96.5,Ghatail,Ghatail,28,93,100,MATCH
+93,Tangail,30,Dhaka,Dhaka,46.5,Ghatail,Ghatail,28,93,0,MATCH
+56,Manikganj,30,Dhaka,Dhaka,95.5,Ghior,Ghior,22,91,100,MATCH
+56,Manikganj,30,Dhaka,Dhaka,45.5,Ghior,Ghior,22,91,0,MATCH
+27,Dinajpur,55,Rangpur,Rangpur,97.5,Ghoraghat,Ghoraghat,43,95,100,MATCH
+27,Dinajpur,55,Rangpur,Rangpur,47.5,Ghoraghat,Ghoraghat,43,95,0,MATCH
+82,Rajbari,30,Dhaka,Dhaka,91,Goalanda,Goalunda,29,82,100,MATCH
+82,Rajbari,30,Dhaka,Dhaka,41,Goalanda,Goalunda,29,82,0,MATCH
+32,Gaibandha,55,Rangpur,Rangpur,98,Gobindaganj,Gobindaganj,30,96,100,MATCH
+32,Gaibandha,55,Rangpur,Rangpur,48,Gobindaganj,Gobindaganj,30,96,0,MATCH
+81,Rajshahi,50,Rajshahi,Rajshahi,97,Godagari,Godagari,34,94,100,MATCH
+81,Rajshahi,50,Rajshahi,Rajshahi,47,Godagari,Godagari,34,94,0,MATCH
+78,Patuakhali,10,Barisal,Barisal,92,Galachipa,Golachipa,57,84,100,MATCH
+78,Patuakhali,10,Barisal,Barisal,42,Galachipa,Golachipa,57,84,0,MATCH
+91,Sylhet,60,Sylhet,Sylhet,97.5,Golapganj,Golapganj,38,95,100,MATCH
+91,Sylhet,60,Sylhet,Sylhet,47.5,Golapganj,Golapganj,38,95,0,MATCH
+70,Chapai Nawabganj,50,Rajshahi,Rajshahi,93,Gomastapur,Gomostapur,37,86,100,MATCH
+70,Chapai Nawabganj,50,Rajshahi,Rajshahi,43,Gomastapur,Gomostapur,37,86,0,MATCH
+35,Gopalganj,30,Dhaka,Dhaka,86,Gopalganj Sadar,Gopalganj,32,72,100,MATCH
+91,Sylhet,60,Sylhet,Dhaka,37,Golapganj,Gopalganj,38,74,0,MISSMATCH
+93,Tangail,30,Dhaka,Dhaka,97,Gopalpur,Gopalpur,38,94,100,MATCH
+93,Tangail,30,Dhaka,Dhaka,47,Gopalpur,Gopalpur,38,94,0,MATCH
+86,Shariatpur,30,Dhaka,Dhaka,95,Gosairhat,Goshairhat,36,90,100,MATCH
+61,Mymensingh,30,Dhaka,Mymensingh,47.5,Gauripur,Gouripur,23,82,13,MATCH
+61,Mymensingh,30,Dhaka,Mymensingh,41,Gauripur,Gouripur,23,82,0,MATCH
+6,Barisal,10,Barisal,Barisal,91,Gaurnadi,Gournadi,32,82,100,MATCH
+91,Sylhet,60,Sylhet,Sylhet,97.5,Gowainghat,Gowainghat,41,95,100,MATCH
+91,Sylhet,60,Sylhet,Sylhet,47.5,Gowainghat,Gowainghat,41,95,0,MATCH
+69,Natore,50,Rajshahi,Rajshahi,95.5,Gurudaspur,Gurudashpur,41,91,100,MATCH
+69,Natore,50,Rajshahi,Rajshahi,45.5,Gurudaspur,Gurudashpur,41,91,0,MATCH
+36,Habiganj,60,Sylhet,Sylhet,91,Nabiganj,Habiganj,77,82,100,MISS2
+36,Habiganj,60,Sylhet,Sylhet,41,Nabiganj,Habiganj,77,82,0,MISS2
+13,Chandpur,20,Chittagong,Chittagong,97,Hajiganj,Hajiganj,49,94,100,MATCH
+13,Chandpur,20,Chittagong,Chittagong,47,Hajiganj,Hajiganj,49,94,0,MATCH
+27,Dinajpur,55,Rangpur,Rangpur,97,Hakimpur,Hakimpur,47,94,100,MATCH
+27,Dinajpur,55,Rangpur,Rangpur,47,Hakimpur,Hakimpur,47,94,0,MATCH
+61,Mymensingh,30,Dhaka,Mymensingh,54,Haluaghat,Haluaghat,24,95,13,MATCH
+61,Mymensingh,30,Dhaka,Mymensingh,47.5,Haluaghat,Haluaghat,24,95,0,MATCH
+44,Jhenaidah,40,Khulna,Khulna,93.5,Harinakundu,Harinakunda,14,87,100,MATCH
+94,Thakurgaon,55,Rangpur,Rangpur,96.5,Haripur,Haripur,51,93,100,MATCH
+94,Thakurgaon,55,Rangpur,Rangpur,46.5,Haripur,Haripur,51,93,0,MATCH
+56,Manikganj,30,Dhaka,Dhaka,97.5,Harirampur,Harirampur,28,95,100,MATCH
+56,Manikganj,30,Dhaka,Dhaka,47.5,Harirampur,Harirampur,28,95,0,MATCH
+15,Chittagong,20,Chittagong,Chittagong,97.5,Hathazari,Hathazari,37,95,100,MATCH
+15,Chittagong,20,Chittagong,Chittagong,47.5,Hathazari,Hathazari,37,95,0,MATCH
+52,Lalmonirhat,55,Rangpur,Rangpur,97.5,Hatibandha,Hatibandha,33,95,100,MATCH
+75,Noakhali,20,Chittagong,Chittagong,96,Hatiya,Hatiya,36,92,100,MATCH
+75,Noakhali,20,Chittagong,Chittagong,46,Hatiya,Hatiya,36,92,0,MATCH
+13,Chandpur,20,Chittagong,Chittagong,79.5,Haim Char,Hemchar,47,59,100,MATCH
+13,Chandpur,20,Chittagong,Chittagong,29.5,Haim Char,Hemchar,47,59,0,MATCH
+6,Barisal,10,Barisal,Barisal,95.5,Hizla,Hizla,36,91,100,MATCH
+19,Comilla,20,Chittagong,Chittagong,95.5,Homna,Homna,54,91,100,MATCH
+19,Comilla,20,Chittagong,Chittagong,45.5,Homna,Homna,54,91,0,MATCH
+48,Kishoreganj,30,Dhaka,Dhaka,97.5,Hossainpur,Hossainpur,27,95,100,MATCH
+48,Kishoreganj,30,Dhaka,Dhaka,47.5,Hossainpur,Hossainpur,27,95,0,MATCH
+9,Bhola,10,Barisal,Barisal,74,Burhanuddin,Indurkani,21,48,100,MISS2
+19,Comilla,20,Chittagong,Barisal,26.5,Daudkandi,Indurkani,36,53,0,MISS2
+76,Pabna,50,Rajshahi,Rajshahi,97,Ishwardi,Ishwardi,39,94,100,MATCH
+76,Pabna,50,Rajshahi,Rajshahi,47,Ishwardi,Ishwardi,39,94,0,MATCH
+61,Mymensingh,30,Dhaka,Mymensingh,54,Ishwarganj,Ishwarganj,31,95,13,MATCH
+61,Mymensingh,30,Dhaka,Mymensingh,47.5,Ishwarganj,Ishwarganj,31,95,0,MATCH
+39,Jamalpur,30,Dhaka,Mymensingh,53.5,Islampur,Islampur,29,94,13,MATCH
+39,Jamalpur,30,Dhaka,Mymensingh,47,Islampur,Islampur,29,94,0,MATCH
+48,Kishoreganj,30,Dhaka,Dhaka,94.5,Itna,Itna,33,89,100,MATCH
+48,Kishoreganj,30,Dhaka,Dhaka,44.5,Itna,Itna,33,89,0,MATCH
+91,Sylhet,60,Sylhet,Sylhet,95,Jaintiapur,Jaintapur,53,90,100,MATCH
+91,Sylhet,60,Sylhet,Sylhet,45,Jaintiapur,Jaintapur,53,90,0,MATCH
+91,Sylhet,60,Sylhet,Sylhet,91,Zakiganj,Jakiganj,94,82,100,MATCH
+91,Sylhet,60,Sylhet,Sylhet,41,Zakiganj,Jakiganj,94,82,0,MATCH
+73,Nilphamari,55,Rangpur,Rangpur,97,Jaldhaka,Jaldhaka,36,94,100,MATCH
+90,Sunamganj,60,Sylhet,Sylhet,97.5,Jamalganj,Jamalganj,50,95,100,MATCH
+90,Sunamganj,60,Sylhet,Sylhet,47.5,Jamalganj,Jamalganj,50,95,0,MATCH
+64,Naogaon,50,Rajshahi,Mymensingh,44.5,Niamatpur,Jamalpur,69,67,22,MISSMATCH
+39,Jamalpur,30,Dhaka,Mymensingh,35,Jamalpur Sadar,Jamalpur,36,70,0,MATCH
+86,Shariatpur,30,Dhaka,Dhaka,90,Zanjira,Janjira,94,80,100,MATCH
+41,Jessore,40,Khulna,Khulna,83.5,Jessore Sadar,Jessore,47,67,100,MATCH
+41,Jessore,40,Khulna,Khulna,33.5,Jessore Sadar,Jessore,47,67,0,MATCH
+42,Jhalokati,10,Barisal,Barisal,82,Jhalokati Sadar,Jhalakati,40,64,100,MATCH
+73,Nilphamari,55,Rangpur,Barisal,33.5,Jaldhaka,Jhalakati,36,67,0,MISSMATCH
+44,Jhenaidah,40,Khulna,Khulna,88.5,Jhenaidah Sadar,Jhenaidaha,19,77,100,MATCH
+89,Sherpur,30,Dhaka,Mymensingh,54,Jhenaigati,Jhenaigati,37,95,13,MATCH
+41,Jessore,40,Khulna,Khulna,96,Jhikargachha,Jhikarghachha,23,92,100,MATCH
+41,Jessore,40,Khulna,Khulna,46,Jhikargachha,Jhikarghachha,23,92,0,MATCH
+18,Chuadanga,40,Khulna,Khulna,79.5,Jiban Nagar,Jiban,55,59,100,MATCH
+18,Chuadanga,40,Khulna,Khulna,29.5,Jiban Nagar,Jiban,55,59,0,MATCH
+90,Sunamganj,60,Sylhet,Sylhet,90,Jagannathpur,Jogonnathpur,47,80,100,MATCH
+90,Sunamganj,60,Sylhet,Sylhet,40,Jagannathpur,Jogonnathpur,47,80,0,MATCH
+38,Joypurhat,50,Rajshahi,Rajshahi,86,Joypurhat Sadar,Joypurhat,47,72,100,MATCH
+84,Rangamati,20,Chittagong,Chittagong,89,Jurai Chhari,Jurachhari,47,78,100,MATCH
+84,Rangamati,20,Chittagong,Chittagong,39,Jurai Chhari,Jurachhari,47,78,0,MATCH
+58,Maulvibazar,60,Sylhet,Sylhet,94.5,Juri,Juri,35,89,100,MATCH
+58,Maulvibazar,60,Sylhet,Sylhet,44.5,Juri,Juri,35,89,0,MATCH
+75,Noakhali,20,Chittagong,Chittagong,97,Kabirhat,Kabirhat,47,94,100,MATCH
+75,Noakhali,20,Chittagong,Chittagong,47,Kabirhat,Kabirhat,47,94,0,MATCH
+1,Bagerhat,40,Khulna,Khulna,96,Kachua,Kachua,38,92,100,MATCH
+13,Chandpur,20,Chittagong,Chittagong,96,Kachua,Kachua,58,92,100,MATCH
+1,Bagerhat,40,Khulna,Chittagong,46,Kachua,Kachua,38,92,0,MISSMATCH
+1,Bagerhat,40,Khulna,Khulna,46,Kachua,Kachua,38,92,0,MATCH
+10,Bogra,50,Rajshahi,Rajshahi,96.5,Kahaloo,Kahaloo,54,93,100,MATCH
+10,Bogra,50,Rajshahi,Rajshahi,46.5,Kahaloo,Kahaloo,54,93,0,MATCH
+27,Dinajpur,55,Rangpur,Rangpur,97,Kaharole,Kaharole,56,94,100,MATCH
+27,Dinajpur,55,Rangpur,Rangpur,47,Kaharole,Kaharole,56,94,0,MATCH
+38,Joypurhat,50,Rajshahi,Rajshahi,95.5,Kalai,Kalai,58,91,100,MATCH
+78,Patuakhali,10,Barisal,Barisal,89,Kala Para,Kalapara,66,78,100,MATCH
+78,Patuakhali,10,Barisal,Barisal,39,Kala Para,Kalapara,66,78,0,MATCH
+65,Narail,40,Khulna,Khulna,95.5,Kalia,Kalia,28,91,100,MATCH
+65,Narail,40,Khulna,Khulna,45.5,Kalia,Kalia,28,91,0,MATCH
+33,Gazipur,30,Dhaka,Dhaka,97.5,Kaliakair,Kaliakair,32,95,100,MATCH
+33,Gazipur,30,Dhaka,Dhaka,47.5,Kaliakair,Kaliakair,32,95,0,MATCH
+87,Satkhira,40,Khulna,Khulna,97,Kaliganj,Kaliganj,47,94,100,MATCH
+87,Satkhira,40,Khulna,Khulna,97,Kaliganj,Kaliganj,47,94,100,MATCH
+33,Gazipur,30,Dhaka,Dhaka,97,Kaliganj,Kaliganj,34,94,100,MATCH
+52,Lalmonirhat,55,Rangpur,Rangpur,91,Kaligang,Kaliganj,39,82,100,MATCH
+87,Satkhira,40,Khulna,Dhaka,47,Kaliganj,Kaliganj,47,94,0,MISSMATCH
+87,Satkhira,40,Khulna,Khulna,47,Kaliganj,Kaliganj,47,94,0,MATCH
+93,Tangail,30,Dhaka,Dhaka,97,Kalihati,Kalihati,47,94,100,MATCH
+93,Tangail,30,Dhaka,Dhaka,47,Kalihati,Kalihati,47,94,0,MATCH
+54,Madaripur,30,Dhaka,Dhaka,96.5,Kalkini,Kalkini,40,93,100,MATCH
+54,Madaripur,30,Dhaka,Dhaka,46.5,Kalkini,Kalkini,40,93,0,MATCH
+72,Netrakona,30,Dhaka,Mymensingh,54,Kalmakanda,Kalmakanda,40,95,13,MATCH
+72,Netrakona,30,Dhaka,Mymensingh,47.5,Kalmakanda,Kalmakanda,40,95,0,MATCH
+51,Lakshmipur,20,Chittagong,Chittagong,97.5,Kamalnagar,Kamalnagar,33,95,100,MATCH
+88,Sirajganj,50,Rajshahi,Rajshahi,95.5,Kamarkhanda,Kamarkhand,44,91,100,MATCH
+88,Sirajganj,50,Rajshahi,Rajshahi,45.5,Kamarkhanda,Kamarkhand,44,91,0,MATCH
+91,Sylhet,60,Sylhet,Sylhet,97.5,Kanaighat,Kanaighat,59,95,100,MATCH
+91,Sylhet,60,Sylhet,Sylhet,47.5,Kanaighat,Kanaighat,59,95,0,MATCH
+33,Gazipur,30,Dhaka,Dhaka,96.5,Kapasia,Kapasia,36,93,100,MATCH
+33,Gazipur,30,Dhaka,Dhaka,46.5,Kapasia,Kapasia,36,93,0,MATCH
+84,Rangamati,20,Chittagong,Chittagong,93,Kaptai,Kaptai,36,86,100,MATCH
+84,Rangamati,20,Chittagong,Chittagong,43,Kaptai,Kaptai,36,86,0,MATCH
+48,Kishoreganj,30,Dhaka,Dhaka,97.5,Karimganj,Karimganj,42,95,100,MATCH
+48,Kishoreganj,30,Dhaka,Dhaka,47.5,Karimganj,Karimganj,42,95,0,MATCH
+12,Brahmanbaria,20,Chittagong,Chittagong,91.5,Kasba,Kashba,63,83,100,MATCH
+35,Gopalganj,30,Dhaka,Dhaka,94,Kashiani,Kasiani,43,88,100,MATCH
+35,Gopalganj,30,Dhaka,Dhaka,44,Kashiani,Kasiani,43,88,0,MATCH
+42,Jhalokati,10,Barisal,Barisal,94.5,Kanthalia,Kathalia,43,89,100,MATCH
+42,Jhalokati,10,Barisal,Barisal,44.5,Kanthalia,Kathalia,43,89,0,MATCH
+48,Kishoreganj,30,Dhaka,Dhaka,96.5,Katiadi,Katiadi,45,93,100,MATCH
+48,Kishoreganj,30,Dhaka,Dhaka,46.5,Katiadi,Katiadi,45,93,0,MATCH
+85,Rangpur,55,Rangpur,Rangpur,96,Kaunia,Kaunia,42,92,100,MATCH
+85,Rangpur,55,Rangpur,Rangpur,46,Kaunia,Kaunia,42,92,0,MATCH
+79,Pirojpur,10,Barisal,Barisal,97,Kawkhali,Kawkhali,47,94,100,MATCH
+84,Rangamati,20,Chittagong,Barisal,47,Kawkhali,Kawkhali,25,94,0,MISSMATCH
+84,Rangamati,20,Chittagong,Chittagong,97,Kawkhali,Kawkhali,25,94,100,MATCH
+84,Rangamati,20,Chittagong,Chittagong,47,Kawkhali,Kawkhali,25,94,0,MATCH
+88,Sirajganj,50,Rajshahi,Rajshahi,96.5,Kazipur,Kazipur,50,93,100,MATCH
+88,Sirajganj,50,Rajshahi,Rajshahi,46.5,Kazipur,Kazipur,50,93,0,MATCH
+72,Netrakona,30,Dhaka,Mymensingh,52.5,Kendua,Kendua,47,92,13,MATCH
+72,Netrakona,30,Dhaka,Mymensingh,46,Kendua,Kendua,47,92,0,MATCH
+26,Dhaka,30,Dhaka,Dhaka,97.5,Keraniganj,Keraniganj,38,95,100,MATCH
+26,Dhaka,30,Dhaka,Dhaka,47.5,Keraniganj,Keraniganj,38,95,0,MATCH
+41,Jessore,40,Khulna,Khulna,92,Keshabpur,Keshobpur,38,84,100,MATCH
+41,Jessore,40,Khulna,Khulna,42,Keshabpur,Keshobpur,38,84,0,MATCH
+46,Khagrachhari,20,Chittagong,Chittagong,88.5,Khagrachhari Sadar,Khagrachhari,49,77,100,MATCH
+46,Khagrachhari,20,Chittagong,Chittagong,38.5,Khagrachhari Sadar,Khagrachhari,49,77,0,MATCH
+72,Netrakona,30,Dhaka,Mymensingh,52,Khaliajuri,Khaliajhuri,38,91,13,MATCH
+72,Netrakona,30,Dhaka,Mymensingh,45.5,Khaliajuri,Khaliajhuri,38,91,0,MATCH
+27,Dinajpur,55,Rangpur,Rangpur,94.5,Khansama,Khanshama,60,89,100,MATCH
+27,Dinajpur,55,Rangpur,Rangpur,44.5,Khansama,Khanshama,60,89,0,MATCH
+38,Joypurhat,50,Rajshahi,Rajshahi,96.5,Khetlal,Khetlal,61,93,100,MATCH
+50,Kushtia,40,Khulna,Khulna,96,Khoksa,Khoksa,63,92,100,MATCH
+1,Bagerhat,40,Khulna,Khulna,81,Kachua,Khulna,38,62,100,MISS2
+13,Chandpur,20,Chittagong,Khulna,31,Kachua,Khulna,58,62,0,MISS2
+48,Kishoreganj,30,Dhaka,Dhaka,88,Kishoreganj Sadar,Kishoreganj,49,76,100,MATCH
+73,Nilphamari,55,Rangpur,Rangpur,98,Kishoreganj,Kishoreganj,45,96,100,MATCH
+73,Nilphamari,55,Rangpur,Dhaka,48,Kishoreganj,Kishoreganj,45,96,0,MISSMATCH
+87,Satkhira,40,Khulna,Khulna,90,Kalaroa,Kolaroa,43,80,100,MATCH
+87,Satkhira,40,Khulna,Khulna,40,Kalaroa,Kolaroa,43,80,0,MATCH
+58,Maulvibazar,60,Sylhet,Sylhet,87,Kamalganj,Komolganj,56,74,100,MATCH
+58,Maulvibazar,60,Sylhet,Sylhet,37,Kamalganj,Komolganj,56,74,0,MATCH
+35,Gopalganj,30,Dhaka,Dhaka,97.5,Kotalipara,Kotalipara,51,95,100,MATCH
+35,Gopalganj,30,Dhaka,Dhaka,47.5,Kotalipara,Kotalipara,51,95,0,MATCH
+44,Jhenaidah,40,Khulna,Khulna,98,Kotchandpur,Kotchandpur,42,96,100,MATCH
+47,Khulna,40,Khulna,Khulna,95.5,Koyra,Koyra,53,91,100,MATCH
+47,Khulna,40,Khulna,Khulna,45.5,Koyra,Koyra,53,91,0,MATCH
+58,Maulvibazar,60,Sylhet,Sylhet,96.5,Kulaura,Kulaura,65,93,100,MATCH
+58,Maulvibazar,60,Sylhet,Sylhet,46.5,Kulaura,Kulaura,65,93,0,MATCH
+48,Kishoreganj,30,Dhaka,Dhaka,91,Kuliar Char,Kuliarchar,54,82,100,MATCH
+48,Kishoreganj,30,Dhaka,Dhaka,41,Kuliar Char,Kuliarchar,54,82,0,MATCH
+50,Kushtia,40,Khulna,Khulna,97.5,Kumarkhali,Kumarkhali,71,95,100,MATCH
+49,Kurigram,55,Rangpur,Rangpur,85,Kurigram Sadar,Kurigram,52,70,100,MATCH
+49,Kurigram,55,Rangpur,Rangpur,35,Kurigram Sadar,Kurigram,52,70,0,MATCH
+50,Kushtia,40,Khulna,Khulna,83.5,Kushtia Sadar,Kushtia,79,67,100,MATCH
+22,Cox's Bazar,20,Chittagong,Chittagong,97,Kutubdia,Kutubdia,45,94,100,MATCH
+22,Cox's Bazar,20,Chittagong,Chittagong,47,Kutubdia,Kutubdia,45,94,0,MATCH
+36,Habiganj,60,Sylhet,Sylhet,96,Lakhai,Lakhai,68,92,100,MATCH
+36,Habiganj,60,Sylhet,Sylhet,46,Lakhai,Lakhai,68,92,0,MATCH
+19,Comilla,20,Chittagong,Chittagong,93,Laksam,Laksham,72,86,100,MATCH
+19,Comilla,20,Chittagong,Chittagong,43,Laksam,Laksham,72,86,0,MATCH
+46,Khagrachhari,20,Chittagong,Chittagong,98,Lakshmichhari,Lakshmichhari,61,96,100,MATCH
+46,Khagrachhari,20,Chittagong,Chittagong,48,Lakshmichhari,Lakshmichhari,61,96,0,MATCH
+51,Lakshmipur,20,Chittagong,Chittagong,87,Lakshmipur Sadar,Lakshmipur,43,74,100,MATCH
+9,Bhola,10,Barisal,Barisal,97,Lalmohan,Lalmohan,54,94,100,MATCH
+9,Bhola,10,Barisal,Barisal,47,Lalmohan,Lalmohan,54,94,0,MATCH
+52,Lalmonirhat,55,Rangpur,Rangpur,88,Lalmonirhat Sadar,Lalmonirhat,55,76,100,MATCH
+69,Natore,50,Rajshahi,Rajshahi,96,Lalpur,Lalpur,44,92,100,MATCH
+69,Natore,50,Rajshahi,Rajshahi,46,Lalpur,Lalpur,44,92,0,MATCH
+3,Bandarban,20,Chittagong,Chittagong,94.5,Lama,Lama,51,89,100,MATCH
+3,Bandarban,20,Chittagong,Chittagong,44.5,Lama,Lama,51,89,0,MATCH
+84,Rangamati,20,Chittagong,Chittagong,94,Langadu,Langadu,58,88,100,MATCH
+84,Rangamati,20,Chittagong,Chittagong,44,Langadu,Langadu,58,88,0,MATCH
+65,Narail,40,Khulna,Khulna,97,Lohagara,Lohagara,52,94,100,MATCH
+15,Chittagong,20,Chittagong,Khulna,47,Lohagara,Lohagara,47,94,0,MATCH
+15,Chittagong,20,Chittagong,Chittagong,91,Lohagara,Lohagora,47,82,100,MATCH
+15,Chittagong,20,Chittagong,Chittagong,41,Lohagara,Lohagora,47,82,0,MATCH
+59,Munshiganj,30,Dhaka,Dhaka,91,Lohajang,Lohajong,44,82,100,MATCH
+59,Munshiganj,30,Dhaka,Dhaka,41,Lohajang,Lohajong,44,82,0,MATCH
+39,Jamalpur,30,Dhaka,Mymensingh,54,Madarganj,Madarganj,58,95,13,MATCH
+39,Jamalpur,30,Dhaka,Mymensingh,47.5,Madarganj,Madarganj,58,95,0,MATCH
+29,Faridpur,30,Dhaka,Dhaka,89,Sadarpur,Madaripur,84,78,100,MISS2
+29,Faridpur,30,Dhaka,Dhaka,39,Sadarpur,Madaripur,84,78,0,MISS2
+36,Habiganj,60,Sylhet,Sylhet,97.5,Madhabpur,Madhabpur,71,95,100,MATCH
+36,Habiganj,60,Sylhet,Sylhet,47.5,Madhabpur,Madhabpur,71,95,0,MATCH
+55,Magura,40,Khulna,Khulna,81.5,Magura Sadar,Magura,57,63,100,MATCH
+9,Bhola,10,Barisal,Khulna,35.5,Manpura,Magura,65,71,0,MISSMATCH
+46,Khagrachhari,20,Chittagong,Chittagong,98,Mahalchhari,Mahalchhari,65,96,100,MATCH
+46,Khagrachhari,20,Chittagong,Chittagong,48,Mahalchhari,Mahalchhari,65,96,0,MATCH
+64,Naogaon,50,Rajshahi,Rajshahi,95.5,Manda,Manda,47,91,100,MATCH
+64,Naogaon,50,Rajshahi,Rajshahi,45.5,Manda,Manda,47,91,0,MATCH
+46,Khagrachhari,20,Chittagong,Chittagong,98,Manikchhari,Manikchhari,67,96,100,MATCH
+46,Khagrachhari,20,Chittagong,Chittagong,48,Manikchhari,Manikchhari,67,96,0,MATCH
+72,Netrakona,30,Dhaka,Dhaka,87,Mohanganj,Manikganj,63,74,100,MISS2
+72,Netrakona,30,Dhaka,Dhaka,37,Mohanganj,Manikganj,63,74,0,MISS2
+79,Pirojpur,10,Barisal,Barisal,97.5,Mathbaria,Mathbaria,58,95,100,MATCH
+79,Pirojpur,10,Barisal,Barisal,47.5,Mathbaria,Mathbaria,58,95,0,MATCH
+46,Khagrachhari,20,Chittagong,Chittagong,97.5,Matiranga,Matiranga,70,95,100,MATCH
+46,Khagrachhari,20,Chittagong,Chittagong,47.5,Matiranga,Matiranga,70,95,0,MATCH
+13,Chandpur,20,Chittagong,Chittagong,96,Matlab,Matlab,76,92,100,MATCH
+13,Chandpur,20,Chittagong,Chittagong,46,Matlab,Matlab,76,92,0,MATCH
+19,Comilla,20,Chittagong,Chittagong,96,Meghna,Meghna,75,92,100,MATCH
+19,Comilla,20,Chittagong,Chittagong,46,Meghna,Meghna,75,92,0,MATCH
+6,Barisal,10,Barisal,Barisal,98,Mehendiganj,Mehendiganj,62,96,100,MATCH
+57,Meherpur,40,Khulna,Khulna,85,Meherpur Sadar,Meherpur,87,70,100,MATCH
+10,Bogra,50,Rajshahi,Khulna,37.5,Sherpur,Meherpur,88,75,0,MISSMATCH
+39,Jamalpur,30,Dhaka,Mymensingh,54,Melandaha,Melandaha,61,95,13,MATCH
+39,Jamalpur,30,Dhaka,Mymensingh,47.5,Melandaha,Melandaha,61,95,0,MATCH
+93,Tangail,30,Dhaka,Dhaka,90,Mirzapur,Mirpur,66,80,100,MISSMATCH
+50,Kushtia,40,Khulna,Khulna,96,Mirpur,Mirpur,94,92,100,MATCH
+50,Kushtia,40,Khulna,Dhaka,46,Mirpur,Mirpur,94,92,0,MATCH
+15,Chittagong,20,Chittagong,Chittagong,97.5,Mirsharai,Mirsharai,53,95,100,MATCH
+15,Chittagong,20,Chittagong,Chittagong,47.5,Mirsharai,Mirsharai,53,95,0,MATCH
+78,Patuakhali,10,Barisal,Barisal,97.5,Mirzaganj,Mirzaganj,76,95,100,MATCH
+78,Patuakhali,10,Barisal,Barisal,47.5,Mirzaganj,Mirzaganj,76,95,0,MATCH
+93,Tangail,30,Dhaka,Dhaka,97,Mirzapur,Mirzapur,66,94,100,MATCH
+93,Tangail,30,Dhaka,Dhaka,47,Mirzapur,Mirzapur,66,94,0,MATCH
+48,Kishoreganj,30,Dhaka,Dhaka,92,Mithamain,Mithamoin,59,84,100,MATCH
+48,Kishoreganj,30,Dhaka,Dhaka,42,Mithamain,Mithamoin,59,84,0,MATCH
+85,Rangpur,55,Rangpur,Rangpur,97.5,Mithapukur,Mithapukur,58,95,100,MATCH
+85,Rangpur,55,Rangpur,Rangpur,47.5,Mithapukur,Mithapukur,58,95,0,MATCH
+72,Netrakona,30,Dhaka,Mymensingh,43,Madan,Modan,56,73,13,MATCH
+72,Netrakona,30,Dhaka,Mymensingh,36.5,Madan,Modan,56,73,0,MATCH
+29,Faridpur,30,Dhaka,Dhaka,93,Madhukhali,Modhukhali,56,86,100,MATCH
+29,Faridpur,30,Dhaka,Dhaka,43,Madhukhali,Modhukhali,56,86,0,MATCH
+93,Tangail,30,Dhaka,Dhaka,91,Madhupur,Modhupur,57,82,100,MATCH
+93,Tangail,30,Dhaka,Dhaka,41,Madhupur,Modhupur,57,82,0,MATCH
+64,Naogaon,50,Rajshahi,Rajshahi,93,Mahadebpur,Mohadebpur,50,86,100,MATCH
+64,Naogaon,50,Rajshahi,Rajshahi,43,Mahadebpur,Mohadebpur,50,86,0,MATCH
+55,Magura,40,Khulna,Khulna,98,Mohammadpur,Mohammadpur,66,96,100,MATCH
+55,Magura,40,Khulna,Khulna,48,Mohammadpur,Mohammadpur,66,96,0,MATCH
+81,Rajshahi,50,Rajshahi,Rajshahi,97,Mohanpur,Mohanpur,53,94,100,MATCH
+81,Rajshahi,50,Rajshahi,Rajshahi,47,Mohanpur,Mohanpur,53,94,0,MATCH
+22,Cox's Bazar,20,Chittagong,Chittagong,93.5,Maheshkhali,Moheshkhali,49,87,100,MATCH
+22,Cox's Bazar,20,Chittagong,Chittagong,43.5,Maheshkhali,Moheshkhali,49,87,0,MATCH
+44,Jhenaidah,40,Khulna,Khulna,92,Maheshpur,Moheshpur,71,84,100,MATCH
+72,Netrakona,30,Dhaka,Mymensingh,48.5,Mohanganj,Mohonganj,63,84,13,MATCH
+72,Netrakona,30,Dhaka,Mymensingh,42,Mohanganj,Mohonganj,63,84,0,MATCH
+1,Bagerhat,40,Khulna,Khulna,97,Mollahat,Mollahat,56,94,100,MATCH
+1,Bagerhat,40,Khulna,Khulna,47,Mollahat,Mollahat,56,94,0,MATCH
+1,Bagerhat,40,Khulna,Khulna,96,Mongla,Mongla,58,92,100,MATCH
+1,Bagerhat,40,Khulna,Khulna,46,Mongla,Mongla,58,92,0,MATCH
+41,Jessore,40,Khulna,Khulna,93,Manirampur,Monirampur,61,86,100,MATCH
+41,Jessore,40,Khulna,Khulna,43,Manirampur,Monirampur,61,86,0,MATCH
+19,Comilla,20,Chittagong,Chittagong,89,Manoharganj,Monohargonj,74,78,100,MATCH
+19,Comilla,20,Chittagong,Chittagong,39,Manoharganj,Monohargonj,74,78,0,MATCH
+68,Narsingdi,30,Dhaka,Dhaka,87,Manohardi,Monohordi,52,74,100,MATCH
+68,Narsingdi,30,Dhaka,Dhaka,37,Manohardi,Monohordi,52,74,0,MATCH
+9,Bhola,10,Barisal,Barisal,90,Manpura,Monpura,65,80,100,MATCH
+9,Bhola,10,Barisal,Barisal,40,Manpura,Monpura,65,80,0,MATCH
+1,Bagerhat,40,Khulna,Khulna,93,Morrelganj,Morralganj,60,86,100,MATCH
+1,Bagerhat,40,Khulna,Khulna,43,Morrelganj,Morralganj,60,86,0,MATCH
+13,Chandpur,20,Chittagong,Chittagong,88.5,Matlab,Motlab,76,77,100,MATCH
+13,Chandpur,20,Chittagong,Chittagong,38.5,Matlab,Motlab,76,77,0,MATCH
+90,Sunamganj,60,Sylhet,Sylhet,73,Sulla,Moulavi,86,46,100,MISSMATCH
+6,Barisal,10,Barisal,Sylhet,35.5,Muladi,Moulavi,69,71,0,MISSMATCH
+57,Meherpur,40,Khulna,Khulna,91,Mujib Nagar,Mujibnagar,60,82,100,MATCH
+57,Meherpur,40,Khulna,Khulna,41,Mujib Nagar,Mujibnagar,60,82,0,MATCH
+35,Gopalganj,30,Dhaka,Dhaka,97.5,Muksudpur,Muksudpur,58,95,100,MATCH
+35,Gopalganj,30,Dhaka,Dhaka,47.5,Muksudpur,Muksudpur,58,95,0,MATCH
+61,Mymensingh,30,Dhaka,Mymensingh,52,Muktagachha,Muktagacha,65,91,13,MATCH
+61,Mymensingh,30,Dhaka,Mymensingh,45.5,Muktagachha,Muktagacha,65,91,0,MATCH
+6,Barisal,10,Barisal,Barisal,96,Muladi,Muladi,69,92,100,MATCH
+59,Munshiganj,30,Dhaka,Dhaka,87,Munshiganj Sadar,Munshiganj,56,74,100,MATCH
+59,Munshiganj,30,Dhaka,Dhaka,37,Munshiganj Sadar,Munshiganj,56,74,0,MATCH
+19,Comilla,20,Chittagong,Chittagong,97.5,Muradnagar,Muradnagar,81,95,100,MATCH
+19,Comilla,20,Chittagong,Chittagong,47.5,Muradnagar,Muradnagar,81,95,0,MATCH
+61,Mymensingh,30,Dhaka,Mymensingh,43.5,Mymensingh Sadar,Mymensingh,52,74,13,MATCH
+61,Mymensingh,30,Dhaka,Mymensingh,37,Mymensingh Sadar,Mymensingh,52,74,0,MATCH
+36,Habiganj,60,Sylhet,Sylhet,97,Nabiganj,Nabiganj,77,94,100,MATCH
+36,Habiganj,60,Sylhet,Sylhet,47,Nabiganj,Nabiganj,77,94,0,MATCH
+12,Brahmanbaria,20,Chittagong,Chittagong,97.5,Nabinagar,Nabinagar,85,95,100,MATCH
+70,Chapai Nawabganj,50,Rajshahi,Rajshahi,93,Nachole,Nachol,56,86,100,MATCH
+70,Chapai Nawabganj,50,Rajshahi,Rajshahi,43,Nachole,Nachol,56,86,0,MATCH
+29,Faridpur,30,Dhaka,Dhaka,97.5,Nagarkanda,Nagarkanda,62,95,100,MATCH
+29,Faridpur,30,Dhaka,Dhaka,47.5,Nagarkanda,Nagarkanda,62,95,0,MATCH
+93,Tangail,30,Dhaka,Dhaka,97,Nagarpur,Nagarpur,76,94,100,MATCH
+93,Tangail,30,Dhaka,Dhaka,47,Nagarpur,Nagarpur,76,94,0,MATCH
+49,Kurigram,55,Rangpur,Rangpur,95,Nageshwari,Nageswari,61,90,100,MATCH
+49,Kurigram,55,Rangpur,Rangpur,45,Nageshwari,Nageswari,61,90,0,MATCH
+3,Bandarban,20,Chittagong,Chittagong,98.5,Naikhongchhari,Naikhongchhari,73,97,100,MATCH
+3,Bandarban,20,Chittagong,Chittagong,48.5,Naikhongchhari,Naikhongchhari,73,97,0,MATCH
+89,Sherpur,30,Dhaka,Mymensingh,52,Nakla,Nakla,67,91,13,MATCH
+42,Jhalokati,10,Barisal,Barisal,89,Nalchity,Nalchhiti,73,78,100,MATCH
+42,Jhalokati,10,Barisal,Barisal,39,Nalchity,Nalchhiti,73,78,0,MATCH
+89,Sherpur,30,Dhaka,Mymensingh,54,Nalitabari,Nalitabari,70,95,13,MATCH
+61,Mymensingh,30,Dhaka,Mymensingh,53,Nandail,Nandail,72,93,13,MATCH
+61,Mymensingh,30,Dhaka,Mymensingh,46.5,Nandail,Nandail,72,93,0,MATCH
+10,Bogra,50,Rajshahi,Rajshahi,97.5,Nandigram,Nandigram,67,95,100,MATCH
+10,Bogra,50,Rajshahi,Rajshahi,47.5,Nandigram,Nandigram,67,95,0,MATCH
+19,Comilla,20,Chittagong,Chittagong,92,Nangalkot,Nangolkot,87,84,100,MATCH
+19,Comilla,20,Chittagong,Chittagong,42,Nangalkot,Nangolkot,87,84,0,MATCH
+84,Rangamati,20,Chittagong,Chittagong,95.5,Naniarchar,Naniarchar,75,91,100,MATCH
+84,Rangamati,20,Chittagong,Chittagong,45.5,Naniarchar,Naniarchar,75,91,0,MATCH
+64,Naogaon,50,Rajshahi,Rajshahi,83.5,Naogaon Sadar,Naogaon,60,67,100,MATCH
+64,Naogaon,50,Rajshahi,Rajshahi,33.5,Naogaon Sadar,Naogaon,60,67,0,MATCH
+65,Narail,40,Khulna,Khulna,81.5,Narail Sadar,Narail,76,63,100,MATCH
+48,Kishoreganj,30,Dhaka,Khulna,38.5,Tarail,Narail,92,77,0,MISSMATCH
+67,Narayanganj,30,Dhaka,Dhaka,88,Narayanganj Sadar,Narayanganj,58,76,100,MATCH
+86,Shariatpur,30,Dhaka,Dhaka,95.5,Naria,Naria,65,91,100,MATCH
+68,Narsingdi,30,Dhaka,Dhaka,84.5,Narsingdi Sadar,Narshingdi,60,69,100,MATCH
+68,Narsingdi,30,Dhaka,Dhaka,34.5,Narsingdi Sadar,Narshingdi,60,69,0,MATCH
+12,Brahmanbaria,20,Chittagong,Chittagong,97.5,Nasirnagar,Nasirnagar,90,95,100,MATCH
+69,Natore,50,Rajshahi,Rajshahi,81.5,Natore Sadar,Natore,63,63,100,MATCH
+69,Natore,50,Rajshahi,Rajshahi,31.5,Natore Sadar,Natore,63,63,0,MATCH
+27,Dinajpur,55,Rangpur,Rangpur,97.5,Nawabganj,Nawabganj,69,95,100,MATCH
+26,Dhaka,30,Dhaka,Dhaka,97.5,Nawabganj,Nawabganj,62,95,100,MATCH
+27,Dinajpur,55,Rangpur,Dhaka,47.5,Nawabganj,Nawabganj,69,95,0,MISSMATCH
+27,Dinajpur,55,Rangpur,Rangpur,47.5,Nawabganj,Nawabganj,69,95,0,MATCH
+79,Pirojpur,10,Barisal,Barisal,97,Nazirpur,Nazirpur,76,94,100,MATCH
+79,Pirojpur,10,Barisal,Barisal,47,Nazirpur,Nazirpur,76,94,0,MATCH
+79,Pirojpur,10,Barisal,Barisal,97.5,Nesarabad,Nesarabad,87,95,100,MATCH
+79,Pirojpur,10,Barisal,Barisal,47.5,Nesarabad,Nesarabad,87,95,0,MATCH
+72,Netrakona,30,Dhaka,Mymensingh,42.5,Netrokona Sadar,Netrokona,74,72,13,MATCH
+72,Netrakona,30,Dhaka,Mymensingh,36,Netrokona Sadar,Netrokona,74,72,0,MATCH
+64,Naogaon,50,Rajshahi,Rajshahi,97.5,Niamatpur,Niamatpur,69,95,100,MATCH
+64,Naogaon,50,Rajshahi,Rajshahi,47.5,Niamatpur,Niamatpur,69,95,0,MATCH
+48,Kishoreganj,30,Dhaka,Dhaka,95.5,Nikli,Nikli,76,91,100,MATCH
+48,Kishoreganj,30,Dhaka,Dhaka,45.5,Nikli,Nikli,76,91,0,MATCH
+73,Nilphamari,55,Rangpur,Rangpur,87,Nilphamari Sadar,Nilphamari,64,74,100,MATCH
+81,Rajshahi,50,Rajshahi,Rajshahi,90,Paba,Pabna,72,80,100,MISS2
+81,Rajshahi,50,Rajshahi,Rajshahi,40,Paba,Pabna,72,80,0,MISS2
+47,Khulna,40,Khulna,Khulna,97.5,Paikgachha,Paikgachha,64,95,100,MATCH
+47,Khulna,40,Khulna,Khulna,47.5,Paikgachha,Paikgachha,64,95,0,MATCH
+48,Kishoreganj,30,Dhaka,Dhaka,97,Pakundia,Pakundia,79,94,100,MATCH
+48,Kishoreganj,30,Dhaka,Dhaka,47,Pakundia,Pakundia,79,94,0,MATCH
+68,Narsingdi,30,Dhaka,Dhaka,96,Palash,Palash,63,92,100,MATCH
+68,Narsingdi,30,Dhaka,Dhaka,46,Palash,Palash,63,92,0,MATCH
+32,Gaibandha,55,Rangpur,Rangpur,97.5,Palashbari,Palashbari,67,95,100,MATCH
+32,Gaibandha,55,Rangpur,Rangpur,47.5,Palashbari,Palashbari,67,95,0,MATCH
+82,Rajbari,30,Dhaka,Dhaka,78.5,Pangsha,Palong,73,57,100,MISSMATCH
+38,Joypurhat,50,Rajshahi,Rajshahi,97.5,Panchbibi,Panchbibi,74,95,100,MISSMATCH
+77,Panchagarh,55,Rangpur,Rangpur,84.5,Panchagarh Sadar,Panchgarh,73,69,100,MATCH
+46,Khagrachhari,20,Chittagong,Rangpur,37,Panchhari,Panchgarh,77,74,0,MISSMATCH
+46,Khagrachhari,20,Chittagong,Chittagong,97.5,Panchhari,Panchhari,77,95,100,MATCH
+46,Khagrachhari,20,Chittagong,Chittagong,47.5,Panchhari,Panchhari,77,95,0,MATCH
+15,Chittagong,20,Chittagong,Chittagong,87,Panchlaish Thana,Panchlaish,57,74,100,MATCH
+15,Chittagong,20,Chittagong,Chittagong,37,Panchlaish Thana,Panchlaish,57,74,0,MATCH
+82,Rajbari,30,Dhaka,Dhaka,96.5,Pangsha,Pangsha,73,93,100,MATCH
+82,Rajbari,30,Dhaka,Dhaka,46.5,Pangsha,Pangsha,73,93,0,MATCH
+27,Dinajpur,55,Rangpur,Rangpur,97.5,Parbatipur,Parbatipur,77,95,100,MATCH
+27,Dinajpur,55,Rangpur,Rangpur,47.5,Parbatipur,Parbatipur,77,95,0,MATCH
+30,Feni,20,Chittagong,Chittagong,97.5,Parshuram,Parshuram,51,95,100,MATCH
+30,Feni,20,Chittagong,Chittagong,47.5,Parshuram,Parshuram,51,95,0,MATCH
+52,Lalmonirhat,55,Rangpur,Rangpur,96.5,Patgram,Patgram,70,93,100,MATCH
+4,Barguna,10,Barisal,Barisal,98,Patharghata,Patharghata,85,96,100,MATCH
+4,Barguna,10,Barisal,Barisal,48,Patharghata,Patharghata,85,96,0,MATCH
+15,Chittagong,20,Chittagong,Chittagong,96,Patiya,Patiya,61,92,100,MATCH
+15,Chittagong,20,Chittagong,Chittagong,46,Patiya,Patiya,61,92,0,MATCH
+64,Naogaon,50,Rajshahi,Rajshahi,92,Patnitala,Patnitola,75,84,100,MATCH
+64,Naogaon,50,Rajshahi,Rajshahi,42,Patnitala,Patnitola,75,84,0,MATCH
+78,Patuakhali,10,Barisal,Barisal,87,Patuakhali Sadar,Patuakhali,95,74,100,MATCH
+78,Patuakhali,10,Barisal,Barisal,37,Patuakhali Sadar,Patuakhali,95,74,0,MATCH
+22,Cox's Bazar,20,Chittagong,Chittagong,95.5,Pekua,Pekua,56,91,100,MATCH
+22,Cox's Bazar,20,Chittagong,Chittagong,45.5,Pekua,Pekua,56,91,0,MATCH
+61,Mymensingh,30,Dhaka,Mymensingh,53,Phulpur,Phulpur,81,93,13,MATCH
+61,Mymensingh,30,Dhaka,Mymensingh,46.5,Phulpur,Phulpur,81,93,0,MATCH
+85,Rangpur,55,Rangpur,Rangpur,97.5,Pirgachha,Pirgachha,73,95,100,MATCH
+85,Rangpur,55,Rangpur,Rangpur,47.5,Pirgachha,Pirgachha,73,95,0,MATCH
+94,Thakurgaon,55,Rangpur,Rangpur,96.5,Pirganj,Pirganj,82,93,100,DOUBLE
+94,Thakurgaon,55,Rangpur,Rangpur,96.5,Pirganj,Pirganj,82,93,100,DOUBLE
+85,Rangpur,55,Rangpur,Rangpur,46.5,Pirganj-Rangpur,Pirganj-Rangpur,76,93,0,DOUBLE
+85,Rangpur,55,Rangpur,Rangpur,46.5,Pirganj-Rangpur,Pirganj-Rangpur,76,93,0,DOUBLE
+79,Pirojpur,10,Barisal,Barisal,85,Pirojpur Sadar,Pirojpur,80,70,100,MATCH
+79,Pirojpur,10,Barisal,Barisal,35,Pirojpur Sadar,Pirojpur,80,70,0,MATCH
+81,Rajshahi,50,Rajshahi,Rajshahi,83.5,Paba,Poba,72,67,100,MATCH
+81,Rajshahi,50,Rajshahi,Rajshahi,33.5,Paba,Poba,72,67,0,MATCH
+64,Naogaon,50,Rajshahi,Rajshahi,91.5,Porsha,Porsa,79,83,100,MATCH
+64,Naogaon,50,Rajshahi,Rajshahi,41.5,Porsha,Porsa,79,83,0,MATCH
+72,Netrakona,30,Dhaka,Mymensingh,54,Purbadhala,Purbadhala,83,95,13,MATCH
+72,Netrakona,30,Dhaka,Mymensingh,47.5,Purbadhala,Purbadhala,83,95,0,MATCH
+81,Rajshahi,50,Rajshahi,Rajshahi,93,Puthia,Puthiya,82,86,100,MATCH
+81,Rajshahi,50,Rajshahi,Rajshahi,43,Puthia,Puthiya,82,86,0,MATCH
+51,Lakshmipur,20,Chittagong,Chittagong,81,Roypur,Raipur,58,62,100,MATCH
+68,Narsingdi,30,Dhaka,Dhaka,83.5,Roypura,Raipura,64,67,100,MATCH
+94,Thakurgaon,55,Rangpur,Dhaka,33.5,Haripur,Raipura,51,67,0,MISSMATCH
+42,Jhalokati,10,Barisal,Barisal,96.5,Rajapur,Rajapur,84,93,100,MATCH
+42,Jhalokati,10,Barisal,Barisal,46.5,Rajapur,Rajapur,84,93,0,MATCH
+49,Kurigram,55,Rangpur,Rangpur,97,Rajarhat,Rajarhat,77,94,100,MATCH
+49,Kurigram,55,Rangpur,Rangpur,47,Rajarhat,Rajarhat,77,94,0,MATCH
+84,Rangamati,20,Chittagong,Chittagong,95.5,Rajasthali,Rajasthali,78,91,100,MATCH
+84,Rangamati,20,Chittagong,Chittagong,45.5,Rajasthali,Rajasthali,78,91,0,MATCH
+82,Rajbari,30,Dhaka,Dhaka,83.5,Rajbari Sadar,Rajbari,76,67,100,MATCH
+49,Kurigram,55,Rangpur,Dhaka,33.5,Raumari,Rajbari,79,67,0,MISSMATCH
+58,Maulvibazar,60,Sylhet,Sylhet,97,Rajnagar,Rajnagar,80,94,100,MATCH
+58,Maulvibazar,60,Sylhet,Sylhet,47,Rajnagar,Rajnagar,80,94,0,MATCH
+54,Madaripur,30,Dhaka,Dhaka,96,Rajoir,Rajoir,80,92,100,MATCH
+54,Madaripur,30,Dhaka,Dhaka,46,Rajoir,Rajoir,80,92,0,MATCH
+51,Lakshmipur,20,Chittagong,Chittagong,96.5,Ramganj,Ramganj,65,93,100,MATCH
+46,Khagrachhari,20,Chittagong,Chittagong,96.5,Ramgarh,Ramgarh,80,93,100,MATCH
+46,Khagrachhari,20,Chittagong,Chittagong,46.5,Ramgarh,Ramgarh,80,93,0,MATCH
+51,Lakshmipur,20,Chittagong,Chittagong,90,Ramgati,Ramgoti,73,80,100,MATCH
+1,Bagerhat,40,Khulna,Khulna,96,Rampal,Rampal,73,92,100,MATCH
+1,Bagerhat,40,Khulna,Khulna,46,Rampal,Rampal,73,92,0,MATCH
+22,Cox's Bazar,20,Chittagong,Chittagong,94.5,Ramu,Ramu,66,89,100,MATCH
+22,Cox's Bazar,20,Chittagong,Chittagong,44.5,Ramu,Ramu,66,89,0,MATCH
+84,Rangamati,20,Chittagong,Chittagong,86,Rangamati Sadar,Rangamati,87,72,100,MATCH
+84,Rangamati,20,Chittagong,Chittagong,36,Rangamati Sadar,Rangamati,87,72,0,MATCH
+85,Rangpur,55,Rangpur,Rangpur,83.5,Rangpur Sadar,Rangpur,49,67,100,MATCH
+85,Rangpur,55,Rangpur,Rangpur,33.5,Rangpur Sadar,Rangpur,49,67,0,MATCH
+15,Chittagong,20,Chittagong,Chittagong,97,Rangunia,Rangunia,70,94,100,MATCH
+15,Chittagong,20,Chittagong,Chittagong,47,Rangunia,Rangunia,70,94,0,MATCH
+64,Naogaon,50,Rajshahi,Rajshahi,78.5,Raninagar,Rani,85,57,100,MATCH
+15,Chittagong,20,Chittagong,Rajshahi,31,Rangunia,Rani,70,62,0,MISSMATCH
+94,Thakurgaon,55,Rangpur,Rangpur,98,Ranisankail,Ranisankail,86,96,100,MATCH
+94,Thakurgaon,55,Rangpur,Rangpur,48,Ranisankail,Ranisankail,86,96,0,MATCH
+15,Chittagong,20,Chittagong,Chittagong,88.5,Raozan,Rawzan,74,77,100,MATCH
+15,Chittagong,20,Chittagong,Chittagong,38.5,Raozan,Rawzan,74,77,0,MATCH
+88,Sirajganj,50,Rajshahi,Rajshahi,90,Royganj,Rayganj,61,80,100,MATCH
+88,Sirajganj,50,Rajshahi,Rajshahi,40,Royganj,Rayganj,61,80,0,MATCH
+49,Kurigram,55,Rangpur,Rangpur,90,Raumari,Roumari,79,80,100,MATCH
+49,Kurigram,55,Rangpur,Rangpur,40,Raumari,Roumari,79,80,0,MATCH
+3,Bandarban,20,Chittagong,Chittagong,98,Rowangchhari,Rowangchhari,89,96,100,MATCH
+3,Bandarban,20,Chittagong,Chittagong,48,Rowangchhari,Rowangchhari,89,96,0,MATCH
+3,Bandarban,20,Chittagong,Chittagong,94.5,Ruma,Ruma,91,89,100,MATCH
+3,Bandarban,20,Chittagong,Chittagong,44.5,Ruma,Ruma,91,89,0,MATCH
+67,Narayanganj,30,Dhaka,Dhaka,96.5,Rupganj,Rupganj,68,93,100,MATCH
+47,Khulna,40,Khulna,Khulna,91.5,Rupsa,Rupsha,75,83,100,MATCH
+47,Khulna,40,Khulna,Khulna,41.5,Rupsa,Rupsha,75,83,0,MATCH
+91,Sylhet,60,Sylhet,Sylhet,78,Sylhet Sadar,Sadar,62,56,100,MISS2
+26,Dhaka,30,Dhaka,Sylhet,36.5,Savar,Sadar,72,73,0,MISSMATCH
+29,Faridpur,30,Dhaka,Dhaka,97,Sadarpur,Sadarpur,84,94,100,MATCH
+29,Faridpur,30,Dhaka,Dhaka,47,Sadarpur,Sadarpur,84,94,0,MATCH
+32,Gaibandha,55,Rangpur,Rangpur,95.5,Sadullapur,Sadullahpur,82,91,100,MATCH
+32,Gaibandha,55,Rangpur,Rangpur,45.5,Sadullapur,Sadullahpur,82,91,0,MATCH
+44,Jhenaidah,40,Khulna,Khulna,94.5,Shailkupa,Sailkupa,80,89,100,MATCH
+29,Faridpur,30,Dhaka,Dhaka,96,Saltha,Saltha,90,92,100,MATCH
+15,Chittagong,20,Chittagong,Chittagong,96.5,Sandwip,Sandwip,78,93,100,MATCH
+15,Chittagong,20,Chittagong,Chittagong,46.5,Sandwip,Sandwip,78,93,0,MATCH
+76,Pabna,50,Rajshahi,Rajshahi,96.5,Santhia,Santhia,72,93,100,MATCH
+76,Pabna,50,Rajshahi,Rajshahi,46.5,Santhia,Santhia,72,93,0,MATCH
+64,Naogaon,50,Rajshahi,Rajshahi,96.5,Sapahar,Sapahar,86,93,100,MATCH
+64,Naogaon,50,Rajshahi,Rajshahi,46.5,Sapahar,Sapahar,86,93,0,MATCH
+12,Brahmanbaria,20,Chittagong,Chittagong,96,Sarail,Sarail,94,92,100,MATCH
+1,Bagerhat,40,Khulna,Khulna,97.5,Sarankhola,Sarankhola,77,95,100,MATCH
+1,Bagerhat,40,Khulna,Khulna,47.5,Sarankhola,Sarankhola,77,95,0,MATCH
+10,Bogra,50,Rajshahi,Rajshahi,97.5,Sariakandi,Sariakandi,81,95,100,MATCH
+10,Bogra,50,Rajshahi,Rajshahi,47.5,Sariakandi,Sariakandi,81,95,0,MATCH
+41,Jessore,40,Khulna,Khulna,88.5,Sharsha,Sarsa,90,77,100,MATCH
+41,Jessore,40,Khulna,Khulna,38.5,Sharsha,Sarsa,90,77,0,MATCH
+15,Chittagong,20,Chittagong,Chittagong,97,Satkania,Satkania,82,94,100,MATCH
+15,Chittagong,20,Chittagong,Chittagong,47,Satkania,Satkania,82,94,0,MATCH
+87,Satkhira,40,Khulna,Khulna,85,Satkhira Sadar,Satkhira,82,70,100,MATCH
+76,Pabna,50,Rajshahi,Khulna,37.5,Santhia,Satkhira,72,75,0,MISSMATCH
+56,Manikganj,30,Dhaka,Dhaka,96.5,Saturia,Saturia,70,93,100,MATCH
+56,Manikganj,30,Dhaka,Dhaka,46.5,Saturia,Saturia,70,93,0,MATCH
+26,Dhaka,30,Dhaka,Dhaka,95.5,Savar,Savar,72,91,100,MATCH
+26,Dhaka,30,Dhaka,Dhaka,45.5,Savar,Savar,72,91,0,MATCH
+75,Noakhali,20,Chittagong,Chittagong,93,Senbagh,Senbag,80,86,100,MATCH
+75,Noakhali,20,Chittagong,Chittagong,43,Senbagh,Senbag,80,86,0,MATCH
+59,Munshiganj,30,Dhaka,Dhaka,98,Serajdikhan,Serajdikhan,74,96,100,MATCH
+59,Munshiganj,30,Dhaka,Dhaka,48,Serajdikhan,Serajdikhan,74,96,0,MATCH
+32,Gaibandha,55,Rangpur,Rangpur,94,Saghata,Shaghata,88,88,100,MATCH
+32,Gaibandha,55,Rangpur,Rangpur,44,Saghata,Shaghata,88,88,0,MATCH
+10,Bogra,50,Rajshahi,Rajshahi,98,Shajahanpur,Shajahanpur,85,96,100,MATCH
+10,Bogra,50,Rajshahi,Rajshahi,48,Shajahanpur,Shajahanpur,85,96,0,MATCH
+93,Tangail,30,Dhaka,Dhaka,94.5,Sakhipur,Shakhipur,85,89,100,MATCH
+93,Tangail,30,Dhaka,Dhaka,44.5,Sakhipur,Shakhipur,85,89,0,MATCH
+55,Magura,40,Khulna,Khulna,97,Shalikha,Shalikha,85,94,100,MATCH
+55,Magura,40,Khulna,Khulna,47,Shalikha,Shalikha,85,94,0,MATCH
+13,Chandpur,20,Chittagong,Chittagong,94.5,Shahrasti,Sharasti,95,89,100,MATCH
+13,Chandpur,20,Chittagong,Chittagong,44.5,Shahrasti,Sharasti,95,89,0,MATCH
+39,Jamalpur,30,Dhaka,Mymensingh,52.5,Sarishabari,Sharishabari,85,92,13,MATCH
+39,Jamalpur,30,Dhaka,Mymensingh,46,Sarishabari,Sharishabari,85,92,0,MATCH
+88,Sirajganj,50,Rajshahi,Rajshahi,90,Shahjadpur,Shazadpur,67,80,100,MATCH
+88,Sirajganj,50,Rajshahi,Rajshahi,40,Shahjadpur,Shazadpur,67,80,0,MATCH
+10,Bogra,50,Rajshahi,Rajshahi,96.5,Sherpur,Sherpur,88,93,100,MATCH
+10,Bogra,50,Rajshahi,Rajshahi,46.5,Sherpur,Sherpur,88,93,0,MATCH
+10,Bogra,50,Rajshahi,Mymensingh,57.5,Sherpur,Sherpur,88,93,22,MISSMATCH
+56,Manikganj,30,Dhaka,Dhaka,97.5,Shibalaya,Shibalaya,78,95,100,MATCH
+56,Manikganj,30,Dhaka,Dhaka,47.5,Shibalaya,Shibalaya,78,95,0,MATCH
+54,Madaripur,30,Dhaka,Dhaka,89,Shib Char,Shibchar,87,78,100,MATCH
+54,Madaripur,30,Dhaka,Dhaka,39,Shib Char,Shibchar,87,78,0,MATCH
+70,Chapai Nawabganj,50,Rajshahi,Rajshahi,97,Shibganj,Shibganj,88,94,100,MATCH
+70,Chapai Nawabganj,50,Rajshahi,Rajshahi,47,Shibganj,Shibganj,88,94,0,MATCH
+70,Chapai Nawabganj,50,Rajshahi,Rajshahi,97,Shibganj,Shibganj,88,94,100,MATCH
+70,Chapai Nawabganj,50,Rajshahi,Rajshahi,47,Shibganj,Shibganj,88,94,0,MATCH
+68,Narsingdi,30,Dhaka,Dhaka,96.5,Shibpur,Shibpur,76,93,100,MATCH
+68,Narsingdi,30,Dhaka,Dhaka,46.5,Shibpur,Shibpur,76,93,0,MATCH
+87,Satkhira,40,Khulna,Khulna,97.5,Shyamnagar,Shyamnagar,86,95,100,MATCH
+87,Satkhira,40,Khulna,Khulna,47.5,Shyamnagar,Shyamnagar,86,95,0,MATCH
+56,Manikganj,30,Dhaka,Dhaka,96.5,Singair,Singair,82,93,100,MATCH
+56,Manikganj,30,Dhaka,Dhaka,46.5,Singair,Singair,82,93,0,MATCH
+69,Natore,50,Rajshahi,Rajshahi,96,Singra,Singra,91,92,100,MATCH
+69,Natore,50,Rajshahi,Rajshahi,46,Singra,Singra,91,92,0,MATCH
+88,Sirajganj,50,Rajshahi,Rajshahi,86,Sirajganj Sadar,Sirajganj,78,72,100,MATCH
+78,Patuakhali,10,Barisal,Rajshahi,37,Mirzaganj,Sirajganj,76,74,0,MISSMATCH
+15,Chittagong,20,Chittagong,Chittagong,97.5,Sitakunda,Sitakunda,86,95,100,MATCH
+15,Chittagong,20,Chittagong,Chittagong,47.5,Sitakunda,Sitakunda,86,95,0,MATCH
+30,Feni,20,Chittagong,Chittagong,97,Sonagazi,Sonagazi,94,94,100,MATCH
+30,Feni,20,Chittagong,Chittagong,47,Sonagazi,Sonagazi,94,94,0,MATCH
+75,Noakhali,20,Chittagong,Chittagong,97.5,Sonaimuri,Sonaimuri,83,95,100,MATCH
+75,Noakhali,20,Chittagong,Chittagong,47.5,Sonaimuri,Sonaimuri,83,95,0,MATCH
+67,Narayanganj,30,Dhaka,Dhaka,97.5,Sonargaon,Sonargaon,4,95,100,MATCH
+10,Bogra,50,Rajshahi,Rajshahi,97,Sonatola,Sonatola,95,94,100,MATCH
+10,Bogra,50,Rajshahi,Rajshahi,47,Sonatola,Sonatola,95,94,0,MATCH
+90,Sunamganj,60,Sylhet,Sylhet,68,Sulla,South,86,36,100,MISS2
+29,Faridpur,30,Dhaka,Sylhet,25,Saltha,South,90,50,0,MISS2
+58,Maulvibazar,60,Sylhet,Sylhet,93,Sreemangal,Sreemongal,83,86,100,MATCH
+58,Maulvibazar,60,Sylhet,Sylhet,43,Sreemangal,Sreemongal,83,86,0,MATCH
+33,Gazipur,30,Dhaka,Dhaka,96.5,Sreepur,Sreepur,86,93,100,MATCH
+55,Magura,40,Khulna,Dhaka,46.5,Sreepur,Sreepur,95,93,0,MISSMATCH
+89,Sherpur,30,Dhaka,Mymensingh,40,Sreebardi,Sribordi,90,67,13,MATCH
+59,Munshiganj,30,Dhaka,Dhaka,89,Sreenagar,Srinagar,84,78,100,MATCH
+59,Munshiganj,30,Dhaka,Dhaka,39,Sreenagar,Srinagar,84,78,0,MATCH
+55,Magura,40,Khulna,Khulna,85.5,Sreepur,Sripur,95,71,100,MATCH
+94,Thakurgaon,55,Rangpur,Khulna,35.5,Haripur,Sripur,51,71,0,MISSMATCH
+75,Noakhali,20,Chittagong,Chittagong,87,Subarnachar,Subarna,85,74,100,MATCH
+75,Noakhali,20,Chittagong,Chittagong,37,Subarnachar,Subarna,85,74,0,MATCH
+19,Comilla,20,Chittagong,Chittagong,80,Chauddagram,Sudharam,31,60,100,MISS2
+32,Gaibandha,55,Rangpur,Chittagong,31.5,Sundarganj,Sudharam,91,63,0,MISS2
+76,Pabna,50,Rajshahi,Rajshahi,97.5,Sujanagar,Sujanagar,83,95,100,MATCH
+76,Pabna,50,Rajshahi,Rajshahi,47.5,Sujanagar,Sujanagar,83,95,0,MATCH
+90,Sunamganj,60,Sylhet,Sylhet,95.5,Sulla,Sulla,86,91,100,MATCH
+90,Sunamganj,60,Sylhet,Sylhet,45.5,Sulla,Sulla,86,91,0,MATCH
+90,Sunamganj,60,Sylhet,Sylhet,86,Sunamganj Sadar,Sunamganj,89,72,100,MATCH
+32,Gaibandha,55,Rangpur,Sylhet,40,Sundarganj,Sunamganj,91,80,0,MISSMATCH
+32,Gaibandha,55,Rangpur,Rangpur,97.5,Sundarganj,Sundarganj,91,95,100,MATCH
+32,Gaibandha,55,Rangpur,Rangpur,47.5,Sundarganj,Sundarganj,91,95,0,MATCH
+73,Nilphamari,55,Rangpur,Rangpur,90,Saidpur,Syadpur,85,80,100,MATCH
+91,Sylhet,60,Sylhet,Sylhet,81.5,Sylhet Sadar,Sylhet,62,63,100,MATCH
+91,Sylhet,60,Sylhet,Sylhet,31.5,Sylhet Sadar,Sylhet,62,63,0,MATCH
+90,Sunamganj,60,Sylhet,Sylhet,97,Tahirpur,Tahirpur,92,94,100,MATCH
+90,Sunamganj,60,Sylhet,Sylhet,47,Tahirpur,Tahirpur,92,94,0,MATCH
+9,Bhola,10,Barisal,Barisal,93,Tazumuddin,Tajumuddin,91,86,100,MATCH
+9,Bhola,10,Barisal,Barisal,43,Tazumuddin,Tajumuddin,91,86,0,MATCH
+87,Satkhira,40,Khulna,Khulna,94.5,Tala,Tala,90,89,100,MATCH
+87,Satkhira,40,Khulna,Khulna,44.5,Tala,Tala,90,89,0,MATCH
+48,Kishoreganj,30,Dhaka,Dhaka,85.5,Tarail,Tangail,92,71,100,MISS2
+48,Kishoreganj,30,Dhaka,Dhaka,35.5,Tarail,Tangail,92,71,0,MISS2
+81,Rajshahi,50,Rajshahi,Rajshahi,96,Tanore,Tanore,94,92,100,MATCH
+81,Rajshahi,50,Rajshahi,Rajshahi,46,Tanore,Tanore,94,92,0,MATCH
+85,Rangpur,55,Rangpur,Rangpur,97,Taraganj,Taraganj,92,94,100,MATCH
+85,Rangpur,55,Rangpur,Rangpur,47,Taraganj,Taraganj,92,94,0,MATCH
+48,Kishoreganj,30,Dhaka,Dhaka,96,Tarail,Tarail,92,92,100,MATCH
+48,Kishoreganj,30,Dhaka,Dhaka,46,Tarail,Tarail,92,92,0,MATCH
+88,Sirajganj,50,Rajshahi,Rajshahi,96,Tarash,Tarash,89,92,100,MATCH
+88,Sirajganj,50,Rajshahi,Rajshahi,46,Tarash,Tarash,89,92,0,MATCH
+26,Dhaka,30,Dhaka,Dhaka,83.5,Tejgaon Thana,Tejgaon,90,67,100,MATCH
+26,Dhaka,30,Dhaka,Dhaka,33.5,Tejgaon Thana,Tejgaon,90,67,0,MATCH
+22,Cox's Bazar,20,Chittagong,Chittagong,96,Teknaf,Teknaf,90,92,100,MATCH
+22,Cox's Bazar,20,Chittagong,Chittagong,46,Teknaf,Teknaf,90,92,0,MATCH
+47,Khulna,40,Khulna,Khulna,97.5,Terokhada,Terokhada,94,95,100,MATCH
+47,Khulna,40,Khulna,Khulna,47.5,Terokhada,Terokhada,94,95,0,MATCH
+77,Panchagarh,55,Rangpur,Rangpur,94,Tentulia,Tetulia,90,88,100,MATCH
+77,Panchagarh,55,Rangpur,Rangpur,44,Tentulia,Tetulia,90,88,0,MATCH
+94,Thakurgaon,55,Rangpur,Rangpur,87,Thakurgaon Sadar,Thakurgaon,94,74,100,MATCH
+94,Thakurgaon,55,Rangpur,Rangpur,37,Thakurgaon Sadar,Thakurgaon,94,74,0,MATCH
+3,Bandarban,20,Chittagong,Chittagong,96.5,Thanchi,Thanchi,95,93,100,MATCH
+3,Bandarban,20,Chittagong,Chittagong,46.5,Thanchi,Thanchi,95,93,0,MATCH
+19,Comilla,20,Chittagong,Chittagong,91.5,Titas,Titash,94,83,100,MATCH
+19,Comilla,20,Chittagong,Chittagong,41.5,Titas,Titash,94,83,0,MATCH
+59,Munshiganj,30,Dhaka,Dhaka,83.5,Tongibari,Tongi,94,67,100,MISS2
+59,Munshiganj,30,Dhaka,Dhaka,33.5,Tongibari,Tongi,94,67,0,MISS2
+59,Munshiganj,30,Dhaka,Dhaka,97.5,Tongibari,Tongibari,94,95,100,MATCH
+59,Munshiganj,30,Dhaka,Dhaka,47.5,Tongibari,Tongibari,94,95,0,MATCH
+61,Mymensingh,30,Dhaka,Mymensingh,49.5,Trishal,Trisal,94,86,13,MATCH
+61,Mymensingh,30,Dhaka,Mymensingh,43,Trishal,Trisal,94,86,0,MATCH
+35,Gopalganj,30,Dhaka,Dhaka,97.5,Tungipara,Tungipara,91,95,100,MATCH
+35,Gopalganj,30,Dhaka,Dhaka,47.5,Tungipara,Tungipara,91,95,0,MATCH
+22,Cox's Bazar,20,Chittagong,Chittagong,91.5,Ukhia,Ukhiya,94,83,100,MATCH
+22,Cox's Bazar,20,Chittagong,Chittagong,41.5,Ukhia,Ukhiya,94,83,0,MATCH
+49,Kurigram,55,Rangpur,Rangpur,96,Ulipur,Ulipur,94,92,100,MATCH
+49,Kurigram,55,Rangpur,Rangpur,46,Ulipur,Ulipur,94,92,0,MATCH
+88,Sirajganj,50,Rajshahi,Rajshahi,90,Ullah Para,Ullahpara,94,80,100,MATCH
+88,Sirajganj,50,Rajshahi,Rajshahi,40,Ullah Para,Ullahpara,94,80,0,MATCH
+79,Pirojpur,10,Barisal,Barisal,87.5,Nazirpur,Uzirpur,76,75,100,MISS2
