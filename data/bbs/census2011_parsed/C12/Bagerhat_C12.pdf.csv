@@ -1,0 +1,156 @@
+0,1,2,3,4,5,6,7,8,9,10,11,12,13,14
+01,-9,-9,-9,-9,-9,Bagerhat Zila Total,703,3327,1677,1650,657,24,10,2636
+01,-9,-9,-9,-9,1, Bagerhat Zila,624,3008,1507,1501,648,24,7,2329
+01,-9,-9,-9,-9,2, Bagerhat Zila,13,39,24,15,0,0,3,36
+01,-9,-9,-9,-9,3, Bagerhat Zila,66,280,146,134,9,0,0,271
+01,08,-9,-9,-9,-9,Bagerhat Sadar Upazila Total,195,890,445,445,606,0,0,284
+01,08,-9,-9,-9,1,  Bagerhat Sadar Upazila,188,860,427,433,606,0,0,254
+01,08,-9,-9,-9,2,  Bagerhat Sadar Upazila,7,30,18,12,0,0,0,30
+01,08,01,-9,-9,-9,  Ward No-01 Total,0,0,0,0,0,0,0,0
+01,08,02,-9,-9,-9,  Ward No-02 Total,0,0,0,0,0,0,0,0
+01,08,03,-9,-9,-9,  Ward No-03 Total,0,0,0,0,0,0,0,0
+01,08,04,-9,-9,-9,  Ward No-04 Total,0,0,0,0,0,0,0,0
+01,08,05,-9,-9,-9,  Ward No-05 Total,7,30,18,12,0,0,0,30
+01,08,06,-9,-9,-9,  Ward No-06 Total,0,0,0,0,0,0,0,0
+01,08,07,-9,-9,-9,  Ward No-07 Total,0,0,0,0,0,0,0,0
+01,08,08,-9,-9,-9,  Ward No-08 Total,0,0,0,0,0,0,0,0
+01,08,09,-9,-9,-9,  Ward No-09 Total,0,0,0,0,0,0,0,0
+01,08,17,-9,-9,-9,  Barai Para Union Total,131,658,328,330,606,0,0,52
+01,08,25,-9,-9,-9,  Bemarta Union Total,1,5,2,3,0,0,0,5
+01,08,34,-9,-9,-9,  Bishnupur Union Total,17,70,32,38,0,0,0,70
+01,08,35,-9,-9,-9,  Dema Union Total,0,0,0,0,0,0,0,0
+01,08,51,-9,-9,-9,  Gota Para Union Total,0,0,0,0,0,0,0,0
+01,08,60,-9,-9,-9,  Jatrapur Union Total,0,0,0,0,0,0,0,0
+01,08,69,-9,-9,-9,  Kara Para Union Total,0,0,0,0,0,0,0,0
+01,08,77,-9,-9,-9,  Khanpur Union Total,0,0,0,0,0,0,0,0
+01,08,86,-9,-9,-9,  Rakhalgachhi Union Total,39,127,65,62,0,0,0,127
+01,08,94,-9,-9,-9,  Shat Gambuj Union Total,0,0,0,0,0,0,0,0
+01,14,-9,-9,-9,-9,Chitalmari Upazila Total,0,0,0,0,0,0,0,0
+01,14,-9,-9,-9,1,  Chitalmari Upazila,0,0,0,0,0,0,0,0
+01,14,-9,-9,-9,3,  Chitalmari Upazila,0,0,0,0,0,0,0,0
+01,14,15,-9,-9,-9,  Char Baniari Union Total,0,0,0,0,0,0,0,0
+01,14,19,-9,-9,-9,  Bara Baria Union Total,0,0,0,0,0,0,0,0
+01,14,31,-9,-9,-9,Chitalmari Union Total,0,0,0,0,0,0,0,0
+01,14,31,-9,-9,1,  Chitalmari Union,0,0,0,0,0,0,0,0
+01,14,31,-9,-9,3,  Chitalmari Union,0,0,0,0,0,0,0,0
+01,14,47,-9,-9,-9,  Hizla Union Total,0,0,0,0,0,0,0,0
+01,14,63,-9,-9,-9,  Santoshpur Union Total,0,0,0,0,0,0,0,0
+01,14,66,-9,-9,-9,  Kalatala Union Total,0,0,0,0,0,0,0,0
+01,14,79,-9,-9,-9,  Shibpur Union Total,0,0,0,0,0,0,0,0
+01,34,-9,-9,-9,-9,Fakirhat Upazila Total,492,2392,1211,1181,46,0,0,2346
+01,34,-9,-9,-9,1,  Fakirhat Upazila,427,2117,1066,1051,42,0,0,2075
+01,34,-9,-9,-9,3,  Fakirhat Upazila,65,275,145,130,4,0,0,271
+01,34,10,-9,-9,-9,Bahirdia Mansa Union Total,0,0,0,0,0,0,0,0
+01,34,10,-9,-9,1,  Bahirdia Mansa Union,0,0,0,0,0,0,0,0
+01,34,10,-9,-9,3,  Bahirdia Mansa Union,0,0,0,0,0,0,0,0
+01,34,21,-9,-9,-9,  Betaga Union Total,0,0,0,0,0,0,0,0
+01,34,31,-9,-9,-9,Fakirhat Union Total,1,4,2,2,4,0,0,0
+01,34,31,-9,-9,1,  Fakirhat Union,0,0,0,0,0,0,0,0
+01,34,31,-9,-9,3,  Fakirhat Union,1,4,2,2,4,0,0,0
+01,34,42,-9,-9,-9,  Lakhpur Union Total,0,0,0,0,0,0,0,0
+01,34,52,-9,-9,-9,Mulghar Union Total,398,1970,992,978,42,0,0,1928
+01,34,52,-9,-9,1,  Mulghar Union,398,1970,992,978,42,0,0,1928
+01,34,52,-9,-9,3,  Mulghar Union,0,0,0,0,0,0,0,0
+01,34,63,-9,-9,-9,Naldha Maubhog Union Total,86,389,200,189,0,0,0,389
+01,34,63,-9,-9,1,  Naldha Maubhog Union,22,118,57,61,0,0,0,118
+01,34,63,-9,-9,3,  Naldha Maubhog Union,64,271,143,128,0,0,0,271
+01,34,73,-9,-9,-9,  Piljanga Union Total,7,29,17,12,0,0,0,29
+01,34,84,-9,-9,-9,  Subhadia Union Total,0,0,0,0,0,0,0,0
+01,38,-9,-9,-9,-9,Kachua Upazila Total,0,0,0,0,0,0,0,0
+01,38,-9,-9,-9,1,  Kachua Upazila,0,0,0,0,0,0,0,0
+01,38,-9,-9,-9,3,  Kachua Upazila,0,0,0,0,0,0,0,0
+01,38,15,-9,-9,-9,  Badhal Union Total,0,0,0,0,0,0,0,0
+01,38,28,-9,-9,-9,  Dhopakhali Union Total,0,0,0,0,0,0,0,0
+01,38,38,-9,-9,-9,  Gazalia Union Total,0,0,0,0,0,0,0,0
+01,38,47,-9,-9,-9,  Gopalpur Union Total,0,0,0,0,0,0,0,0
+01,38,57,-9,-9,-9,Kachua Union Total,0,0,0,0,0,0,0,0
+01,38,57,-9,-9,1,  Kachua Union,0,0,0,0,0,0,0,0
+01,38,57,-9,-9,3,  Kachua Union,0,0,0,0,0,0,0,0
+01,38,66,-9,-9,-9,  Maghia Union Total,0,0,0,0,0,0,0,0
+01,38,76,-9,-9,-9,  Rari Para Union Total,0,0,0,0,0,0,0,0
+01,56,-9,-9,-9,-9,Mollahat Upazila Total,0,0,0,0,0,0,0,0
+01,56,-9,-9,-9,1,  Mollahat Upazila,0,0,0,0,0,0,0,0
+01,56,-9,-9,-9,3,  Mollahat Upazila,0,0,0,0,0,0,0,0
+01,56,17,-9,-9,-9,  Atjuri Union Total,0,0,0,0,0,0,0,0
+01,56,28,-9,-9,-9,  Chunkhola Union Total,0,0,0,0,0,0,0,0
+01,56,38,-9,-9,-9,  Gangni Union Total,0,0,0,0,0,0,0,0
+01,56,47,-9,-9,-9,  Gaola Union Total,0,0,0,0,0,0,0,0
+01,56,76,-9,-9,-9,  Kodalia Union Total,0,0,0,0,0,0,0,0
+01,56,85,-9,-9,-9,  Kulia Union Total,0,0,0,0,0,0,0,0
+01,56,95,-9,-9,-9,Udaypur Union Total,0,0,0,0,0,0,0,0
+01,56,95,-9,-9,1,  Udaypur Union,0,0,0,0,0,0,0,0
+01,56,95,-9,-9,3,  Udaypur Union,0,0,0,0,0,0,0,0
+01,58,-9,-9,-9,-9,Mongla Upazila Total,5,5,5,0,0,0,3,2
+01,58,-9,-9,-9,1,  Mongla Upazila,0,0,0,0,0,0,0,0
+01,58,-9,-9,-9,2,  Mongla Upazila,5,5,5,0,0,0,3,2
+01,58,02,-9,-9,-9,  Ward No-02 Total,0,0,0,0,0,0,0,0
+01,58,03,-9,-9,-9,  Ward No-03 Total,0,0,0,0,0,0,0,0
+01,58,04,-9,-9,-9,  Ward No-04 Total,5,5,5,0,0,0,3,2
+01,58,05,-9,-9,-9,  Ward No-05 Total,0,0,0,0,0,0,0,0
+01,58,06,-9,-9,-9,  Ward No-06 Total,0,0,0,0,0,0,0,0
+01,58,07,-9,-9,-9,  Ward No-07 Total,0,0,0,0,0,0,0,0
+01,58,08,-9,-9,-9,  Ward No-08 Total,0,0,0,0,0,0,0,0
+01,58,09,-9,-9,-9,  Ward No-09 Total,0,0,0,0,0,0,0,0
+01,58,23,-9,-9,-9,  Chandpi Union Total,0,0,0,0,0,0,0,0
+01,58,27,-9,-9,-9,  Burirdanga Union Total,0,0,0,0,0,0,0,0
+01,58,29,-9,-9,-9,  Chila Union Total,0,0,0,0,0,0,0,0
+01,58,59,-9,-9,-9,  Mithakhali Union Total,0,0,0,0,0,0,0,0
+01,58,83,-9,-9,-9,  Suniltala Union Total,0,0,0,0,0,0,0,0
+01,58,89,-9,-9,-9,  Sundarban Union Total,0,0,0,0,0,0,0,0
+01,60,-9,-9,-9,-9,Morrelganj Upazila Total,1,4,1,3,0,0,0,4
+01,60,-9,-9,-9,1,  Morrelganj Upazila,0,0,0,0,0,0,0,0
+01,60,-9,-9,-9,2,  Morrelganj Upazila,1,4,1,3,0,0,0,4
+01,60,-9,-9,-9,3,  Morrelganj Upazila,0,0,0,0,0,0,0,0
+01,60,01,-9,-9,-9,  Ward No-01 Total,0,0,0,0,0,0,0,0
+01,60,02,-9,-9,-9,  Ward No-02 Total,0,0,0,0,0,0,0,0
+01,60,03,-9,-9,-9,  Ward No-03 Total,0,0,0,0,0,0,0,0
+01,60,04,-9,-9,-9,  Ward No-04 Total,0,0,0,0,0,0,0,0
+01,60,05,-9,-9,-9,  Ward No-05 Total,0,0,0,0,0,0,0,0
+01,60,06,-9,-9,-9,  Ward No-06 Total,1,4,1,3,0,0,0,4
+01,60,07,-9,-9,-9,  Ward No-07 Total,0,0,0,0,0,0,0,0
+01,60,08,-9,-9,-9,  Ward No-08 Total,0,0,0,0,0,0,0,0
+01,60,09,-9,-9,-9,  Ward No-09 Total,0,0,0,0,0,0,0,0
+01,60,10,-9,-9,-9,  Baharbunia Union Total,0,0,0,0,0,0,0,0
+01,60,11,-9,-9,-9,  Balaibunia Union Total,0,0,0,0,0,0,0,0
+01,60,17,-9,-9,-9,  Banagram Union Total,0,0,0,0,0,0,0,0
+01,60,23,-9,-9,-9,Baraikhali Union Total,0,0,0,0,0,0,0,0
+01,60,23,-9,-9,1,  Baraikhali Union,0,0,0,0,0,0,0,0
+01,60,23,-9,-9,3,  Baraikhali Union,0,0,0,0,0,0,0,0
+01,60,29,-9,-9,-9,  Chingrakhali Union Total,0,0,0,0,0,0,0,0
+01,60,35,-9,-9,-9,  Daibagnyahati Union Total,0,0,0,0,0,0,0,0
+01,60,41,-9,-9,-9,  Hoglabunia Union Total,0,0,0,0,0,0,0,0
+01,60,47,-9,-9,-9,  Hogla Pasha Union Total,0,0,0,0,0,0,0,0
+01,60,53,-9,-9,-9,  Jiudhara Union Total,0,0,0,0,0,0,0,0
+01,60,59,-9,-9,-9,  Khuolia Union Total,0,0,0,0,0,0,0,0
+01,60,65,-9,-9,-9,  Morrelganj Union Total,0,0,0,0,0,0,0,0
+01,60,71,-9,-9,-9,  Nishanbaria Union Total,0,0,0,0,0,0,0,0
+01,60,77,-9,-9,-9,  Panchakaran Union Total,0,0,0,0,0,0,0,0
+01,60,83,-9,-9,-9,  Putikhali Union Total,0,0,0,0,0,0,0,0
+01,60,89,-9,-9,-9,  Ramchandrapur Union Total,0,0,0,0,0,0,0,0
+01,60,95,-9,-9,-9,  Teligati Union Total,0,0,0,0,0,0,0,0
+01,73,-9,-9,-9,-9,Rampal Upazila Total,0,0,0,0,0,0,0,0
+01,73,-9,-9,-9,1,  Rampal Upazila,0,0,0,0,0,0,0,0
+01,73,-9,-9,-9,3,  Rampal Upazila,0,0,0,0,0,0,0,0
+01,73,10,-9,-9,-9,  Baintala Union Total,0,0,0,0,0,0,0,0
+01,73,11,-9,-9,-9,  Banshtali Union Total,0,0,0,0,0,0,0,0
+01,73,17,-9,-9,-9,  Bhojpatia Union Total,0,0,0,0,0,0,0,0
+01,73,41,-9,-9,-9,  Gaurambha Union Total,0,0,0,0,0,0,0,0
+01,73,47,-9,-9,-9,  Hurka Union Total,0,0,0,0,0,0,0,0
+01,73,53,-9,-9,-9,  Malliker Ber Union Total,0,0,0,0,0,0,0,0
+01,73,71,-9,-9,-9,  Perikhali Union Total,0,0,0,0,0,0,0,0
+01,73,77,-9,-9,-9,  Rajnagar Union Total,0,0,0,0,0,0,0,0
+01,73,83,-9,-9,-9,Rampal Union Total,0,0,0,0,0,0,0,0
+01,73,83,-9,-9,1,  Rampal Union,0,0,0,0,0,0,0,0
+01,73,83,-9,-9,3,  Rampal Union,0,0,0,0,0,0,0,0
+01,73,94,-9,-9,-9,  Ujalkur Union Total,0,0,0,0,0,0,0,0
+01,77,-9,-9,-9,-9,Sarankhola Upazila Total,10,36,15,21,5,24,7,0
+01,77,-9,-9,-9,1,  Sarankhola Upazila,9,31,14,17,0,24,7,0
+01,77,-9,-9,-9,3,  Sarankhola Upazila,1,5,1,4,5,0,0,0
+01,77,19,-9,-9,-9,  Dhansagar Union Total,0,0,0,0,0,0,0,0
+01,77,38,-9,-9,-9,Khontakata Union Total,9,31,14,17,0,24,7,0
+01,77,38,-9,-9,1,  Khontakata Union,9,31,14,17,0,24,7,0
+01,77,38,-9,-9,3,  Khontakata Union,0,0,0,0,0,0,0,0
+01,77,57,-9,-9,-9,Royenda Union Total,1,5,1,4,5,0,0,0
+01,77,57,-9,-9,1,  Royenda Union,0,0,0,0,0,0,0,0
+01,77,57,-9,-9,3,  Royenda Union,1,5,1,4,5,0,0,0
+01,77,76,-9,-9,-9,  Dakhin Khali Union Total,0,0,0,0,0,0,0,0
