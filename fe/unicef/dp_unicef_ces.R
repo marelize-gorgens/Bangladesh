@@ -3,7 +3,7 @@
 # Description: Data preprocessing of Unicef CES datasets
 # Organization: Health, Nutrition, and Population (HNP) | The World Bank
 # Author: Hellen Matarazzo
-# Date: Updated on 03-08-2019
+# Date: Updated on 03-11-2019
 #----------------------------------------------------------------------------------------------------------
 
 #----------------------------------------------------------------------------------------------------------
@@ -344,7 +344,6 @@ ces2011a <- extract_tables(temp[5], pages=pages2011a, area = area2011a, output =
 ces2011b <- extract_tables(temp[5], pages=pages2011b , area = area2011b, output = "data.frame", guess=FALSE) # Extract data
 
 ces2011a[[1]][10] <- NULL
-ces2011b[[1]]
 colnames(ces2011a[[1]]) <- colnames(ces2011b[[1]]) <- c("Survey.Units", # Set up column names
                                                         "BCG_Children12M",
                                                         "OPV1_Children12M",
@@ -362,7 +361,6 @@ da1 <- da1[-c(1:2),] # Drop messy row
 
 ces2011a[[2]] <- ces2011a[[2]] %>% # Separate values in two columns
   separate(X, sep=" ", into=c("BCG","OPV1","PENTA1","OPV2","PENTA2","OPV3","PENTA3","MSL"))
-ces2011b[[2]]
 colnames(ces2011a[[2]]) <- colnames(ces2011b[[2]]) <- c("Survey.Units", # Set up column names
                                                         "BCG_Children23M",
                                                         "OPV1_Children23M",
@@ -381,7 +379,6 @@ da2[79,1] <- "Chittagong Division"
 
 ces2011a[[3]] <- ces2011a[[3]] %>% # Separate values in two columns
   separate(X, sep=" ", into=c("TT1", "TT2", "TT3", "TT4", "TT5"))
-ces2011b[[3]]
 ces2011b[[3]][43,] <- c("Sylhet Division", "95.9", "94", "83.2", "64", "42.5")
 colnames(ces2011a[[3]]) <- colnames(ces2011b[[3]]) <- c("Survey.Units", # Set up column names
                                                         "TT1_Mother0-11MChildren",
@@ -397,7 +394,6 @@ da3[33,1] <- "Rajshahi Division"
 
 ces2011a[[4]] <- ces2011a[[4]] %>% # Separate values in two columns
   separate(X, sep=" ", into=c("TT1", "TT2", "TT3", "TT4", "TT5"))
-ces2011b[[4]]
 colnames(ces2011a[[4]]) <- colnames(ces2011b[[4]]) <- c("Survey.Units", # Set up column names
                                                         "TT1_Woman15-49Y",
                                                         "TT2_Woman15-49Y",
@@ -410,8 +406,6 @@ da4 <- bind_rows(ces2011a[[4]],ces2011b[[4]])
 da4 <- da4[-c(1:2,55),] # Drop messy row
 da4[33,1] <- "Rajshahi Division"
 
-ces2011a[[5]]
-ces2011b[[5]]
 colnames(ces2011a[[5]]) <- colnames(ces2011b[[5]]) <- c("Survey.Units", # Set up column names
                                                         "PAB_Mother0-11MChildren")
 ces2011a[[5]][2] <- as.numeric(unlist(ces2011a[[5]][2])) # Change type of variable
@@ -435,7 +429,6 @@ da6[33,1] <- "Rajshahi Division"
 
 ces2011a[[7]] <- ces2011a[[7]] %>% # Separate values in two columns
   separate(X, sep=" ", into=c("Infant", "Children", "Postpartum Women", "Anthelmintic"))
-ces2011b[[7]]
 colnames(ces2011a[[7]]) <- colnames(ces2011b[[7]]) <- c("Survey.Units", # Set up column names
                                                         "VitACoverage_Infants9-11M",
                                                         "VitACoverage_Children12-59M",
@@ -470,10 +463,272 @@ max(ces2011[,c(2:37)], na.rm=TRUE) # Validity: Check range (between 0 and 100)
 write.csv(ces2011,"./output/unicef/data/data_unicef_ces_2011.csv", row.names=FALSE) # Save data
 
 
+# 2013 ----------------------------------------------------------------------------------------------------
+# area2013a <- locate_areas("./data/unicef/CES/EPI_Coverage_Evaluation_Survey_2013.pdf", pages=227) # Find area
+# area2013b <- locate_areas("./data/unicef/CES/EPI_Coverage_Evaluation_Survey_2013.pdf", pages=253) # Find area
+area2013a <- list(c(96.63158,71.05262,725.68421,545.68422)) # Set area
+area2013b <- list(c(70.10526,66.31578,711.47368,546.63159)) # Set area
+pages2013a <- c(227,233,245,252,256,260,262,264)
+pages2013b <- c(228,234,246,253,257,261,263,265)
+ces2013a <- extract_tables(temp[6], pages=pages2013a, area=area2013a, output="data.frame", guess=FALSE) # Extract data
+ces2013b <- extract_tables(temp[6], pages=pages2013b, area=area2013b, output="data.frame", guess=FALSE) # Extract data
+
+ces2013a[[1]] <- ces2013a[[1]] %>% # Separate values in two columns
+  separate(Corporation, sep=" ", into=c("a", "b"))
+colnames(ces2013a[[1]]) <- colnames(ces2013b[[1]]) <- c("Survey.Units", # Set up column names
+                                                        "BCG_Children12M",
+                                                        "OPV1_Children12M",
+                                                        "PENTA1_Children12M",
+                                                        "OPV2_Children12M",
+                                                        "PENTA2_Children12M",
+                                                        "OPV3_Children12M",
+                                                        "PENTA3_Children12M",
+                                                        "Measles_Children12M",
+                                                        "Fully_Children12M")
+ces2013b[[1]][45,] <- c("Rural",99.3,95.4,91.1,94.5,93.1,92.2,92.5,86.4,81.2)
+ces2013a[[1]][c(2:10)] <- as.numeric(unlist(ces2013a[[1]][c(2:10)])) # Change type of variable
+ces2013b[[1]][c(2:10)] <- as.numeric(unlist(ces2013b[[1]][c(2:10)])) # Change type of variable
+db1 <- bind_rows(ces2013a[[1]],ces2013b[[1]])
+db1 <- db1[-c(1),] # Drop messy row
+
+ces2013a[[2]] <- ces2013a[[2]] %>% # Separate values in two columns
+  separate(Corporation, sep=" ", into=c("a", "b"))
+colnames(ces2013a[[2]]) <- colnames(ces2013b[[2]]) <- c("Survey.Units", # Set up column names
+                                                        "BCG_Children23M",
+                                                        "OPV1_Children23M",
+                                                        "PENTA1_Children23M",
+                                                        "OPV2_Children23M",
+                                                        "PENTA2_Children23M",
+                                                        "OPV3_Children23M",
+                                                        "PENTA3_Children23M",
+                                                        "Measles_Children23M",
+                                                        "Fully_Children23M")
+ces2013a[[2]][c(2:10)] <- as.numeric(unlist(ces2013a[[2]][c(2:10)])) # Change type of variable
+db2 <- bind_rows(ces2013a[[2]],ces2013b[[2]])
+db2 <- db2[-c(1),] # Drop messy row
+db2[86,] <- c("Rural",99.3,95.4,91.1,94.6,93.1,92.7,92.7,89.2,83.8)
+
+ces2013a[[3]][8] <- NULL
+ces2013a[[3]][6] <- NULL
+ces2013a[[3]] <- ces2013a[[3]] %>% # Separate values in two columns
+  separate(and.Penta1.Measles, sep=" ", into=c("a", "b"))
+ces2013a[[3]][c(2:7)] <- as.numeric(unlist(ces2013a[[3]][c(2:7)])) # Change type of variable
+ces2013b[[3]][c(2:7)] <- as.numeric(unlist(ces2013b[[3]][c(2:7)])) # Change type of variable
+colnames(ces2013a[[3]]) <- colnames(ces2013b[[3]]) <- c("Survey.Units", # Set up column names
+                                                        "InvalidPENTA1_Infant12M",
+                                                        "InvalidPENTA2_Infant12M",
+                                                        "InvalidPENTA3_Infant12M",
+                                                        "InvalidMeasles_Infant12M",
+                                                        "DropoutPENTA1-PENTA3_Children12-23M",
+                                                        "DropoutPENTA1-Measles_Children12-23M")
+db3 <- bind_rows(ces2013a[[3]],ces2013b[[3]])
+db3 <- db3[-c(1:4,46:47),] # Drop messy row
+db3$Survey.Units <- gsub('City Corp', 'CC', db3$Survey.Units) # Replace text to match others dataset
+db3$Survey.Units <- gsub('Kustia', 'Kushtia', db3$Survey.Units) # Replace text to match others dataset
+db3$Survey.Units <- gsub('Nartore', 'Natore', db3$Survey.Units) # Replace text to match others dataset
+
+colnames(ces2013a[[4]]) <- colnames(ces2013b[[4]]) <- c("Survey.Units", # Set up column names
+                                                        "TT1_Mother0-11MChildren",
+                                                        "TT2_Mother0-11MChildren",
+                                                        "TT3_Mother0-11MChildren",
+                                                        "TT4_Mother0-11MChildren",
+                                                        "TT5_Mother0-11MChildren")
+db4 <- bind_rows(ces2013a[[4]],ces2013b[[4]])
+db4$Survey.Units <- gsub('Kustia', 'Kushtia', db4$Survey.Units) # Replace text to match others dataset
+
+colnames(ces2013a[[5]]) <- colnames(ces2013b[[5]]) <- c("Survey.Units", # Set up column names
+                                                        "TT1_Woman18-49Y",
+                                                        "TT2_Woman18-49Y",
+                                                        "TT3_Woman18-49Y",
+                                                        "TT4_Woman18-49Y",
+                                                        "TT5_Woman18-49Y")
+db4$Survey.Units <- gsub('Nartore', 'Natore', db4$Survey.Units) # Replace text to match others dataset
+
+db5 <- bind_rows(ces2013a[[5]],ces2013b[[5]])
+db5$Survey.Units <- gsub('Kustia', 'Kushtia', db5$Survey.Units) # Replace text to match others dataset
+db5$Survey.Units <- gsub('Nartore', 'Natore', db5$Survey.Units) # Replace text to match others dataset
+
+colnames(ces2013a[[6]]) <- colnames(ces2013b[[6]]) <- c("Survey.Units", # Set up column names
+                                                        "PAB_Mother0-11MChildren")
+db6 <- bind_rows(ces2013a[[6]],ces2013b[[6]])
+db6$Survey.Units <- gsub('City Corp', 'CC', db6$Survey.Units) # Replace text to match others dataset
+
+colnames(ces2013a[[7]]) <- colnames(ces2013b[[7]]) <- c("Survey.Units", # Set up column names
+                                                        "OPVCoverage_1stRound_Children59M",
+                                                        "OPVCoverage_2stRound_Children59M",
+                                                        "OPVCoverage_All_Children59M")
+db6$Survey.Units <- gsub('Kustia', 'Kushtia', db6$Survey.Units) # Replace text to match others dataset
+db6$Survey.Units <- gsub('Nartore', 'Natore', db6$Survey.Units) # Replace text to match others dataset
+
+db7 <- bind_rows(ces2013a[[7]],ces2013b[[7]])
+db7$Survey.Units <- gsub('Kustia', 'Kushtia', db7$Survey.Units) # Replace text to match others dataset
+db7$Survey.Units <- gsub('Nartore', 'Natore', db7$Survey.Units) # Replace text to match others dataset
+
+ces2013a[[8]] <- ces2013a[[8]] %>% # Separate values in two columns
+  separate(Anthelmintic.Coverage.among.Children.aged.24.59.Months.by, sep=" ", into=c("a","b","c","d"))
+ces2013b[[8]][46,] <- c("Rural",83.0,92.1,35.3,89.5)
+ces2013a[[8]][c(2:5)] <- as.numeric(unlist(ces2013a[[8]][c(2:5)])) # Change type of variable
+ces2013b[[8]][c(2:5)] <- as.numeric(unlist(ces2013b[[8]][c(2:5)])) # Change type of variable
+colnames(ces2013a[[8]]) <- colnames(ces2013b[[8]]) <- c("Survey.Units", # Set up column names
+                                                        "VitACoverage_Infants6-11M",
+                                                        "VitACoverage_Children12-59M",
+                                                        "VitASupplementationCoverage_PostPartum", 
+                                                        "AnthelminticCoverage_Children24-59M")
+db8 <- bind_rows(ces2013a[[8]],ces2013b[[8]])
+db8 <- db8[-c(1:2),] # Drop messy row
+db8$Survey.Units <- gsub('City Corp', 'CC', db8$Survey.Units) # Replace text to match others dataset
+db8$Survey.Units <- gsub('Kustia', 'Kushtia', db8$Survey.Units) # Replace text to match others dataset
+db8$Survey.Units <- gsub('Nartore', 'Natore', db8$Survey.Units) # Replace text to match others dataset
+
+# Final dataset
+final.db <- merge(db1, db2, by="Survey.Units", all=TRUE)
+final.db1 <- merge(final.db, db3, by="Survey.Units", all=TRUE)
+final.db2 <- merge(final.db1, db4, by="Survey.Units", all=TRUE)
+final.db3 <- merge(final.db2, db5, by="Survey.Units", all=TRUE)
+final.db4 <- merge(final.db3, db6, by="Survey.Units", all=TRUE)
+final.db5 <- merge(final.db4, db7, by="Survey.Units", all=TRUE)
+ces2013 <- merge(final.db5, db8, by="Survey.Units", all=TRUE)
+
+# Data quality assessment
+sum(duplicated(ces2013)) # Uniqueness: Check for duplicates
+
+sum(is.na(ces2013)) # Completeness: Check for NAs
+na_ces2013 <- data.frame(lapply(ces2013, function(y) sum(length(which(is.na(y)))))) # Show NAs by column
+
+str(ces2013) # Validity: Check format and type
+
+max(ces2013[,c(2:43)], na.rm=TRUE) # Validity: Check range (between 0 and 100)
+
+# Save final dataset
+write.csv(ces2013,"./output/unicef/data/data_unicef_ces_2013.csv", row.names=FALSE) # Save data
+
+# 2014 ----------------------------------------------------------------------------------------------------
+# area2014a <- locate_areas("./data/unicef/CES/EPIEvaluationSurvey2014.pdf", pages=261) # Find area
+# area2014b <- locate_areas("./data/unicef/CES/EPIEvaluationSurvey2014.pdf", pages=286) # Find area
+area2014a <- list(c(107.17992,86.30857,741.07256,559.94175)) # Set area
+area2014b <- list(c(94.93078,61.81030,733.92723,535.44348)) # Set area
+pages2014a <- c(261,265,271,273,275,279,281,285,287,289,291)
+pages2014b <- c(262,266,272,274,276,280,282,286,288,290,292)
+ces2014a <- extract_tables(temp[8], pages=pages2014a, area=area2014a, output="data.frame", guess=FALSE) # Extract data
+ces2014b <- extract_tables(temp[8], pages=pages2014b, area=area2014b, output="data.frame", guess=FALSE) # Extract data
+
+colnames(ces2014a[[1]]) <- colnames(ces2014b[[1]]) <- c("Survey.Units", # Set up column names
+                                                        "BCG_Children23M",
+                                                        "OPV1_Children23M",
+                                                        "PENTA1_Children23M",
+                                                        "OPV2_Children23M",
+                                                        "PENTA2_Children23M",
+                                                        "OPV3_Children23M",
+                                                        "PENTA3_Children23M",
+                                                        "Measles_Children23M",
+                                                        "Fully_Children23M")
+dc1 <- bind_rows(ces2014a[[1]],ces2014b[[1]])
+
+colnames(ces2014a[[2]]) <- colnames(ces2014b[[2]]) <- c("Survey.Units", # Set up column names
+                                                        "BCG_Children12M",
+                                                        "OPV1_Children12M",
+                                                        "PENTA1_Children12M",
+                                                        "OPV2_Children12M",
+                                                        "PENTA2_Children12M",
+                                                        "OPV3_Children12M",
+                                                        "PENTA3_Children12M",
+                                                        "Measles_Children12M",
+                                                        "Fully_Children12M")
+dc2 <- bind_rows(ces2014a[[2]],ces2014b[[2]])
+
+ces2014a[[3]][2] <- NULL
+ces2014b[[3]][2] <- NULL
+colnames(ces2014a[[3]]) <- colnames(ces2014b[[3]]) <- c("Survey.Units", # Set up column names
+                                                        "DropoutPENTA1-PENTA3_Children23M",
+                                                        "DropoutPENTA1-Measles_Children23M")
+dc3 <- bind_rows(ces2014a[[3]],ces2014b[[3]])
+
+ces2014a[[4]][2] <- NULL
+ces2014b[[4]][2] <- NULL
+colnames(ces2014a[[4]]) <- colnames(ces2014b[[4]]) <- c("Survey.Units", # Set up column names
+                                                        "InvalidPENTA1_Infant12M",
+                                                        "InvalidPENTA2_Infant12M",
+                                                        "InvalidPENTA3_Infant12M",
+                                                        "InvalidMeasles_Infant12M")
+dc4 <- bind_rows(ces2014a[[4]],ces2014b[[4]])
+
+ces2014a[[5]][2] <- NULL
+ces2014b[[5]][2] <- NULL
+colnames(ces2014a[[5]]) <- colnames(ces2014b[[5]]) <- c("Survey.Units", # Set up column names
+                                                        "Measles2ndDoseCrude_Children18-29M",
+                                                        "Measles2ndDose_Children18-29M")
+dc5 <- bind_rows(ces2014a[[5]],ces2014b[[5]])
+dc5 <- dc5[-c(2)]
+
+colnames(ces2014a[[6]]) <- colnames(ces2014b[[6]]) <- c("Survey.Units", # Set up column names
+                                                        "TT1_Mother0-11MChildren",
+                                                        "TT2_Mother0-11MChildren",
+                                                        "TT3_Mother0-11MChildren",
+                                                        "TT4_Mother0-11MChildren",
+                                                        "TT5_Mother0-11MChildren")
+dc6 <- bind_rows(ces2014a[[6]],ces2014b[[6]])
+
+ces2014a[[7]][2] <- NULL
+ces2014b[[7]][2] <- NULL
+colnames(ces2014a[[7]]) <- colnames(ces2014b[[7]]) <- c("Survey.Units", # Set up column names
+                                                        "TetanusAtBirth_Mother0-11MChildren")
+dc7 <- bind_rows(ces2014a[[7]],ces2014b[[7]])
+
+colnames(ces2014a[[8]]) <- colnames(ces2014b[[8]]) <- c("Survey.Units", # Set up column names
+                                                        "TT1_Woman18-49Y",
+                                                        "TT2_Woman18-49Y",
+                                                        "TT3_Woman18-49Y",
+                                                        "TT4_Woman18-49Y",
+                                                        "TT5_Woman18-49Y")
+dc8 <- bind_rows(ces2014a[[8]],ces2014b[[8]])
+
+ces2014a[[9]][2] <- NULL
+ces2014b[[9]][2] <- NULL
+colnames(ces2014a[[9]]) <- colnames(ces2014b[[9]]) <- c("Survey.Units", # Set up column names
+                                                        "MR_AdolescentGirls")
+dc9 <- bind_rows(ces2014a[[9]],ces2014b[[9]])
+
+ces2014a[[10]][2] <- NULL
+colnames(ces2014a[[10]]) <- colnames(ces2014b[[10]]) <- c("Survey.Units", # Set up column names
+                                                        "OPVCoverage_1stRound_Children59M",
+                                                        "OPVCoverage_2stRound_Children59M",
+                                                        "OPVCoverage_All_Children59M")
+dc10 <- bind_rows(ces2014a[[10]],ces2014b[[10]])
+
+ces2014a[[11]][2] <- NULL
+ces2014b[[11]][2] <- NULL
+colnames(ces2014a[[11]]) <- colnames(ces2014b[[11]]) <- c("Survey.Units", # Set up column names
+                                                        "VitACoverage_Infants6-11M",
+                                                        "VitACoverage_Children12-59M")
+dc11 <- bind_rows(ces2014a[[11]],ces2014b[[11]])
+
+# Final dataset
+final.dc <- merge(dc1, dc2, by="Survey.Units", all=TRUE)
+final.dc1 <- merge(final.dc, dc3, by="Survey.Units", all=TRUE)
+final.dc2 <- merge(final.dc1, dc4, by="Survey.Units", all=TRUE)
+final.dc3 <- merge(final.dc2, dc5, by="Survey.Units", all=TRUE)
+final.dc4 <- merge(final.dc3, dc6, by="Survey.Units", all=TRUE)
+final.dc5 <- merge(final.dc4, dc7, by="Survey.Units", all=TRUE)
+final.dc6 <- merge(final.dc5, dc8, by="Survey.Units", all=TRUE)
+final.dc7 <- merge(final.dc6, dc9, by="Survey.Units", all=TRUE)
+final.dc8 <- merge(final.dc7, dc10, by="Survey.Units", all=TRUE)
+ces2014 <- merge(final.dc8, dc11, by="Survey.Units", all=TRUE)
+
+# Data quality assessment
+sum(duplicated(ces2014)) # Uniqueness: Check for duplicates
+
+sum(is.na(ces2014)) # Completeness: Check for NAs
+
+str(ces2014) # Validity: Check format and type
+
+max(ces2014[,c(2:43)], na.rm=TRUE) # Validity: Check range (between 0 and 100)
+
+# Save final dataset
+write.csv(ces2014,"./output/unicef/data/data_unicef_ces_2014.csv", row.names=FALSE) # Save data
+
 
 
 # ---------------------------------------------------------------------------------------------------------
-# ces2013 <- extract_tables(temp[6], pages=201:220, 226:239))
-# ces2014 <- extract_tables(temp[8], pages=231:264)
 # ces2015 <- extract_tables(temp[7], pages=215:242)
 # ces2016 <- extract_tables(temp[1], pages=231:260)
+
