@@ -149,10 +149,6 @@ def write_data(input_files, output_dir, exclude=None):
                 data.to_csv(os.path.join(os.path.join(output_dir, exclude),
                                          os.path.split(values[0])[1].replace(".pdf", ".csv")),
                             index=False, index_label=None)
-                # data = parse_files(values[0],
-                #                    ncol_before=Config.parse_parameters[values[1]]['ncol_before'],
-                #                    ncol_after=Config.parse_parameters[values[1]]['ncol_after'],
-                #                    col_names=Config.cols_dict[values[1]])
 
 
 def main():
