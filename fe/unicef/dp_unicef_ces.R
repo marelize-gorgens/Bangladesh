@@ -726,9 +726,292 @@ max(ces2014[,c(2:43)], na.rm=TRUE) # Validity: Check range (between 0 and 100)
 # Save final dataset
 write.csv(ces2014,"./output/unicef/data/data_unicef_ces_2014.csv", row.names=FALSE) # Save data
 
+# 2015 ----------------------------------------------------------------------------------------------------
+# area2015a <- locate_areas("./data/unicef/CES/EPI_Coverage_Evaluation_Survey_2015.pdf", pages=229) # Find area
+# area2015b <- locate_areas("./data/unicef/CES/EPI_Coverage_Evaluation_Survey_2015.pdf", pages=224) # Find area
+area2015a <- list(c(98.82775,68.27511,725.70574,513.96891)) # Set area
+area2015b <- list(c(78.48086,113.81339,682.10526,556.60049)) # Set area
+pages2015a <- c(221,223,229,231,233,237,239,243)
+pages2015b <- c(222,224,230,232,234,238,240,244)
+ces2015a <- extract_tables(temp[7], pages=pages2015a, area=area2015a, output="data.frame", guess=FALSE) # Extract data
+ces2015b <- extract_tables(temp[7], pages=pages2015b, area=area2015b, output="data.frame", guess=FALSE) # Extract data
 
+ces2015a[[1]][16,1] <- "Cox’s Bazar"
+ces2015a[[1]][25,1] <- "Dhaka North CC"
+ces2015a[[1]][27,1] <- "Dhaka South CC"
+ces2015a[[1]][40,1] <- "Narayanganj CC"
+ces2015a[[1]][,1] <- gsub("City Corporation", "CC", ces2015a[[1]][,1], ignore.case=TRUE)
+ces2015b[[1]][,1] <- gsub("City Corporation", "CC", ces2015b[[1]][,1], ignore.case=TRUE)
+ces2015b[[1]][42,1] <- "Dhaka CC Slum"
+ces2015b[[1]][44,1] <- "Chittagong CC Slum"
+colnames(ces2015a[[1]]) <- colnames(ces2015b[[1]]) <- c("Survey.Units", # Set up column names
+                                                        "BCG_Children23M",
+                                                        "OPV1_Children23M",
+                                                        "PENTA1_Children23M",
+                                                        "OPV2_Children23M",
+                                                        "PENTA2_Children23M",
+                                                        "OPV3_Children23M",
+                                                        "PENTA3_Children23M",
+                                                        "Measles_Children23M",
+                                                        "Fully_Children23M")
+dd1 <- bind_rows(ces2015a[[1]],ces2015b[[1]])
+dd1 <- dd1[-c(24,26,39,90,92),] # Drop messy row
 
-# ---------------------------------------------------------------------------------------------------------
-# ces2015 <- extract_tables(temp[7], pages=215:242)
-# ces2016 <- extract_tables(temp[1], pages=231:260)
+ces2015a[[2]][13,7] <- 90.6
+ces2015a[[2]][16,1] <- "Cox’s Bazar"
+ces2015a[[2]][25,1] <- "Dhaka North CC"
+ces2015a[[2]][27,1] <- "Dhaka South CC"
+ces2015a[[2]][40,1] <- "Narayanganj CC"
+ces2015a[[2]][,1] <- gsub("City Corporation", "CC", ces2015a[[2]][,1], ignore.case=TRUE)
+ces2015b[[2]][,1] <- gsub("City Corporation", "CC", ces2015b[[2]][,1], ignore.case=TRUE)
+ces2015b[[2]][44,1] <- "Dhaka CC Slum"
+ces2015b[[2]][46,1] <- "Chittagong CC Slum"
+ces2015a[[2]][2:10] <- as.numeric(unlist(ces2015a[[2]][2:10])) # Change type of variable
+ces2015b[[2]][2:10] <- as.numeric(unlist(ces2015b[[2]][2:10]))
+colnames(ces2015a[[2]]) <- colnames(ces2015b[[2]]) <- c("Survey.Units", # Set up column names
+                                                        "BCG_Children12M",
+                                                        "OPV1_Children12M",
+                                                        "PENTA1_Children12M",
+                                                        "OPV2_Children12M",
+                                                        "PENTA2_Children12M",
+                                                        "OPV3_Children12M",
+                                                        "PENTA3_Children12M",
+                                                        "Measles_Children12M",
+                                                        "Fully_Children12M")
+dd2 <- bind_rows(ces2015a[[2]],ces2015b[[2]])
+dd2 <- dd2[-c(24,26,39,53,90,92),] # Drop messy row
+
+ces2015a[[3]] <- ces2015a[[3]] %>% # Separate values in two columns
+  separate(Dropout.rate.Penta1.to.Penta3, sep=" ", into=c("a","b", "c"))
+ces2015a[[3]] <- ces2015a[[3]] %>% # Separate values in two columns
+  separate(Dropout.rate.Penta1.to.MR, sep=" ", into=c("d","e", "f"))
+ces2015b[[3]] <- ces2015b[[3]] %>% # Separate values in two columns
+  separate(Dropout.rate.Penta1.to.Penta3, sep=" ", into=c("a","b", "c"))
+ces2015b[[3]] <- ces2015b[[3]] %>% # Separate values in two columns
+  separate(Dropout.rate.Penta1.to.MR, sep=" ", into=c("d","e", "f"))
+ces2015a[[3]][2:7] <- as.numeric(unlist(ces2015a[[3]][2:7])) # Change type of variable
+ces2015b[[3]][2:7] <- as.numeric(unlist(ces2015b[[3]][2:7])) # Change type of variable
+colnames(ces2015a[[3]]) <- colnames(ces2015b[[3]]) <- c("Survey.Units", # Set up column names
+                                                        "DropoutPENTA1-PENTA3_Male23M",
+                                                        "DropoutPENTA1-PENTA3_Female23M",
+                                                        "DropoutPENTA1-PENTA3_Children23M",
+                                                        "DropoutPENTA1-Measles_Male23M",
+                                                        "DropoutPENTA1-Measles_Female23M",
+                                                        "DropoutPENTA1-Measles_Children23M")
+dd3 <- bind_rows(ces2015a[[3]],ces2015b[[3]])
+dd3 <- dd3[-c(1,46),] # Drop messy row
+dd3[16,1] <- "Cox’s Bazar"
+dd3[,1] <- gsub("City Corporation", "CC", dd3[,1], ignore.case=TRUE) # Replace text to match others dataset
+
+dd4 <- bind_rows(ces2015a[[4]],ces2015b[[4]])
+dd4[,1] <- gsub("City Corporation", "CC", dd4[,1], ignore.case=TRUE) # Replace text to match others dataset
+dd4[16,1] <- "Cox’s Bazar"
+colnames(dd4) <- c("Survey.Units", # Set up column names
+                   "InvalidPENTA1_Infant12M",
+                   "InvalidPENTA2_Infant12M",
+                   "InvalidPENTA3_Infant12M",
+                   "InvalidMeasles_Infant12M")
+
+ces2015a[[5]][2:4] <- as.numeric(unlist(ces2015a[[5]][2:4])) # Change type of variable
+ces2015b[[5]][2:4] <- as.numeric(unlist(ces2015b[[5]][2:4])) # Change type of variable
+colnames(ces2015a[[5]]) <- colnames(ces2015b[[5]]) <- c("Survey.Units", # Set up column names
+                                                        "Measles2ndDoseCrude",
+                                                        "Measles2ndDose_Children18M",
+                                                        "Measles2ndDose_Children23M")
+dd5 <- bind_rows(ces2015a[[5]],ces2015b[[5]])
+dd5 <- dd5[-c(1,46),] # Drop messy row
+dd5[16,1] <- "Cox’s Bazar"
+dd5[,1] <- gsub("City Corporation", "CC", dd5[,1], ignore.case=TRUE) # Replace text to match others dataset
+
+colnames(ces2015a[[6]]) <- colnames(ces2015b[[6]]) <- c("Survey.Units", # Set up column names
+                                                        "TT1_Mother0-11MChildren",
+                                                        "TT2_Mother0-11MChildren",
+                                                        "TT3_Mother0-11MChildren",
+                                                        "TT4_Mother0-11MChildren",
+                                                        "TT5_Mother0-11MChildren")
+dd6 <- bind_rows(ces2015a[[6]],ces2015b[[6]])
+dd6[16,1] <- "Cox’s Bazar"
+dd6[,1] <- gsub("City Corporation", "CC", dd6[,1], ignore.case=TRUE) # Replace text to match others dataset
+
+colnames(ces2015a[[7]]) <- colnames(ces2015b[[7]]) <- c("Survey.Units", # Set up column names
+                                                        "TetanusAtBirth_Mother0-11MChildren")
+dd7 <- bind_rows(ces2015a[[7]],ces2015b[[7]])
+dd7[16,1] <- "Cox’s Bazar"
+dd7[,1] <- gsub("City Corporation", "CC", dd7[,1], ignore.case=TRUE) # Replace text to match others dataset
+
+ces2015a[[8]][16,1] <- "Cox’s Bazar"
+ces2015a[[8]][26,1] <- "Dhaka South CC"
+ces2015a[[8]][39,1] <- "Narayanganj CC"
+ces2015b[[8]][44,1] <- "Chittagong CC Slum"
+ces2015a[[8]][2:6] <- as.numeric(unlist(ces2015a[[8]][2:6])) # Change type of variable
+ces2015b[[8]][2:6] <- as.numeric(unlist(ces2015b[[8]][2:6])) # Change type of variable
+colnames(ces2015a[[8]]) <- colnames(ces2015b[[8]]) <- c("Survey.Units", # Set up column names
+                                                        "TT1_Woman15-49Y",
+                                                        "TT2_Woman15-49Y",
+                                                        "TT3_Woman15-49Y",
+                                                        "TT4_Woman15-49Y",
+                                                        "TT5_Woman15-49Y")
+dd8 <- bind_rows(ces2015a[[8]],ces2015b[[8]])
+dd8 <- dd8[-c(25,38,89),] # Drop messy row
+dd8[,1] <- gsub("City Corporation", "CC", dd8[,1], ignore.case=TRUE) # Replace text to match others dataset
+
+# Final dataset
+final.dd <- merge(dd1, dd2, by="Survey.Units", all=TRUE)
+final.dd1 <- merge(final.dd, dd3, by="Survey.Units", all=TRUE)
+final.dd2 <- merge(final.dd1, dd4, by="Survey.Units", all=TRUE)
+final.dd3 <- merge(final.dd2, dd5, by="Survey.Units", all=TRUE)
+final.dd4 <- merge(final.dd3, dd6, by="Survey.Units", all=TRUE)
+final.dd5 <- merge(final.dd4, dd7, by="Survey.Units", all=TRUE)
+ces2015 <- merge(final.dd5, dd8, by="Survey.Units", all=TRUE)
+
+# Data quality assessment
+sum(duplicated(ces2015)) # Uniqueness: Check for duplicates
+
+sum(is.na(ces2015)) # Completeness: Check for NAs
+na_ces2015 <- data.frame(lapply(ces2015, function(y) sum(length(which(is.na(y)))))) # Show NAs by column
+
+str(ces2015) # Validity: Check format and type
+
+max(ces2015[,c(2:43)], na.rm=TRUE) # Validity: Check range (between 0 and 100)
+
+# Save final dataset
+write.csv(ces2015,"./output/unicef/data/data_unicef_ces_2015.csv", row.names=FALSE) # Save data
+
+# 2016 ----------------------------------------------------------------------------------------------------
+# area2016a <- locate_areas("./data/unicef/CES/Bangladesh_EPI_CES_2016_Final.pdf", pages=233) # Find area
+# area2016b <- locate_areas("./data/unicef/CES/Bangladesh_EPI_CES_2016_Final.pdf", pages=236) # Find area
+area2016a <- list(c(111.24624,52.46483,806.28007,557.66565)) # Set area
+area2016b <- list(c(86.75165,57.56786,803.21825,557.66565)) # Set area
+pages2016a <- c(235,237,243,245,247,251,253,257,259)
+pages2016b <- c(236,238,244,246,248,252,254,258,260)
+ces2016a <- extract_tables(temp[1], pages=pages2016a, area=area2016a, output="data.frame", guess=FALSE) # Extract data
+ces2016b <- extract_tables(temp[1], pages=pages2016b, area=area2016b, output="data.frame", guess=FALSE) # Extract data
+
+colnames(ces2016a[[1]]) <- colnames(ces2016b[[1]]) <- c("Survey.Units", # Set up column names
+                                                        "BCG_Children23M",
+                                                        "OPV1_Children23M",
+                                                        "PENTA1_Children23M",
+                                                        "OPV2_Children23M",
+                                                        "PENTA2_Children23M",
+                                                        "OPV3_Children23M",
+                                                        "PENTA3_Children23M",
+                                                        "Measles_Children23M",
+                                                        "Fully_Children23M")
+de1 <- bind_rows(ces2016a[[1]],ces2016b[[1]])
+de1[16,1] <- "Cox’s Bazar"
+de1[,1] <- gsub("City Corporation", "CC", de1[,1], ignore.case=TRUE) # Replace text to match others dataset
+
+colnames(ces2016a[[2]]) <- colnames(ces2016b[[2]]) <- c("Survey.Units", # Set up column names
+                                                        "BCG_Children12M",
+                                                        "OPV1_Children12M",
+                                                        "PENTA1_Children12M",
+                                                        "OPV2_Children12M",
+                                                        "PENTA2_Children12M",
+                                                        "OPV3_Children12M",
+                                                        "PENTA3_Children12M",
+                                                        "Measles_Children12M",
+                                                        "Fully_Children12M")
+de2 <- bind_rows(ces2016a[[2]],ces2016b[[2]])
+de2[16,1] <- "Cox’s Bazar"
+de2[,1] <- gsub("City Corporation", "CC", de2[,1], ignore.case=TRUE) # Replace text to match others dataset
+
+ces2016a[[3]] <- ces2016a[[3]] %>% # Separate values in two columns
+  separate(Dropout.rate.Penta1.to.Penta3, sep=" ", into=c("a","b", "c"))
+ces2016a[[3]] <- ces2016a[[3]] %>% # Separate values in two columns
+  separate(Dropout.rate.Penta1.to.MR1, sep=" ", into=c("d","e", "f"))
+ces2016a[[3]] <- ces2016a[[3]][-c(2)]
+ces2016b[[3]] <- ces2016b[[3]] %>% # Separate values in two columns
+  separate(Dropout.rate.Penta1.to.Penta3, sep=" ", into=c("a","b", "c"))
+ces2016b[[3]] <- ces2016b[[3]] %>% # Separate values in two columns
+  separate(Dropout.rate.Penta1.to.MR1, sep=" ", into=c("d","e", "f"))
+ces2016b[[3]] <- ces2016b[[3]][-c(2)]
+ces2016a[[3]][2:7] <- as.numeric(unlist(ces2016a[[3]][2:7])) # Change type of variable
+ces2016b[[3]][2:7] <- as.numeric(unlist(ces2016b[[3]][2:7])) # Change type of variable
+colnames(ces2016a[[3]]) <- colnames(ces2016b[[3]]) <- c("Survey.Units", # Set up column names
+                                                        "DropoutPENTA1-PENTA3_Male23M",
+                                                        "DropoutPENTA1-PENTA3_Female23M",
+                                                        "DropoutPENTA1-PENTA3_Children23M",
+                                                        "DropoutPENTA1-Measles_Male23M",
+                                                        "DropoutPENTA1-Measles_Female23M",
+                                                        "DropoutPENTA1-Measles_Children23M")
+de3 <- bind_rows(ces2016a[[3]],ces2016b[[3]])
+de3[18,1] <- "Cox’s Bazar"
+de3 <- de3[-c(1:2,47:48),] # Drop messy row
+de3[,1] <- gsub("City Corporation", "CC", de3[,1], ignore.case=TRUE) # Replace text to match others dataset
+
+de4 <- bind_rows(ces2016a[[4]],ces2016b[[4]])
+de4[16,1] <- "Cox’s Bazar"
+de4[,1] <- gsub("City Corporation", "CC", de4[,1], ignore.case=TRUE) # Replace text to match others dataset
+colnames(de4) <- c("Survey.Units", # Set up column names
+                   "InvalidPENTA1_Infant12M",
+                   "InvalidPENTA2_Infant12M",
+                   "InvalidPENTA3_Infant12M",
+                   "InvalidMeasles_Infant12M")
+
+de5 <- bind_rows(ces2016a[[5]],ces2016b[[5]])
+de5[16,1] <- "Cox’s Bazar"
+de5[,1] <- gsub("City Corporation", "CC", de5[,1], ignore.case=TRUE) # Replace text to match others dataset
+colnames(de5) <- c("Survey.Units", # Set up column names
+                  "Measles2ndDoseCrude",
+                  "Measles2ndDose_Children18M",
+                  "Measles2ndDose_Children23M")
+
+de6 <- bind_rows(ces2016a[[6]],ces2016b[[6]])
+de6[16,1] <- "Cox’s Bazar"
+de6[,1] <- gsub("City Corporation", "CC", de6[,1], ignore.case=TRUE) # Replace text to match others dataset
+colnames(de6) <- c("Survey.Units", # Set up column names
+                   "TT1_Mother0-11MChildren",
+                   "TT2_Mother0-11MChildren",
+                   "TT3_Mother0-11MChildren",
+                   "TT4_Mother0-11MChildren",
+                   "TT5_Mother0-11MChildren")
+
+de7 <- bind_rows(ces2016a[[7]],ces2016b[[7]])
+de7[16,1] <- "Cox’s Bazar"
+de7[,1] <- gsub("City Corporation", "CC", de7[,1], ignore.case=TRUE) # Replace text to match others dataset
+colnames(de7) <- c("Survey.Units", # Set up column names
+                   "TetanusAtBirth_Mother0-11MChildren")
+
+de8 <- bind_rows(ces2016a[[8]],ces2016b[[8]])
+de8[16,1] <- "Cox’s Bazar"
+de8[,1] <- gsub("City Corporation", "CC", de8[,1], ignore.case=TRUE) # Replace text to match others dataset
+colnames(de8) <- c("Survey.Units", # Set up column names
+                   "TT1_Woman18-49Y",
+                   "TT2_Woman18-49Y",
+                   "TT3_Woman18-49Y",
+                   "TT4_Woman18-49Y",
+                   "TT5_Woman18-49Y")
+
+ces2016a[[9]];ces2016b[[9]]
+ces2016a[[9]][2:3] <- as.numeric(unlist(ces2016a[[9]][2:3])) # Change type of variable
+colnames(ces2016a[[9]]) <- colnames(ces2016b[[9]]) <- c("Survey.Units", # Set up column names
+                                                        "VitACoverage_Infants6-11M",
+                                                        "VitACoverage_Children12-59M")
+de9 <- bind_rows(ces2016a[[9]],ces2016b[[9]])
+de9[17,1] <- "Cox’s Bazar"
+de9 <- de9[-c(1),] # Drop messy row
+de9[,1] <- gsub("City Corporation", "CC", de9[,1], ignore.case=TRUE) # Replace text to match others dataset
+
+# Final dataset
+final.de <- merge(de1, de2, by="Survey.Units", all=TRUE)
+final.de1 <- merge(final.de, de3, by="Survey.Units", all=TRUE)
+final.de2 <- merge(final.de1, de4, by="Survey.Units", all=TRUE)
+final.de3 <- merge(final.de2, de5, by="Survey.Units", all=TRUE)
+final.de4 <- merge(final.de3, de6, by="Survey.Units", all=TRUE)
+final.de5 <- merge(final.de4, de7, by="Survey.Units", all=TRUE)
+final.de6 <- merge(final.de5, de8, by="Survey.Units", all=TRUE)
+ces2016 <- merge(final.de6, de9, by="Survey.Units", all=TRUE)
+
+# Data quality assessment
+sum(duplicated(ces2016)) # Uniqueness: Check for duplicates
+
+sum(is.na(ces2016)) # Completeness: Check for NAs
+na_ces2016 <- data.frame(lapply(ces2016, function(y) sum(length(which(is.na(y)))))) # Show NAs by column
+
+str(ces2016) # Validity: Check format and type
+
+max(ces2016[,c(2:45)], na.rm=TRUE) # Validity: Check range (between 0 and 100)
+
+# Save final dataset
+write.csv(ces2016,"./output/unicef/data/data_unicef_ces_2016.csv", row.names=FALSE) # Save data
 
