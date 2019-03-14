@@ -3,7 +3,7 @@
 # Description: Data preprocessing of Unicef datasets
 # Organization: Health, Nutrition, and Population (HNP) | The World Bank
 # Author: Hellen Matarazzo
-# Date: Updated on 02-27-2019
+# Date: Updated on 03-13-2019
 #----------------------------------------------------------------------------------------------------------
 
 #----------------------------------------------------------------------------------------------------------
@@ -61,23 +61,22 @@ cols <- c(4:68)
 cbss[,cols] <- apply(cbss[,cols], 2, function(x) as.numeric(as.character(x))) # Set numeric variables
 str(cbss)
 
-max(cbss[,cols]) # Show global max # Validity: Check range (between 0 and 100)
+max(cbss[,cols]) # Validity: Check range (between 0 and 100)
 max_cbss <- data.frame(lapply(cbss, function(z) max((z)))) # Show max by column
 
 # Feature engeering
 cbss$Variable  <- paste("CBSS",1:nrow(cbss), sep=".") # Create short name for indicators
 
 # Create/save metadata
-meta_cbss <- cbss[c(69,1:3)] # Select the variables of interest for metadata file
-meta_cbss$Type <- "Numeric, %"
-write.csv(meta_cbss,"metadata_unicef_cbss.csv", row.names=FALSE) # Save metadata
+meta_cbss <- data.frame("Source"="CBSS", "File"= "CBSS", cbss[69], cbss[3], cbss[c(1:2)],"Type"="Numeric, %")
+colnames(meta_cbss)[colnames(meta_cbss)=="Indicator"] <- "Description"
+write.csv(meta_cbss,"./output/unicef/data/metadata_unicef_cbss.csv", row.names=FALSE) # Save metadata
 
 # Create/save final dataset
 cbss2 <- as.data.frame(t(cbss[c(4:68)])) # Transpose only the variables of interest
 colnames(cbss2) <- cbss$Variable # Set variables names
 Unit <- str_remove_all(rownames(cbss2), "[ (%)]") # Clear Units names
-Year <- ""
-cbss2 <- data.frame(Unit, Year, cbss2) # Add Units names to the dataset
+cbss2 <- data.frame(Unit, cbss2, "Year"=2016) # Add Units names to the dataset
 rownames(cbss2) <- NULL # Delete row names
 
 write.csv(cbss2,"data_unicef_cbss.csv", row.names=FALSE) # Save data
