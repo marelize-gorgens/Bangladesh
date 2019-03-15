@@ -3,8 +3,8 @@ DistrictCode,DistrictName,DivisionCode,DivisionName,InputDivision,MeanFuzzRation
 41,Jessore,40,Khulna,Khulna,47.5,Abhaynagar,Abhaynagar,4,95,0,MATCH
 10,Bogra,50,Rajshahi,Rajshahi,97.5,Adamdighi,Adamdighi,6,95,100,MATCH
 10,Bogra,50,Rajshahi,Rajshahi,47.5,Adamdighi,Adamdighi,6,95,0,MATCH
-30,Feni,20,Chittagong,Chittagong,73.5,Parshuram,Adarsho,51,47,100,MISS2
-88,Sirajganj,50,Rajshahi,Chittagong,28.5,Tarash,Adarsho,89,57,0,MISS2
+30,Feni,20,Chittagong,Chittagong,73.5,Parshuram,Adarsho,51,47,100,MISS2 (geo from Geo var missing)
+88,Sirajganj,50,Rajshahi,Chittagong,28.5,Tarash,Adarsho,89,57,0,MISS2 (geo from Geo var missing)
 52,Lalmonirhat,55,Rangpur,Rangpur,97,Aditmari,Aditmari,2,94,100,MATCH
 6,Barisal,10,Barisal,Barisal,97.5,Agailjhara,Agailjhara,2,95,100,MATCH
 12,Brahmanbaria,20,Chittagong,Chittagong,96.5,Akhaura,Akhaura,2,93,100,MATCH
@@ -125,8 +125,8 @@ DistrictCode,DistrictName,DivisionCode,DivisionName,InputDivision,MeanFuzzRation
 93,Tangail,30,Dhaka,Dhaka,46.5,Bhuapur,Bhuapur,19,93,0,MATCH
 49,Kurigram,55,Rangpur,Rangpur,98,Bhurungamari,Bhurungamari,6,96,100,MATCH
 49,Kurigram,55,Rangpur,Rangpur,48,Bhurungamari,Bhurungamari,6,96,0,MATCH
-91,Sylhet,60,Sylhet,Sylhet,75,Bishwanath,Biani,20,50,100,MISS2
-94,Thakurgaon,55,Rangpur,Sylhet,31,Baliadangi,Biani,8,62,0,MISS2
+91,Sylhet,60,Sylhet,Sylhet,75,Bishwanath,Biani,20,50,100,MISS2 (geo from Geo var missing)
+94,Thakurgaon,55,Rangpur,Sylhet,31,Baliadangi,Biani,8,62,0,MISS2 (geo from Geo var missing)
 12,Brahmanbaria,20,Chittagong,Chittagong,81,Bijoynagar,Bijoy,7,62,100,MATCH
 27,Dinajpur,55,Rangpur,Rangpur,97,Birampur,Birampur,10,94,100,MATCH
 27,Dinajpur,55,Rangpur,Rangpur,47,Birampur,Birampur,10,94,0,MATCH
@@ -150,11 +150,11 @@ DistrictCode,DistrictName,DivisionCode,DivisionName,InputDivision,MeanFuzzRation
 27,Dinajpur,55,Rangpur,Rangpur,47.5,Bochaganj,Bochaganj,21,95,0,MATCH
 77,Panchagarh,55,Rangpur,Rangpur,94.5,Boda,Boda,25,89,100,MATCH
 77,Panchagarh,55,Rangpur,Rangpur,44.5,Boda,Boda,25,89,0,MATCH
-76,Pabna,50,Rajshahi,Rajshahi,80,Bera,Bogra,16,60,100,MISS2
-76,Pabna,50,Rajshahi,Rajshahi,30,Bera,Bogra,16,60,0,MISS2
+76,Pabna,50,Rajshahi,Rajshahi,80,Bera,Bogra,16,60,100,MISS2 (geo from Geo var missing)
+76,Pabna,50,Rajshahi,Rajshahi,30,Bera,Bogra,16,60,0,MISS2 (geo from Geo var missing)
 9,Bhola,10,Barisal,Barisal,93.5,Burhanuddin,Borhanuddin,21,87,100,MATCH
 9,Bhola,10,Barisal,Barisal,43.5,Burhanuddin,Borhanuddin,21,87,0,MATCH
-19,Comilla,20,Chittagong,Chittagong,91.5,Brahmanpara,Brahmanbaria,15,83,100,MISS2
+19,Comilla,20,Chittagong,Chittagong,91.5,Brahmanpara,Brahmanbaria,15,83,100,MISS2 (geo from Geo var missing)
 19,Comilla,20,Chittagong,Chittagong,98,Brahmanpara,Brahmanpara,15,96,100,MATCH
 19,Comilla,20,Chittagong,Chittagong,48,Brahmanpara,Brahmanpara,15,96,0,MATCH
 19,Comilla,20,Chittagong,Chittagong,92,Burichang,Burichong,18,84,100,MATCH
@@ -167,9 +167,9 @@ DistrictCode,DistrictName,DivisionCode,DivisionName,InputDivision,MeanFuzzRation
 15,Chittagong,20,Chittagong,Chittagong,39,Chandanaish,Chandlaish,18,78,0,MATCH
 13,Chandpur,20,Chittagong,Chittagong,85,Chandpur Sadar,Chandpur,22,70,100,MATCH
 81,Rajshahi,50,Rajshahi,Chittagong,35.5,Mohanpur,Chandpur,53,71,0,MISSMATCH
-88,Sirajganj,50,Rajshahi,Rajshahi,83.5,Chauhali,Chapai,27,67,100,MISS2
-88,Sirajganj,50,Rajshahi,Rajshahi,33.5,Chauhali,Chapai,27,67,0,MISS2
-26,Dhaka,30,Dhaka,Dhaka,80,Dohar,Char,18,60,100,MISS2
+88,Sirajganj,50,Rajshahi,Rajshahi,83.5,Chauhali,Chapai,27,67,100,MISS2 (geo from Geo var missing)
+88,Sirajganj,50,Rajshahi,Rajshahi,33.5,Chauhali,Chapai,27,67,0,MISS2 (geo from Geo var missing)
+26,Dhaka,30,Dhaka,Dhaka,80,Dohar,Char,18,60,100,MISS2 (geo from Geo var missing)
 49,Kurigram,55,Rangpur,Rangpur,81,Chilmari,Char,9,62,100,MISSMATCH
 49,Kurigram,55,Rangpur,Rangpur,31,Chilmari,Char,9,62,0,MISSMATCH
 49,Kurigram,55,Rangpur,Dhaka,31,Chilmari,Char,9,62,0,MISSMATCH
@@ -187,8 +187,8 @@ DistrictCode,DistrictName,DivisionCode,DivisionName,InputDivision,MeanFuzzRation
 90,Sunamganj,60,Sylhet,Sylhet,46.5,Chhatak,Chhatak,23,93,0,MATCH
 49,Kurigram,55,Rangpur,Rangpur,97,Chilmari,Chilmari,9,94,100,MATCH
 49,Kurigram,55,Rangpur,Rangpur,47,Chilmari,Chilmari,9,94,0,MATCH
-49,Kurigram,55,Rangpur,Rangpur,83.5,Chilmari,Chirir,9,67,100,MISS2
-49,Kurigram,55,Rangpur,Rangpur,33.5,Chilmari,Chirir,9,67,0,MISS2
+49,Kurigram,55,Rangpur,Rangpur,83.5,Chilmari,Chirir,9,67,100,MISS2 (geo from Geo var missing)
+49,Kurigram,55,Rangpur,Rangpur,33.5,Chilmari,Chirir,9,67,0,MISS2 (geo from Geo var missing)
 1,Bagerhat,40,Khulna,Khulna,97.5,Chitalmari,Chitalmari,14,95,100,MATCH
 1,Bagerhat,40,Khulna,Khulna,47.5,Chitalmari,Chitalmari,14,95,0,MATCH
 19,Comilla,20,Chittagong,Chittagong,93.5,Chauddagram,Chouddagram,31,87,100,MATCH
@@ -201,8 +201,8 @@ DistrictCode,DistrictName,DivisionCode,DivisionName,InputDivision,MeanFuzzRation
 18,Chuadanga,40,Khulna,Khulna,36,Chuadanga Sadar,Chuadanga,23,72,0,MATCH
 36,Habiganj,60,Sylhet,Sylhet,98,Chunarughat,Chunarughat,26,96,100,MATCH
 36,Habiganj,60,Sylhet,Sylhet,48,Chunarughat,Chunarughat,26,96,0,MATCH
-75,Noakhali,20,Chittagong,Chittagong,76.5,Companiganj,Comilla,21,53,100,MISS2
-91,Sylhet,60,Sylhet,Chittagong,26.5,Companiganj,Comilla,27,53,0,MISS2
+75,Noakhali,20,Chittagong,Chittagong,76.5,Companiganj,Comilla,21,53,100,MISS2 (geo from Geo var missing)
+91,Sylhet,60,Sylhet,Chittagong,26.5,Companiganj,Comilla,27,53,0,MISS2 (geo from Geo var missing)
 91,Sylhet,60,Sylhet,Sylhet,98,Companiganj,Companiganj,27,96,100,MATCH
 75,Noakhali,20,Chittagong,Chittagong,98,Companiganj,Companiganj,21,96,100,MATCH
 75,Noakhali,20,Chittagong,Chittagong,48,Companiganj,Companiganj,21,96,0,MATCH
@@ -309,8 +309,8 @@ DistrictCode,DistrictName,DivisionCode,DivisionName,InputDivision,MeanFuzzRation
 85,Rangpur,55,Rangpur,Rangpur,47.5,Gangachara,Gangachara,27,95,0,MATCH
 59,Munshiganj,30,Dhaka,Dhaka,96.5,Gazaria,Gazaria,24,93,100,MATCH
 59,Munshiganj,30,Dhaka,Dhaka,46.5,Gazaria,Gazaria,24,93,0,MATCH
-61,Mymensingh,30,Dhaka,Dhaka,87.5,Gauripur,Gazipur,23,75,100,MISS2
-88,Sirajganj,50,Rajshahi,Dhaka,40,Kazipur,Gazipur,50,80,0,MISS2
+61,Mymensingh,30,Dhaka,Dhaka,87.5,Gauripur,Gazipur,23,75,100,MISS2 (geo from Geo var missing)
+88,Sirajganj,50,Rajshahi,Dhaka,40,Kazipur,Gazipur,50,80,0,MISS2 (geo from Geo var missing)
 93,Tangail,30,Dhaka,Dhaka,96.5,Ghatail,Ghatail,28,93,100,MATCH
 93,Tangail,30,Dhaka,Dhaka,46.5,Ghatail,Ghatail,28,93,0,MATCH
 56,Manikganj,30,Dhaka,Dhaka,95.5,Ghior,Ghior,22,91,100,MATCH
@@ -341,8 +341,8 @@ DistrictCode,DistrictName,DivisionCode,DivisionName,InputDivision,MeanFuzzRation
 91,Sylhet,60,Sylhet,Sylhet,47.5,Gowainghat,Gowainghat,41,95,0,MATCH
 69,Natore,50,Rajshahi,Rajshahi,95.5,Gurudaspur,Gurudashpur,41,91,100,MATCH
 69,Natore,50,Rajshahi,Rajshahi,45.5,Gurudaspur,Gurudashpur,41,91,0,MATCH
-36,Habiganj,60,Sylhet,Sylhet,91,Nabiganj,Habiganj,77,82,100,MISS2
-36,Habiganj,60,Sylhet,Sylhet,41,Nabiganj,Habiganj,77,82,0,MISS2
+36,Habiganj,60,Sylhet,Sylhet,91,Nabiganj,Habiganj,77,82,100,MISS2 (geo from Geo var missing)
+36,Habiganj,60,Sylhet,Sylhet,41,Nabiganj,Habiganj,77,82,0,MISS2 (geo from Geo var missing)
 13,Chandpur,20,Chittagong,Chittagong,97,Hajiganj,Hajiganj,49,94,100,MATCH
 13,Chandpur,20,Chittagong,Chittagong,47,Hajiganj,Hajiganj,49,94,0,MATCH
 27,Dinajpur,55,Rangpur,Rangpur,97,Hakimpur,Hakimpur,47,94,100,MATCH
@@ -366,8 +366,8 @@ DistrictCode,DistrictName,DivisionCode,DivisionName,InputDivision,MeanFuzzRation
 19,Comilla,20,Chittagong,Chittagong,45.5,Homna,Homna,54,91,0,MATCH
 48,Kishoreganj,30,Dhaka,Dhaka,97.5,Hossainpur,Hossainpur,27,95,100,MATCH
 48,Kishoreganj,30,Dhaka,Dhaka,47.5,Hossainpur,Hossainpur,27,95,0,MATCH
-9,Bhola,10,Barisal,Barisal,74,Burhanuddin,Indurkani,21,48,100,MISS2
-19,Comilla,20,Chittagong,Barisal,26.5,Daudkandi,Indurkani,36,53,0,MISS2
+9,Bhola,10,Barisal,Barisal,74,Burhanuddin,Indurkani,21,48,100,MISS2 (geo from Geo var missing)
+19,Comilla,20,Chittagong,Barisal,26.5,Daudkandi,Indurkani,36,53,0,MISS2 (geo from Geo var missing)
 76,Pabna,50,Rajshahi,Rajshahi,97,Ishwardi,Ishwardi,39,94,100,MATCH
 76,Pabna,50,Rajshahi,Rajshahi,47,Ishwardi,Ishwardi,39,94,0,MATCH
 61,Mymensingh,30,Dhaka,Mymensingh,54,Ishwarganj,Ishwarganj,31,95,13,MATCH
@@ -472,8 +472,8 @@ DistrictCode,DistrictName,DivisionCode,DivisionName,InputDivision,MeanFuzzRation
 27,Dinajpur,55,Rangpur,Rangpur,44.5,Khansama,Khanshama,60,89,0,MATCH
 38,Joypurhat,50,Rajshahi,Rajshahi,96.5,Khetlal,Khetlal,61,93,100,MATCH
 50,Kushtia,40,Khulna,Khulna,96,Khoksa,Khoksa,63,92,100,MATCH
-1,Bagerhat,40,Khulna,Khulna,81,Kachua,Khulna,38,62,100,MISS2
-13,Chandpur,20,Chittagong,Khulna,31,Kachua,Khulna,58,62,0,MISS2
+1,Bagerhat,40,Khulna,Khulna,81,Kachua,Khulna,38,62,100,MISS2 (geo from Geo var missing)
+13,Chandpur,20,Chittagong,Khulna,31,Kachua,Khulna,58,62,0,MISS2 (geo from Geo var missing)
 48,Kishoreganj,30,Dhaka,Dhaka,88,Kishoreganj Sadar,Kishoreganj,49,76,100,MATCH
 73,Nilphamari,55,Rangpur,Rangpur,98,Kishoreganj,Kishoreganj,45,96,100,MATCH
 73,Nilphamari,55,Rangpur,Dhaka,48,Kishoreganj,Kishoreganj,45,96,0,MISSMATCH
@@ -520,8 +520,8 @@ DistrictCode,DistrictName,DivisionCode,DivisionName,InputDivision,MeanFuzzRation
 59,Munshiganj,30,Dhaka,Dhaka,41,Lohajang,Lohajong,44,82,0,MATCH
 39,Jamalpur,30,Dhaka,Mymensingh,54,Madarganj,Madarganj,58,95,13,MATCH
 39,Jamalpur,30,Dhaka,Mymensingh,47.5,Madarganj,Madarganj,58,95,0,MATCH
-29,Faridpur,30,Dhaka,Dhaka,89,Sadarpur,Madaripur,84,78,100,MISS2
-29,Faridpur,30,Dhaka,Dhaka,39,Sadarpur,Madaripur,84,78,0,MISS2
+29,Faridpur,30,Dhaka,Dhaka,89,Sadarpur,Madaripur,84,78,100,MISS2 (geo from Geo var missing)
+29,Faridpur,30,Dhaka,Dhaka,39,Sadarpur,Madaripur,84,78,0,MISS2 (geo from Geo var missing)
 36,Habiganj,60,Sylhet,Sylhet,97.5,Madhabpur,Madhabpur,71,95,100,MATCH
 36,Habiganj,60,Sylhet,Sylhet,47.5,Madhabpur,Madhabpur,71,95,0,MATCH
 55,Magura,40,Khulna,Khulna,81.5,Magura Sadar,Magura,57,63,100,MATCH
@@ -532,8 +532,8 @@ DistrictCode,DistrictName,DivisionCode,DivisionName,InputDivision,MeanFuzzRation
 64,Naogaon,50,Rajshahi,Rajshahi,45.5,Manda,Manda,47,91,0,MATCH
 46,Khagrachhari,20,Chittagong,Chittagong,98,Manikchhari,Manikchhari,67,96,100,MATCH
 46,Khagrachhari,20,Chittagong,Chittagong,48,Manikchhari,Manikchhari,67,96,0,MATCH
-72,Netrakona,30,Dhaka,Dhaka,87,Mohanganj,Manikganj,63,74,100,MISS2
-72,Netrakona,30,Dhaka,Dhaka,37,Mohanganj,Manikganj,63,74,0,MISS2
+72,Netrakona,30,Dhaka,Dhaka,87,Mohanganj,Manikganj,63,74,100,MISS2 (geo from Geo var missing)
+72,Netrakona,30,Dhaka,Dhaka,37,Mohanganj,Manikganj,63,74,0,MISS2 (geo from Geo var missing)
 79,Pirojpur,10,Barisal,Barisal,97.5,Mathbaria,Mathbaria,58,95,100,MATCH
 79,Pirojpur,10,Barisal,Barisal,47.5,Mathbaria,Mathbaria,58,95,0,MATCH
 46,Khagrachhari,20,Chittagong,Chittagong,97.5,Matiranga,Matiranga,70,95,100,MATCH
@@ -659,8 +659,8 @@ DistrictCode,DistrictName,DivisionCode,DivisionName,InputDivision,MeanFuzzRation
 48,Kishoreganj,30,Dhaka,Dhaka,95.5,Nikli,Nikli,76,91,100,MATCH
 48,Kishoreganj,30,Dhaka,Dhaka,45.5,Nikli,Nikli,76,91,0,MATCH
 73,Nilphamari,55,Rangpur,Rangpur,87,Nilphamari Sadar,Nilphamari,64,74,100,MATCH
-81,Rajshahi,50,Rajshahi,Rajshahi,90,Paba,Pabna,72,80,100,MISS2
-81,Rajshahi,50,Rajshahi,Rajshahi,40,Paba,Pabna,72,80,0,MISS2
+81,Rajshahi,50,Rajshahi,Rajshahi,90,Paba,Pabna,72,80,100,MISS2 (geo from Geo var missing)
+81,Rajshahi,50,Rajshahi,Rajshahi,40,Paba,Pabna,72,80,0,MISS2 (geo from Geo var missing)
 47,Khulna,40,Khulna,Khulna,97.5,Paikgachha,Paikgachha,64,95,100,MATCH
 47,Khulna,40,Khulna,Khulna,47.5,Paikgachha,Paikgachha,64,95,0,MATCH
 48,Kishoreganj,30,Dhaka,Dhaka,97,Pakundia,Pakundia,79,94,100,MATCH
@@ -758,7 +758,7 @@ DistrictCode,DistrictName,DivisionCode,DivisionName,InputDivision,MeanFuzzRation
 67,Narayanganj,30,Dhaka,Dhaka,96.5,Rupganj,Rupganj,68,93,100,MATCH
 47,Khulna,40,Khulna,Khulna,91.5,Rupsa,Rupsha,75,83,100,MATCH
 47,Khulna,40,Khulna,Khulna,41.5,Rupsa,Rupsha,75,83,0,MATCH
-91,Sylhet,60,Sylhet,Sylhet,78,Sylhet Sadar,Sadar,62,56,100,MISS2
+91,Sylhet,60,Sylhet,Sylhet,78,Sylhet Sadar,Sadar,62,56,100,MISS2 (geo from Geo var missing)
 26,Dhaka,30,Dhaka,Sylhet,36.5,Savar,Sadar,72,73,0,MISSMATCH
 29,Faridpur,30,Dhaka,Dhaka,97,Sadarpur,Sadarpur,84,94,100,MATCH
 29,Faridpur,30,Dhaka,Dhaka,47,Sadarpur,Sadarpur,84,94,0,MATCH
@@ -835,8 +835,8 @@ DistrictCode,DistrictName,DivisionCode,DivisionName,InputDivision,MeanFuzzRation
 67,Narayanganj,30,Dhaka,Dhaka,97.5,Sonargaon,Sonargaon,4,95,100,MATCH
 10,Bogra,50,Rajshahi,Rajshahi,97,Sonatola,Sonatola,95,94,100,MATCH
 10,Bogra,50,Rajshahi,Rajshahi,47,Sonatola,Sonatola,95,94,0,MATCH
-90,Sunamganj,60,Sylhet,Sylhet,68,Sulla,South,86,36,100,MISS2
-29,Faridpur,30,Dhaka,Sylhet,25,Saltha,South,90,50,0,MISS2
+90,Sunamganj,60,Sylhet,Sylhet,68,Sulla,South,86,36,100,MISS2 (geo from Geo var missing)
+29,Faridpur,30,Dhaka,Sylhet,25,Saltha,South,90,50,0,MISS2 (geo from Geo var missing)
 58,Maulvibazar,60,Sylhet,Sylhet,93,Sreemangal,Sreemongal,83,86,100,MATCH
 58,Maulvibazar,60,Sylhet,Sylhet,43,Sreemangal,Sreemongal,83,86,0,MATCH
 33,Gazipur,30,Dhaka,Dhaka,96.5,Sreepur,Sreepur,86,93,100,MATCH
@@ -848,8 +848,8 @@ DistrictCode,DistrictName,DivisionCode,DivisionName,InputDivision,MeanFuzzRation
 94,Thakurgaon,55,Rangpur,Khulna,35.5,Haripur,Sripur,51,71,0,MISSMATCH
 75,Noakhali,20,Chittagong,Chittagong,87,Subarnachar,Subarna,85,74,100,MATCH
 75,Noakhali,20,Chittagong,Chittagong,37,Subarnachar,Subarna,85,74,0,MATCH
-19,Comilla,20,Chittagong,Chittagong,80,Chauddagram,Sudharam,31,60,100,MISS2
-32,Gaibandha,55,Rangpur,Chittagong,31.5,Sundarganj,Sudharam,91,63,0,MISS2
+19,Comilla,20,Chittagong,Chittagong,80,Chauddagram,Sudharam,31,60,100,MISS2 (geo from Geo var missing)
+32,Gaibandha,55,Rangpur,Chittagong,31.5,Sundarganj,Sudharam,91,63,0,MISS2 (geo from Geo var missing)
 76,Pabna,50,Rajshahi,Rajshahi,97.5,Sujanagar,Sujanagar,83,95,100,MATCH
 76,Pabna,50,Rajshahi,Rajshahi,47.5,Sujanagar,Sujanagar,83,95,0,MATCH
 90,Sunamganj,60,Sylhet,Sylhet,95.5,Sulla,Sulla,86,91,100,MATCH
@@ -867,8 +867,8 @@ DistrictCode,DistrictName,DivisionCode,DivisionName,InputDivision,MeanFuzzRation
 9,Bhola,10,Barisal,Barisal,43,Tazumuddin,Tajumuddin,91,86,0,MATCH
 87,Satkhira,40,Khulna,Khulna,94.5,Tala,Tala,90,89,100,MATCH
 87,Satkhira,40,Khulna,Khulna,44.5,Tala,Tala,90,89,0,MATCH
-48,Kishoreganj,30,Dhaka,Dhaka,85.5,Tarail,Tangail,92,71,100,MISS2
-48,Kishoreganj,30,Dhaka,Dhaka,35.5,Tarail,Tangail,92,71,0,MISS2
+48,Kishoreganj,30,Dhaka,Dhaka,85.5,Tarail,Tangail,92,71,100,MISS2 (geo from Geo var missing)
+48,Kishoreganj,30,Dhaka,Dhaka,35.5,Tarail,Tangail,92,71,0,MISS2 (geo from Geo var missing)
 81,Rajshahi,50,Rajshahi,Rajshahi,96,Tanore,Tanore,94,92,100,MATCH
 81,Rajshahi,50,Rajshahi,Rajshahi,46,Tanore,Tanore,94,92,0,MATCH
 85,Rangpur,55,Rangpur,Rangpur,97,Taraganj,Taraganj,92,94,100,MATCH
@@ -891,8 +891,8 @@ DistrictCode,DistrictName,DivisionCode,DivisionName,InputDivision,MeanFuzzRation
 3,Bandarban,20,Chittagong,Chittagong,46.5,Thanchi,Thanchi,95,93,0,MATCH
 19,Comilla,20,Chittagong,Chittagong,91.5,Titas,Titash,94,83,100,MATCH
 19,Comilla,20,Chittagong,Chittagong,41.5,Titas,Titash,94,83,0,MATCH
-59,Munshiganj,30,Dhaka,Dhaka,83.5,Tongibari,Tongi,94,67,100,MISS2
-59,Munshiganj,30,Dhaka,Dhaka,33.5,Tongibari,Tongi,94,67,0,MISS2
+59,Munshiganj,30,Dhaka,Dhaka,83.5,Tongibari,Tongi,94,67,100,MISS2 (geo from Geo var missing)
+59,Munshiganj,30,Dhaka,Dhaka,33.5,Tongibari,Tongi,94,67,0,MISS2 (geo from Geo var missing)
 59,Munshiganj,30,Dhaka,Dhaka,97.5,Tongibari,Tongibari,94,95,100,MATCH
 59,Munshiganj,30,Dhaka,Dhaka,47.5,Tongibari,Tongibari,94,95,0,MATCH
 61,Mymensingh,30,Dhaka,Mymensingh,49.5,Trishal,Trisal,94,86,13,MATCH
@@ -905,4 +905,4 @@ DistrictCode,DistrictName,DivisionCode,DivisionName,InputDivision,MeanFuzzRation
 49,Kurigram,55,Rangpur,Rangpur,46,Ulipur,Ulipur,94,92,0,MATCH
 88,Sirajganj,50,Rajshahi,Rajshahi,90,Ullah Para,Ullahpara,94,80,100,MATCH
 88,Sirajganj,50,Rajshahi,Rajshahi,40,Ullah Para,Ullahpara,94,80,0,MATCH
-79,Pirojpur,10,Barisal,Barisal,87.5,Nazirpur,Uzirpur,76,75,100,MISS2
+79,Pirojpur,10,Barisal,Barisal,87.5,Nazirpur,Uzirpur,76,75,100,MISS2 (geo from Geo var missing)
