@@ -1,852 +1,0 @@
-
-       
-
-               I S S A     D i c t i o n a r y     R e p o r t
-
-
-                  IIIIIIIIII     SSSSSSS       SSSSSSS            A
-                 IIIIIIIIII    SSSSSSSSSS    SSSSSSSSSS          AA
-                   IIII       SSSS          SSSS               AAAA
-                  IIII       SSSS          SSSS              AAAAAA
-                 IIII       SSSS          SSSS             AAA  AAA
-                IIII       SSSSSSSS      SSSSSSSS         AAA  AAA 
-               IIII         SSSSSSSS      SSSSSSSS      AAA    AAA 
-              IIII             SSSS          SSSS      AAAAAAAAAA  
-             IIII             SSSS          SSSS     AAAAAAAAAAAA  
-            IIII             SSSS          SSSS     AAA      AAA   
-        IIIIIIIIII    SSSSSSSSSS    SSSSSSSSSS    AAAA      AAAA   
-       IIIIIIIIII      SSSSSSS       SSSSSSS     AAAA      AAAA    
-
-  I n t e g r a t e d   S y s t e m   f o r    S u r v e y   A n a l y s i s
-
-
---------------------------------------------------------------------------------
-
-Dictionary Name   : BDSQ35   (file 'BDSQ35.DIC')
-
-Dictionary Label  : Service Availability          
-
-Owner             : K Purvis                      
-
-Country           : Bangladesh                    
-
-Creation Date     : Feb 11, 1994
-
-Last Update       : Feb 16, 1994
-
-Questionnaire Id    Loc   Len   Label
-
-                    1     3     Cluster number                
-
-Section Id          Loc   Len
-
-                    4     2  
-
-Report date & time: 10-18-96 at 07:20:11 hrs.
-
-
-                             SECTION DESCRIPTION                       
-                                                                        10-18-96
-                                                                        07:20:11
---------------------------------------------------------------------------------
-Section     Length      Occurs   ---  Group  ---  
- name   Code     Class  Min Max    Max Loc Len    Section Label
---------------------------------------------------------------------------------
-
-GSEC1    01    37  S     0   1   -without group-  
-
-GSEC2    02    75  S     0   1     14    6   5    
-
-GSEC3    03    31  S     0   1      7   18   2    
-
-GSEC4    04    57  S     0   1   -without group-  
-
-
-                             VARIABLE  DESCRIPTION                     
-Section   : GSEC1                                                       10-18-96
-                                                                        07:20:11
---------------------------------------------------------------------------------
-Variable  Loca  Len   Deci  For   Class  Variable Label
-Name      tion  gth   mals  mat          Value   Label
---------------------------------------------------------------------------------
-
-GSQDIV       6    1    0     N      S    Division number               
-                                         ranges:   lower   upper
-                                                       1       5
-
-GSQDISTR     7    2    0     N      S    District number               
-
-GSQCLUST     9    3    0     N      S    Cluster number                
-
-GSQTYPE     12    1    0     N      S    Type of area for thana        
-                                         values:   value  label
-                                                       1  Dhaka/Chittagong    
-                                                       2  Small city          
-                                                       3  Town                
-                                                       4  Village             
-                                         ranges:   lower   upper
-                                                       1       4
-
-GSQINT      13    3    0     N      S    Interviewer number            
-                                         ranges:   lower   upper
-                                                       1     200
-
-GSQINTD     16    2    0     N      S    Day of interview              
-                                         ranges:   lower   upper
-                                                       1      31
-
-GSQINTM     18    2    0     N      S    Month of interview            
-                                         ranges:   lower   upper
-                                                       1       4
-                                                      11      12
-
-GSQINTY     20    4    0     N      S    Year of interview (English)   
-                                         ranges:   lower   upper
-                                                    1993    1994
-
-GSQKEYER    24    2    0     N      S    Keyer number                  
-                                         ranges:   lower   upper
-                                                       1      20
-
-GSQDAI      26    2    0     N      S    Total of Dai questionnaires   
-                                         ranges:   lower   upper
-                                                       0      20
-
-GSQDPL      28    2    0     N      S    Total of Deliv.pers. q'aires  
-                                         ranges:   lower   upper
-                                                       0      20
-
-GSQFPP      30    2    0     N      S    Total of FP pract'r. q'aires  
-                                         ranges:   lower   upper
-                                                       0      20
-
-
-                             VARIABLE  DESCRIPTION                     
-Section   : GSEC1                                                       10-18-96
-                                                                        07:20:11
---------------------------------------------------------------------------------
-Variable  Loca  Len   Deci  For   Class  Variable Label
-Name      tion  gth   mals  mat          Value   Label
---------------------------------------------------------------------------------
-
-GSQFWV      32    2    0     N      S    Total of FWV questionnaires   
-                                         ranges:   lower   upper
-                                                       0      20
-
-GSQFWA      34    2    0     N      S    Total of FWA questionnaires   
-                                         ranges:   lower   upper
-                                                       0      20
-
-TOTRESP     36    2    0     N      S    Sum of individual questionnair
-                                         ranges:   lower   upper
-                                                       0      50
-
-
-                             VARIABLE  DESCRIPTION                     
-Section   : GSEC2                                                       10-18-96
-                                                                        07:20:11
---------------------------------------------------------------------------------
-Variable  Loca  Len   Deci  For   Class  Variable Label
-Name      tion  gth   mals  mat          Value   Label
---------------------------------------------------------------------------------
-
-GLINE        6    2    0     N      M    Health personnel quest.ID     
-                                         values:   value  label
-                                                   BLANK  Not applicable value
-
-GPTYPE       8    3    0     N      M    Type of questionnaire         
-                                         values:   value  label
-                                                       1  Dai                 
-                                                       2  Delivery personnel  
-                                                       3  Family pl.physician 
-                                                       4  Family Welfare Vstor
-                                                       5  Family Welfare Asst.
-                                                   BLANK  Not applicable value
-                                         ranges:   lower   upper
-                                                       1       5
-
-
-                             VARIABLE  DESCRIPTION                     
-Section   : GSEC3                                                       10-18-96
-                                                                        07:20:11
---------------------------------------------------------------------------------
-Variable  Loca  Len   Deci  For   Class  Variable Label
-Name      tion  gth   mals  mat          Value   Label
---------------------------------------------------------------------------------
-
-GSQ01        6    2    0     N      S    Dist. to thana hdqtrs (miles) 
-                                         values:   value  label
-                                                      97  97 miles or more    
-                                                      98  Don't know          
-                                                      99  Missing value
-                                                   BLANK  Not applicable value
-                                         ranges:   lower   upper
-                                                       0      98
-
-GSQ02        8    2    0     N      S    Dist.to district hdqtrs(miles)
-                                         values:   value  label
-                                                      97  97 miles or more    
-                                                      98  Don't know          
-                                                   BLANK  Not applicable value
-
-GSQ03       10    1    0     N      S    Mothers club/LA in village    
-                                         values:   value  label
-                                                       1  Yes                 
-                                                       2  No                  
-                                                       9  Missing value
-                                                   BLANK  Not applicable value
-                                         ranges:   lower   upper
-                                                       1       2
-
-GSQ04       11    1    0     N      S    Grameen bank in village       
-                                         values:   value  label
-                                                       1  Yes                 
-                                                       2  No                  
-                                                       9  Missing value
-                                                   BLANK  Not applicable value
-                                         ranges:   lower   upper
-                                                       1       2
-
-GSQ05       12    1    0     N      S    BSIC Industries in village    
-                                         values:   value  label
-                                                       1  Yes                 
-                                                       2  No                  
-                                                       9  Missing value
-                                                   BLANK  Not applicable value
-                                         ranges:   lower   upper
-                                                       1       2
-
-GSQ06       13    1    0     N      S    Co-operative soc. in village  
-                                         values:   value  label
-                                                       1  Yes                 
-                                                       2  No                  
-                                                       9  Missing value
-                                                   BLANK  Not applicable value
-                                         ranges:   lower   upper
-                                                       1       2
-
-
-                             VARIABLE  DESCRIPTION                     
-Section   : GSEC3                                                       10-18-96
-                                                                        07:20:11
---------------------------------------------------------------------------------
-Variable  Loca  Len   Deci  For   Class  Variable Label
-Name      tion  gth   mals  mat          Value   Label
---------------------------------------------------------------------------------
-
-GSQ07       14    1    0     N      S    Inc.gen NGO's in village      
-                                         values:   value  label
-                                                       1  Yes                 
-                                                       2  No                  
-                                                       9  Missing value
-                                                   BLANK  Not applicable value
-                                         ranges:   lower   upper
-                                                       1       2
-
-GSQ08       15    1    0     N      S    Comm. television in village   
-                                         values:   value  label
-                                                       1  Yes                 
-                                                       2  No                  
-                                                       9  Missing value
-                                                   BLANK  Not applicable value
-                                         ranges:   lower   upper
-                                                       1       2
-
-GSQ09       16    1    0     N      S    Prop.of HH's living in 1 room 
-                                         values:   value  label
-                                                       1  All/almost all      
-                                                       2  Most/more than half 
-                                                       3  Less than half      
-                                                       4  Very few/none       
-                                                       9  Missing value
-                                                   BLANK  Not applicable value
-                                         ranges:   lower   upper
-                                                       1       4
-
-GSQ10       17    1    0     N      S    Prop.of HH's in non pukka hses
-                                         values:   value  label
-                                                       1  All/almost all      
-                                                       2  Most/more than half 
-                                                       3  Less than half      
-                                                       4  Very few/none       
-                                                       9  Missing value
-                                                   BLANK  Not applicable value
-                                         ranges:   lower   upper
-                                                       1       4
-
-GSQ11       18    2    0     N      M    Facility in village/miles     
-                                         values:   value  label
-                                                       0  In village          
-                                                      97  97 miles or more    
-                                                      98  Don't know distance 
-                                                      99  Missing value
-                                                   BLANK  Not applicable value
-                                         ranges:   lower   upper
-                                                       0      98
-
-
-                             VARIABLE  DESCRIPTION                     
-Section   : GSEC4                                                       10-18-96
-                                                                        07:20:11
---------------------------------------------------------------------------------
-Variable  Loca  Len   Deci  For   Class  Variable Label
-Name      tion  gth   mals  mat          Value   Label
---------------------------------------------------------------------------------
-
-GSQ12        6    1    0     N      S    FPW visits village            
-                                         values:   value  label
-                                                       1  Yes                 
-                                                       2  No                  
-                                                       9  Missing value
-                                                   BLANK  Not applicable value
-                                         ranges:   lower   upper
-                                                       1       2
-
-GSQ13A       7    1    0     N      S    FPW prov. info. on Fmly.plng  
-                                         values:   value  label
-                                                       1  Yes                 
-                                                       2  No                  
-                                                       8  DK                  
-                                                       9  Missing value
-                                                   BLANK  Not applicable value
-                                         ranges:   lower   upper
-                                                       1       2
-                                                       8       8
-
-GSQ13B       8    1    0     N      S    FPW prov. meths of Fmly.plng  
-                                         values:   value  label
-                                                       1  Yes                 
-                                                       2  No                  
-                                                       8  DK                  
-                                                       9  Missing value
-                                                   BLANK  Not applicable value
-                                         ranges:   lower   upper
-                                                       1       2
-                                                       8       8
-
-GSQ13C       9    1    0     N      S    FPW helps at satellite clinic 
-                                         values:   value  label
-                                                       1  Yes                 
-                                                       2  No                  
-                                                       8  DK                  
-                                                       9  Missing value
-                                                   BLANK  Not applicable value
-                                         ranges:   lower   upper
-                                                       1       2
-                                                       8       8
-
-
-                             VARIABLE  DESCRIPTION                     
-Section   : GSEC4                                                       10-18-96
-                                                                        07:20:11
---------------------------------------------------------------------------------
-Variable  Loca  Len   Deci  For   Class  Variable Label
-Name      tion  gth   mals  mat          Value   Label
---------------------------------------------------------------------------------
-
-GSQ13D      10    1    0     N      S    FPW takes wmn.to clinic/hosp. 
-                                         values:   value  label
-                                                       1  Yes                 
-                                                       2  No                  
-                                                       8  DK                  
-                                                       9  Missing value
-                                                   BLANK  Not applicable value
-                                         ranges:   lower   upper
-                                                       1       2
-                                                       8       8
-
-GSQ13E      11    1    0     N      S    FPW takes child.for immuniztn.
-                                         values:   value  label
-                                                       1  Yes                 
-                                                       2  No                  
-                                                       8  DK                  
-                                                       9  Missing value
-                                                   BLANK  Not applicable value
-                                         ranges:   lower   upper
-                                                       1       2
-                                                       8       8
-
-GSQ13F      12    1    0     N      S    FPW prov. vit.A caps.for child
-                                         values:   value  label
-                                                       1  Yes                 
-                                                       2  No                  
-                                                       8  DK                  
-                                                       9  Missing value
-                                                   BLANK  Not applicable value
-                                         ranges:   lower   upper
-                                                       1       2
-                                                       8       8
-
-GSQ15       13    2    0     N      S    How long FPW worked in village
-                                         values:   value  label
-                                                       0  Less than 1 year    
-                                                      98  DK                  
-                                                      99  Missing value
-                                                   BLANK  Not applicable value
-                                         ranges:   lower   upper
-                                                       0      30
-                                                      98      98
-
-GSQ16       15    1    0     N      S    Another FPW before current one
-                                         values:   value  label
-                                                       1  Yes                 
-                                                       2  No                  
-                                                       9  Missing value
-                                                   BLANK  Not applicable value
-                                         ranges:   lower   upper
-                                                       1       2
-
-
-                             VARIABLE  DESCRIPTION                     
-Section   : GSEC4                                                       10-18-96
-                                                                        07:20:11
---------------------------------------------------------------------------------
-Variable  Loca  Len   Deci  For   Class  Variable Label
-Name      tion  gth   mals  mat          Value   Label
---------------------------------------------------------------------------------
-
-GSQ17       16    2    0     N      S    How long ago did 1st FPW start
-                                         values:   value  label
-                                                       0  Less than 1 year    
-                                                      98  DK                  
-                                                      99  Missing value
-                                                   BLANK  Not applicable value
-                                         ranges:   lower   upper
-                                                       0      30
-                                                      98      98
-
-GSQ18       18    1    0     N      S    Is there health wkr in village
-                                         values:   value  label
-                                                       1  Yes                 
-                                                       2  No                  
-                                                       9  Missing value
-                                                   BLANK  Not applicable value
-                                         ranges:   lower   upper
-                                                       1       2
-
-GSQ19A      19    1    0     N      S    HW provides health information
-                                         values:   value  label
-                                                       1  Yes                 
-                                                       2  No                  
-                                                       8  DK                  
-                                                       9  Missing value
-                                                   BLANK  Not applicable value
-                                         ranges:   lower   upper
-                                                       1       2
-                                                       8       8
-
-GSQ19B      20    1    0     N      S    HW provides immunizations     
-                                         values:   value  label
-                                                       1  Yes                 
-                                                       2  No                  
-                                                       8  DK                  
-                                                       9  Missing value
-                                                   BLANK  Not applicable value
-                                         ranges:   lower   upper
-                                                       1       2
-                                                       8       8
-
-GSQ19C      21    1    0     N      S    HW provides ORS packets       
-                                         values:   value  label
-                                                       1  Yes                 
-                                                       2  No                  
-                                                       8  DK                  
-                                                       9  Missing value
-                                                   BLANK  Not applicable value
-                                         ranges:   lower   upper
-                                                       1       2
-                                                       8       8
-
-
-                             VARIABLE  DESCRIPTION                     
-Section   : GSEC4                                                       10-18-96
-                                                                        07:20:11
---------------------------------------------------------------------------------
-Variable  Loca  Len   Deci  For   Class  Variable Label
-Name      tion  gth   mals  mat          Value   Label
---------------------------------------------------------------------------------
-
-GSQ19D      22    1    0     N      S    HW provides vit.A capsules    
-                                         values:   value  label
-                                                       1  Yes                 
-                                                       2  No                  
-                                                       8  DK                  
-                                                       9  Missing value
-                                                   BLANK  Not applicable value
-                                         ranges:   lower   upper
-                                                       1       2
-                                                       8       8
-
-GSQ20A      23    1    0     N      S    Other FPW/hlth.wkr in village 
-                                         values:   value  label
-                                                       1  Yes                 
-                                                       2  No                  
-                                                       8  DK                  
-                                                       9  Missing value
-                                                   BLANK  Not applicable value
-                                         ranges:   lower   upper
-                                                       1       2
-                                                       8       8
-
-GSQ21       24    8    0     A      S    Services prov.by other HWkr   
-
-GSQ22       32    1    0     N      S    Anyone who sells FP meths./hse
-                                         values:   value  label
-                                                       1  Yes                 
-                                                       2  No                  
-                                                       8  DK                  
-                                                       9  Missing value
-                                                   BLANK  Not applicable value
-                                         ranges:   lower   upper
-                                                       1       2
-                                                       8       8
-
-GSQ23       33    4    0     A      S    Methods sold from house       
-                                         values:   value  label
-                                                   BLANK  Not applicable value
-
-GSQ24       37    1    0     N      S    Satellite clinic in village   
-                                         values:   value  label
-                                                       1  Yes                 
-                                                       2  No                  
-                                                       8  DK                  
-                                                       9  Missing value
-                                                   BLANK  Not applicable value
-                                         ranges:   lower   upper
-                                                       1       2
-                                                       8       8
-
-
-                             VARIABLE  DESCRIPTION                     
-Section   : GSEC4                                                       10-18-96
-                                                                        07:20:11
---------------------------------------------------------------------------------
-Variable  Loca  Len   Deci  For   Class  Variable Label
-Name      tion  gth   mals  mat          Value   Label
---------------------------------------------------------------------------------
-
-GSQ25A      38    1    0     N      S    Sat.clinic held nearby        
-                                         values:   value  label
-                                                       1  Yes                 
-                                                       2  No                  
-                                                       8  DK                  
-                                                       9  Missing value
-                                                   BLANK  Not applicable value
-                                         ranges:   lower   upper
-                                                       1       2
-                                                       8       8
-
-GSQ25B      39    2    0     N      S    Distance to nearby sat.clinic 
-                                         values:   value  label
-                                                      97  97 miles or more    
-                                                      98  Don't know          
-                                                      99  Missing value
-                                                   BLANK  Not applicable value
-                                         ranges:   lower   upper
-                                                       1      98
-
-GSQ26B      41   10    0     A      S    Services avail.frm.satellite  
-                                         values:   value  label
-                                                   BLANK  Not applicable value
-
-GSQ27U      51    1    0     N      S    Freq. of sat.clinics : units  
-                                         values:   value  label
-                                                       1  Per month           
-                                                       2  Per year            
-                                                       9  Special answers     
-                                                   BLANK  Not applicable value
-                                         ranges:   lower   upper
-                                                       1       2
-                                                       9       9
-
-GSQ27N      52    2    0     N      S    Freq. of sat.clinics : number 
-                                         values:   value  label
-                                                      99  Missing value       
-                                                   BLANK  Not applicable value
-                                         ranges:   lower   upper
-                                                       1      90
-                                                      99      99
-
-GSQ28       54    2    0     N      S    Dist.to nearest family w.centr
-                                         values:   value  label
-                                                      97  97 miles or more    
-                                                      98  Don't know          
-                                                      99  Missing value
-                                                   BLANK  Not applicable value
-                                         ranges:   lower   upper
-                                                       0      98
-
-
-                             VARIABLE  DESCRIPTION                     
-Section   : GSEC4                                                       10-18-96
-                                                                        07:20:11
---------------------------------------------------------------------------------
-Variable  Loca  Len   Deci  For   Class  Variable Label
-Name      tion  gth   mals  mat          Value   Label
---------------------------------------------------------------------------------
-
-GSQ29       56    2    0     N      S    Dist.to nrst hosp/thana HC    
-                                         values:   value  label
-                                                      97  97 miles or more    
-                                                      98  Don't know          
-                                                      99  Missing value
-                                                   BLANK  Not applicable value
-                                         ranges:   lower   upper
-                                                       1      98
-
-
-                             SECTION MAP                               
-Section   : GSEC1                                                       10-18-96
-                                                                        07:20:11
---------------------------------------------------------------------------------
-Loc  Fmt   Variable      Variable Label                  Missing NotAppl Default
---------------------------------------------------------------------------------
-
-     ___
-   1|   |                
-    |   |
-    |   |
-    |   |
-    |   |     ___
-   6| N |  GSQDIV        Division number                                             ___
-   7| N |  GSQDISTR      District number                                        
-    | N |     ___
-   9| N |  GSQCLUST      Cluster number                                         
-    | N |
-    | N |     ___
-  12| N |  GSQTYPE       Type of area for thana                                      ___
-  13| N |  GSQINT        Interviewer number                                     
-    | N |
-    | N |     ___
-  16| N |  GSQINTD       Day of interview                                       
-    | N |     ___
-  18| N |  GSQINTM       Month of interview                                     
-    | N |     ___
-  20| N |  GSQINTY       Year of interview (English)                            
-    | N |
-    | N |
-    | N |     ___
-  24| N |  GSQKEYER      Keyer number                                           
-    | N |     ___
-  26| N |  GSQDAI        Total of Dai questionnaires                            
-    | N |     ___
-  28| N |  GSQDPL        Total of Deliv.pers. q'aires                           
-    | N |     ___
-  30| N |  GSQFPP        Total of FP pract'r. q'aires                           
-    | N |     ___
-  32| N |  GSQFWV        Total of FWV questionnaires                            
-    | N |     ___
-  34| N |  GSQFWA        Total of FWA questionnaires                            
-    | N |     ___
-  36| N |  TOTRESP       Sum of individual questionnair                         
-    | N |     ___
-
-                             SECTION MAP                               
-Section   : GSEC2                                                       10-18-96
-                                                                        07:20:11
---------------------------------------------------------------------------------
-Loc  Fmt   Variable      Variable Label                  Missing NotAppl Default
---------------------------------------------------------------------------------
-
-     ___
-   1|   |                
-    |   |
-    |   |
-    |   |
-    |   |     ___
-   6| N |  GLINE     (1) Health personnel quest.ID                 BLANK        
-    | N |     ___
-   8| N |  GPTYPE    (1) Type of questionnaire                     BLANK        
-    | N |
-    | N |     ___
-  11| N |  GLINE     (2) Health personnel quest.ID                 BLANK        
-    | N |     ___
-  13| N |  GPTYPE    (2) Type of questionnaire                     BLANK        
-    | N |
-    | N |     ___
-  16| N |  GLINE     (3) Health personnel quest.ID                 BLANK        
-    | N |     ___
-  18| N |  GPTYPE    (3) Type of questionnaire                     BLANK        
-    | N |
-    | N |     ___
-  21| N |  GLINE     (4) Health personnel quest.ID                 BLANK        
-    | N |     ___
-  23| N |  GPTYPE    (4) Type of questionnaire                     BLANK        
-    | N |
-    | N |     ___
-  26| N |  GLINE     (5) Health personnel quest.ID                 BLANK        
-    | N |     ___
-  28| N |  GPTYPE    (5) Type of questionnaire                     BLANK        
-    | N |
-    | N |     ___
-  31| N |  GLINE     (6) Health personnel quest.ID                 BLANK        
-    | N |     ___
-  33| N |  GPTYPE    (6) Type of questionnaire                     BLANK        
-    | N |
-    | N |     ___
-  36| N |  GLINE     (7) Health personnel quest.ID                 BLANK        
-    | N |     ___
-  38| N |  GPTYPE    (7) Type of questionnaire                     BLANK        
-    | N |
-    | N |     ___
-  41| N |  GLINE     (8) Health personnel quest.ID                 BLANK        
-    | N |     ___
-  43| N |  GPTYPE    (8) Type of questionnaire                     BLANK        
-    | N |
-    | N |     ___
-  46| N |  GLINE     (9) Health personnel quest.ID                 BLANK        
-    | N |     ___
-  48| N |  GPTYPE    (9) Type of questionnaire                     BLANK        
-    | N |
-    | N |     ___
-
-                             SECTION MAP                               
-Section   : GSEC2                                                       10-18-96
-                                                                        07:20:11
---------------------------------------------------------------------------------
-Loc  Fmt   Variable      Variable Label                  Missing NotAppl Default
---------------------------------------------------------------------------------
-
-     ___
-  51| N |  GLINE    (10) Health personnel quest.ID                 BLANK        
-    | N |     ___
-  53| N |  GPTYPE   (10) Type of questionnaire                     BLANK        
-    | N |
-    | N |     ___
-  56| N |  GLINE    (11) Health personnel quest.ID                 BLANK        
-    | N |     ___
-  58| N |  GPTYPE   (11) Type of questionnaire                     BLANK        
-    | N |
-    | N |     ___
-  61| N |  GLINE    (12) Health personnel quest.ID                 BLANK        
-    | N |     ___
-  63| N |  GPTYPE   (12) Type of questionnaire                     BLANK        
-    | N |
-    | N |     ___
-  66| N |  GLINE    (13) Health personnel quest.ID                 BLANK        
-    | N |     ___
-  68| N |  GPTYPE   (13) Type of questionnaire                     BLANK        
-    | N |
-    | N |     ___
-  71| N |  GLINE    (14) Health personnel quest.ID                 BLANK        
-    | N |     ___
-  73| N |  GPTYPE   (14) Type of questionnaire                     BLANK        
-    | N |
-    | N |     ___
-
-                             SECTION MAP                               
-Section   : GSEC3                                                       10-18-96
-                                                                        07:20:11
---------------------------------------------------------------------------------
-Loc  Fmt   Variable      Variable Label                  Missing NotAppl Default
---------------------------------------------------------------------------------
-
-     ___
-   1|   |                
-    |   |
-    |   |
-    |   |
-    |   |     ___
-   6| N |  GSQ01         Dist. to thana hdqtrs (miles)        99   BLANK        
-    | N |     ___
-   8| N |  GSQ02         Dist.to district hdqtrs(miles)            BLANK        
-    | N |     ___
-  10| N |  GSQ03         Mothers club/LA in village            9   BLANK             ___
-  11| N |  GSQ04         Grameen bank in village               9   BLANK             ___
-  12| N |  GSQ05         BSIC Industries in village            9   BLANK             ___
-  13| N |  GSQ06         Co-operative soc. in village          9   BLANK             ___
-  14| N |  GSQ07         Inc.gen NGO's in village              9   BLANK             ___
-  15| N |  GSQ08         Comm. television in village           9   BLANK             ___
-  16| N |  GSQ09         Prop.of HH's living in 1 room         9   BLANK             ___
-  17| N |  GSQ10         Prop.of HH's in non pukka hses        9   BLANK             ___
-  18| N |  GSQ11     (1) Facility in village/miles            99   BLANK        
-    | N |     ___
-  20| N |  GSQ11     (2) Facility in village/miles            99   BLANK        
-    | N |     ___
-  22| N |  GSQ11     (3) Facility in village/miles            99   BLANK        
-    | N |     ___
-  24| N |  GSQ11     (4) Facility in village/miles            99   BLANK        
-    | N |     ___
-  26| N |  GSQ11     (5) Facility in village/miles            99   BLANK        
-    | N |     ___
-  28| N |  GSQ11     (6) Facility in village/miles            99   BLANK        
-    | N |     ___
-  30| N |  GSQ11     (7) Facility in village/miles            99   BLANK        
-    | N |     ___
-
-                             SECTION MAP                               
-Section   : GSEC4                                                       10-18-96
-                                                                        07:20:11
---------------------------------------------------------------------------------
-Loc  Fmt   Variable      Variable Label                  Missing NotAppl Default
---------------------------------------------------------------------------------
-
-     ___
-   1|   |                
-    |   |
-    |   |
-    |   |
-    |   |     ___
-   6| N |  GSQ12         FPW visits village                    9   BLANK             ___
-   7| N |  GSQ13A        FPW prov. info. on Fmly.plng          9   BLANK             ___
-   8| N |  GSQ13B        FPW prov. meths of Fmly.plng          9   BLANK             ___
-   9| N |  GSQ13C        FPW helps at satellite clinic         9   BLANK             ___
-  10| N |  GSQ13D        FPW takes wmn.to clinic/hosp.         9   BLANK             ___
-  11| N |  GSQ13E        FPW takes child.for immuniztn.        9   BLANK             ___
-  12| N |  GSQ13F        FPW prov. vit.A caps.for child        9   BLANK             ___
-  13| N |  GSQ15         How long FPW worked in village       99   BLANK        
-    | N |     ___
-  15| N |  GSQ16         Another FPW before current one        9   BLANK             ___
-  16| N |  GSQ17         How long ago did 1st FPW start       99   BLANK        
-    | N |     ___
-  18| N |  GSQ18         Is there health wkr in village        9   BLANK             ___
-  19| N |  GSQ19A        HW provides health information        9   BLANK             ___
-  20| N |  GSQ19B        HW provides immunizations             9   BLANK             ___
-  21| N |  GSQ19C        HW provides ORS packets               9   BLANK             ___
-  22| N |  GSQ19D        HW provides vit.A capsules            9   BLANK             ___
-  23| N |  GSQ20A        Other FPW/hlth.wkr in village         9   BLANK             ___
-  24| A |  GSQ21         Services prov.by other HWkr                            
-    | A |
-    | A |
-    | A |
-    | A |
-    | A |
-    | A |
-    | A |     ___
-  32| N |  GSQ22         Anyone who sells FP meths./hse        9   BLANK             ___
-  33| A |  GSQ23         Methods sold from house                   BLANK        
-    | A |
-    | A |
-    | A |     ___
-  37| N |  GSQ24         Satellite clinic in village           9   BLANK             ___
-  38| N |  GSQ25A        Sat.clinic held nearby                9   BLANK             ___
-  39| N |  GSQ25B        Distance to nearby sat.clinic        99   BLANK        
-    | N |     ___
-  41| A |  GSQ26B        Services avail.frm.satellite              BLANK        
-    | A |
-    | A |
-    | A |
-    | A |
-    | A |
-    | A |
-    | A |
-    | A |
-    | A |     ___
-  51| N |  GSQ27U        Freq. of sat.clinics : units              BLANK             ___
-
-                             SECTION MAP                               
-Section   : GSEC4                                                       10-18-96
-                                                                        07:20:11
---------------------------------------------------------------------------------
-Loc  Fmt   Variable      Variable Label                  Missing NotAppl Default
---------------------------------------------------------------------------------
-
-     ___
-  52| N |  GSQ27N        Freq. of sat.clinics : number             BLANK        
-    | N |     ___
-  54| N |  GSQ28         Dist.to nearest family w.centr       99   BLANK        
-    | N |     ___
-  56| N |  GSQ29         Dist.to nrst hosp/thana HC           99   BLANK        
-    | N |     ___
-
-... Report of Dictionary BDSQ35 normally ended
