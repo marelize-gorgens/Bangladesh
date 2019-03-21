@@ -193,6 +193,7 @@ final <- ddply(pr, ~shdistrict, summarise, # Summarize by district
 #----------------------------------------------------------------------------------------------------------
 
 write.csv(final,"./output/dhs/data/data_dhs_2011.csv", row.names=FALSE) # Save metadata
+write.csv(pr,"./output/dhs/data/data_dhs_pr_2011.csv", row.names=FALSE) # Save metadata
 
 #----------------------------------------------------------------------------------------------------------
 # Create/save metadata
