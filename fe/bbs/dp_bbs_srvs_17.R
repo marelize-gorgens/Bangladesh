@@ -3,7 +3,7 @@
 # Description: Data preprocessing of SRVS datasets
 # Organization: Health, Nutrition, and Population (HNP) | The World Bank
 # Author: Hellen Matarazzo
-# Date: Updated on 03-25-2019
+# Date: Updated on 03-26-2019
 #----------------------------------------------------------------------------------------------------------
 
 #----------------------------------------------------------------------------------------------------------
@@ -61,41 +61,40 @@ tafsil9_var <- get_variable_labels(tafsil9)
 
 # Section 2: Household roster and demographic characteristics ---------------------------------------------
 # "tafsil-2H" 
-zila # Zila Code
-upza # Upazila Code
-rmo # Rural Urban Code
-hh_no # Household Number
-q2_1 # Sources of Drinking Water
-q_4 # Sources of light
-q_5 # Sources of Fuel
-q_6 # Toilet Facilities
+# zila # Zila Code
+# upza # Upazila Code
+# rmo # Rural Urban Code
+# hh_no # Household Number
+# q2_1 # Sources of Drinking Water
+# q_4 # Sources of light
+# q_5 # Sources of Fuel
+# q_6 # Toilet Facilities
 
 # "tafsil-2P" 
-zila # Zila Code
-upza # Upazila Code
-rmo # Rural Urban Code
-q_10 # Age
-q_11 # Sex | Men==1
-q_14 # Marital Status
-q_16 # Level of Education
-q_19 # Literacy
-q_20 # Education
-hhsize # RECODE of tot_pop
-agecat1 # RECODE of q_10
-agecat2 # RECODE of q_10
-resi # RECODE of rmo
-religion # RECODE of q_12
-divn # RECODE of psu_no
-sex # RECODE of q_11
-agecatLT # RECODE of q_10
+# zila # Zila Code
+# upza # Upazila Code
+# rmo # Rural Urban Code
+# q_10 # Age
+# q_11 # Sex | Men==1
+# q_14 # Marital Status | Married==2
+# q_16 # Level of Education
+# q_19 # Literacy
+# q_20 # Education
+# hhsize # RECODE of tot_pop
+# agecat1 # RECODE of q_10
+# agecat2 # RECODE of q_10
+# resi # RECODE of rmo | Rural==1
+# divn # RECODE of psu_no
+# sex # RECODE of q_11
+# agecatLT # RECODE of q_10
 
 # Section 3: Birth ----------------------------------------------------------------------------------------
 # "tafsil-3" 
-zila # Zila Code
-upza # Upazila Code
-rmo # Rural Urban Code
-q_4 # Birth Registration Yes/No (within 45 days of the birth) | Yes==1
-q_7 # Birth Attendent
+# zila # Zila Code
+# upza # Upazila Code
+# rmo # Rural Urban Code
+# q_4 # Birth Registration Yes/No (within 45 days of the birth) | Yes==1
+# q_7 # Birth Attendent
       # 1. Trained Doctor, 
       # 2. Nurse, Midwife, paramedic, Family welfare visitors (FVW), 
       # 3. Medical Assistant (MA)/ Sun assistant community medical officer (SACMO)
@@ -104,20 +103,20 @@ q_7 # Birth Attendent
       # 6. Untrained village doctor/ QUACK
       # 7. Neighbour/Relatives
       # 9. Others
-q_9 # Live Birth | Yes==1
-q_12 # Mothers Age (in full years)
+# q_9 # Live Birth | Yes==1
+# q_12 # Mothers Age (in full years)
 
 # Section 4: Deaths ---------------------------------------------------------------------------------------
-q_3y # Age
-q_5 # Causes of Death
+# q_3y # Age
+# q_5 # Causes of Death
 
 # Section 9: Use of Contraceptives ------------------------------------------------------------------------
 # "tafsil-9" 
-zila # Zila Code
-upza # Upazila Code
-rmo # Rural Urban Code
-i4 # Current age (in full years)
-i5 # Education
+# zila # Zila Code
+# upza # Upazila Code
+# rmo # Rural Urban Code
+# i4 # Current age (in full years)
+# i5 # Education
       # 1.	Did not passed 1st grade 
       # 2.	Passed 1st grade 
       # 3.	Passed 2nd grade 
@@ -136,60 +135,119 @@ i5 # Education
       # 16.	 Diploma
       # 17.	 Vocational 
       # 18.	 Others 
-i14 # Currently use contrceptiev techniques | Yes==1
+# i14 # Currently use contrceptiev techniques | Yes==1
 
 #----------------------------------------------------------------------------------------------------------
 # Data transformation
 #----------------------------------------------------------------------------------------------------------
 
+# Zila ----------------------------------------------------------------------------------------------------
 # Births
 births <- ddply(tafsil3, ~zila, summarise, # Summarize by district
-                no_births=length(q_9),
-                no_live_births=sum(q_9==1),
-                no_registered_births=sum(q_4==1),
-                prop_registered_births=sum(q_4==1)/length(q_9),
-                prop_attendant_delivery=sum(q_7 %in% c(1,2,3))/length(q_9))
+                "no_births"=length(q_9),
+                "no_live_births"=sum(q_9==1),
+                "no_registered_births"=sum(q_4==1),
+                "prop_registered_births"=round(sum(q_4==1)/length(q_9),2),
+                "prop_attendant_delivery"=round(sum(q_7 %in% c(1,2,3))/length(q_9),2))
 
 # Deaths
 deaths <- ddply(tafsil4, ~zila, summarise, # Summarize by district
-                no_deaths=length(q_2),
-                no_deaths_rural=sum(resi==1),
-                no_deaths_urban=sum(resi==2),
-                prop_deaths_rural=sum(resi==1)/length(q_2),
-                no_deaths_under5=sum(q_3y<5),
-                no_deaths_under1=sum(q_3y<1),
-                rate_maternal_mortality=sum(q_5 %in% c(37,38,39,40,41,42,43))/length(q_2))
+                "no_deaths"=length(q_2),
+                "no_deaths_rural"=sum(resi==1),
+                "prop_deaths_rural"=round(sum(resi==1)/length(q_2),2),
+                "no_deaths_<5y"=sum(q_3y<5),
+                "no_deaths_1-4y"=sum(q_3y>=1 & q_3y<=4),
+                "no_deaths_<1y"=sum(q_3y<1),
+                "no_maternal_deaths"=sum(q_5 %in% c(37,38,39,40,41,42,43) & q_2==2))
                 
 # Demographic
 demo <- ddply(tafsil2p, ~zila, summarise,
-              total_pop=sum(tot_pop),
-              prop_pop_rural=sum(resi==1)/sum(tot_pop),
-              prop_pop_women=sum(q_11==2)/sum(tot_pop),
-              women_15-19=,
-              women_15-45=,
-              women_15-49=,
-              men_>15=,
-              women_15-45_men_>15=
-              pop_>15=,
-              pop_15-19=,
-              child_0-6m=,
-              child_0-11m=,
-              child_0-59m=,
-              child_6-23m=,
-              child_59m=,
-              child_12-23m=,
-              child_15-18m=,
-              child_under5=,)
+              "total_pop"=length(tot_pop),
+              "prop_pop_rural"=round(sum(resi==1)/length(tot_pop),2),
+              "prop_pop_women"=round(sum(q_11==2)/length(tot_pop),2),
+              "pop_>15y"=sum(q_10>15),
+              "pop_15-19y"=sum(q_10>=15 & q_10<=19),
+              "pop_>35y"=sum(q_10>35),
+              "women_15-19y"=sum((q_10>=15 & q_10<=19) & q_11==2),
+              "women_15-45y"=sum((q_10>=15 & q_10<=45) & q_11==2),
+              "women_15-49y"=sum((q_10>=15 & q_10<=49) & q_11==2),
+              "men_>15y"=sum(q_10>=15 & q_11==1),
+              "women_15-45_men_>=15y" = sum(((q_10>=15 & q_10<=45) & q_11==2) | (q_10>=15 & q_11==1)),
+              "child_<5y"=sum(q_10<5),
+              "child_1-4y" = sum(q_10>=1 & q_10<=4),
+              "child_0-5y" = sum(q_10<=5),
+              "no_married_>=15y"=sum(q_10>=15 & q_14==2, na.rm=TRUE),
+              "prop_married_>=15y"=round(sum(q_10>=15 & q_14==2, na.rm=TRUE)/sum(q_10>=15),2))
 
-svrs17final <- merge(births, deaths, all=TRUE)
-svrs17final1 <- merge(svrs17final, demo, all=TRUE)
+# Indicators
+demo$rate_live_births <- round((births$no_births/demo$total_pop)*1000,2)
+demo$rate_fertility <- round((births$no_births/demo$`women_15-49y`)*1000,2)
+demo$rate_death <- round((deaths$no_deaths/demo$total_pop) * 1000,2)
+demo$rate_child_death <- round((deaths$`no_deaths_1-4y`/demo$`child_1-4y`) * 1000,2)
+demo$rate_under5y_mortality <- round((deaths$`no_deaths_<5y`/births$no_live_births) * 1000,2)
+demo$rate_infant_mortality <- round((deaths$`no_deaths_<1y`/births$no_live_births) * 1000,2)
+demo$rate_maternal_mortality <- round((deaths$no_maternal_deaths/births$no_live_births) * 1000,2)
+
+zila <- merge(births, deaths, all=TRUE)
+zila1 <- merge(zila, demo, all=TRUE)
+
+# Upazila -------------------------------------------------------------------------------------------------
+# Births
+births_uz <- ddply(tafsil3, ~upza, summarise, # Summarize by district
+                "no_births"=length(q_9),
+                "no_live_births"=sum(q_9==1),
+                "no_registered_births"=sum(q_4==1),
+                "prop_registered_births"=round(sum(q_4==1)/length(q_9),2),
+                "prop_attendant_delivery"=round(sum(q_7 %in% c(1,2,3))/length(q_9),2))
+
+# Deaths
+deaths_uz <- ddply(tafsil4, ~upza, summarise, # Summarize by district
+                "no_deaths"=length(q_2),
+                "no_deaths_rural"=sum(resi==1),
+                "prop_deaths_rural"=round(sum(resi==1)/length(q_2),2),
+                "no_deaths_<5y"=sum(q_3y<5),
+                "no_deaths_1-4y"=sum(q_3y>=1 & q_3y<=4),
+                "no_deaths_<1y"=sum(q_3y<1),
+                "no_maternal_deaths"=sum(q_5 %in% c(37,38,39,40,41,42,43) & q_2==2))
+
+# Demographic
+demo_uz <- ddply(tafsil2p, ~upza, summarise,
+              "total_pop"=length(tot_pop),
+              "prop_pop_rural"=round(sum(resi==1)/length(tot_pop),2),
+              "prop_pop_women"=round(sum(q_11==2)/length(tot_pop),2),
+              "pop_>15y"=sum(q_10>15),
+              "pop_15-19y"=sum(q_10>=15 & q_10<=19),
+              "pop_>35y"=sum(q_10>35),
+              "women_15-19y"=sum((q_10>=15 & q_10<=19) & q_11==2),
+              "women_15-45y"=sum((q_10>=15 & q_10<=45) & q_11==2),
+              "women_15-49y"=sum((q_10>=15 & q_10<=49) & q_11==2),
+              "men_>15y"=sum(q_10>=15 & q_11==1),
+              "women_15-45_men_>=15y" = sum(((q_10>=15 & q_10<=45) & q_11==2) | (q_10>=15 & q_11==1)),
+              "child_<5y"=sum(q_10<5),
+              "child_1-4y" = sum(q_10>=1 & q_10<=4),
+              "child_0-5y" = sum(q_10<=5),
+              "no_married_>=15y"=sum(q_10>=15 & q_14==2, na.rm=TRUE),
+              "prop_married_>=15y"=round(sum(q_10>=15 & q_14==2, na.rm=TRUE)/sum(q_10>=15),2))
+
+# Indicators
+demo_uz$rate_live_births <- round((births_uz$no_births/demo_uz$total_pop)*1000,2)
+demo_uz$rate_fertility <- round((births_uz$no_births/demo_uz$`women_15-49y`)*1000,2)
+demo_uz$rate_death <- round((deaths_uz$no_deaths/demo_uz$total_pop) * 1000,2)
+demo_uz$rate_child_death <- round((deaths_uz$`no_deaths_1-4y`/demo_uz$`child_1-4y`) * 1000,2)
+demo_uz$rate_under5y_mortality <- round((deaths_uz$`no_deaths_<5y`/births_uz$no_live_births) * 1000,2)
+demo_uz$rate_infant_mortality <- round((deaths_uz$`no_deaths_<1y`/births_uz$no_live_births) * 1000,2)
+demo_uz$rate_maternal_mortality <- round((deaths_uz$no_maternal_deaths/births_uz$no_live_births) * 1000,2)
+
+upazila <- merge(births_uz, deaths_uz, all=TRUE)
+upazila1 <- merge(upazila, demo_uz, all=TRUE)
 
 #----------------------------------------------------------------------------------------------------------
 # Save final dataset
 #----------------------------------------------------------------------------------------------------------
 
 # By District
-write.csv(svrs17final,"./output/bbs/data/data_svrs_2017.csv", row.names=FALSE) # Save data
+write.csv(zila1,"./output/bbs/data/data_svrs_zila_2017.csv", row.names=FALSE) # Save data
+write.csv(upazila1,"./output/bbs/data/data_svrs_upzila_2017.csv", row.names=FALSE) # Save data
 
 #----------------------------------------------------------------------------------------------------------
 # Create/save metadata
