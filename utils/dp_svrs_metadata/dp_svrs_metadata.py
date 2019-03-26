@@ -8,7 +8,6 @@ from simpledbf import Dbf5
 from rpy2.robjects import pandas2ri
 from rpy2.robjects.packages import importr
 
-
 DATA_DIR = sys.argv[1]
 OUT_DIR = sys.argv[2]
 
@@ -41,7 +40,7 @@ def read_dta(file_path):
 
 
 def svrs_metadata(data_path, out_path):
-    output = {'variable': [], 'file_name': [], 'file_path': [], 'year': [], 'folder': []}
+    output = {'variable': [], 'variable_definition': [], 'file_name': [], 'year': [], 'file_path': [], 'folder': []}
     for path, subdirs, files in os.walk(data_path):
         files_str = [file for file in files if
                      bool(re.search(".dbf", file)) or
@@ -50,23 +49,25 @@ def svrs_metadata(data_path, out_path):
         for file in files_str:
             y = "20" + os.path.split(path)[1][-2:]
             if bool(re.search(r".dbf|.DBF", file)):
-                df = read_dbf(os.path.join(path,file))
-                print("#"*20 + f" Year: {y} DBF (dBASE) File: {file} " + "#" * 20)
+                df = read_dbf(os.path.join(path, file))
+                print("#" * 20 + f" Year: {y} DBF (dBASE) File: {file} " + "#" * 20)
             elif bool(re.search(r".dta|.DTA", file)):
-                df = read_dta(os.path.join(path,file))
-                print("#"*20 + f" Year: {y} DTA (STATA) File: {file} " + "#" * 20)
+                df = read_dta(os.path.join(path, file))
+                print("#" * 20 + f" Year: {y} DTA (STATA) File: {file} " + "#" * 20)
             elif bool(re.search(r".sav|.SAV", file)):
-                df = read_sav(os.path.join(path,file))
-                print("#"*20 + f" Year: {y} SAV (SPSS) File: {file} " + "#" * 20)
+                df = read_sav(os.path.join(path, file))
+                print("#" * 20 + f" Year: {y} SAV (SPSS) File: {file} " + "#" * 20)
             else:
                 print(f"Check the structure of file {file}!")
             output['variable'] = output['variable'] + list(df.columns)
-            output['file_name'] = output['file_name'] + [file]*df.shape[1]
-            output['file_path'] = output['file_path'] + [os.path.join(path,file)]*df.shape[1]
-            output['year'] = output['year'] + ["20" + os.path.split(path)[1][-2:]]*df.shape[1]
-            output['folder'] = output['folder'] + ["20" + os.path.split(path)[1]]*df.shape[1]
+            output['variable_definition'] = output['variable_definition'] + [" "] * df.shape[1]
+            output['file_name'] = output['file_name'] + [file] * df.shape[1]
+            output['year'] = output['year'] + ["20" + os.path.split(path)[1][-2:]] * df.shape[1]
+            output['folder'] = output['folder'] + [os.path.split(path)[1]] * df.shape[1]
+            output['file_path'] = output['file_path'] + [os.path.join(path, file)] * df.shape[1]
     df = pd.DataFrame.from_dict(output)
-    df.to_csv(os.path.join(out_path, "/dp_svrs_metadata.csv"), index=False, index_label=False)
+    df = df.sort_values(by=['year', 'file_name', 'variable'])
+    df.to_csv(os.path.join(out_path, 'dp_svrs_metadata.csv'), index=False, index_label=False)
 
 
 def main():
@@ -75,5 +76,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
