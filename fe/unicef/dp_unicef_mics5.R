@@ -190,34 +190,38 @@ wm5$caesarean <- ifelse(wm5$CM13=="Y" & wm5$MN19==1, 1,
 #----------------------------------------------------------------------------------------------------------
 
 final1 <- ddply(ch5, ~HH7A, summarise, # Summarize by district
-                   underweight=weighted.mean(underweight, chweight, na.rm=TRUE),
-                   stuning=weighted.mean(stuning, chweight, na.rm=TRUE),
-                   wasting=weighted.mean(wasting, chweight, na.rm=TRUE),
-                   overweight=weighted.mean(overweight, chweight, na.rm=TRUE),
-                   exclusive_breastfeeding=weighted.mean(exclusive_breastfeeding, chweight, na.rm=TRUE),
-                   diarrhoea_ors=weighted.mean(diarrhoea_ors, chweight, na.rm=TRUE),
-                   ari_care=weighted.mean(ari_care, chweight, na.rm=TRUE),
-                   ari_antibiotics=weighted.mean(ari_antibiotics, chweight, na.rm=TRUE))
+                prop_underweight=weighted.mean(underweight, chweight, na.rm=TRUE),
+                prop_stuning=weighted.mean(stuning, chweight, na.rm=TRUE),
+                prop_wasting=weighted.mean(wasting, chweight, na.rm=TRUE),
+                prop_overweight=weighted.mean(overweight, chweight, na.rm=TRUE),
+                prop_exclusive_breastfeeding=weighted.mean(exclusive_breastfeeding, chweight, na.rm=TRUE),
+                prop_diarrhoea_ors=weighted.mean(diarrhoea_ors, chweight, na.rm=TRUE),
+                prop_ari_care=weighted.mean(ari_care, chweight, na.rm=TRUE),
+                prop_ari_antibiotics=weighted.mean(ari_antibiotics, chweight, na.rm=TRUE))
 
 final2 <- ddply(wm5, ~HH7A, summarise, # Summarize by district
-                contraception=weighted.mean(contraception, wmweight, na.rm=TRUE),
-                antenatal=weighted.mean(antenatal, wmweight, na.rm=TRUE),
-                attendant_delivery=weighted.mean(attendant_delivery, wmweight, na.rm=TRUE),
-                institutional_delivery=weighted.mean(institutional_delivery, wmweight, na.rm=TRUE),
-                caesarean=weighted.mean(caesarean, wmweight, na.rm=TRUE))
+                prop_contraception=weighted.mean(contraception, wmweight, na.rm=TRUE),
+                prop_antenatal=weighted.mean(antenatal, wmweight, na.rm=TRUE),
+                prop_attendant_delivery=weighted.mean(attendant_delivery, wmweight, na.rm=TRUE),
+                prop_institutional_delivery=weighted.mean(institutional_delivery, wmweight, na.rm=TRUE),
+                prop_caesarean=weighted.mean(caesarean, wmweight, na.rm=TRUE))
 
 final <- merge(final1, final2)
-names(final)[1] <- "District"
+final$year <- 2012
+names(final)[1] <- "district"
 final$District <- get_labels(wm5$HH7A)
 
 #----------------------------------------------------------------------------------------------------------
-# Save final dataset
+# Save final dataset/metadata
 #----------------------------------------------------------------------------------------------------------
 
 write.csv(final,"./output/unicef/data/data_unicef_mics5_2012.csv", row.names=FALSE) # Save metadata
 
+meta_mics5 <- data.frame("Source"="MICS", "File"= "MICS5","Variable"=colnames(final))
+write.csv(meta_mics5,"./output/unicef/data/metadata_unicef_mics5.csv", row.names=FALSE) # Save metadata
+
 #----------------------------------------------------------------------------------------------------------
-# Create/save metadata
+# Create/save metadata (raw data)
 #----------------------------------------------------------------------------------------------------------
 
 meta_mics5 <- data.frame()
@@ -226,4 +230,4 @@ for (i in seq_along(mics5)){
                      "Description"= sapply(mics5[[i]], function(x) attributes(x)$label))
   meta_mics5 <- rbind(meta_mics5,meta)
 }
-write.csv(meta_mics5,"./output/unicef/data/metadata_unicef_mics5.csv", row.names=FALSE) # Save metadata
+write.csv(meta_mics5,"./data/unicef/MICS5/metadata_unicef_mics5.csv", row.names=FALSE) # Save metadata

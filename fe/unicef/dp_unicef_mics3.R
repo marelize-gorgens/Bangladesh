@@ -26,7 +26,7 @@ if(!require(plyr)) installed.packages("plyr", dependencies=TRUE); library(plyr)
 if(!require(sjlabelled)) installed.packages("sjlabelled", dependencies=TRUE); library(sjlabelled)
 
 #----------------------------------------------------------------------------------------------------------
-# Load datasets
+# Load datasets 
 #----------------------------------------------------------------------------------------------------------
 
 mics3files <- list.files("./data/unicef/MICS3", recursive=TRUE, pattern="*.sav", full.names=TRUE) # List files 
@@ -155,17 +155,21 @@ final2 <- ddply(wm3, ~HH7A, summarise, # Summarize by district
                 institutional_delivery=weighted.mean(institutional_delivery, wmweight, na.rm=TRUE))
 
 final <- merge(final1, final2)
+final$year <- 2006
 names(final)[1] <- "District"
 final$District <- get_labels(wm3$HH7A)
  
 #----------------------------------------------------------------------------------------------------------
-# Save final dataset
+# Save final dataset/metadata
 #----------------------------------------------------------------------------------------------------------
 
 write.csv(final,"./output/unicef/data/data_unicef_mics3_2006.csv", row.names=FALSE) # Save metadata
 
+meta_mics3 <- data.frame("Source"="MICS", "File"= "MICS3","Variable"=colnames(final))
+write.csv(meta_mics3,"./output/unicef/data/metadata_unicef_mics3.csv", row.names=FALSE) # Save metadata
+
 #----------------------------------------------------------------------------------------------------------
-# Create/save metadata
+# Create/save metadata (raw data)
 #----------------------------------------------------------------------------------------------------------
 
 meta_mics3 <- data.frame()
@@ -174,4 +178,4 @@ for (i in seq_along(mics3)){
                      "Description"= sapply(mics3[[i]], function(x) attributes(x)$label))
   meta_mics3 <- rbind(meta_mics3,meta)
 }
-write.csv(meta_mics3,"./output/unicef/data/metadata_unicef_mics3.csv", row.names=FALSE) # Save metadata
+write.csv(meta_mics3,"./data/unicef/MICS3/metadata_unicef_mics3.csv", row.names=FALSE) # Save metadata
