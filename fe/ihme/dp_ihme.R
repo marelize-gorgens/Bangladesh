@@ -18,10 +18,10 @@ cat("\014") # Clear console
 # Load packages
 #----------------------------------------------------------------------------------------------------------
 
-if(!require(tidyverse)) install.packages("tidyverse", dependencies=TRUE); library(tidyverse)
-if(!require(WDI)) install.packages("WDI", dependencies=TRUE); library(WDI)
-if(!require(reshape2)) install.packages("reshape2", dependencies=TRUE); library(reshape2)
-if(!require(ggmap)) install.packages("ggmap", dependencies=TRUE); library(ggmap)
+if(!require(tidyverse)) installed.packages("tidyverse", dependencies=TRUE); library(tidyverse)
+if(!require(WDI)) installed.packages("WDI", dependencies=TRUE); library(WDI)
+if(!require(reshape2)) installed.packages("reshape2", dependencies=TRUE); library(reshape2)
+if(!require(ggmap)) installed.packages("ggmap", dependencies=TRUE); library(ggmap)
 
 #----------------------------------------------------------------------------------------------------------
 # Load datasets 
@@ -30,23 +30,32 @@ if(!require(ggmap)) install.packages("ggmap", dependencies=TRUE); library(ggmap)
 ihmefiles <- list.files("./data/ihme/Data/", pattern="*.csv", full.names=TRUE) # List files
 ihme <- lapply(ihmefiles, read.csv)
 ihme2 <- bind_rows(ihme) # Combine lists
-df <- ihme2[c(4,6,8,10,13,2,14)]
-summary(df)
+df <- ihme2[c(4,13,6,8,10,2,14)] # Select variables of interess
 sum(is.na(df)) # Check missing
 
-df2 <- dcast(df, location_name + sex_name + age_name + cause_name + year ~ measure_name, value.var="val") # Transform long in wide
-str(df2)
+wide <- dcast(df, location_name + year ~ sex_name + age_name + measure_name + cause_name, value.var="val") # Transform long in wide
 
-# WDIsearch('income') # List CPIA reports available
-# cpia <- WDI(indicator='IQ.CPA.ECON.XQ', country="all", start=2005, end=2018, extra=TRUE) # CPIA data
+ncd <- df %>% 
+  filter(sex_name=="Both", age_name=="All Ages", cause_name %in% c("Cardiovascular diseases", "Diabetes mellitus"), year==2017)
+
+# WDIsearch('x') # List reports available
+# x <- WDI(indicator='x', country="all", start=2005, end=2017, extra=TRUE) # x data
 
 #----------------------------------------------------------------------------------------------------------
 # Data analysis 
 #----------------------------------------------------------------------------------------------------------  
 
+# Clustering
 set.seed(20)
-clusters <- kmeans(df2[,6:8], 5) # K-means clustering (5 clusters)
-df2$cluster <- as.factor(clusters$cluster)
-str(clusters)
+k1 <- kmeans(wide[,3:326], 5, nstart = 25) # K-means clustering (5 clusters)
+wide$cluster <- as.factor(k1$cluster)
+str(k1)
 
-get_dist(df2)
+#----------------------------------------------------------------------------------------------------------
+# Save final dataset/metadata
+#----------------------------------------------------------------------------------------------------------
+
+write.csv(df,"./output/ihme/data/data_ihme.csv", row.names=FALSE) # Save metadata
+
+meta_ihme <- data.frame("Source"="IHME", "File"= "IHME-GBD","Variable"=colnames(df))
+write.csv(meta_ihme,"./output/ihme/data/metadata_ihme.csv", row.names=FALSE) # Save metadata
