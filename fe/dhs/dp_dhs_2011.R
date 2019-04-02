@@ -25,7 +25,8 @@ if(!require(survey)) installed.packages("survey", dependencies=TRUE); library(su
 if(!require(reshape2)) installed.packages("reshape2", dependencies=TRUE); library(reshape2)
 if(!require(plyr)) installed.packages("plyr", dependencies=TRUE); library(plyr)
 if(!require(dummies)) installed.packages("dummies");library(dummies)
-   
+if(!require(readxl)) installed.packages("readxl", dependencies=TRUE); library(readxl)
+
 #----------------------------------------------------------------------------------------------------------
 # Load datasets
 #----------------------------------------------------------------------------------------------------------
@@ -187,21 +188,34 @@ final <- ddply(pr, ~shdistrict, summarise, # Summarize by district
                hypertensive_1=weighted.mean(blood_pressure_cat_hypertensive_1, wgt, na.rm=TRUE),
                hypertensive_2=weighted.mean(blood_pressure_cat_hypertensive_2, wgt, na.rm=TRUE),
                hypertensive=weighted.mean(blood_pressure_cat_hypertensive, wgt, na.rm=TRUE))
+final$year <- 2011
+
+# Rename Zilas
+temp <- read_xlsx("./data/geo_files/bbs_geos/geo.xlsx", skip=1)
+temp <- data.frame(temp[3], temp[4])
+temp <- unique(temp)
+final <- merge(temp, final, all.y=TRUE, by.x="District.Code", by.y="shdistrict")
+final <- data.frame(final[-c(1)])
+names(final)[1] <- "district"
+final$district <- gsub(" Zila", "", final$district)
 
 #----------------------------------------------------------------------------------------------------------
-# Save final dataset
+# Save final dataset/metadata
 #----------------------------------------------------------------------------------------------------------
 
 write.csv(final,"./output/dhs/data/data_dhs_2011.csv", row.names=FALSE) # Save metadata
-write.csv(pr,"./output/dhs/data/data_dhs_pr_2011.csv", row.names=FALSE) # Save metadata
+
+meta_dhs11 <- data.frame("Source"="DHS2011", "File"= "BDPR61DT","Variable"=colnames(final))
+write.csv(meta_dhs11,"./output/dhs/data/metadata_dhs_2011.csv", row.names=FALSE) # Save metadata
 
 #----------------------------------------------------------------------------------------------------------
-# Create/save metadata
+# Create/save dataset/metadata (raw data)
 #----------------------------------------------------------------------------------------------------------
+write.csv(pr,"./data/dhs/data_dhs_pr_2011.csv", row.names=FALSE) # Save metadata
 
 meta_dhs11 <- data.frame()
 for (i in seq_along(dhs11)){
   meta <- data.frame("Source"="DHS2011", "File"= names(dhs11[i]),"Variable"=colnames(dhs11[[i]]), "Description"= sapply(dhs11[[i]], function(x) attributes(x)$label))
   meta_dhs11 <- rbind(meta_dhs11,meta)
 }
-write.csv(meta_dhs11,"./output/dhs/data/metadata_dhs_2011.csv", row.names=FALSE) # Save metadata
+write.csv(meta_dhs11,"./data/dhs/metadata_dhs_2011.csv", row.names=FALSE) # Save metadata
