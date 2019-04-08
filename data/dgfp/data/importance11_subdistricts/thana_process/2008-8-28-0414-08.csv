@@ -1,9 +1,3 @@
-   Dump For Table thana from Database dgfpmis_ss8 on 10-22-2018 12:19
-thana	ECouple	Pill	Condom	Injectable	IUD	Implant	PerMale	PerFemale	Tpermanent	GrandTotal	CAR	
-Nakla	40549	16522	1065	3945	883	1022	776	4115	4891	28328	69.8612
-Sribordi	52755	23638	1507	5981	1088	498	900	2473	3373	36085	68.4011
-Sherpur Sadar	94528	42232	2577	10308	1811	1417	1282	6334	7616	65961	69.7793
-Nalitabari	57472	27605	1479	5092	783	736	1647	3826	5473	41168	71.6314
-Jhenaigati	34954	17777	473	1984	768	590	956	1194	2150	23742	67.9236
-
- 
+version https://git-lfs.github.com/spec/v1
+oid sha256:c36aae9e78eb12c2d29cb1b971a5528ec636941179e8823aab8de093b2dd0e08
+size 514

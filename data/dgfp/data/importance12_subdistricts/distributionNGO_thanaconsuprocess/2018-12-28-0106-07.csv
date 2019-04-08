@@ -1,10 +1,3 @@
-
-thana_Name	Shukhi	Apon	Condom	Inj_Vial	Inj_Siringe	IUD_Normal	IUD_Partum	IUD_Remove	Implanon	Jadel	Implant_Remove	ECP	Misoprostol	MRM_Pack	Inj_mgs4	MNP_Saset	IFA_number	Sanitary_Pad	NSV	Tubectomy_Normal	Tubectomy_Partum
-Bhurungamari	1572680	809	1678776	190724	88507	384	0	1	939	0	0	207	904	0	0	0	0	0	1021	1035	88
-Roumari	364160	1340	2118242	87345	42328	349	0	9	243	0	0	156	7732	0	0	0	0	0	254	10	0
-Kurigram Sadar	122030	417	231896	91524	52148	464	0	22	824	39	4	187	1291	0	0	0	0	0	274	278	0
-Ulipur	114009	0	33946	14645	0	84	0	0	399	0	0	30	0	0	0	0	0	0	31	50	0
-Nageswari	339159	0	93829	18052	18676	0	0	0	14	0	0	3	0	0	0	0	0	0	0	0	0
-Chilmari	102933	290	86235	16587	0	0	0	0	194	0	0	25	0	0	0	0	0	0	15	5	0
-Char Rajibpur	530515	860	3060861	100934	41021	390	4	7	321	39	0	90	664	0	0	0	4610	0	948	9	8
-Rajarhat	546107	68	1676787	133986	71016	315	0	18	1408	0	7	220	114	0	0	0	0	15	122	86	0
+version https://git-lfs.github.com/spec/v1
+oid sha256:3b0f8d6f57f66dfd7e4b074fa92ab30c81ae0f421b56adbeb1fb5249f43fd016
+size 884

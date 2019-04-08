@@ -1,3 +1,0 @@
-../../data/dgfp/data/importance11_subdistricts/ngothana_process
-../../data/dgfp/data/importance11_subdistricts/mchgo_thanaprocess
-../../data/dgfp/data/importance11_subdistricts/thana_process
