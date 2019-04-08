@@ -1,0 +1,9 @@
+../../data/dgfp/data/importance12_subdistricts/distributionGO_thanaconsuprocess
+../../data/dgfp/data/importance12_subdistricts/distributionNGO_thanaconsuprocess
+../../data/dgfp/data/importance12_districts/mchgo_distmonthprocess
+../../data/dgfp/data/importance12_districts/ngodistrict_monthprocess
+../../data/dgfp/data/importance12_districts/distributionGO_distmonthProcess
+../../data/dgfp/data/importance12_districts/district_monthprocess
+../../data/dgfp/data/importance11_subdistricts/ngothana_process
+../../data/dgfp/data/importance11_subdistricts/mchgo_thanaprocess
+../../data/dgfp/data/importance11_subdistricts/thana_process
