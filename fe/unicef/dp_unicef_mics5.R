@@ -23,7 +23,7 @@ if(!require(haven)) installed.packages("haven", dependencies=TRUE); library(have
 if(!require(rdhs)) installed.packages("rdhs"); library(rdhs)
 if(!require(survey)) installed.packages("survey", dependencies=TRUE); library(survey)
 if(!require(plyr)) installed.packages("plyr", dependencies=TRUE); library(plyr)
-if(!require(sjlabelled)) installed.packages("sjlabelled", dependencies=TRUE); library(sjlabelled)
+if(!require(sjlabelled)) install.packages("sjlabelled", dependencies=TRUE); library(sjlabelled)
 
 #----------------------------------------------------------------------------------------------------------
 # Load datasets
@@ -209,7 +209,7 @@ final2 <- ddply(wm5, ~HH7A, summarise, # Summarize by district
 final <- merge(final1, final2)
 final$year <- 2012
 names(final)[1] <- "district"
-final$District <- get_labels(wm5$HH7A)
+final$district <- get_labels(wm5$HH7A)
 
 #----------------------------------------------------------------------------------------------------------
 # Save final dataset/metadata
@@ -219,6 +219,10 @@ write.csv(final,"./output/unicef/data/data_unicef_mics5_2012.csv", row.names=FAL
 
 meta_mics5 <- data.frame("Source"="MICS", "File"= "MICS5","Variable"=colnames(final))
 write.csv(meta_mics5,"./output/unicef/data/metadata_unicef_mics5.csv", row.names=FALSE) # Save metadata
+
+# Save variables as proportions
+final[c(2:14)] <- final[c(2:14)]*100
+write.csv(final,"./output/unicef/data/data_unicef_mics5_2012_clean.csv", row.names=FALSE) # Save metadata
 
 #----------------------------------------------------------------------------------------------------------
 # Create/save metadata (raw data)

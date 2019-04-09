@@ -148,14 +148,14 @@ births <- ddply(tafsil3, ~zila, summarise, # Summarize by district
                 "no_births"=length(q_9),
                 "no_live_births"=sum(q_9==1),
                 "no_registered_births"=sum(q_4==1),
-                "prop_registered_births"=round(sum(q_4==1)/length(q_9),2),
-                "prop_attendant_delivery"=round(sum(q_7 %in% c(1,2,3))/length(q_9),2))
+                "prop_registered_births"=(round(sum(q_4==1)/length(q_9),2))*100,
+                "prop_attendant_delivery"=(round(sum(q_7 %in% c(1,2,3))/length(q_9),2))*100)
 
 # Deaths
 deaths <- ddply(tafsil4, ~zila, summarise, # Summarize by district
                 "no_deaths"=length(q_2),
                 "no_deaths_rural"=sum(resi==1),
-                "prop_deaths_rural"=round(sum(resi==1)/length(q_2),2),
+                "prop_deaths_rural"=(round(sum(resi==1)/length(q_2),2))*100,
                 "no_deaths_<5y"=sum(q_3y<5),
                 "no_deaths_1-4y"=sum(q_3y>=1 & q_3y<=4),
                 "no_deaths_<1y"=sum(q_3y<1),
@@ -164,8 +164,8 @@ deaths <- ddply(tafsil4, ~zila, summarise, # Summarize by district
 # Demographic
 demo <- ddply(tafsil2p, ~zila, summarise,
               "total_pop"=length(tot_pop),
-              "prop_pop_rural"=round(sum(resi==1)/length(tot_pop),2),
-              "prop_pop_women"=round(sum(q_11==2)/length(tot_pop),2),
+              "prop_pop_rural"=(round(sum(resi==1)/length(tot_pop),2))*100,
+              "prop_pop_women"=(round(sum(q_11==2)/length(tot_pop),2))*100,
               "pop_>15y"=sum(q_10>15),
               "pop_15-19y"=sum(q_10>=15 & q_10<=19),
               "pop_>35y"=sum(q_10>35),
@@ -178,7 +178,7 @@ demo <- ddply(tafsil2p, ~zila, summarise,
               "child_1-4y" = sum(q_10>=1 & q_10<=4),
               "child_0-5y" = sum(q_10<=5),
               "no_married_>=15y"=sum(q_10>=15 & q_14==2, na.rm=TRUE),
-              "prop_married_>=15y"=round(sum(q_10>=15 & q_14==2, na.rm=TRUE)/sum(q_10>=15),2))
+              "prop_married_>=15y"=(round(sum(q_10>=15 & q_14==2, na.rm=TRUE)/sum(q_10>=15),2))*100)
 
 # Indicators
 demo$rate_live_births <- round((births$no_births/demo$total_pop)*1000,2)
@@ -265,6 +265,9 @@ write.csv(zila1,"./output/bbs/data/data_svrs_zila_2017.csv", row.names=FALSE) # 
 
 meta_srvs17 <- data.frame("Source"="SRVS", "File"= "SRVS_17","Variable"=colnames(zila1))
 write.csv(meta_srvs17,"./output/bbs/data/metadata_bbs_srvs_2017.csv", row.names=FALSE) # Save metadata
+
+# Save only ratio variables
+write.csv(zila1[c(1,5,6,9,15,16,29:37)],"./output/bbs/data/data_svrs_zila_2017_clean.csv", row.names=FALSE) # Save data
 
 #----------------------------------------------------------------------------------------------------------
 # Create/save metadata (raw data)
