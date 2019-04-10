@@ -102,46 +102,52 @@ births <- ddply(tafsil3, ~ZILA, summarise, # Summarize by district
                 "no_births"=length(Q_10),
                 "no_live_births"=sum(Q_10==1, na.rm=TRUE),
                 "no_registered_births"=sum(Q_4==1, na.rm=TRUE),
-                "prop_registered_births"=(round(sum(Q_4==1, na.rm=TRUE)/length(Q_10),2))*100,
-                "prop_attendant_delivery"=(round(sum(Q_7 %in% c(3,4))/length(Q_10),2))*100)
+                "prop_live_births"=round(sum(Q_10==1)/length(Q_10)*100,2),
+                "prop_registered_births"=round(sum(Q_4==1, na.rm=TRUE)/length(Q_10)*100,2),
+                "prop_attendant_delivery"=round(sum(Q_7 %in% c(3,4))/length(Q_10)*100,2))
 
 # Deaths
 deaths <- ddply(tafsil4, ~ZILA, summarise, # Summarize by district
                 "no_deaths"=length(HH_NO),
                 "no_deaths_rural"=sum(RMO==1),
-                "prop_deaths_rural"=(round(sum(RMO==1)/length(HH_NO),2))*100,
-                "no_deaths_<5y"=sum(Q_3Y<5),
+                "no_deaths_under5y"=sum(Q_3Y<5),
                 "no_deaths_1-4y"=sum(Q_3Y>=1 & Q_3Y<=4),
-                "no_deaths_<1y"=sum(Q_3Y<1),
-                "no_maternal_deaths"=sum(Q_5 %in% c(37,38,39,40,41,42,43) & Q_2==2))
+                "no_deaths_under1y"=sum(Q_3Y<1),
+                "no_maternal_deaths"=sum(Q_5 %in% c(37,38,39,40,41,42,43) & Q_2==2),
+                "prop_deaths_rural"=(round(sum(RMO==1)/length(HH_NO),2))*100)
 
 # Demographic
 demo <- ddply(tafsil2p, ~ZILA, summarise,
               "total_pop"=length(HH_NO),
-              "prop_pop_rural"=(round(sum(RMO==1)/length(HH_NO),2))*100,
-              "prop_pop_women"=(round(sum(Q_11==2)/length(HH_NO),2))*100,
               "pop_>15y"=sum(Q_10>15),
               "pop_15-19y"=sum(Q_10>=15 & Q_10<=19),
               "pop_>35y"=sum(Q_10>35),
               "women_15-19y"=sum((Q_10>=15 & Q_10<=19) & Q_11==2),
               "women_15-45y"=sum((Q_10>=15 & Q_10<=45) & Q_11==2),
-              "women_15-49y"=sum((Q_10>=15 & Q_10<=49) & Q_11==2),
               "men_>15y"=sum(Q_10>=15 & Q_11==1),
               "women_15-45_men_>=15y" = sum(((Q_10>=15 & Q_10<=45) & Q_11==2) | (Q_10>=15 & Q_11==1)),
-              "child_<5y"=sum(Q_10<5),
+              "child_under5y"=sum(Q_10<5),
               "child_1-4y" = sum(Q_10>=1 & Q_10<=4),
               "child_0-5y" = sum(Q_10<=5),
               "no_married_>=15y"=sum(Q_10>=15 & Q_14==2, na.rm=TRUE),
-              "prop_married_>=15y"=(round(sum(Q_10>=15 & Q_14==2, na.rm=TRUE)/sum(Q_10>=15),2))*100)
+              "sex_ratio"=round(sum(Q_11==1)/sum(Q_11==2)*100,2),
+              "dependency_ratio"=round((sum(Q_10<=14) + sum(Q_10>=65))/sum(Q_10>=15 & Q_10<=64)*100,2),
+              "prop_pop_rural"=round(sum(RMO==1)/length(HH_NO)*100,2),
+              "prop_pop_women"=round(sum(Q_11==2)/length(HH_NO)*100,2),
+              "prop_pop_rural_women"=round(sum(Q_11==2 & RMO==1)/length(HH_NO)*100,2),
+              "prop_women_15-45y_overwomen"=round(sum((Q_10>=15 & Q_10<=45) & Q_11==2)/sum(Q_11==2)*100,2),
+              "prop_women_15-45y_overtotal"=round(sum((Q_10>=15 & Q_10<=45) & Q_11==2)/length(HH_NO)*100,2),
+              "prop_married_women_15-45y"=round(sum((Q_10>=15 & Q_10<=45) & Q_14==2 & Q_11==2, na.rm=TRUE)/sum(Q_10>=15 & Q_10<=45 & Q_11==2)*100,2),
+              "prop_married_>=15y"=round(sum(Q_10>=15 & Q_14==2, na.rm=TRUE)/sum(Q_10>=15)*100,2))
 
 # Indicators
 births<-births[!(births$ZILA=="08" | births$ZILA=="43"),]
 demo$rate_live_births <- round((births$no_births/demo$total_pop)*1000,2)
-demo$rate_fertility <- round((births$no_births/demo$`women_15-49y`)*1000,2)
+demo$rate_fertility <- round((births$no_births/demo$`women_15-45y`)*1000,2)
 demo$rate_death <- round((deaths$no_deaths/demo$total_pop) * 1000,2)
 demo$rate_child_death <- round((deaths$`no_deaths_1-4y`/demo$`child_1-4y`) * 1000,2)
-demo$rate_under5y_mortality <- round((deaths$`no_deaths_<5y`/births$no_live_births) * 1000,2)
-demo$rate_infant_mortality <- round((deaths$`no_deaths_<1y`/births$no_live_births) * 1000,2)
+demo$rate_under5y_mortality <- round((deaths$`no_deaths_under5y`/births$no_live_births) * 1000,2)
+demo$rate_infant_mortality <- round((deaths$`no_deaths_under1y`/births$no_live_births) * 1000,2)
 demo$rate_maternal_mortality <- round((deaths$no_maternal_deaths/births$no_live_births) * 1000,2)
 demo$year <- 2015
 
@@ -169,5 +175,4 @@ meta_srvs15 <- data.frame("Source"="SRVS", "File"= "SRVS_15","Variable"=colnames
 write.csv(meta_srvs15,"./output/bbs/data/metadata_bbs_srvs_2015.csv", row.names=FALSE) # Save metadata
 
 # Save only ratio variables
-write.csv(zila1[c(1,5,6,9,15,16,29:37)],"./output/bbs/data/data_svrs_zila_2015_clean.csv", row.names=FALSE) # Save data
-
+write.csv(zila1[c(1,5:7,14,27:32,34:43)],"./output/bbs/data/data_svrs_zila_2015_clean.csv", row.names=FALSE) # Save data
