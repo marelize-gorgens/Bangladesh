@@ -203,6 +203,7 @@ women <- ddply(ir, ~shdistrict, summarise, # Summarize by district
                "prop_contraception"= round(sum(v313 != 0)/length(v015)*100,2),
                "prop_unmet_need_family_planing"=round(sum(v626a == 1 | v626a == 2, na.rm=TRUE)/sum(v502==1, na.rm=TRUE)*100,2),
                "prop_antenatal_coverage"=round(sum(m57n_1==1, na.rm=TRUE)/sum(midx_1 == 1, na.rm=TRUE)*100,2),
+               # "prop_antenatal_care"=sum(m14_1>=4),
                "prop_institutional_delivery"=round(sum((m15_1>=20 & m15_1<=32) | (m15_2>=20 & m15_2<=32) | (m15_3>=20 & m15_3<=32) | (m15_4>=20 & m15_4<=32), na.rm=TRUE)/sum(midx_1 == 1, na.rm=TRUE)*100,2),
                "prop_attendant_delivery"=round(sum(m3d_1==1 | m3d_2==1, na.rm=TRUE)/sum(v208)*100,2),
                "prop_caesarean"=round(sum(m17_1==1 | m17_2==1 | m17_3==1, na.rm=TRUE)/sum(v208)*100,2))
@@ -266,7 +267,7 @@ meta_dhs11 <- data.frame("Source"="DHS2011", "File"= "BDPR61DT","Variable"=colna
 write.csv(meta_dhs11,"./output/dhs/data/metadata_dhs_2011.csv", row.names=FALSE) # Save metadata
 
 # Save only ratio variables
-write.csv(final[c(1,3:7,23:39)],"./output/dhs/data/data_svrs_2011_clean.csv", row.names=FALSE) # Save data
+write.csv(final[c(1,3:7,23:24,28:33,35:39)],"./output/dhs/data/data_dhs_2011_clean.csv", row.names=FALSE) # Save data
 
 #----------------------------------------------------------------------------------------------------------
 # Create/save dataset/metadata (raw data)
