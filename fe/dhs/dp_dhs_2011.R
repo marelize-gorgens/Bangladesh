@@ -42,9 +42,9 @@ names(dhs11) <- c("BR61","CR61","HR61","IR61", "KR61", "MR61", "PR61", "SQ61", "
 # PR: Household member recode dataset ---------------------------------------------------------------------
 pr <- dhs11$PR61
 pr_var <- get_variable_labels(pr) # Get the data dictionary
-sum(duplicated(pr)) # Uniqueness: Check for duplicates
-sum(is.na(pr)) # Completeness: Check for NAs
-na_pr <- data.frame(lapply(pr, function(y) sum(length(which(is.na(y)))))) # Save NAs by column
+# sum(duplicated(pr)) # Uniqueness: Check for duplicates
+# sum(is.na(pr)) # Completeness: Check for NAs
+# na_pr <- data.frame(lapply(pr, function(y) sum(length(which(is.na(y)))))) # Save NAs by column
 pr$wgt <- pr$hv005/1000000 # Create the weight variable
 # prdesign <- svydesign(data=pr, id=~hv021, weight=~wgt, strata=~hv023) # Set survey design for dataset | id: cluster or psu
 districts <- data.frame(pr[c(4,5,131)])
@@ -198,7 +198,7 @@ pr$blood_pressure_cat_hypertensive_2[is.na(pr$blood_pressure_cat)] <- NA
 
 # Births
 births <- ddply(br, ~shdistrict, summarise, # Summarize by district
-                "no_births_last3y"=round(sum((v008-b3>=1 & v008-b3<36)*wgt)*100,2))
+                "no_births_last3y"=round(sum(((v008-b3)>=1 & (v008-b3)<36)*wgt)*100,2))
                 # "rate_under5y_mortality"=round((b7<5)*wgt/))
 
 # Women
@@ -242,9 +242,13 @@ demo <- ddply(pr, ~shdistrict, summarise, # Summarize by district
               "prop_married_women_15-45y"=round(sum((hv105>=15 & hv105<=45 & hv104==2 & sh08==1)*wgt, na.rm=TRUE)/sum((hv105>=15 & hv105<=45 & hv104==2)*wgt, na.rm=TRUE)*100,2),
               "prop_married_>=15y"=round(sum((hv105>=15 & sh08==1)*wgt, na.rm=TRUE)/sum((hv105>=15)*wgt, na.rm=TRUE)*100,2),
               "prop_female_head"=round(sum((hv219==2)*wgt, na.rm=TRUE)/length(hv015)*100,2),
-              "prop_registered_under5"=round(sum(((hv140==1 | hv140==2) & pr$hv102==1 & hv105<5)*wgt, na.rm=TRUE)/sum((hv102==1 & hv105<5)*wgt, na.rm=TRUE)*100,2))
+              "prop_registered_under5"=round(sum(((hv140==1 | hv140==2) & hv102==1 & hv105<5)*wgt, na.rm=TRUE)/sum((hv102==1 & hv105<5)*wgt, na.rm=TRUE)*100,2))
+              # "prop_stunting_under5y"=/sum((hv105<5)*wgt, na.rm=TRUE),
+              # "prop_overweight_under5y"=/sum((hv105<5)*wgt, na.rm=TRUE),
+              # "prop_wasting_under5y"=/sum((hv105<5)*wgt, na.rm=TRUE))
+
 # Indicators
-demo$rate_fertility <- round((births$no_births_last3y/demo$`no_women_15-45y`)*1000,2)
+# demo$rate_fertility <- round((births$no_births_last3y/demo$`no_women_15-45y`)*1000,2)
 demo$year <- 2011
 
 # Merge
@@ -270,7 +274,7 @@ meta_dhs11 <- data.frame("Source"="DHS2011", "File"= "BDPR61DT","Variable"=colna
 write.csv(meta_dhs11,"./output/dhs/data/metadata_dhs_2011.csv", row.names=FALSE) # Save metadata
 
 # Save only ratio variables
-write.csv(final[c(1,3:7,23:24,28:33,35:39)],"./output/dhs/data/data_dhs_2011_clean.csv", row.names=FALSE) # Save data
+write.csv(final[c(1,3:9,24:26,29:34,36:40)],"./output/dhs/data/data_dhs_2011_clean.csv", row.names=FALSE) # Save data
 
 #----------------------------------------------------------------------------------------------------------
 # Create/save dataset/metadata (raw data)
