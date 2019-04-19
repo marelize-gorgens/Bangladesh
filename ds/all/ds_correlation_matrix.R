@@ -29,14 +29,23 @@ path <- list.files("./output/all/", pattern="*intersect_all.csv", full.names = T
 all <- lapply(path, read_csv)
 names(all) <- c("anc", "mat", "under", "unmet")
 
+path2 <- list.files("./output/all/", pattern="*union_all.csv", full.names = TRUE) # List files
+all2 <- lapply(path2, read_csv)
+names(all2) <- c("anc2", "mat2", "under2", "unmet2")
+
 #----------------------------------------------------------------------------------------------------------
 # Correlation coefficients
 #----------------------------------------------------------------------------------------------------------
 
-cor_anc <- cor(all[[1]][-c(1,2,14,20,21)],use = "complete.obs") # Create correlation matrix with numeric variables of interest
+cor_anc <- cor(all[[1]][-c(1,2,14,20,21)],use = "complete.obs") # Create correlation matrix with numeric variables of intersec
 cor_mat <- cor(all[[2]][-c(1,3,12,13,14)],use = "complete.obs")
 cor_under <- cor(all[[3]][-c(1,8,14,15,16)],use = "complete.obs")
 cor_unmet <- cor(all[[4]][-c(1,5,11,15,29,30)],use = "complete.obs")
+
+cor_anc2 <- cor(all2[[1]][-c(1,88,90)],use = "complete.obs") # Create correlation matrix with numeric variables of union
+cor_mat2 <- cor(all2[[2]][-c(1,62,63)],use = "complete.obs")
+cor_under2 <- cor(all2[[3]][-c(1,70,71)],use = "complete.obs")
+cor_unmet2 <- cor(all2[[4]][-c(1,117,119)],use = "complete.obs")
 
 #----------------------------------------------------------------------------------------------------------
 # Plotting heatmap from correlation coefficients matrix
