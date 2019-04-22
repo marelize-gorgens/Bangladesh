@@ -107,7 +107,7 @@ deaths <- ddply(tafsil4, ~ZILA, summarise, # Summarize by district
                 "no_deaths_under5y"=sum(Q_3Y<5),
                 "no_deaths_1-4y"=sum(Q_3Y>=1 & Q_3Y<=4),
                 "no_deaths_under1y"=sum(Q_3Y<1),
-                "no_maternal_deaths"=sum(Q_5 %in% c(37,38,39,40,41,42,43) & Q_2==2),
+                "no_maternal_deaths"=sum(Q_5 %in% c(37,38,39,40,41,42,43) & (Q_3Y>=15 & Q_3Y<=49) & Q_2==2),
                 "prop_deaths_rural"=(round(sum(RMO==1)/length(HH_NO),2))*100)
 
 # Demographic
@@ -141,7 +141,7 @@ demo$rate_death <- round((deaths$no_deaths/demo$total_pop) * 1000,2)
 demo$rate_child_death <- round((deaths$`no_deaths_1-4y`/demo$`child_1-4y`) * 1000,2)
 demo$rate_under5y_mortality <- round((deaths$`no_deaths_under5y`/births$no_live_births) * 1000,2)
 demo$rate_infant_mortality <- round((deaths$`no_deaths_under1y`/births$no_live_births) * 1000,2)
-demo$rate_maternal_mortality <- round((deaths$no_maternal_deaths/births$no_live_births) * 1000,2)
+demo$rate_maternal_mortality <- round((deaths$no_maternal_deaths/births$no_live_births) * 100000,2)
 demo$year <- 2012
 
 # Merge
@@ -156,6 +156,7 @@ zila1$ZILA <- as.numeric(as.character(zila1$ZILA))
 zila1 <- merge(temp, zila1, all.y=TRUE, by.x="District.Code", by.y="ZILA")
 zila1 <- data.frame(zila1[-c(1)])
 names(zila1)[1] <- "district"
+zila1$district <- gsub(" Zila", "", zila1$district)
 
 #----------------------------------------------------------------------------------------------------------
 # Save final dataset/metadata
