@@ -3,7 +3,7 @@
 # Description: Data preprocessing of SRVS datasets
 # Organization: Health, Nutrition, and Population (HNP) | The World Bank
 # Author: Hellen Matarazzo
-# Date: Updated on 03-27-2019
+# Date: Updated on 05-12-2019
 #----------------------------------------------------------------------------------------------------------
 
 #----------------------------------------------------------------------------------------------------------
@@ -29,8 +29,8 @@ if(!require(readxl)) installed.packages("readxl", dependencies=TRUE); library(re
 #----------------------------------------------------------------------------------------------------------
 
 svrs17files <- list.files("./data/bbs/svrs/SVRS_17/", recursive=TRUE, pattern="*.dta", full.names=TRUE) # List files
-svrs17 <- sapply(svrs17files[c(2,3,8,10,11)], read_dta)
-names(svrs17) <- c("tafsil-3", "tafsil-4","tafsil-9","tafsil-2h","tafsil-2p") # Rename lists
+svrs17 <- sapply(svrs17files, read_dta)
+names(svrs17) <- c("tafsil-10","tafsil-3","tafsil-4","tafsil-5","tafsil-6","tafsil-7","tafsil-8","tafsil-9","tafsil-11","tafsil-2h","tafsil-2p") # Rename lists
 
 # Section 2: Household roster and demographic characteristics ---------------------------------------------
 tafsil2h <- svrs17$'tafsil-2h' # Load as data frame
@@ -47,9 +47,33 @@ tafsil3_var <- get_variable_labels(tafsil3)
 tafsil4 <- svrs17$'tafsil-4'
 tafsil4_var <- get_variable_labels(tafsil4)
 
+# Section 5: Marriage -------------------------------------------------------------------------------------
+tafsil5 <- svrs17$'tafsil-5'
+tafsil5_var <- get_variable_labels(tafsil5)
+
+# Section 6: Divorce --------------------------------------------------------------------------------------
+tafsil6 <- svrs17$'tafsil-6'
+tafsil6_var <- get_variable_labels(tafsil6)
+
+# Section 7: Out-migration --------------------------------------------------------------------------------
+tafsil7 <- svrs17$'tafsil-7'
+tafsil7_var <- get_variable_labels(tafsil7)
+
+# Section 8: In-migration ---------------------------------------------------------------------------------
+tafsil8 <- svrs17$'tafsil-8'
+tafsil8_var <- get_variable_labels(tafsil8)
+
 # Section 9: Use of Contraceptives ------------------------------------------------------------------------
 tafsil9 <- svrs17$'tafsil-9'
 tafsil9_var <- get_variable_labels(tafsil9)
+
+# Section 10: Disability ----------------------------------------------------------------------------------
+tafsil10 <- svrs17$'tafsil-10'
+tafsil10_var <- get_variable_labels(tafsil10)
+
+# Section 11: HIV/AIDS ------------------------------------------------------------------------------------
+tafsil11 <- svrs17$'tafsil-11'
+tafsil11_var <- get_variable_labels(tafsil11)
 
 #----------------------------------------------------------------------------------------------------------
 # List of variables of interest
@@ -150,7 +174,8 @@ births <- ddply(tafsil3, ~zila, summarise, # Summarize by district
                 "no_registered_births"=sum(q_4==1),
                 "prop_live_births"=round(sum(q_9==1)/length(q_9)*100,2),
                 "prop_registered_births"=round(sum(q_4==1)/length(q_9)*100,2),
-                "prop_attendant_delivery"=round(sum(q_7 %in% c(1,2,3))/length(q_9)*100,2))
+                "prop_attendant_delivery"=round(sum(q_7 %in% c(1,2,3))/length(q_9)*100,2),
+                "mean_mothers_age"=mean(q_12))
 
 # Deaths
 deaths <- ddply(tafsil4, ~zila, summarise, # Summarize by district
@@ -161,6 +186,24 @@ deaths <- ddply(tafsil4, ~zila, summarise, # Summarize by district
                 "no_deaths_under1y"=sum(q_3y<1),
                 "no_maternal_deaths"=sum(q_5 %in% c(37,38,39,40,41,42,43) & (q_3y>=15 & q_3y<=49) & q_2==2),
                 "prop_deaths_rural"=round(sum(resi==1)/length(q_2),2)*100)
+
+# Household
+house <- ddply(tafsil2h, ~zila, summarise,
+               "prop_drinking_tubewell_water"=round(sum(q21==2)/length(hh_no)*100,2),
+               "prop_eletricity"=round(sum(q4==1)/length(hh_no)*100,2),
+               "prop_sanitary_with_water"=round(sum(q6==1)/length(hh_no)*100,2))
+
+# Out-migration
+emigration <- ddply(tafsil7, ~zila, summarise,
+                    "no_emigrants"=length(hh_no),
+                    "no_emigrants_women"=sum(q_2==2),
+                    "no_emigrants_men"=sum(q_2==1))
+
+# In-migration
+immigration <- ddply(tafsil8, ~zila, summarise,
+                     "no_immigrants"=length(hh_no),
+                     "no_immigrants_women"=sum(q_2==2),
+                     "no_immigrants_men"=sum(q_2==1))
 
 # Demographic
 demo <- ddply(tafsil2p, ~zila, summarise,
@@ -184,7 +227,9 @@ demo <- ddply(tafsil2p, ~zila, summarise,
               "prop_women_15-45y_overwomen"=round(sum((q_10>=15 & q_10<=45) & q_11==2)/sum(q_11==2)*100,2),
               "prop_women_15-45y_overtotal"=round(sum((q_10>=15 & q_10<=45) & q_11==2)/length(tot_pop)*100,2),
               "prop_married_women_15-45y"=round(sum((q_10>=15 & q_10<=45) & q_14==2 & q_11==2, na.rm=TRUE)/sum(q_10>=15 & q_10<=45 & q_11==2)*100,2),
-              "prop_married_>=15y"=round(sum(q_10>=15 & q_14==2, na.rm=TRUE)/sum(q_10>=15)*100,2))
+              "prop_married_>=15y"=round(sum(q_10>=15 & q_14==2, na.rm=TRUE)/sum(q_10>=15)*100,2),
+              "prop_mulsim"=round(sum(religion==1)/length(tot_pop)*100,2),
+              "prop_hindu"=round(sum(religion==2)/length(tot_pop)*100,2))
 
 # Indicators
 demo$rate_live_births <- round((births$no_live_births/demo$total_pop)*1000,2) # Crude Birth Rate (CBR)
@@ -194,11 +239,20 @@ demo$rate_child_death <- round((deaths$`no_deaths_1-4y`/demo$`child_1-4y`) * 100
 demo$rate_under5y_mortality <- round((deaths$`no_deaths_under5y`/births$no_live_births) * 1000,2)
 demo$rate_infant_mortality <- round((deaths$`no_deaths_under1y`/births$no_live_births) * 1000,2)
 demo$rate_maternal_mortality <- round((deaths$no_maternal_deaths/births$no_live_births) * 100000,2) # Maternal Mortality Ratio (MMR)
+demo$rate_emigration <- round((emigration$no_emigrants/demo$total_pop)*1000,2)
+demo$rate_emigration_women <- round((emigration$no_emigrants_women/demo$total_pop)*1000,2)
+demo$rate_emigration_men <- round((emigration$no_emigrants_men/demo$total_pop)*1000,2)
+demo$rate_immigration <- round((immigration$no_immigrants/demo$total_pop)*1000,2)
+demo$rate_immigration_women <- round((immigration$no_immigrants_women/demo$total_pop)*1000,2)
+demo$rate_immigration_men <- round((immigration$no_immigrants_men/demo$total_pop)*1000,2)
 demo$year <- 2017
 
 # Merge
 zila <- merge(births, deaths, all=TRUE)
-zila1 <- merge(zila, demo, all=TRUE)
+zila_b <- merge(zila, house, all=TRUE)
+zila_c <- merge(zila_b, emigration, all=TRUE)
+zila_d <- merge(zila_c, immigration, all=TRUE)
+zila1 <- merge(zila_d, demo, all=TRUE)
 
 # Rename Zilas
 temp <- read_xlsx("./data/bbs/svrs/SVRS_17/MSVSB PSU 2015.xlsx")
@@ -266,14 +320,15 @@ names(zila1)[1] <- "district"
 # By Zila
 write.csv(zila1,"./output/bbs/data/data_svrs_zila_2017.csv", row.names=FALSE) # Save data
 
+# Save only ratio variables
+colnames(zila1)
+write.csv(zila1[c(1,5:8,15:18,37:61)],"./output/bbs/data/data_svrs_zila_2017_clean.csv", row.names=FALSE) # Save data
+
 # # By Upazila
 # write.csv(upazila1,"./output/bbs/data/data_svrs_upzila_2017.csv", row.names=FALSE) # Save data
 
 meta_srvs17 <- data.frame("Source"="SRVS", "File"= "SRVS_17","Variable"=colnames(zila1))
 write.csv(meta_srvs17,"./output/bbs/data/metadata_bbs_srvs_2017.csv", row.names=FALSE) # Save metadata
-
-# Save only ratio variables
-write.csv(zila1[c(1,5:7,14,27:32, 34:43)],"./output/bbs/data/data_svrs_zila_2017_clean.csv", row.names=FALSE) # Save data
 
 #----------------------------------------------------------------------------------------------------------
 # Create/save metadata (raw data)
