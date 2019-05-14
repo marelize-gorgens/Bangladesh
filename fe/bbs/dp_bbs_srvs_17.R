@@ -54,6 +54,8 @@ tafsil5_var <- get_variable_labels(tafsil5)
 # Section 6: Divorce --------------------------------------------------------------------------------------
 tafsil6 <- svrs17$'tafsil-6'
 tafsil6_var <- get_variable_labels(tafsil6)
+tafsil6 <- subset(tafsil6, !is.na(zila))
+tafsil6 <- tafsil6[!(tafsil6$zila==95),]
 
 # Section 7: Out-migration --------------------------------------------------------------------------------
 tafsil7 <- svrs17$'tafsil-7'
@@ -194,20 +196,28 @@ marriage <- ddply(tafsil5, ~zila, summarise, # Summarize by district
 
 # Divorce
 divorce <- ddply(tafsil6, ~zila, summarise, # Summarize by district
-                 "no_divorce"=sum(q_1==1),
-                 "no_separation"=sum(q_1==2))
+                 "no_divorce"=sum(q_1==1, na.rm=TRUE),
+                 "no_separation"=sum(q_1==2, na.rm=TRUE))
 
 # Out-migration
 outmigration <- ddply(tafsil7, ~zila, summarise,
-                    "no_outmigration"=length(hh_no),
-                    "no_outmigration_women"=sum(q_2==2),
-                    "no_outmigration_men"=sum(q_2==1))
+                    "no_out"=length(hh_no),
+                    "no_out_women"=sum(q_2==2),
+                    "no_out_men"=sum(q_2==1),
+                    "no_out_0to14y" = sum(q_3<15),
+                    "no_out_15to44y" = sum(q_3>=15 & q_3<=44),
+                    "no_out_45to64y" = sum(q_3>=45 & q_3<=64),
+                    "no_out_65yplus" = sum(q_3>=65))
 
 # In-migration
 immigration <- ddply(tafsil8, ~zila, summarise,
-                     "no_immigration"=length(hh_no),
-                     "no_immigration_women"=sum(q_2==2),
-                     "no_immigration_men"=sum(q_2==1))
+                     "no_in"=length(hh_no),
+                     "no_in_women"=sum(q_2==2),
+                     "no_in_men"=sum(q_2==1),
+                     "no_in_0to14y" = sum(q_3<15),
+                     "no_in_15to44y" = sum(q_3>=15 & q_3<=44),
+                     "no_in_45to64y" = sum(q_3>=45 & q_3<=64),
+                     "no_in_65yplus" = sum(q_3>=65))
 
 # Household
 house <- ddply(tafsil2h, ~zila, summarise,
@@ -221,6 +231,7 @@ house <- ddply(tafsil2h, ~zila, summarise,
                "prop_house_mud"=round(sum(q1_4a!=0)/length(hh_no)*100,2),
                "prop_house_bamboo"=round(sum(q1_5a!=0)/length(hh_no)*100,2))# Demographic
 
+# Household members 
 demo <- ddply(tafsil2p, ~zila, summarise,
               "total_pop"=length(tot_pop),
               "pop_>15y"=sum(q_10>15),
@@ -261,16 +272,24 @@ demo$rate_child_death <- round((deaths$`no_deaths_1-4y`/demo$`child_1-4y`) * 100
 demo$rate_under5y_mortality <- round((deaths$`no_deaths_under5y`/births$no_live_births) * 1000,2)
 demo$rate_infant_mortality <- round((deaths$`no_deaths_under1y`/births$no_live_births) * 1000,2)
 demo$rate_maternal_mortality <- round((deaths$no_maternal_deaths/births$no_live_births) * 100000,2) # Maternal Mortality Ratio (MMR)
-demo$rate_outmigration <- round((outmigration$no_outmigration/demo$total_pop)*1000,2)
-demo$rate_outmigration_women <- round((outmigration$no_outmigration_women/demo$total_pop)*1000,2)
-demo$rate_outmigration_men <- round((outmigration$no_outmigration_men/demo$total_pop)*1000,2)
-demo$rate_immigration <- round((immigration$no_immigration/demo$total_pop)*1000,2)
-demo$rate_immigration_women <- round((immigration$no_immigration_women/demo$total_pop)*1000,2)
-demo$rate_immigration_men <- round((immigration$no_immigration_men/demo$total_pop)*1000,2)
+demo$rate_out <- round((outmigration$no_out/demo$total_pop)*1000,2)
+demo$rate_out_women <- round((outmigration$no_out_women/demo$total_pop)*1000,2)
+demo$rate_out_men <- round((outmigration$no_out_men/demo$total_pop)*1000,2)
+demo$rate_out_0to14y <- round((outmigration$no_out_0to14y/demo$total_pop)*1000,2)
+demo$rate_out_15to44y <- round((outmigration$no_out_15to44y/demo$total_pop)*1000,2)
+demo$rate_out_45to64y <- round((outmigration$no_out_45to64y/demo$total_pop)*1000,2)
+demo$rate_out_65yplus <- round((outmigration$no_out_65yplus/demo$total_pop)*1000,2)
+demo$rate_in <- round((immigration$no_in/demo$total_pop)*1000,2)
+demo$rate_in_women <- round((immigration$no_in_women/demo$total_pop)*1000,2)
+demo$rate_in_men <- round((immigration$no_in_men/demo$total_pop)*1000,2)
+demo$rate_in_0to14y <- round((immigration$no_in_0to14y/demo$total_pop)*1000,2)
+demo$rate_in_15to44y <- round((immigration$no_in_15to44y/demo$total_pop)*1000,2)
+demo$rate_in_45to64y <- round((immigration$no_in_45to64y/demo$total_pop)*1000,2)
+demo$rate_in_65yplus <- round((immigration$no_in_65yplus/demo$total_pop)*1000,2)
 demo$rate_marriage <- round((marriage$no_marriage/demo$total_pop)*1000,2)
-# demo$rate_divorce <- round((divorce$no_divorce/demo$total_pop)*1000,2)
-# demo$rate_separation <- round((divorce$no_separation/demo$total_pop)*1000,2)
-# demo$prop_divorce_marriage <- round((divorce$no_divorce/marriage$no_marriage)*100,2)
+demo$rate_divorce <- round((divorce$no_divorce/demo$total_pop)*1000,2)
+demo$rate_separation <- round((divorce$no_separation/demo$total_pop)*1000,2)
+demo$prop_divorce_marriage <- round((divorce$no_divorce/marriage$no_marriage)*100,2)
 demo$year <- 2017
 
 # Merge
@@ -289,6 +308,7 @@ temp <- unique(temp)
 zila1 <- merge(temp, zila1, all.y=TRUE, by.x="zl", by.y="zila")
 zila1 <- data.frame(zila1[-c(1)])
 names(zila1)[1] <- "district"
+zila1 <- subset(zila1, !is.na(zila1$district))
 
 # # Upazila -------------------------------------------------------------------------------------------------
 # # Births
@@ -350,7 +370,7 @@ write.csv(zila1,"./output/bbs/data/data_svrs_zila_2017.csv", row.names=FALSE) # 
 
 # Save only ratio variables
 colnames(zila1)
-write.csv(zila1[c(1,5:8,15:18,37:61)],"./output/bbs/data/data_svrs_zila_2017_clean.csv", row.names=FALSE) # Save data
+write.csv(zila1[c(1,5:8,15,17,34:42,55:98)],"./output/bbs/data/data_svrs_zila_2017_clean.csv", row.names=FALSE) # Save data
 
 # # By Upazila
 # write.csv(upazila1,"./output/bbs/data/data_svrs_upzila_2017.csv", row.names=FALSE) # Save data
