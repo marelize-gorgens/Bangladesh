@@ -229,7 +229,7 @@ house <- ddply(tafsil2h, ~zila, summarise,
                "prop_house_semipucca"=round(sum(q1_2a!=0)/length(hh_no)*100,2),
                "prop_house_wooden"=round(sum(q1_3a!=0)/length(hh_no)*100,2),
                "prop_house_mud"=round(sum(q1_4a!=0)/length(hh_no)*100,2),
-               "prop_house_bamboo"=round(sum(q1_5a!=0)/length(hh_no)*100,2))# Demographic
+               "prop_house_bamboo"=round(sum(q1_5a!=0)/length(hh_no)*100,2))
 
 # Household members 
 demo <- ddply(tafsil2p, ~zila, summarise,
@@ -382,13 +382,13 @@ write.csv(meta_srvs17,"./output/bbs/data/metadata_bbs_srvs_2017.csv", row.names=
 # Create/save metadata (raw data)
 #----------------------------------------------------------------------------------------------------------
 
-meta_svrs17 <- data.frame()
-for (i in seq_along(svrs17)){
-  meta <- data.frame("Source"="SRVS_17", "File"= names(svrs17[i]),get_variable_labels(svrs17[[i]]))
-  meta_svrs17 <- rbind(meta_svrs17,meta)
-}
-
-write.csv(meta_svrs17,"./data/bbs/svrs/SVRS_17/metadata_bbs_SRVS_17.csv", row.names=FALSE) # Save metadata
+# meta_svrs17 <- data.frame()
+# for (i in seq_along(svrs17)){
+#   meta <- data.frame("Source"="SRVS_17", "File"= names(svrs17[i]),get_variable_labels(svrs17[[i]]))
+#   meta_svrs17 <- rbind(meta_svrs17,meta)
+# }
+# 
+# write.csv(meta_svrs17,"./data/bbs/svrs/SVRS_17/metadata_bbs_SRVS_17.csv", row.names=FALSE) # Save metadata
 
 #----------------------------------------------------------------------------------------------------------
 # Merge/save metadata from 2017, 2014 and 2013 (raw data)

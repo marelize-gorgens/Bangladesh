@@ -125,105 +125,105 @@ tafsil11_var <- get_variable_labels(tafsil11)
 # Births
 births <- ddply(tafsil3, ~zila, summarise, # Summarize by district
                 "no_births"=length(C10),
-                "no_live_births"=sum(C10==1, na.rm=TRUE),
-                "no_registered_births"=sum(C4==1, na.rm=TRUE),
-                "prop_live_births"=round(sum(C9==1)/length(C9)*100,2),
-                "prop_registered_births"=round(sum(C4==1, na.rm=TRUE)/length(C10),2),
-                "prop_attendant_delivery"=round(sum(C7 %in% c(3,4))/length(C10),2),
-                "mean_mothers_age"=round(mean(C12),0))
+                "no_live_births"=sum((C10==1), na.rm=TRUE),
+                "no_registered_births"=sum((C4==1), na.rm=TRUE),
+                "prop_live_births"=round(sum((C9==1))/length(C9)*100,2),
+                "prop_registered_births"=round(sum((C4==1), na.rm=TRUE)/length(C10)*100,2),
+                "prop_attendant_delivery"=round(sum((C7 %in% c(3,4)))/length(C10)*100,2),
+                "mean_mothers_age"=round(mean((C12)),0))
 
 # Deaths
 deaths <- ddply(tafsil4, ~zila, summarise, # Summarize by district
                 "no_deaths"=length(HH1),
-                "no_deaths_rural"=sum(area==1),
-                "no_deaths_under5y"=sum(D3Y<5),
-                "no_deaths_1-4y"=sum(D3Y>=1 & D3Y<=4),
-                "no_deaths_under1y"=sum(D3Y<1),
-                "no_maternal_deaths"=sum(D5 %in% c(37,38,39,40,41,42,43) & D2==2),
-                "prop_deaths_rural"=round(sum(area==1)/length(HH1),2))
+                "no_deaths_rural"=sum((area==1)),
+                "no_deaths_under5y"=sum((D3Y<5)),
+                "no_deaths_1-4y"=sum((D3Y>=1 & D3Y<=4)),
+                "no_deaths_under1y"=sum((D3Y<1)),
+                "no_maternal_deaths"=sum((D5 %in% c(37,38,39,40,41,42,43) & (D3Y>=15 & D3Y<=49) & D2==2)),
+                "prop_deaths_rural"=round(sum((area==1))/length(HH1),2))
 
 # Marriage
 marriage <- ddply(tafsil5, ~zila, summarise, # Summarize by district
                   "no_marriage"=length(HH1),
-                  "mean_age_marriage"=round(mean(E4),0))
+                  "mean_age_marriage"=round(mean((E4)),0))
 
 # Divorce
 divorce <- ddply(tafsil6, ~zila, summarise, # Summarize by district
-                 "no_divorce"=sum(F1_A==1, na.rm=TRUE),
-                 "no_separation"=sum(F1_A==2, na.rm=TRUE))
+                 "no_divorce"=sum((F1_A==1), na.rm=TRUE),
+                 "no_separation"=sum((F1_A==2), na.rm=TRUE))
 
 # Out-migration
 outmigration <- ddply(tafsil7, ~zila, summarise,
                       "no_out"=length(HH1),
-                      "no_out_women"=sum(G2==2),
-                      "no_out_men"=sum(G2==1),
-                      "no_out_0to14y" = sum(G3<15),
-                      "no_out_15to44y" = sum(G3>=15 & G3<=44),
-                      "no_out_45to64y" = sum(G3>=45 & G3<=64),
-                      "no_out_65yplus" = sum(G3>=65))
+                      "no_out_women"=sum((G2==2)),
+                      "no_out_men"=sum((G2==1)),
+                      "no_out_0to14y" = sum((G3<15)),
+                      "no_out_15to44y" = sum((G3>=15 & G3<=44)),
+                      "no_out_45to64y" = sum((G3>=45 & G3<=64)),
+                      "no_out_65yplus" = sum((G3>=65)))
 # In-migration
 immigration <- ddply(tafsil8, ~zila, summarise,
                      "no_in"=length(HH1),
-                     "no_in_women"=sum(H2==2),
-                     "no_in_men"=sum(H2==1),
-                     "no_in_0to14y" = sum(H3<15),
-                     "no_in_15to44y" = sum(H3>=15 & H3<=44),
-                     "no_in_45to64y" = sum(H3>=45 & H3<=64),
-                     "no_in_65yplus" = sum(H3>=65))
+                     "no_in_women"=sum((H2==2)),
+                     "no_in_men"=sum((H2==1)),
+                     "no_in_0to14y" = sum((H3<15)),
+                     "no_in_15to44y" = sum((H3>=15 & H3<=44)),
+                     "no_in_45to64y" = sum((H3>=45 & H3<=64)),
+                     "no_in_65yplus" = sum((H3>=65)))
 
 # Household
 house <- ddply(tafsil2h, ~ZILA, summarise,
-               "prop_drinking_tubewell_water"=round(sum(Q3A==2)/length(HH1)*100,2),
-               "prop_source_light_eletricity"=round(sum(Q5==2)/length(HH1)*100,2),
-               "prop_sanitary_with_water"=round(sum(Q7==1)/length(HH1)*100,2),
-               "prop_sanitary_open"=round(sum(Q7==4)/length(HH1)*100,2),
-               "prop_house_building"=round(sum(Q2A2!=0)/length(HH1)*100,2),
-               "prop_house_semipucca"=round(sum(Q2B2!=0)/length(HH1)*100,2),
-               "prop_house_wooden"=round(sum(Q2C2!=0)/length(HH1)*100,2),
-               "prop_house_mud"=round(sum(Q2D2!=0)/length(HH1)*100,2),
-               "prop_house_bamboo"=round(sum(Q2E2!=0)/length(HH1)*100,2))
+               "prop_drinking_tubewell_water"=round(sum((Q3A==2))/length(HH1)*100,2),
+               "prop_source_light_eletricity"=round(sum((Q5==2))/length(HH1)*100,2),
+               "prop_sanitary_with_water"=round(sum((Q7==1))/length(HH1)*100,2),
+               "prop_sanitary_open"=round(sum((Q7==4))/length(HH1)*100,2),
+               "prop_house_building"=round(sum((!is.na(Q2A2)))/length(HH1)*100,2),
+               "prop_house_semipucca"=round(sum((!is.na(Q2B2)))/length(HH1)*100,2),
+               "prop_house_wooden"=round(sum((!is.na(Q2C2)))/length(HH1)*100,2),
+               "prop_house_mud"=round(sum((!is.na(Q2D2)))/length(HH1)*100,2),
+               "prop_house_bamboo"=round(sum((!is.na(Q2E2)))/length(HH1)*100,2))
 
 # Household members
 demo <- ddply(tafsil2p, ~zila, summarise,
               "total_pop"=length(HH1),
-              "pop_>15y"=sum(Q11>15),
-              "pop_15-19y"=sum(Q11>=15 & Q11<=19),
-              "pop_>35y"=sum(Q11>35),
-              "women_15-19y"=sum((Q11>=15 & Q11<=19) & Q12==2),
-              "women_15-45y"=sum((Q11>=15 & Q11<=45) & Q12==2),
-              "men_>15y"=sum(Q11>=15 & Q12==1),
-              "women_15-45_men_>=15y" = sum(((Q11>=15 & Q11<=45) & Q12==2) | (Q11>=15 & Q12==1)),
-              "child_under5y"=sum(Q11<5),
-              "child_1-4y" = sum(Q11>=1 & Q11<=4),
-              "child_0-5y" = sum(Q11<=5),
-              "no_married_>=15y"=sum(Q11>=15 & Q15==2, na.rm=TRUE),
-              "sex_ratio"=round(sum(Q12==1)/sum(Q12==2)*100,2),
-              "dependency_ratio"=round((sum(Q11<=14) + sum(Q11>=65))/sum(Q11>=15 & Q11<=64)*100,2),
-              "prop_pop_rural"=round(sum(area==1)/length(HH1)*100,2),
-              "prop_pop_women"=round(sum(Q12==2)/length(HH1)*100,2),
-              "prop_pop_rural_women"=round(sum(Q12==2 & area==1)/length(HH1)*100,2),
-              "prop_women_15-45y_overwomen"=round(sum((Q11>=15 & Q11<=45) & Q12==2)/sum(Q12==2)*100,2),
-              "prop_women_15-45y_overtotal"=round(sum((Q11>=15 & Q11<=45) & Q12==2)/length(HH1)*100,2),
-              "prop_married_women_15-45y"=round(sum((Q11>=15 & Q11<=45) & Q15==2 & Q12==2, na.rm=TRUE)/sum(Q11>=15 & Q11<=45 & Q12==2)*100,2),
-              "prop_married_>=15y"=round(sum(Q11>=15 & Q15==2, na.rm=TRUE)/sum(Q11>=15)*100,2),
-              "prop_muslim"=round(sum(religion==1)/length(HH1)*100,2),
-              "prop_hindu"=round(sum(religion==2)/length(HH1)*100,2),
-              "mean_age"=round(mean(Q11),2),
-              "mean_household_head_age"=round(mean(Q11[Q14==1]),2),
-              "prop_household_head_women"=round(sum(Q14==1 & Q12==2)/length(HH1)*100,2),
-              "prop_primary"=round(sum(Q16 %in% c(1:5))/length(HH1)*100,2),
-              "prop_secondary_or_higher"=round(sum(Q16 %in% c(10:99))/length(HH1)*100,2),
-              "rate_literacy_7yplus"=round(sum(Q19==1 & Q11>=7)/sum(Q11>=7)*100,2),
-              "ratio_child_women"=round(sum(Q11<5)/sum((Q11>=15 & Q11<=49) & Q12==2)*1000,2))
+              "pop_>15y"=sum((Q11>15)),
+              "pop_15-19y"=sum((Q11>=15 & Q11<=19)),
+              "pop_>35y"=sum((Q11>35)),
+              "women_15-19y"=sum(((Q11>=15 & Q11<=19) & Q12==2)),
+              "women_15-45y"=sum(((Q11>=15 & Q11<=45) & Q12==2)),
+              "men_>15y"=sum((Q11>=15 & Q12==1)),
+              "women_15-45_men_>=15y" = sum((((Q11>=15 & Q11<=45) & Q12==2) | (Q11>=15 & Q12==1))),
+              "child_under5y"=sum((Q11<5)),
+              "child_1-4y" = sum((Q11>=1 & Q11<=4)),
+              "child_0-5y" = sum((Q11<=5)),
+              "no_married_>=15y"=sum((Q11>=15 & Q15==2)),
+              "sex_ratio"=round(sum((Q12==1))/sum((Q12==2))*100,2),
+              "dependency_ratio"=round((sum((Q11<=14)) + sum((Q11>=65)))/sum((Q11>=15 & Q11<=64))*100,2),
+              "prop_pop_rural"=round(sum((area==1))/length(HH1)*100,2),
+              "prop_pop_women"=round(sum((Q12==2))/length(HH1)*100,2),
+              "prop_pop_rural_women"=round(sum((Q12==2 & area==1))/length(HH1)*100,2),
+              "prop_women_15-45y_overwomen"=round(sum(((Q11>=15 & Q11<=45) & Q12==2))/sum((Q12==2))*100,2),
+              "prop_women_15-45y_overtotal"=round(sum(((Q11>=15 & Q11<=45) & Q12==2))/length(HH1)*100,2),
+              "prop_married_women_15-45y"=round(sum(((Q11>=15 & Q11<=45) & Q15==2 & Q12==2))/sum((Q11>=15 & Q11<=45 & Q12==2))*100,2),
+              "prop_married_>=15y"=round(sum((Q11>=15 & Q15==2))/sum((Q11>=15))*100,2),
+              "prop_muslim"=round(sum((religion==1))/length(HH1)*100,2),
+              "prop_hindu"=round(sum((religion==2))/length(HH1)*100,2),
+              "mean_age"=round(mean((Q11)),2),
+              "mean_household_head_age"=round(mean((Q11[Q14==1])),2),
+              "prop_household_head_women"=round(sum((Q14==1 & Q12==2))/length(HH1)*100,2),
+              "prop_primary"=round(sum((Q16 %in% c(1:5)))/length(HH1)*100,2),
+              "prop_secondary_or_higher"=round(sum((Q16 %in% c(10:99)))/length(HH1)*100,2),
+              "rate_literacy_7yplus"=round(sum((Q19==1 & Q11>=7))/sum((Q11>=7))*100,2),
+              "ratio_child_women"=round(sum((Q11<5))/sum(((Q11>=15 & Q11<=49) & Q12==2))*1000,2))
 
 # Indicators
-demo$rate_live_births <- round((births$no_live_births/demo$total_pop)*1000,2)
-demo$rate_fertility <- round((births$no_births/demo$`women_15-45y`)*1000,2)
+demo$rate_live_births <- round((births$no_live_births/demo$total_pop)*1000,2) # Crude Birth Rate (CBR)
+demo$rate_fertility <- round((births$no_births/demo$`women_15-45y`)*1000,2) # General Fertility Rate (GFR)
 demo$rate_death <- round((deaths$no_deaths/demo$total_pop) * 1000,2)
 demo$rate_child_death <- round((deaths$`no_deaths_1-4y`/demo$`child_1-4y`) * 1000,2)
 demo$rate_under5y_mortality <- round((deaths$`no_deaths_under5y`/births$no_live_births) * 1000,2)
 demo$rate_infant_mortality <- round((deaths$`no_deaths_under1y`/births$no_live_births) * 1000,2)
-demo$rate_maternal_mortality <- round((deaths$no_maternal_deaths/births$no_live_births) * 100000,2)
+demo$rate_maternal_mortality <- round((deaths$no_maternal_deaths/births$no_live_births) * 100000,2) # Maternal Mortality Ratio (MMR)
 demo$rate_out <- round((outmigration$no_out/demo$total_pop)*1000,2)
 demo$rate_out_women <- round((outmigration$no_out_women/demo$total_pop)*1000,2)
 demo$rate_out_men <- round((outmigration$no_out_men/demo$total_pop)*1000,2)
@@ -270,7 +270,7 @@ write.csv(zila1,"./output/bbs/data/data_svrs_zila_2014.csv", row.names=FALSE) # 
 
 # Save only ratio variables
 colnames(zila1)
-write.csv(zila1[c(1,5:8,15,17,34:42,55:98)],"./output/bbs/data/data_svrs_zila_2017_clean.csv", row.names=FALSE) # Save data
+write.csv(zila1[c(1,5:8,15,17,34:42,55:98)],"./output/bbs/data/data_svrs_zila_2014_clean.csv", row.names=FALSE) # Save data
 
 meta_srvs14 <- data.frame("Source"="SRVS", "File"= "SRVS_14","Variable"=colnames(zila1))
 write.csv(meta_srvs14,"./output/bbs/data/metadata_bbs_srvs_2014.csv", row.names=FALSE) # Save metadata
@@ -279,10 +279,10 @@ write.csv(meta_srvs14,"./output/bbs/data/metadata_bbs_srvs_2014.csv", row.names=
 # Create/save metadata (raw data)
 #----------------------------------------------------------------------------------------------------------
 
-meta_svrs14 <- data.frame()
-for (i in seq_along(svrs14)){
-  meta <- data.frame("Source"="SRVS_14", "File"= names(svrs14[i]),get_variable_labels(svrs14[[i]]))
-  meta_svrs14 <- rbind(meta_svrs14,meta)
-}
-
-write.csv(meta_svrs14,"./data/bbs/svrs/SVRS_14/metadata_bbs_SRVS_14.csv", row.names=FALSE) # Save metadata
+# meta_svrs14 <- data.frame()
+# for (i in seq_along(svrs14)){
+#   meta <- data.frame("Source"="SRVS_14", "File"= names(svrs14[i]),get_variable_labels(svrs14[[i]]))
+#   meta_svrs14 <- rbind(meta_svrs14,meta)
+# }
+# 
+# write.csv(meta_svrs14,"./data/bbs/svrs/SVRS_14/metadata_bbs_SRVS_14.csv", row.names=FALSE) # Save metadata
