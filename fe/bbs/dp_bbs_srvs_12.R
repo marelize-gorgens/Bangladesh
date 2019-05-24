@@ -113,8 +113,8 @@ births <- ddply(tafsil3, ~ZILA, summarise, # Summarize by district
                 "no_live_births"=sum(Q_9==1, na.rm=TRUE),
                 "no_registered_births"=sum(Q_4==1, na.rm=TRUE),
                 "prop_live_births"=round(sum(Q_9==1)/length(Q_9)*100,2),
-                "prop_registered_births"=(round(sum(Q_4==1, na.rm=TRUE)/length(Q_9),2))*100,
-                "prop_attendant_delivery"=round(sum(Q_7 %in% c(3,4))/length(Q_7),2),
+                "prop_registered_births"=round(sum(Q_4==1, na.rm=TRUE)/length(Q_9)*100,2),
+                "prop_attendant_delivery"=round(sum(Q_7 %in% c(3,4))/length(Q_7)*100,2),
                 "mean_mothers_age"=round(mean(Q_11),0))
 
 # Deaths
@@ -203,13 +203,13 @@ demo <- ddply(tafsil2p, ~ZILA, summarise,
 
               
 # Indicators
-demo$rate_live_births <- round((births$no_live_births/demo$total_pop)*1000,2)
-demo$rate_fertility <- round((births$no_births/demo$`women_15-45y`)*1000,2)
+demo$rate_live_births <- round((births$no_live_births/demo$total_pop)*1000,2) # Crude Birth Rate (CBR)
+demo$rate_fertility <- round((births$no_births/demo$`women_15-45y`)*1000,2) # General Fertility Rate (GFR)
 demo$rate_death <- round((deaths$no_deaths/demo$total_pop) * 1000,2)
 demo$rate_child_death <- round((deaths$`no_deaths_1-4y`/demo$`child_1-4y`) * 1000,2)
 demo$rate_under5y_mortality <- round((deaths$`no_deaths_under5y`/births$no_live_births) * 1000,2)
 demo$rate_infant_mortality <- round((deaths$`no_deaths_under1y`/births$no_live_births) * 1000,2)
-demo$rate_maternal_mortality <- round((deaths$no_maternal_deaths/births$no_live_births) * 100000,2)
+demo$rate_maternal_mortality <- round((deaths$no_maternal_deaths/births$no_live_births) * 100000,2) # Maternal Mortality Ratio (MMR)
 demo$rate_out <- round((outmigration$no_out/demo$total_pop)*1000,2)
 demo$rate_out_women <- round((outmigration$no_out_women/demo$total_pop)*1000,2)
 demo$rate_out_men <- round((outmigration$no_out_men/demo$total_pop)*1000,2)
