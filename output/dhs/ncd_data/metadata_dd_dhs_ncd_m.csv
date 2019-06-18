@@ -1,3 +1,383 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:85ed2312638b90026c3978a8d833680ca5cd2a415f7cc38eb15654fd3a4e175e
-size 19741
+variable,description,model_keep,num_values,type
+hhid,Case Identification,0,17141,numeric
+hvidx,Line number,0,31,categorical
+hv000,Country code and phase,0,1,categorical
+hv001,Cluster number,0,600,categorical
+hv002,Household number,0,184,categorical
+hv003,Respondent's line number (answering Household questionnaire),0,15,categorical
+hv004,Ultimate area unit,0,600,numeric
+hv005,Household sample weight (6 decimals),0,465,numeric
+hv006,Month of interview,0,6,categorical
+hv007,Year of interview,0,1,numeric
+hv008,Date of interview (CMC),0,6,date
+hv009,Number of household members,1,25,numeric
+hv010,Number of eligible women in household,1,7,numeric
+hv011,Number of eligible men in household,1,6,numeric
+hv012,Number of de jure members,1,24,numeric
+hv013,Number of de facto members,1,26,numeric
+hv014,Number of children 5 and under (de jure),1,8,numeric
+hv015,Result of household interview,1,1,categorical
+hv016,Day of interview,1,31,categorical
+hv017,Number of visits,1,3,numeric
+hv018,Interviewer identification,0,130,numeric
+hv019,Keyer identification,0,7,categorical
+hv020,Ever-married sample,1,1,categorical
+hv021,Primary sampling unit,0,600,categorical
+hv022,Sample strata for sampling errors,0,20,numeric
+hv023,Stratification used in sample design,0,20,numeric
+hv024,Region,1,7,categorical
+hv025,Type of place of residence,1,2,categorical
+hv026,Place of residence,1,3,categorical
+hv027,Household selected for male interview,1,2,categorical
+hv028,Household weight for male subsample (6 decimals),0,466,numeric
+hv030,Field supervisor,0,21,categorical
+hv031,Field editor,0,22,categorical
+hv032,Office editor,0,8,categorical
+hv035,Number of eligible children for height and weight,1,8,numeric
+hv040,Cluster altitude in meters,1,72,numeric
+hv041,Total adults measured,1,13,numeric
+hv042,Household selected for hemoglobin,1,2,categorical
+hv044,NA - Household selected for Domestic Violence module,0,1,categorical
+hv201,Source of drinking water,1,13,categorical
+hv202,NA - Source of non-drinking water,1,1,categorical
+hv204,Time to get to water source (minutes),1,50,numeric
+hv205,Type of toilet facility,1,13,categorical
+hv206,Has electricity,1,2,categorical
+hv207,Has radio,1,2,categorical
+hv208,Has television,1,2,categorical
+hv209,Has refrigerator,1,3,categorical
+hv210,Has bicycle,1,3,categorical
+hv211,Has motorcycle/scooter,1,3,categorical
+hv212,NA - Has car/truck,1,1,categorical
+hv213,Main floor material,1,9,categorical
+hv214,Main wall material,1,13,categorical
+hv215,Main roof material,1,12,categorical
+hv216,Number of rooms used for sleeping,1,12,numeric
+hv217,Relationship structure,1,6,categorical
+hv218,Line number of head of household,1,2,categorical
+hv219,Sex of head of household,1,2,categorical
+hv220,Age of head of household,1,84,categorical
+hv221,Has telephone (land-line),1,2,categorical
+hv225,Share toilet with other households,1,3,categorical
+hv226,Type of cooking fuel,1,14,categorical
+hv227,NA - Has mosquito bed net for sleeping,1,1,categorical
+hv228,NA - Children under 5 slept under mosquito bed net last night,1,1,categorical
+hv230a,Place where household members wash their hands,1,5,categorical
+hv230b,Presence of water at hand washing place,1,4,categorical
+hv232,Items present: Soap or detergent,1,4,categorical
+hv232b,"Items present: Ash, mud, sand",1,4,categorical
+hv232c,Items present: soap,1,4,categorical
+hv232d,Items present: detergent,1,4,categorical
+hv232e,NA - Items present: CS,1,1,categorical
+hv232y,Items present: None,1,4,categorical
+hv234,NA - Result of salt test for iodine (PPM),1,1,categorical
+hv234a,Result of salt test for iodine,1,5,categorical
+hv235,Location of source for water,1,5,categorical
+hv236,NA - Person fetching water,1,1,categorical
+hv237,Anything done to water to make safe to drink,1,3,categorical
+hv237a,Water usually treated by: boil,1,4,categorical
+hv237b,Water usually treated by: add bleach/chlorine,1,4,categorical
+hv237c,Water usually treated by: strain through a cloth,1,4,categorical
+hv237d,Water usually treated by: use water filter,1,4,categorical
+hv237e,Water usually treated by: solar disinfection,1,3,categorical
+hv237f,Water usually treated by: let it stand and settle,1,4,categorical
+hv237g,Water usually treated by: Alum,1,4,categorical
+hv237h,NA - Water usually treated by: CS,1,1,categorical
+hv237i,NA - Water usually treated by: CS,1,1,categorical
+hv237j,NA - Water usually treated by: CS,1,1,categorical
+hv237k,NA - Water usually treated by: CS,1,1,categorical
+hv237x,Water usually treated by: other,1,4,categorical
+hv237z,Water usually treated by: don't know,1,4,categorical
+hv238,Number of households sharing toilet,1,12,categorical
+hv239,NA - Food cooked on stove or open fire,1,1,categorical
+hv240,"NA - Household has a chimney, hood or neither",1,1,categorical
+hv241,Food cooked in the house/ separate building/ outdoors,1,6,categorical
+hv242,Household has separate room used as kitchen,1,4,categorical
+hv243a,Has mobile telephone,1,2,categorical
+hv243b,NA - Has watch,1,1,categorical
+hv243c,NA - Has animal-drawn cart,1,1,categorical
+hv243d,NA - Has boat with a motor,1,1,categorical
+hv244,Owns land usable for agriculture,1,2,categorical
+hv245,Hectares of agricultural land (1 decimal),1,27,numeric
+hv246,"Owns livestock, herds or farm animals",1,3,categorical
+hv246a,NA - Owns cattle,1,1,categorical
+hv246b,Owns cows/ bulls,1,24,categorical
+hv246c,NA - Owns horses/ donkeys/ mules,1,1,categorical
+hv246d,NA - Owns goats,1,1,categorical
+hv246e,NA - Owns sheep,1,1,categorical
+hv246f,NA - Owns chickens,1,1,categorical
+hv246g,Owns Bulls/ Buffaloes,1,14,numeric
+hv246h,Owns Goats/ Sheep,1,18,numeric
+hv246i,Owns Chickens/ ducks,1,60,numeric
+hv246j,NA - Owns CS,1,1,categorical
+hv246k,NA - Owns CS,1,1,categorical
+hv247,Has bank account,1,3,categorical
+hv252,Frequency household members smoke inside the house,1,6,numeric
+hv253,NA - Has dwelling been sprayed against mosquitoes in last 12 months,1,1,categorical
+hv253a,NA - Dwelling sprayed by: government worker/program,1,1,categorical
+hv253b,NA - Dwelling sprayed by: private company,1,1,categorical
+hv253c,NA - Dwelling sprayed by: NGO,1,1,categorical
+hv253d,NA - Dwelling sprayed by: CS,1,1,categorical
+hv253e,NA - Dwelling sprayed by: CS,1,1,categorical
+hv253f,NA - Dwelling sprayed by: CS,1,1,categorical
+hv253g,NA - Dwelling sprayed by: CS,1,1,categorical
+hv253h,NA - Dwelling sprayed by: CS,1,1,categorical
+hv253x,NA - Dwelling sprayed by: other,1,1,categorical
+hv253z,NA - Dwelling sprayed by: don't know,1,1,categorical
+hv270,Wealth index,1,5,categorical
+hv271,Wealth index factor score (5 decimals),1,16353,numeric
+hml1,NA - Number of mosquito bed nets,1,1,categorical
+hml1a,NA - Number of mosquito bed nets with specific information,1,1,categorical
+hml2,NA - Number of children under mosquito bed net previous night,1,1,categorical
+shdistrict,Type of district,1,64,categorical
+shupazila,Upazila,1,93,categorical
+shadult35,Adults above 35 years,1,9,numeric
+shhtec,Health technician number,1,19,categorical
+sh104a,Share water source with other households,1,4,categorical
+sh104b,Total households share water source,1,12,categorical
+sh110g,Has Almirah/Wardrc,1,3,categorical
+sh110h,Has table,1,2,categorical
+sh110i,Has chair,1,2,categorical
+sh110j,Has electric fan,1,2,categorical
+sh110k,Has DVD/VCD player,1,2,categorical
+sh110l,Has water pumps,1,2,categorical
+sh118a,Has autobike,1,3,categorical
+sh118b,Has rickshaw,1,3,categorical
+sh122a,Owns homestead,1,3,categorical
+sh122c,Amount of land,1,1,categorical
+hv101,Relationship to head,1,11,categorical
+hv102,Usual resident,1,2,categorical
+hv103,Slept last night,1,2,categorical
+hv104,Sex of household member,1,2,categorical
+hv105,Age of household members,1,98,numeric
+hv106,Highest educational level attained,1,6,categorical
+hv107,Highest year of education completed,1,11,categorical
+hv108,Education completed in single years,1,21,numeric
+hv109,Educational attainment,1,8,categorical
+hv110,NA - Member still in school,1,1,categorical
+hv111,NA - Mother alive,1,1,categorical
+hv112,NA - Mother's line number,1,1,categorical
+hv113,NA - Father alive,1,1,categorical
+hv114,NA - Father's line number,1,1,categorical
+hv115,NA - Current marital status,1,1,categorical
+hv116,"Currently, formerly, never married",1,5,categorical
+hv117,Eligibility for female interview,1,2,categorical
+hv118,Eligibility for male interview,1,2,categorical
+hv120,Children eligibility for height/weight and hemoglobin,1,2,categorical
+hv121,Member attended school during current school year,1,3,categorical
+hv122,Educational level during current school year,1,5,numeric
+hv123,Grade of education during current school year,1,9,numeric
+hv124,Education in single years - current school year,1,20,categorical
+hv125,NA - Member attended school during previous school year,1,1,categorical
+hv126,NA - Educational level during previous school year,1,1,categorical
+hv127,NA - Grade of education during previous school year,1,1,categorical
+hv128,NA - Education in single years - previous school year,1,1,categorical
+hv129,NA - School attendance status,1,1,categorical
+hv140,Member has a birth certificate,1,6,categorical
+idxh4,Index to Household Schedule,1,31,numeric
+sh08,Current marital status,1,5,categorical
+sh13,Currently working,1,4,categorical
+sh18,"Eligible for height, weight and anemia tests: Woman",1,2,categorical
+sh19,Eligible for blood glucose and blood pressure tests: Woman,1,2,categorical
+sh20,"Eligible for height, weight,blood glucose and blood pressure tests: Woman",1,2,categorical
+sh21,Eligible for height and weight tests: Man,1,2,categorical
+sh22,"Eligible for height,weight,blood glucose and blood pressure tests:Man",1,2,categorical
+ha0,Index to Household Schedule,1,25,numeric
+ha1,Woman's age in years,1,39,numeric
+ha2,Woman's weight in kilograms (1 decimal),1,604,numeric
+ha3,Woman's height in centimeters (1 decimal),1,395,numeric
+ha4,Height/Age percentile,1,757,numeric
+ha5,Height/Age standard deviation,1,521,numeric
+ha6,Height/Age percent ref. median,1,877,numeric
+ha11,Weight/Height standard deviation (DHS),1,687,numeric
+ha12,Weight/Height percent ref. median (DHS),1,5766,numeric
+ha12a,Weight/Height percent ref. median (Fog),1,6339,numeric
+ha12b,Weight/Height percent ref. median (WHO),1,6899,numeric
+ha13,Result of measurement - height/weight,1,6,categorical
+ha32,Date of birth (CMC),1,448,date
+ha33,Completeness of HA32 information,1,5,categorical
+ha35,NA - Smoking (cigarettes in last 24 hours),1,1,categorical
+ha40,Body Mass Index,1,1925,numeric
+ha41,Rohrer's index,1,1395,numeric
+ha50,NA - Under age 18,1,1,categorical
+ha51,NA - Line number of parent/caretaker,1,1,categorical
+ha52,Read consent statement - hemoglobin,1,4,categorical
+ha53,Hemoglobin level (g/dl - 1 decimal),1,107,numeric
+ha54,Currently pregnant,1,3,categorical
+ha55,Result of measurement - hemoglobin,1,6,categorical
+ha56,Hemoglobin level adjusted for altitude and smoking (g/dl - 1 decimal),1,104,numeric
+ha57,Anemia level,1,6,categorical
+ha58,NA - Agrees to referral - anemia,1,1,categorical
+ha60,NA - Marital status,1,1,categorical
+ha61,NA - Read consent statement - HIV,1,1,categorical
+ha62,Bar code for HIV blood sample,1,2,categorical
+ha63,NA - Result of measurement - HIV,1,1,categorical
+ha64,NA - Consent for additional tests,1,1,categorical
+ha65,Result of woman's individual interview,1,8,categorical
+ha66,Woman's highest educational level,1,5,categorical
+ha67,Woman's highest year of education,1,20,numeric
+ha68,Woman's highest educational level (questionnaire configuration),1,7,categorical
+ha69,NA - HIV weight (6 decimals),1,1,categorical
+ha70,NA - Interviewer that took blood for HIV testing,1,1,categorical
+hc0,Index to Household Schedule,1,26,numeric
+hc1,Child's age in months,1,61,numeric
+hc2,Child's weight in kilograms (1 decimal),1,210,numeric
+hc3,Child's height in centimeters (1 decimal),1,681,numeric
+hc4,Height/Age percentile,1,3461,numeric
+hc5,Height/Age standard deviation,1,797,numeric
+hc6,Height/Age percent of ref. median,1,2246,numeric
+hc7,Weight/Age percentile,1,2852,numeric
+hc8,Weight/Age standard deviation,1,659,numeric
+hc9,Weight/Age percent of ref. median,1,3676,numeric
+hc10,Weight/Height percentile,1,3940,numeric
+hc11,Weight/Height standard deviation,1,647,numeric
+hc12,Weight/Height percent of ref. median,1,3188,numeric
+hc13,Result of measurement - height/weight,1,6,categorical
+hc15,Height: lying or standing,1,5,categorical
+hc16,Day of birth,0,34,date
+hc17,Date measured (day),0,32,date
+hc18,Date measured (month),0,7,date
+hc19,Date measured (year),0,2,date
+hc27,Sex,1,3,categorical
+hc30,Month of birth,0,13,date
+hc31,Year of birth,0,7,date
+hc32,Date of birth (CMC),0,66,date
+hc33,Completeness of HC32 information,1,4,categorical
+hc51,Line number of parent/caretaker,0,20,categorical
+hc52,Read consent statement - hemoglobin,1,4,categorical
+hc53,Hemoglobin level (g/dl - 1 decimal),1,88,numeric
+hc55,Result of measurement - hemoglobin,1,6,categorical
+hc56,Hemoglobin level adjusted for altitude (g/dl - 1 decimal),1,85,numeric
+hc57,Anemia level,1,6,categorical
+hc58,NA - Agrees to referral - anemia,1,1,categorical
+hc60,Mother's line number (woman's questionnaire),1,24,categorical
+hc61,Mother's highest educational level,1,6,categorical
+hc62,Mother's highest year of education,1,20,numeric
+hc63,Preceding birth interval (months),1,176,numeric
+hc64,Birth order number,0,16,numeric
+shb13,NA - Result of measurement: height-weight,1,1,categorical
+hc68,Mother's highest educational level (questionnaire configuration),1,8,numeric
+hc70,Height/Age standard deviation (new WHO),1,814,numeric
+hc71,Weight/Age standard deviation (new WHO),1,665,numeric
+hc72,Weight/Height standard deviation (new WHO),1,731,numeric
+hc73,BMI standard deviation (new WHO),1,731,numeric
+hb0,Index to Household Schedule,1,17,numeric
+hb1,Man's age in years,1,20,numeric
+hb2,Man's weight in kilograms (1 decimal),1,353,numeric
+hb3,Man's height in centimeters (1 decimal),1,298,numeric
+hb4,Height/Age percentile,1,283,numeric
+hb5,Height/Age standard deviation,1,286,numeric
+hb6,Height/Age percent ref. median,1,287,numeric
+hb11,Weight/Height standard deviation (DHS),1,387,numeric
+hb12,Weight/Height percent ref. median (DHS),1,1190,numeric
+hb12a,Weight/Height percent ref. median (Fog),1,1221,numeric
+hb12b,Weight/Height percent ref. median (WHO),1,1253,numeric
+hb13,Result of measurement - height/weight,1,6,categorical
+hb32,Date of birth (CMC),1,201,date
+hb33,Completeness of HB32 information,1,5,categorical
+hb35,NA - Smoking (cigarettes in last 24 hours),1,1,categorical
+hb40,Body Mass Index,1,784,numeric
+hb41,Rohrer's index,1,606,numeric
+hb50,NA - Under age 18,1,1,categorical
+hb51,NA - Line number of parent/caretaker,1,1,categorical
+hb52,NA - Read consent statement - hemoglobin,1,1,categorical
+hb53,NA - Hemoglobin level (g/dl - 1 decimal),1,1,categorical
+hb55,NA - Result of measurement - hemoglobin,1,1,categorical
+hb56,NA - Hemoglobin level adjusted for altitude and smoking (g/dl - 1 decimal),1,1,categorical
+hb57,NA - Anemia level,1,1,categorical
+hb58,NA - Agrees to referral - anemia,1,1,categorical
+hb60,NA - Marital status,1,1,categorical
+hb61,NA - Read consent statement - HIV,1,1,categorical
+hb62,Bar code for HIV blood sample,1,2,categorical
+hb63,NA - Result of measurement - HIV,1,1,categorical
+hb64,NA - Consent for additional tests,1,1,categorical
+hb65,Result of man's individual interview,1,7,categorical
+hb66,Man's highest educational level,1,5,categorical
+hb67,Man's highest year of education,1,18,categorical
+hb68,Man's highest educational level (questionnaire configuration),1,7,numeric
+hb69,NA - HIV weight (6 decimals),1,1,categorical
+hb70,NA - Interviewer that took blood for HIV testing,1,1,categorical
+sh230,Index to household schedule,1,26,numeric
+sh231,Sex of household member,1,3,categorical
+sh232,Pregnancy status,1,4,categorical
+sh234,Age of respondent,1,63,numeric
+sh234c,Calculated age of respondent,1,62,numeric
+sh235,Marital Status,1,3,categorical
+sh237,Highest level of education,1,5,categorical
+sh238,Currently working,1,3,categorical
+sh239,Occupation type,1,23,categorical
+sh241,Consent for blood pressure measurement,1,5,categorical
+sh242a,Eaten anything,1,4,categorical
+sh242b,Had caffeinated drink,1,4,categorical
+sh242c,Smoked,1,4,categorical
+sh243,Arm circumference,1,30,numeric
+sh244,Arm Circumference measurement for blood pressure,1,5,categorical
+sh245,Time for first blood pressure test,0,681,numeric
+sh246s,Systolic blood pressure measurement,0,167,numeric
+sh246d,Diastolic blood pressure measurement,0,97,numeric
+sh248,Blood pressure ever checked,0,4,categorical
+sh249,Told by a doctor to have high blood pressure,0,4,categorical
+sh250,Taking prescribed medicine to lower blood pressure,0,4,categorical
+sh253,Time for second blood pressure test,0,680,numeric
+sh254,Consent for second blood pressure test,0,4,categorical
+sh255s,Systolic blood pressure,0,160,numeric
+sh255d,Diastolic blood pressure,0,98,numeric
+sh257,Heard of illness diabetes,1,4,categorical
+sh258,Ever told by a doctor/nurse to have diabetes,0,4,categorical
+sh259,Taking medication for the diabetes,0,4,categorical
+sh260,Method of taking the medication,0,5,categorical
+sh262,Time for third blood pressure test,0,690,numeric
+sh263,Consent for third blood pressure test,0,4,categorical
+sh264s,Systolic blood pressure,0,157,numeric
+sh264d,Diastolic blood pressure,0,98,numeric
+fsysto,Valid Systolic blood presure,0,156,numeric
+fdysto,Valid Dystolic blood pressure,0,93,numeric
+sh271,Weight in kilograms,1,554,numeric
+sh273,Height in centimeters,1,470,numeric
+sh276,Consent for blood sugar testing,0,5,categorical
+shwh,Result of measurement height-weight,1,6,categorical
+sh1d,First appointment day,0,33,date
+sh1mo,First appointment month,0,9,date
+sh1y,First appointment year,0,4,date
+sh1h,First appointment hour,0,19,date
+sh1m,First appointment minutes,0,62,numeric
+sh1x,First appointment completed,1,4,categorical
+sh2d,Second appointment day,0,32,date
+sh2mo,Second appointment month,0,8,date
+sh2y,Second appointment year,0,3,date
+sh2h,Second appointment hour,0,10,date
+sh2m,Second appointment minutes,0,34,date
+sh2x,Second appointment completed,1,4,categorical
+sh3d,Third appointment day,0,9,date
+sh3mo,Third appointment month,0,5,date
+sh3y,Third appointment year,0,3,date
+sh3h,Third appointment hour,0,4,date
+sh3m,Third appointment minutes,0,4,date
+sh3x,Third appointment completed,0,3,categorical
+sh279,Consent for blood sugar testing,1,4,categorical
+sh280,Time respondent ate something,0,139,numeric
+sh281,Time respondent drank something,0,164,numeric
+sh283d,Date for glucose testing Day,0,33,date
+sh283m,Date for glucose testing Month,0,9,date
+sh283y,Date for glucose testing Year,0,4,date
+sh283t,Time for glucose testing,0,336,numeric
+sh284,Glucose testing (mg/dl),0,212,numeric
+sh284a,Plasma blood glucose (mmol/L),0,146,numeric
+sh284g,Blood glucose (mmol/dl),0,139,numeric
+sh284b,Plasma blood glucose (mg/dl),0,212,numeric
+shpc1,Height/Age Percentile,1,348,numeric
+shsd1,Height/Age Standard deviations,1,454,numeric
+shrm1,Height/Age Percent reference median,1,454,numeric
+shrm3,Weight/Height Percent reference median (DHS),1,3358,numeric
+shrm4,Weight/Height Percent reference median (Fog),1,3570,numeric
+shrm5,Weight/Height Percent reference median (WHO),1,3628,numeric
+shsd3,Weight/Height Standard deviations (DHS),1,579,numeric
+shbm,Body mass index for respondent,1,1450,numeric
+shri,Rohrer's index for respondent,1,1051,numeric
+shcmc,CMC of birth of member,1,611,date
+shflg,Date flag for member's date of birth,0,5,categorical
+shsmk,NA - Respondent smoking practices,1,1,categorical
+shresi,Result of individual interview,1,7,categorical
+shed1,Member's highest educational level,1,5,categorical
+shed2,Member's highest year of education,1,21,numeric
+shed3,Highest educational level (CS for preliminary & final report),1,7,categorical

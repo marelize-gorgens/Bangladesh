@@ -11,260 +11,229 @@ cat("\014") # Clear console
 ####################### LOAD PACKAGES ##########################################
 ################################################################################
 
-if(!require(tidyverse)) install.packages("tidyverse", dependencies = TRUE);library(tidyverse)
-if(!require(evaluate)) install.packages("evaluate"); library(evaluate)
-if(!require(digest)) install.packages("digest"); library(digest)
+if (!require(tidyverse)) install.packages("tidyverse", dependencies = TRUE);library(tidyverse)
+if (!require(evaluate)) install.packages("evaluate"); library(evaluate)
+if (!require(digest)) install.packages("digest"); library(digest)
 if (!requireNamespace("BiocManager", quietly = TRUE)) install.packages("BiocManager")
-if(!require(mixOmics)) install.packages("mixOmics"); library(mixOmics)
-
+if (!require(mixOmics)) install.packages("mixOmics"); library(mixOmics)
+if (!require(dplyr)) install.pacakges("dplyr"); library(dplyr)
+if (!require(stringr)) install.packages("stringr"); library(stringr)
+if (!require(rgl)) install.pacakges("rgl"); library(rgl)
 ################################################################################
 ####################### IMPORT DATA ############################################
 ################################################################################
 
+# Set paths
 DATA2011 <- './output/all/all2011_2.csv'
 DATA2016  <- './output/all/all2016_2.csv'
 DHIS2_VARS  <-  './output/all/DHIS_Rate_Absolute.csv'
-d2011 <- read_csv(DATA2011)
-d2016 <- read_csv(DATA2016)
-dhis2vars <- read_csv2(DHIS2_VARS)
 var_names <- read_csv("./output/all/IndicatorsNames_2011_2016.csv")
 outputpath <- "./ds/all/PLS-DA/"
+# Import data
+d2011 <- read_csv(DATA2011)
+d2016 <- read_csv(DATA2016)
+dhis2vars <- read_csv(DHIS2_VARS)
 
-print(paste(rep("#",80), collapse = ""))
-print(paste0("Number of rows data 2011: ", dim(d2011)[1]),useSource = )
-print(paste0("Number of columns data 2011: ", dim(d2011)[2]))
-print(paste0("Number of rows data 2016: ", dim(d2011)[1]))
-print(paste0("Number of columns data 2016: ", dim(d2011)[2]))
-print(paste(rep("#",80), collapse = ""))
+dim_summary <- function(df, string="") {
+  print(paste(rep("#",80), collapse = ""))
+  print(paste("Number of rows data 2011: ", dim(df)[1], string))
+  print(paste("Number of columns data 2011: ", dim(df)[2], string))
+  print(paste("Number of rows data 2016: ", dim(df)[1], string))
+  print(paste("Number of columns data 2016: ", dim(df)[2], string))
+  print(paste(rep("#",80), collapse = ""))
+  
+} 
+
 
 ################################################################################
 ####################### DATA PREPROCESSING #####################################
 ################################################################################
 
-# STEP 1: Remove absolute number variables
-tmp <- dhis2vars[dhis2vars$Rate_Absolute == "Absolute",]
-d2011 <- d2011[,!names(d2011) %in% tmp$Full_name] 
-d2016 <- d2016[,!names(d2016) %in% tmp$Full_name]
-print(paste(rep("#",80), collapse = ""))
-print(paste0("Number of rows data 2011: ", dim(d2011)[1]))
-print(paste0("Number of columns data 2011: ", dim(d2011)[2]))
-print(paste0("Number of rows data 2016: ", dim(d2011)[1]))
-print(paste0("Number of columns data 2016: ", dim(d2011)[2]))
-print(paste(rep("#",80), collapse = ""))
+# STEP 1: Uniqueness: Check for duplicates
+sum(duplicated(d2011))
+sum(duplicated(d2016))
+
+# STEP 2: Validity: Check format and type
+which(sapply(d2011, is.numeric)==FALSE)
+which(sapply(d2016, is.numeric)==FALSE)
+
+# STEP 3: Completeness: Check for NAs
+na_d2011 <- data.frame(number_na = colSums(is.na(d2011)),perc_na = round(colMeans(is.na(d2011))*100,2))
+na_d2016 <- data.frame(number_na = colSums(is.na(d2016)),perc_na = round(colMeans(is.na(d2016))*100,2))
+
+# STEP 4: Remove absolute variables
+tmp1 <- dhis2vars[dhis2vars$Rate_Absolute == "Absolute",]
+d2011 <- d2011[,!names(d2011) %in% tmp1$Full_name] 
+d2016 <- d2016[,!names(d2016) %in% tmp1$Full_name]
+dim_summary(d2011, string = "After removing absolute variables")
+dim_summary(d2016, string = "After removing absolute variables")
 
 
-# STEP 2: Remove other counting variables
+# STEP 5: Remove other counting variables
 index_balance_d2011 <- grep("*balance", colnames(d2011))
 index_balance_d2016 <- grep("*balance", colnames(d2016))
 d2011[index_balance_d2011] <- NULL
 d2016[index_balance_d2016] <- NULL
-print(paste(rep("#",80), collapse = ""))
-print(paste0("Number of rows data 2011: ", dim(d2011)[1]))
-print(paste0("Number of columns data 2011: ", dim(d2011)[2]))
-print(paste0("Number of rows data 2016: ", dim(d2011)[1]))
-print(paste0("Number of columns data 2016: ", dim(d2011)[2]))
-print(paste(rep("#",80), collapse = ""))
+dim_summary(d2011, string = "After removing other counting variables")
+dim_summary(d2016, string = "After removing other counting variables")
 
 
-# STEP 3: Remove variables with 0 variance
+# STEP 6: Remove variables with 0 variance
 d2016 <- d2016[-which(apply(d2011, 2, var)==0)]
-d2016 <- d2016[-which(apply(d2016, 2, var)==0)]
 d2011 <- d2011[-which(apply(d2011, 2, var)==0)]
 d2011 <- d2011[-which(apply(d2016, 2, var)==0)]
-print(paste(rep("#",80), collapse = ""))
-print(paste0("Number of rows data 2011: ", dim(d2011)[1]))
-print(paste0("Number of columns data 2011: ", dim(d2011)[2]))
-print(paste0("Number of rows data 2016: ", dim(d2011)[1]))
-print(paste0("Number of columns data 2016: ", dim(d2011)[2]))
-print(paste(rep("#",80), collapse = ""))
+d2016 <- d2016[-which(apply(d2016, 2, var)==0)]
+dim_summary(d2011, string = "After removing variables with 0 variance")
+dim_summary(d2016, string = "After removing variables with 0 variance")
 
-# STEP 4: Remove geo feature
+
+# STEP 7: Remove variables with 20% or more missings
+missingthreshold <- 20
+tmp2 <- na_d2011[na_d2011$perc_na >= missingthreshold,]
+d2011 <- d2011[,!names(d2011) %in% rownames(tmp2)] 
+d2016 <- d2016[,!names(d2016) %in% rownames(tmp2)]
+dim_summary(d2011, string = "After removing variables with missing values")
+dim_summary(d2016, string = "After removing variables with missing values")
+
+
+# STEP 8: Remove geo feature
 d2011$DistrictGeo <- NULL
 d2016$DistrictGeo <- NULL
+dim_summary(d2011, string = "After removing  variables with missing values")
+dim_summary(d2016, string = "After removing  variables with missing values")
 
-d2011$True <- NULL
-d2016$True <- NULL
+# STEP 9: Set District to index
+d2011 <- as.data.frame(d2011)
+d2016 <- as.data.frame(d2016)
+rownames(d2011) <- d2011$DistrictName
+rownames(d2016) <- d2016$DistrictName
+d2011$DistrictName <- NULL
+d2016$DistrictName <- NULL
+dim_summary(d2011, string = "After removing  variables with missing values")
+dim_summary(d2016, string = "After removing variables with missing values")
 
-# STEP 5: Set District to index
-df_d2011 <- as.data.frame(d2011)
-df_d2016 <- as.data.frame(d2016)
-rownames(df_d2011) <- d2011$DistrictName
-rownames(df_d2016) <- d2016$DistrictName
-df_d2011$DistrictName <- NULL
-df_d2016$DistrictName <- NULL
 
-
-# STEP 6: Create scale and standardize dataset
-s_d2011 <- as.data.frame(scale(df_d2011))
-s_d2016 <- as.data.frame(scale(df_d2016))
-
-# Renaming variables
-# names(s_d2011) <- var_names$Description[match(names(s_d2011), var_names$`Indicators 2011`)]
-# names(s_d2016) <- var_names$Description[match(names(s_d2016), var_names$`Indicators 2011`)]
-
+# STEP 10: Scaling data
 # Create dataset for percentage of change between years
+df_d2011 <- Filter(is.numeric, d2011)
+df_d2016 <- Filter(is.numeric, d2016)
 df_change <- round((df_d2016[colnames(df_d2011)]-df_d2011)/df_d2011*100,2)
 
-#----------------------------------------------------------------------------------------------------------
-# Set outcome variables
-#----------------------------------------------------------------------------------------------------------
+# Create scale and standardize datasets
+s_d2011 <- as.data.frame(scale(df_d2011))
+s_d2016 <- as.data.frame(scale(df_d2016))
+s_change <- as.data.frame(scale(df_change))
 
-# Maternal mortality rate categories
-index_mmr <- grep("*maternal_mortality", colnames(df_d2011))
-outcome_mmr <- df_d2011[index_mmr]
-summary(outcome_mmr)
-outcome_mmr$cat <- ifelse(outcome_mmr<=70, "Low-MMR", ifelse(outcome_mmr>=328, "High-MMR", "Medium-MMR"))
+data <- rbind(df_d2011, df_d2016)
+s_data <- as.data.frame(scale(data))
 
-# Under 5 mortality rate categories
-index_ufmr <- grep("*under5y_mortality", colnames(df_d2011))
-outcome_ufmr <- df_d2011[index_ufmr]
-summary(outcome_ufmr)
-outcome_ufmr$cat <- ifelse(outcome_ufmr<=25, "Low-U5MR", ifelse(outcome_ufmr>=49, "High-U5MR", "Medium-U5MR"))
+# STEP 11: Creating index outcome variable
 
-# Plot histograms
-graphics.off()
-png(filename=paste0(outputpath,"Hist_MMR_2011.png"),res=300, width = 2000, height = 2000)
-ggplot(outcome_mmr, aes(x=rate_maternal_mortality)) + 
-  geom_histogram(aes(y=..density..), colour="darkgray", fill="darkgray") +
-  geom_density(col=1, alpha=.2) +
-  geom_vline(data=outcome_mmr, aes(xintercept=median(rate_maternal_mortality)), linetype="dashed") +
-  labs(title="Histogram for MMR - 2011", x="Rate", y="Count")
-dev.off()
+outcome_variables_5 <- c('prop_antenatal_care4.', 'rate_under5y_mortality',
+                        'rate_maternal_mortality', 'rate_death',
+                        'prop_unmet_need_family_planing')
+outcome_variables_4 <- c('prop_antenatal_care4.', 'rate_under5y_mortality',
+                        'rate_death', 'prop_unmet_need_family_planing')
 
-graphics.off()
-png(filename=paste0(outputpath,"Hist_UFMR_2011.png"),res=300, width = 2000, height = 2000)
-ggplot(outcome_ufmr, aes(x=rate_under5y_mortality)) + 
-  geom_histogram(aes(y=..density..), colour="darkgray", fill="darkgray") +
-  geom_density(col=1, alpha=.2) +
-  geom_vline(data=outcome_ufmr, aes(xintercept=median(rate_under5y_mortality)), linetype="dashed") +
-  labs(title="Histogram for U5MR - 2011", x="Rate", y="Count")
-dev.off()
+# Proportion of antenatal coverage (4 visits): High==Good, Low==Bad
+# Proportion of under 5 mortality: High==Bad, Low==Good
+# Proportion of maternal mortality: High==Bad, Low==Good
+# Proportion of death rate: High==Bad, Low==Good
+# Proportion of unmet need for family planning: High==Bad, Low==Good
+# Only to inverse antenatal coverage (4 visits)
 
-#----------------------------------------------------------------------------------------------------------
-# Data quality assessment
-#----------------------------------------------------------------------------------------------------------
+# Step 11a: Inverse values so that High means good and Low means bad for all outcome variables
+s_data$rate_under5y_mortality <- -s_data$rate_under5y_mortality
+s_data$rate_maternal_mortality <- -s_data$rate_maternal_mortality
+s_data$rate_death <- -s_data$rate_death
+s_data$prop_unmet_need_family_planing <- -s_data$prop_unmet_need_family_planing
 
-# Validity: Check format and type
-which(sapply(df_d2011, is.numeric)==FALSE)
-which(sapply(df_d2016, is.numeric)==FALSE)
+# Step 11b: Create two index outcome variables
 
-# Uniqueness: Check for duplicates
-sum(duplicated(df_d2011))
-sum(duplicated(df_d2016))
+s_data$outcome_index_4 <- rowSums(s_data[outcome_variables_4])
+s_data$outcome_index_5 <- rowSums(s_data[outcome_variables_5]) 
 
-# Completeness: Check for NAs
-na_d2011 <- data.frame(number_na = colSums(is.na(df_d2011)),perc_na = round(colMeans(is.na(df_d2011))*100,2))
-na_d2016 <- data.frame(number_na = colSums(is.na(df_d2016)),perc_na = round(colMeans(is.na(df_d2016))*100,2))
+s_data$outcome_index_4_class <- as.factor(ifelse(s_data$outcome_index_4<=-2.5, "Low",
+                                 ifelse(s_data$outcome_index_4<=0,"Medium Low",
+                                        ifelse(s_data$outcome_index_4>=2.5, "High", "Medium High"))))
+s_data$outcome_index_5_class <- as.factor(ifelse(s_data$outcome_index_5<=-2.5, "Low",
+                                       ifelse(s_data$outcome_index_5<=0,"Medium Low",
+                                              ifelse(s_data$outcome_index_5>=2.5, "High", "Medium High"))))
 
-#----------------------------------------------------------------------------------------------------------
-# Data Analysis
-#----------------------------------------------------------------------------------------------------------
+s_data$outcome_index_4_class <- as.factor(ifelse(s_data$outcome_index_4<=0, "Low", "High"))
+s_data$outcome_index_5_class <- as.factor(ifelse(s_data$outcome_index_5<=0, "Low", "High"))
+summary(s_data$outcome_index_4_class)
+summary(s_data$outcome_index_5_class)
 
-# Maternal mortality rate 2011
-X <- as.matrix(s_d2011[-c(index_mmr)])
-Y <- as.factor(outcome_mmr$cat)
-ncomp = 5
+# Step 11c: Remove original variables
+print(dim(s_data))
+s_data <- s_data[,-which(names(s_data) %in% outcome_variables_5)]
+print(dim(s_data))
 
-# PLS-DA analysis
-plsda.mmr <- plsda(X, Y, # Model with 2 components
-      ncomp = ncomp,
-      scale = FALSE,
-      mode = "regression",
-      tol = 1e-06,
-      max.iter = 100,
-      near.zero.var = FALSE,
-      logratio="none",  
-      multilevel=NULL,
-      all.outputs = TRUE)
 
-# Show individual component contribution
-selectVar(plsda.mmr, comp=5)$value
+################################################################################
+################### CREATE MASTER FILE AND DESIGN MATRIX IMPORT DATA ###########
+################################################################################
+# STEP 12: Create design matrix, master file and output file
 
-#  Percentage of variance explained by each PLS components
-plsda.mmr$explained_variance
+indicators <- s_data[,-which(x=names(s_data) %in% c("outcome_index_4", 
+                                                    "outcome_index_5",
+                                                    "outcome_index_4_class",
+                                                    "outcome_index_5_class") )]
+districts <- as.factor(str_replace(rownames(data), pattern = "1", replacement = ""))
+years <- as.factor(c(rep(1,64), rep(2, 64)))
+outcome_index_4 <- s_data[,'outcome_index_4_class']
+outcome_index_5 <- s_data[,'outcome_index_5_class']
+rownames(indicators) <- paste(districts, c(rep(2011,64), rep(2016,64)))
+  
+################################################################################
+################### FINE-TUNING PLS-DA ANALYSIS - DISCRIMINATIVE ###############
+################################################################################
 
-Rd.YvsU <- cor(as.numeric(as.factor(Y)), plsda.mmr$variates$X[, 1:ncomp])
-Rd.YvsU <- apply(Rd.YvsU^2, 2, sum)
-Rd.Y <- cbind(Rd.YvsU, cumsum(Rd.YvsU))
-colnames(Rd.Y) <- c("Proportion", "Cumulative")
-Rd.Y
+# STEP 1: Plain vanilla run
+plsda_outcome4 <- plsda(indicators,outcome_index_4,ncomp = 10)
+plsda_outcome5 <- plsda(indicators,outcome_index_5,ncomp = 10)
+set.seed(84)
 
-# par(mar=c(1,1,1,1))
-par(mar=c(1,1,1,1))
-# Plot the samples
-graphics.off()
-png(filename=paste0(outputpath,"PLSDASample_MMR_2011.png"),res=300, width = 2000, height = 2000)
-plotIndiv(plsda.mmr, 
-          group = outcome_mmr$cat, 
-          ind.names = FALSE, 
-          legend = TRUE, 
-          legend.position = "bottom",
-          title = 'PLSDA samples on MMR - 2011',
-          cex=1,
-          ellipse = TRUE, 
-          comp = 1:2,
-          centroid = TRUE)
-dev.off()
+# STEP 2: Defining number of variables to keep per iteration and setting seed
+list.keepX <- c(seq(2, 100, 5))
 
-# Plot the variables
-graphics.off()
-png(filename=paste0(outputpath,"PLSDAVariables_MMR_2011.png"),res=300, width = 2000, height = 2000)
-plotVar(plsda.mmr, 
-        comp = 1:2, 
-        rad.in = 0.5, 
-        cex = 2, 
-        title = 'PLSDA variables on MMR - 2011',
-        var.names = FALSE) # Plot the variables
-dev.off()
+# STEP 3: Fine-tunning for outcome_index_4 variable
+set.seed(84) 
+tune_splda_outcome4 <- tune.splsda(indicators, outcome_index_4, ncomp = 10,
+                                   validation = 'Mfold', folds = 5, 
+                                   progressBar = T, dist = 'max.dist',
+                                   test.keepX = list.keepX, nrepeat = 10) 
 
-# Plot component contribution
-graphics.off()
-png(filename=paste0(outputpath,"PLSDALoadings_MMR_2011.png"),res=300, width = 4500, height = 3000)
-plotLoadings(plsda.mmr, 
-             comp = 1, 
-             contrib = 'max', 
-             method = 'median',
-             ndisplay = 30,
-             plot = TRUE, 
-             size.name = 0.8, 
-             size.legend = 0.8,
-             name.var = NULL,
-             name.var.complete = FALSE,
-             title = 'PLSDA component contribution on MMR - 2011',
-             layout = NULL, border = NA, xlim = NULL)
-dev.off()
+outcome4_choice.ncomp <- tune_splda_outcome4$choice.ncomp$ncomp
+print(outcome4_choice.ncomp)
+outcome4_choice.keepX <- tune_splda_outcome4$choice.keepX[1:outcome4_choice.ncomp]
+print(outcome4_choice.keepX)
+# STEP 4: Fine-tunning for outcome_index_5 variable
+tune_splda_outcome5 <- tune.splsda(indicators, outcome_index_5, ncomp = 10,
+                                   validation = 'Mfold', folds = 5, 
+                                   progressBar = T, dist = 'max.dist',
+                                   test.keepX = list.keepX, nrepeat = 10)
+outcome5_choice.ncomp <- tune_splda_outcome5$choice.ncomp$ncomp
+print(outcome5_choice.ncomp)
+outcome5_choice.keepX <- tune_splda_outcome5$choice.keepX[1:outcome5_choice.ncomp]
+print(outcome5_choice.keepX)
+# STEP 5: Running the analysis
+splsda_outcome4.res <- splsda(indicators, outcome_index_4,
+                              ncomp = outcome4_choice.ncomp, 
+                              keepX = outcome4_choice.keepX) 
+splsda_outcome5.res <- splsda(indicators, outcome_index_5, 
+                              ncomp = outcome5_choice.ncomp, 
+                              keepX = outcome5_choice.keepX) 
 
-# Evaluate a PLS-DA performance
-perf.plsda.mmr <- perf(plsda.mmr, # 5-fold cross-validation, repeated 10 times
-                       validation = "Mfold", 
-                       folds = 5, 
-                       progressBar = FALSE, 
-                       nrepeat = 10, 
-                       auc = TRUE)
+################################################################################
+################### FINE-TUNING PLS-DA ANALYSIS - INTEGRATIVE APPROACH #########
+################################################################################
+# numbers here indicate the ID of the individuals
+plotIndiv(splsda_outcome4.res,style = '3d', legend = T)
+plotIndiv(splsda_outcome4.res, legend = T)
+plotIndiv(splsda_outcome5.res,style = '3d', legend = T)
+plotVar(splsda_outcome5.res)
+selectVar(splsda_outcome5.res, comp = 1)$value
 
-# Plot error performance
-graphics.off()
-png(filename=paste0(outputpath,"PLSDAPerformance_MMR_2011.png"),res=300, width = 2000, height = 2000)
-plot(perf.plsda.mmr, 
-     col = color.mixo(1:3), 
-     sd = TRUE,
-     main = "PLSDA performance on MMR - 2011")
-dev.off()
-
-# Plot ROC curve
-graphics.off()
-png(filename=paste0(outputpath,"PLSDAROC_MMR_2011.png"), res=300, width = 2000, height = 2000)
-auroc(plsda.mmr) # ROC curve
-dev.off()
-
-# # Tuning model
-# tune.splsda <- tune.splsda(X, Y, 
-#                            ncomp = ncomp, 
-#                            validation = 'Mfold', 
-#                            folds = 10, 
-#                            progressBar = FALSE, 
-#                            dist = 'max.dist', 
-#                            nrepeat = 10) 
-# tune.splsda$choice.keepX
-# tune.splsda$choice.ncomp$ncomp
 
