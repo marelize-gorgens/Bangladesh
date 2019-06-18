@@ -1,7 +1,10 @@
-*.dbf filter=lfs diff=lfs merge=lfs -text
-*.sav filter=lfs diff=lfs merge=lfs -text
-*.zip filter=lfs diff=lfs merge=lfs -text
-*.shp filter=lfs diff=lfs merge=lfs -text
-*.dta filter=lfs diff=lfs merge=lfs -text
-*.pdf filter=lfs diff=lfs merge=lfs -text
-*.csv filter=lfs diff=lfs merge=lfs -text
+tafsil-2p.dbf filter=lfs diff=lfs merge=lfs -text
+tafsl-2p.dta filter=lfs diff=lfs merge=lfs -text
+Census2011_SVRS.zip tafsil-2p.dbf filter=lfs diff=lfs merge=lfs -text
+5PCRT.zip filter=lfs diff=lfs merge=lfs -text
+# *.sav filter=lfs diff=lfs merge=lfs -text
+# *.zip filter=lfs diff=lfs merge=lfs -text
+# *.shp filter=lfs diff=lfs merge=lfs -text
+# *.dta filter=lfs diff=lfs merge=lfs -text
+# *.pdf filter=lfs diff=lfs merge=lfs -text
+# *.csv filter=lfs diff=lfs merge=lfs -text
