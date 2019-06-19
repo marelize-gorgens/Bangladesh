@@ -3,7 +3,7 @@
 # Description: PLS-DA analysis
 # Organization: Health, Nutrition, and Population (HNP) | The World Bank
 # Author: Hellen Matarazzo
-# Date: Updated on 05-24-2019
+# Date: Updated on 05-24-2019 | Reviewed on 06-19-2019
 #----------------------------------------------------------------------------------------------------------
 
 #----------------------------------------------------------------------------------------------------------
